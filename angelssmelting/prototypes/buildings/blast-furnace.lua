@@ -25,6 +25,7 @@ data:extend({
       },
     }, 1, angelsmods.smelting.number_tint),
     flags = { "placeable-neutral", "player-creation" },
+    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
     minable = { mining_time = 1, result = "blast-furnace" },
     fast_replaceable_group = "blast-furnace",
     next_upgrade = "blast-furnace-2",
@@ -42,7 +43,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions_per_minute = 0.03 * 60,
+      emissions_per_minute = {pollution = 1.8},
       smoke = {
         {
           name = "smoke",
@@ -188,19 +189,19 @@ data:extend({
       audible_distance_modifier = 0.5,
       apparent_volume = 2.5,
     },
+    fluid_boxes_off_when_no_fluid_recipe = true,
     fluid_boxes = {
-      off_when_no_fluid_recipe = true,
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 3 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 2.4 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, -3 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
       },
     },
   },
@@ -230,6 +231,7 @@ data:extend({
       },
     }, 2, angelsmods.smelting.number_tint),
     flags = { "placeable-neutral", "player-creation" },
+    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
     minable = { mining_time = 1, result = "blast-furnace-2" },
     fast_replaceable_group = "blast-furnace",
     next_upgrade = "blast-furnace-3",
@@ -247,7 +249,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions_per_minute = 0.04 * 60,
+      emissions_per_minute = {pollution = 2.4},
       smoke = {
         {
           name = "smoke",
@@ -393,19 +395,19 @@ data:extend({
       audible_distance_modifier = 0.5,
       apparent_volume = 2.5,
     },
+    fluid_boxes_off_when_no_fluid_recipe = true,
     fluid_boxes = {
-      off_when_no_fluid_recipe = true,
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 3 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 2.4 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, -3 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
       },
     },
   },
@@ -435,6 +437,7 @@ data:extend({
       },
     }, 3, angelsmods.smelting.number_tint),
     flags = { "placeable-neutral", "player-creation" },
+    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
     minable = { mining_time = 1, result = "blast-furnace-3" },
     fast_replaceable_group = "blast-furnace",
     next_upgrade = "blast-furnace-4",
@@ -452,7 +455,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions_per_minute = 0.05 * 60,
+      emissions_per_minute = {pollution = 3},
       smoke = {
         {
           name = "smoke",
@@ -598,19 +601,19 @@ data:extend({
       audible_distance_modifier = 0.5,
       apparent_volume = 2.5,
     },
+    fluid_boxes_off_when_no_fluid_recipe = true,
     fluid_boxes = {
-      off_when_no_fluid_recipe = true,
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 3 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 2.4 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, -3 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
       },
     },
   },
@@ -640,6 +643,7 @@ data:extend({
       },
     }, 4, angelsmods.smelting.number_tint),
     flags = { "placeable-neutral", "player-creation" },
+    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
     minable = { mining_time = 1, result = "blast-furnace-4" },
     fast_replaceable_group = "blast-furnace",
     max_health = 300,
@@ -656,7 +660,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions_per_minute = 0.06 * 60,
+      emissions_per_minute = {pollution = 3.6},
       smoke = {
         {
           name = "smoke",
@@ -802,19 +806,19 @@ data:extend({
       audible_distance_modifier = 0.5,
       apparent_volume = 2.5,
     },
+    fluid_boxes_off_when_no_fluid_recipe = true,
     fluid_boxes = {
-      off_when_no_fluid_recipe = true,
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 3 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 2.4 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, -3 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
       },
     },
   },

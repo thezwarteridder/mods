@@ -41,7 +41,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.03 * 60,
+      emissions_per_minute = {pollution = 1.8},
     },
     energy_usage = "100kW",
     animation = {
@@ -142,7 +142,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.04 * 60,
+      emissions_per_minute = {pollution = 2.4},
     },
     energy_usage = "125kW",
     animation = {
@@ -243,7 +243,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.05 * 60,
+      emissions_per_minute = {pollution = 3},
     },
     energy_usage = "150kW",
     animation = {
@@ -343,7 +343,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.06 * 60,
+      emissions_per_minute = {pollution = 3.6},
     },
     energy_usage = "175kW",
     animation = {
