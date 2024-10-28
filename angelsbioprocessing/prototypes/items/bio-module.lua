@@ -11,8 +11,8 @@ data:extend({
     order = "d[yield]-a[angels-bio-yield-module-1]",
     stack_size = 50,
     effect = {
-      productivity = { bonus = 0.15 },
-      pollution = { bonus = 0.15 }, -- extra pollution absorption
+      productivity = 0.15,
+      pollution = 0.15, -- extra pollution absorption
     },
     limitation = {},
     limitation_message_key = "angels-yield-module-usable-only-on-agriculture",
@@ -29,8 +29,8 @@ data:extend({
     order = "d[yield]-a[angels-bio-yield-module-2]",
     stack_size = 50,
     effect = {
-      productivity = { bonus = 0.3 },
-      pollution = { bonus = 0.3 }, -- extra pollution absorption
+      productivity = 0.3,
+      pollution = 0.3, -- extra pollution absorption
     },
     limitation = {},
     limitation_message_key = "angels-yield-module-usable-only-on-agriculture",
@@ -47,8 +47,8 @@ data:extend({
     order = "d[yield]-a[angels-bio-yield-module-3]",
     stack_size = 50,
     effect = {
-      productivity = { bonus = 0.5 },
-      pollution = { bonus = 0.5 }, -- extra pollution absorption
+      productivity = 0.5,
+      pollution = 0.5, -- extra pollution absorption
     },
     limitation = {},
     limitation_message_key = "angels-yield-module-usable-only-on-agriculture",

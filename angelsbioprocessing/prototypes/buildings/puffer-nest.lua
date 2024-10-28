@@ -23,7 +23,7 @@ data:extend({
       result = "bio-puffer-egg-1",
       count = 2,
     },
-    emissions_per_second = -0.006, --emissions_per_tick = -0.0001,
+    emissions_per_second = {pollution = -0.006}, --emissions_per_tick = -0.0001,
     max_health = 20,
     collision_box = { { -0.8, -0.8 }, { 0.8, 0.8 } },
     selection_box = { { -0.9, -0.9 }, { 0.9, 0.9 } },
@@ -33,20 +33,21 @@ data:extend({
     order = "a[tree]-b[dead-tree]",
     vehicle_impact_sound = { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
     autoplace = {
-      order = "za",
-      max_probability = 0.025,
-      peaks = {
-        -- {
-        -- influence = 0.0002
-        -- },
-        {
-          influence = 0.0005,
-          min_influence = 0,
-          water_optimal = 0.5,
-          water_range = 0.5,
-          water_max_range = 0.5,
-        },
-      },
+--       order = "za",
+--       max_probability = 0.025,
+--       peaks = {
+--         -- {
+--         -- influence = 0.0002
+--         -- },
+--         {
+--           influence = 0.0005,
+--           min_influence = 0,
+--           water_optimal = 0.5,
+--           water_range = 0.5,
+--           water_max_range = 0.5,
+--         },
+--       },
+        probability_expression = 0.01
       --tile_restriction = {"grass-1", "grass-2", "grass-3", "grass-4", "dry-dirt"},
     },
     pictures = {
