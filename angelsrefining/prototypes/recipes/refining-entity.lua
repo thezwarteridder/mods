@@ -245,6 +245,7 @@ data:extend({
     ingredients = {
       { type = "item", name = "angels-void", amount = 1 },
     },
+    results = {{type = "item", name = "liquifier", amount = 1}}, -- Why was this the only item without a results table?
     --result = "liquifier"
   },
   {

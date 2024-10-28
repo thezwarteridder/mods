@@ -20,7 +20,7 @@ data:extend({
     icon = "__angelsrefininggraphics__/graphics/icons/sea-pump-ico.png",
     icon_size = 32,
     flags = { "placeable-neutral", "player-creation", "filter-directions" },
-    collision_mask = { "object-layer", "train-layer" }, -- collide just with object-layer and train-layer which don't collide with water, this allows us to build on 1 tile wide ground
+    collision_mask = { layers = {is_object = true, train = true }}, -- collide just with object-layer and train-layer which don't collide with water, this allows us to build on 1 tile wide ground
     center_collision_mask = { "water-tile", "object-layer", "player-layer" }, -- to test that tile directly under the pump is ground
     fluid_box_tile_collision_test = { "ground-tile" },
     adjacent_tile_collision_test = { "water-tile" },
@@ -46,8 +46,9 @@ data:extend({
       filter = "water",
       pipe_connections = {
         {
+          flow_direction = "output",
           position = { 0, 1 },
-          type = "output",
+          direction = defines.direction.north
         },
       },
     },
@@ -196,7 +197,7 @@ data:extend({
     damaged_trigger_effect = hit_effects.entity(),
     energy_source = {
       type = "electric",
-      emissions_per_minute = 10,
+      emissions_per_minute = {pollution = 10},
       usage_priority = "secondary-input",
     },
     output_fluid_box = {
@@ -205,8 +206,9 @@ data:extend({
       pipe_covers = pipecoverspictures(),
       pipe_connections = {
         {
+          flow_direction = "output",
           position = { 0, 1 },
-          type = "output",
+          direction = defines.direction.north
         },
       },
     },
