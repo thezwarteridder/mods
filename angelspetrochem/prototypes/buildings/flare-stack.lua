@@ -15,6 +15,7 @@ data:extend({
     icon = "__angelspetrochemgraphics__/graphics/icons/flare-stack.png",
     icon_size = 64,
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
+    collision_mask = angelsmods.functions.set_building_collision_mask('furnace', {'elevated_rail'}),
     minable = { mining_time = 1, result = "angels-flare-stack" },
     max_health = 100,
     fast_replaceable_group = "angels-flare-stack",
@@ -44,13 +45,13 @@ data:extend({
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { 0.5, 0.5 }, direction = defines.direction.north } },
+        pipe_connections = { { flow_direction = "input", position = { 0.5, 0.5 }, direction = defines.direction.south } },
       },
     },
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = { pollution = 0.25 * 60 },
+      emissions_per_minute = { pollution = 15 },
     },
     energy_usage = "30kW",
     animation = {
