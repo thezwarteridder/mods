@@ -54,7 +54,7 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, 2 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, 1.4 }, direction = defines.direction.south } },
       },
     },
   },

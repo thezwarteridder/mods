@@ -22,7 +22,7 @@ data:extend({
         { type = "item", name = "temperate-tree", amount = 1 },
       },
     },
-    emissions_per_second = -0.006, --emissions_per_tick = -0.0001,
+    emissions_per_second = {pollution = -0.006}, --emissions_per_tick = -0.0001,
     max_health = 20,
     collision_box = { { -0.9, -0.9 }, { 0.9, 0.9 } },
     selection_box = { { -2, -5 }, { 2, 1 } },
@@ -31,17 +31,18 @@ data:extend({
     order = "z-a",
     vehicle_impact_sound = { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
     autoplace = {
-      order = "xaa",
-      max_probability = 0.025,
-      peaks = {
-        {
-          influence = 0.0005,
-          min_influence = 0,
-          water_optimal = 0.625,
-          water_range = 0.125,
-          water_max_range = 0.125,
-        },
-      },
+--       order = "xaa",
+--       max_probability = 0.025,
+--       peaks = {
+--         {
+--           influence = 0.0005,
+--           min_influence = 0,
+--           water_optimal = 0.625,
+--           water_range = 0.125,
+--           water_max_range = 0.125,
+--         },
+--       },
+        probability_expression = 0.01
       --tile_restriction = {"grass-1", "grass-2", "grass-3", "grass-4", "dry-dirt"},
     },
     pictures = {
@@ -88,7 +89,7 @@ data:extend({
         { type = "item", name = "swamp-tree", amount = 1 },
       },
     },
-    emissions_per_second = -0.006, --emissions_per_tick = -0.0001,
+    emissions_per_second = {pollution = -0.006}, --emissions_per_tick = -0.0001,
     max_health = 20,
     collision_box = { { -0.9, -0.9 }, { 0.9, 0.9 } },
     selection_box = { { -1.5, -5 }, { 1.5, 1 } },
@@ -97,17 +98,18 @@ data:extend({
     order = "z-b",
     vehicle_impact_sound = { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
     autoplace = {
-      order = "yaa",
-      max_probability = 0.025,
-      peaks = {
-        {
-          influence = 0.0005,
-          min_influence = 0,
-          water_optimal = 0.875,
-          water_range = 0.125,
-          water_max_range = 0.125,
-        },
-      },
+--       order = "yaa",
+--       max_probability = 0.025,
+--       peaks = {
+--         {
+--           influence = 0.0005,
+--           min_influence = 0,
+--           water_optimal = 0.875,
+--           water_range = 0.125,
+--           water_max_range = 0.125,
+--         },
+--       },
+        probability_expression = 0.01
       --tile_restriction = {"dirt-1", "dirt-2", "dirt-3", "dirt-4", "dirt-5", "dirt-6", "dirt-7"},
     },
     pictures = {
@@ -160,7 +162,7 @@ data:extend({
         { type = "item", name = "desert-tree", amount = 1 },
       },
     },
-    emissions_per_second = -0.006, --emissions_per_tick = -0.0001,
+    emissions_per_second = {pollution = -0.006}, --emissions_per_tick = -0.0001,
     max_health = 20,
     collision_box = { { -0.9, -0.9 }, { 0.9, 0.9 } },
     selection_box = { { -2.5, -5 }, { 2.5, 1 } },
@@ -169,17 +171,18 @@ data:extend({
     order = "z-b",
     vehicle_impact_sound = { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
     autoplace = {
-      order = "yaa",
-      max_probability = 0.025,
-      peaks = {
-        {
-          influence = 0.0005,
-          min_influence = 0,
-          water_optimal = 0.25,
-          water_range = 0.125,
-          water_max_range = 0.125,
-        },
-      },
+--       order = "yaa",
+--       max_probability = 0.025,
+--       peaks = {
+--         {
+--           influence = 0.0005,
+--           min_influence = 0,
+--           water_optimal = 0.25,
+--           water_range = 0.125,
+--           water_max_range = 0.125,
+--         },
+--       },
+        probability_expression = 0.01
       --tile_restriction = {"dirt-1", "dirt-2", "dirt-3", "dirt-4", "dirt-5", "dirt-6", "dirt-7"},
     },
     pictures = {

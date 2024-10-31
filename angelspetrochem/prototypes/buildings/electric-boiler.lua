@@ -44,7 +44,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.01 * 60,
+      emissions_per_minute = {pollution = 0.6},
       drain = string.format("%.0fkW", drain_power * 1),
     },
     -- with drain power this comes exactly to 1.2 MW, produces 40/s steam (at speed 1)
@@ -127,8 +127,8 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 200,
         pipe_connections = {
-          { type = "input-output", position = { -2, 0 } },
-          { type = "input-output", position = { 2, 0 } },
+          { flow_direction = "input-output", position = { -1.29, 0 }, direction = defines.direction.east },
+          { flow_direction = "input-output", position = { 1.29, 0 }, direction = defines.direction.west },
         },
       },
       {
@@ -136,7 +136,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { type = "output", position = { 0, -2 } },
+          { flow_direction = "output", position = { 0, -1.29 }, direction = defines.direction.north },
         },
       },
       {
@@ -144,7 +144,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { type = "output", position = { 0, 2 } },
+          { flow_direction = "output", position = { 0, 1.29 }, direction = defines.direction.south },
         },
       },
     },
@@ -187,7 +187,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.015 * 60,
+      emissions_per_minute = {pollution = 0.9},
       drain = string.format("%.0fkW", drain_power * 1.5),
     },
     -- with drain power this comes exactly to 1.8 MW, produces 60/s steam (at speed 1.5)
@@ -273,8 +273,8 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 200,
         pipe_connections = {
-          { type = "input-output", position = { -2, 0 } },
-          { type = "input-output", position = { 2, 0 } },
+          { flow_direction = "input-output", position = { -1.29, 0 }, direction = defines.direction.east },
+          { flow_direction = "input-output", position = { 1.29, 0 }, direction = defines.direction.west },
         },
       },
       {
@@ -282,7 +282,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { type = "output", position = { 0, -2 } },
+          { flow_direction = "output", position = { 0, -1.29 }, direction = defines.direction.north },
         },
       },
       {
@@ -290,7 +290,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { type = "output", position = { 0, 2 } },
+          { flow_direction = "output", position = { 0, 1.29 }, direction = defines.direction.south },
         },
       },
     },
@@ -332,7 +332,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.02 * 60,
+      emissions_per_minute = {pollution = 1.2},
       drain = string.format("%.0fkW", drain_power * 2),
     },
     -- with drain power this comes exactly to 2.4 MW, produces 80/s steam (at speed 2)
@@ -415,8 +415,8 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 200,
         pipe_connections = {
-          { type = "input-output", position = { -2, 0 } },
-          { type = "input-output", position = { 2, 0 } },
+          { flow_direction = "input-output", position = { -1.29, 0 }, direction = defines.direction.west },
+          { flow_direction = "input-output", position = { 1.29, 0 }, direction = defines.direction.east },
         },
       },
       {
@@ -424,7 +424,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { type = "output", position = { 0, -2 } },
+          { flow_direction = "output", position = { 0, -1.29 }, direction = defines.direction.north },
         },
       },
       {
@@ -432,7 +432,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { type = "output", position = { 0, 2 } },
+          { flow_direction = "output", position = { 0, 1.29 }, direction = defines.direction.south },
         },
       },
     },

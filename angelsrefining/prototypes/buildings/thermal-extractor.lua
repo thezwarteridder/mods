@@ -34,7 +34,7 @@ data:extend({
     allowed_effects = { "consumption", "speed", "pollution", "productivity" },
     energy_source = {
       type = "electric",
-      emissions_per_minute = 0.01 * 60 * 2,
+      emissions_per_minute = {pollution = 1.2},
       usage_priority = "secondary-input",
     },
     output_fluid_box = {
@@ -42,8 +42,9 @@ data:extend({
       pipe_covers = pipecoverspictures(),
       pipe_connections = {
         {
-          type = "output",
-          positions = { { 1, -2 }, { 2, -1 }, { -1, 2 }, { -2, 1 } },
+          flow_direction = "output",
+          positions = { { 1, -1.4 }, { 1.4, -1 }, { -1, 1.4 }, { -1.4, 1 } },
+          direction = defines.direction.north
         },
       },
     },
@@ -175,6 +176,7 @@ data:extend({
       },
     }, 2, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
+    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
     minable = { mining_time = 1, result = "thermal-extractor" },
     resource_categories = { "angels-fissure" },
     max_health = 100,
@@ -186,7 +188,7 @@ data:extend({
     allowed_effects = { "consumption", "speed", "pollution", "productivity" },
     energy_source = {
       type = "electric",
-      emissions_per_minute = 0.01 * 60,
+      emissions_per_minute = {pollution = 0.6},
       usage_priority = "secondary-input",
     },
     output_fluid_box = {
@@ -194,8 +196,9 @@ data:extend({
       pipe_covers = pipecoverspictures(),
       pipe_connections = {
         {
-          type = "output",
-          position = { -3, 5 },
+          flow_direction = "output",
+          position = { -3, 4.4 },
+          direction = defines.direction.north
         },
       },
     },

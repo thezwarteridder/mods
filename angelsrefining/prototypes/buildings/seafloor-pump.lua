@@ -47,8 +47,8 @@ data:extend({
       filter = "water-viscous-mud",
       pipe_connections = {
         {
-          position = { 0, 0.25 },
           flow_direction = "output",
+          position = { 0, 0.25 },
           direction = defines.direction.north
         },
       },

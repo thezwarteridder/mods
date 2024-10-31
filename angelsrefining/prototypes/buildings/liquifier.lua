@@ -38,7 +38,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.03 * 60,
+      emissions_per_minute = {pollution = 1.8},
     },
     energy_usage = "125kW",
     ingredient_count = 4,
@@ -75,13 +75,13 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         --pipe_picture = liquifierpipepictures(),
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 2 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 1.4 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, -2 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, -1.4 }, direction = defines.direction.north } },
       },
     },
     --off_when_no_fluid_recipe = true
@@ -125,7 +125,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.04 * 60,
+      emissions_per_minute = {pollution = 2.4},
     },
     energy_usage = "150kW",
     ingredient_count = 4,
@@ -162,13 +162,13 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         --pipe_picture = liquifierpipepictures(),
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 2 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 1.4 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, -2 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, -1.4 }, direction = defines.direction.north } },
       },
     },
     --off_when_no_fluid_recipe = true
@@ -212,7 +212,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.05 * 60,
+      emissions_per_minute = {pollution = 3},
     },
     energy_usage = "200kW",
     ingredient_count = 4,
@@ -249,13 +249,13 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         --pipe_picture = liquifierpipepictures(),
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 2 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 1.4 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, -2 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, -1.4 }, direction = defines.direction.north } },
       },
     },
     --off_when_no_fluid_recipe = true
@@ -298,7 +298,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.06 * 60,
+      emissions_per_minute = {pollution = 3.6},
     },
     energy_usage = "300kW",
     ingredient_count = 4,
@@ -335,13 +335,13 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         --pipe_picture = liquifierpipepictures(),
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 2 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 1.4 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { type = "output", position = { 0, -2 } } },
+        pipe_connections = { { flow_direction = "output", position = { 0, -1.4 }, direction = defines.direction.north } },
       },
     },
     --off_when_no_fluid_recipe = true

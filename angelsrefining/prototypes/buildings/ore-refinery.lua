@@ -23,6 +23,7 @@ data:extend({
       },
     }, 1, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
+    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
     minable = { mining_time = 1, result = "ore-refinery" },
     fast_replaceable_group = "ore-refinery",
     next_upgrade = "ore-refinery-2",
@@ -38,7 +39,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.02 * 60,
+      emissions_per_minute = {pollution = 1.2},
     },
     energy_usage = "300kW",
     ingredient_count = 4,
@@ -224,6 +225,7 @@ data:extend({
       },
     }, 2, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
+    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
     minable = { mining_time = 1, result = "ore-refinery-2" },
     fast_replaceable_group = "ore-refinery",
     max_health = 300,
@@ -238,7 +240,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.03 * 60,
+      emissions_per_minute = {pollution = 1.8},
     },
     energy_usage = "350kW",
     ingredient_count = 4,

@@ -38,7 +38,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.03 * 60,
+      emissions_per_minute = {pollution = 1.8},
     },
     energy_usage = "150kW",
     animation = {
@@ -88,6 +88,7 @@ data:extend({
       audible_distance_modifier = 0.5,
       apparent_volume = 2.5,
     },
+    fluid_boxes_off_when_no_fluid_recipe = true,
     fluid_boxes = {
       {
         production_type = "input",
@@ -163,7 +164,7 @@ data:extend({
           },
         },
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 3 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 2.4 }, direction = defines.direction.south } },
       },
       -- {
       -- production_type = "output",
@@ -171,7 +172,6 @@ data:extend({
       -- volume = 100,
       -- pipe_connections = {{ position = {0, -3} }}
       -- },
-      off_when_no_fluid_recipe = true,
     },
   },
   {
@@ -213,7 +213,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.04 * 60,
+      emissions_per_minute = {pollution = 2.4},
     },
     energy_usage = "200kW",
     animation = {
@@ -263,6 +263,7 @@ data:extend({
       audible_distance_modifier = 0.5,
       apparent_volume = 2.5,
     },
+    fluid_boxes_off_when_no_fluid_recipe = true,
     fluid_boxes = {
       {
         production_type = "input",
@@ -338,7 +339,7 @@ data:extend({
           },
         },
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 3 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 2.4 }, direction = defines.direction.south } },
       },
       -- {
       -- production_type = "output",
@@ -346,7 +347,6 @@ data:extend({
       -- volume = 100,
       -- pipe_connections = {{ position = {0, -3} }}
       -- },
-      off_when_no_fluid_recipe = true,
     },
   },
   {
@@ -387,7 +387,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.05 * 60,
+      emissions_per_minute = {pollution = 3},
     },
     energy_usage = "250kW",
     animation = {
@@ -437,6 +437,7 @@ data:extend({
       audible_distance_modifier = 0.5,
       apparent_volume = 2.5,
     },
+    fluid_boxes_off_when_no_fluid_recipe = true,
     fluid_boxes = {
       {
         production_type = "input",
@@ -512,7 +513,7 @@ data:extend({
           },
         },
         volume = 1000,
-        pipe_connections = { { type = "input", position = { 0, 3 } } },
+        pipe_connections = { { flow_direction = "input", position = { 0, 2.4 }, direction = defines.direction.south } },
       },
       -- {
       -- production_type = "output",
@@ -520,7 +521,6 @@ data:extend({
       -- volume = 100,
       -- pipe_connections = {{ position = {0, -3} }}
       -- },
-      off_when_no_fluid_recipe = true,
     },
   },
 })
