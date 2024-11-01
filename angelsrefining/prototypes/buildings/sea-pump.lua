@@ -47,11 +47,17 @@ data:extend({
       pipe_connections = {
         {
           flow_direction = "output",
-          position = { 0, 1 },
+          position = { 0, 0.25 },
           direction = defines.direction.north
         },
       },
     },
+    fluid_source_offset = {0, -1},
+    energy_source =
+    {
+      type = "void"
+    },
+    energy_usage = "60kW",
     pumping_speed = 1500 / 60,
     tile_width = 3,
     tile_height = 3,
