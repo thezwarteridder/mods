@@ -1,9 +1,11 @@
 if not angelsmods.refining.disable_ore_override then
   --BASE GAME
-  angelsmods.functions.remove_resource("stone")
-  angelsmods.functions.remove_resource("iron-ore")
-  angelsmods.functions.remove_resource("copper-ore")
-  angelsmods.functions.remove_resource("uranium-ore")
+  -- These throw this error:
+  -- Error while running setup for space-location prototype "nauvis" (planet): "iron-ore" is not a valid autoplace control name.
+--   angelsmods.functions.remove_resource("stone")
+--   angelsmods.functions.remove_resource("iron-ore")
+--   angelsmods.functions.remove_resource("copper-ore")
+--   angelsmods.functions.remove_resource("uranium-ore")
 
   --ANGELS
   if angelsmods.functions.is_special_vanilla() then

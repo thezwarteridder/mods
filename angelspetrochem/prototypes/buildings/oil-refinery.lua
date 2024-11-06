@@ -34,7 +34,8 @@ data:extend({
       },
     }, 2, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    -- Base-game oil refinery has a custom collision_mask, which all upgrades need to match.
+    collision_mask = {layers={item=true, object=true, player=true, water_tile=true, elevated_rail=true, is_object=true, is_lower_object=true}},
     minable = { mining_time = 1, result = "oil-refinery-2" },
     fast_replaceable_group = "oil-refinery",
     next_upgrade = "oil-refinery-3",
@@ -185,7 +186,8 @@ data:extend({
       },
     }, 3, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    -- Base-game oil refinery has a custom collision_mask, which all upgrades need to match.
+    collision_mask = {layers={item=true, object=true, player=true, water_tile=true, elevated_rail=true, is_object=true, is_lower_object=true}},
     minable = { mining_time = 1, result = "oil-refinery-3" },
     fast_replaceable_group = "oil-refinery",
     next_upgrade = "oil-refinery-4",
@@ -336,7 +338,8 @@ data:extend({
       },
     }, 4, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    -- Base-game oil refinery has a custom collision_mask, which all upgrades need to match.
+    collision_mask = {layers={item=true, object=true, player=true, water_tile=true, elevated_rail=true, is_object=true, is_lower_object=true}},
     minable = { mining_time = 1, result = "oil-refinery-4" },
     fast_replaceable_group = "oil-refinery",
     max_health = 300,

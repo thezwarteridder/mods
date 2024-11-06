@@ -86,7 +86,7 @@ if mods["bobelectronics"] then
       category = "electronics-with-fluid",
     },
   })
-  OV.add_prereq("advanced-electronics", "bio-paper-1")
-  OV.add_prereq("advanced-electronics", "resins")
+  OV.add_prereq("advanced-circuit", "bio-paper-1")
+  OV.add_prereq("advanced-circuit", "resins")
   angelsmods.functions.remove_productivity("phenolic-board")
 end

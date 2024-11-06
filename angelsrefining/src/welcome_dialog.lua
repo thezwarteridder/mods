@@ -49,7 +49,7 @@ function welcome_dialog:create_welcome_dialog(player_index)
   welcomeFrameHeader.add({
     type = "sprite-button",
     name = "welcome_close_button",
-    sprite = "utility/close_white",
+    sprite = "utility/close",
     hovered_sprite = "utility/close_black",
     clicked_sprite = "utility/close_black",
     style = "frame_action_button",
@@ -150,15 +150,15 @@ function welcome_dialog:create_welcome_dialog(player_index)
   })
   welcomeFrameFooter.style.horizontally_stretchable = true
 
-  local footerSpace = welcomeFrameFooter.add({
-    type = "empty-widget",
-    name = "bottom_space",
-    --style = 'draggable_space'
-    style = "draggable_space_with_no_left_margin",
-    ignored_by_interaction = true,
-  })
-  footerSpace.style.horizontally_stretchable = true
-  footerSpace.style.height = 32
+--   local footerSpace = welcomeFrameFooter.add({
+--     type = "empty-widget",
+--     name = "bottom_space",
+--     --style = 'draggable_space'
+--     style = "draggable_space_with_no_left_margin",
+--     ignored_by_interaction = true,
+--   })
+--   footerSpace.style.horizontally_stretchable = true
+--   footerSpace.style.height = 32
 
   welcomeFrameFooter.add({
     type = "button",

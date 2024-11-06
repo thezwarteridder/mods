@@ -2,8 +2,8 @@ local OV = angelsmods.functions.OV
 local move_item = angelsmods.functions.move_item
 
 if mods["bobelectronics"] then
-  OV.add_prereq("advanced-electronics", "chlorine-processing-1")
-  OV.add_prereq("advanced-electronics", "resins")
+  OV.add_prereq("advanced-circuit", "chlorine-processing-1")
+  OV.add_prereq("advanced-circuit", "resins")
   OV.hide_recipe("bob-oil-processing")
 end
 
@@ -60,5 +60,5 @@ if mods["bobelectronics"] then
   end
   OV.add_unlock("circuit-network", "insulated-cable")
   OV.add_prereq("rubbers", "circuit-network")
-  OV.add_prereq("advanced-electronics-2", "rubbers")
+  OV.add_prereq("processing-unit", "rubbers")
 end
