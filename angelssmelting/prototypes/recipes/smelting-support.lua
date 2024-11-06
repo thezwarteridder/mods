@@ -217,13 +217,14 @@ data:extend({
       { type = "item", name = "slag", amount = 1 },
     },
     main_product = "mold-expendable",
-    icon_size = 32,
     icons = {
       {
         icon = "__angelssmeltinggraphics__/graphics/icons/expendable-mold.png",
+        icon_size = 32
       },
       {
         icon = "__angelssmeltinggraphics__/graphics/icons/motor-casing-0.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { 10, -10 },
       },

@@ -254,19 +254,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-2-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-3-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "aa",
   },
   {
@@ -310,19 +312,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-2-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "ab",
   },
   {
@@ -366,19 +370,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-3-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "ac",
   },
   {
@@ -422,19 +428,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-4-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "ad",
   },
   {
@@ -478,19 +486,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-5-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "ae",
   },
   ---------------------------------------------------------------------------
@@ -545,12 +555,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "aa",
   },
   {
@@ -602,12 +613,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-2-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "ab",
   },
   {
@@ -659,12 +671,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-3-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "ac",
   },
   {
@@ -716,12 +729,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-4-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "ad",
   },
   {
@@ -773,12 +787,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-5-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "ae",
   },
   ---------------------------------------------------------------------------
@@ -807,19 +822,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-2-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-3-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "aa",
   },
   {
@@ -845,19 +862,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-2-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "ab",
   },
   {
@@ -883,19 +902,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-3-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "ac",
   },
   {
@@ -921,19 +942,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-4-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "ad",
   },
   {
@@ -959,19 +982,21 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
+        icon_size = 32,
         shift = { -5, 5 },
         scale = 0.75,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-5-icon.png",
+        icon_size = 32,
         shift = { 5, -5 },
         scale = 0.75,
       },
     },
-    icon_size = 32,
     order = "ae",
   },
   ---------------------------------------------------------------------------

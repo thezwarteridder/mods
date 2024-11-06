@@ -93,9 +93,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-arboretum-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "angels-composting",
@@ -150,9 +150,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-arboretum-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-1",
@@ -197,9 +197,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-arboretum-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-2",
@@ -240,9 +240,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-temperate-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-1",
@@ -283,9 +283,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-temperate-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-temperate-1",
@@ -321,9 +321,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-temperate-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-temperate-2",
@@ -356,9 +356,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-swamp-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-1",
@@ -395,9 +395,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-swamp-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-swamp-1",
@@ -433,9 +433,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-swamp-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-swamp-2",
@@ -468,9 +468,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-desert-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "rubbers",
@@ -507,9 +507,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-desert-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-desert-1",
@@ -545,9 +545,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/technology/bio-desert-generator-tech.png",
+        icon_size = 128
       },
     },
-    icon_size = 128,
     order = "c-a",
     prerequisites = {
       "bio-arboretum-desert-2",

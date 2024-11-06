@@ -1562,6 +1562,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-iron.png",
+        icon_size = 32
       } or {
         icon = "__base__/graphics/icons/iron-plate.png",
         icon_size = 64,
@@ -1569,11 +1570,11 @@ data:extend({
       },
       {
         icon = "__angelsrefininggraphics__/graphics/icons/iron-pebbles.png",
+        icon_size = 32,
         scale = 0.4,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "b[iron-ore]-c[pebbles]",
   },
   {
@@ -1590,6 +1591,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-iron.png",
+        icon_size = 32
       } or {
         icon = "__base__/graphics/icons/iron-plate.png",
         icon_size = 64,
@@ -1597,11 +1599,11 @@ data:extend({
       },
       {
         icon = "__angelsrefininggraphics__/graphics/icons/iron-nugget.png",
+        icon_size = 32,
         scale = 0.4,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "b[iron-ore]-d[nugget]",
   },
   {
@@ -1634,6 +1636,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-copper.png",
+        icon_size = 32,
       } or {
         icon = "__base__/graphics/icons/copper-plate.png",
         icon_size = 64,
@@ -1641,11 +1644,11 @@ data:extend({
       },
       {
         icon = "__angelsrefininggraphics__/graphics/icons/copper-pebbles.png",
+        icon_size = 32,
         scale = 0.4,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "c[copper-ore]-c[pebbles]",
   },
   {
@@ -1662,6 +1665,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-copper.png",
+        icon_size = 32
       } or {
         icon = "__base__/graphics/icons/copper-plate.png",
         icon_size = 64,
@@ -1669,11 +1673,11 @@ data:extend({
       },
       {
         icon = "__angelsrefininggraphics__/graphics/icons/copper-nugget.png",
+        icon_size = 32,
         scale = 0.4,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "c[copper-ore]-d[nugget]",
   },
   {

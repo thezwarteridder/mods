@@ -123,10 +123,12 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32,
         tint = { r = 0.75, g = 0.75, b = 0.75 },
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-small.png",
+        icon_size = 32,
         tint = { r = 1, g = 1, b = 1, a = 0.75 },
       },
       {
@@ -136,7 +138,6 @@ data:extend({
         shift = { 7.3, -9.5 },
       },
     },
-    icon_size = 32,
     order = "a[small]-b[breeding]",
   },
   {
@@ -177,9 +178,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-medium.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-crown.png",
@@ -188,7 +191,6 @@ data:extend({
         shift = { 8, -11 },
       },
     },
-    icon_size = 32,
     order = "b[medium]-b[breeding]",
   },
   {
@@ -223,9 +225,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-big.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-crown.png",
@@ -234,7 +238,6 @@ data:extend({
         shift = { 9, -12 },
       },
     },
-    icon_size = 32,
     order = "c[big]-b[breeding]",
   },
   ---------------------------------------------------------------------------

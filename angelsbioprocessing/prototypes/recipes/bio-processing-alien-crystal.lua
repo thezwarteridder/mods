@@ -20,24 +20,27 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-raw.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-blue.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { -12, 12 },
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-red.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { -0, 12 },
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-green.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { 12, 12 },
       },
     },
-    icon_size = 32,
     order = "b[splitting]",
   },
   {
@@ -145,14 +148,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-blue.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-a[blue]",
   },
   {
@@ -175,14 +179,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-red.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-b[red]",
   },
   {
@@ -205,14 +210,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-green.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-c[green]",
   },
   -- SHARD
@@ -236,24 +242,27 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-raw.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-blue.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { -12, 12 },
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-red.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { -0, 12 },
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-green.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { 12, 12 },
       },
     },
-    icon_size = 32,
     order = "b[splitting]",
   },
   {
@@ -361,14 +370,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-blue.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-a[blue]",
   },
   {
@@ -391,14 +401,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-red.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-b[red]",
   },
   {
@@ -421,14 +432,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-green.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-c[green]",
   },
   -- FULL
@@ -452,24 +464,27 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-raw.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-blue.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { -12, 12 },
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-red.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { -0, 12 },
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-green.png",
+        icon_size = 32,
         scale = 0.35,
         shift = { 12, 12 },
       },
     },
-    icon_size = 32,
     order = "b[splitting]",
   },
   {
@@ -577,14 +592,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-blue.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-a[blue]",
   },
   {
@@ -607,14 +623,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-red.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-b[red]",
   },
   {
@@ -637,14 +654,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-green.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "e[powderizing]-c[green]",
   },
 })

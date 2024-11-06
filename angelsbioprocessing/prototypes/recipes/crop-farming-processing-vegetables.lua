@@ -25,15 +25,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-1.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -60,15 +61,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-2.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -93,15 +95,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-3.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -126,15 +129,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-4.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -160,15 +164,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-5.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   --DESERT
   {
@@ -196,15 +201,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-1.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -231,15 +237,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-2.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -265,15 +272,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-3.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -299,15 +307,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-4.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -333,15 +342,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-5.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   --SWAMP
   {
@@ -368,15 +378,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-1.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -403,15 +414,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-2.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -436,15 +448,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-3.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -470,15 +483,16 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-4.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -504,14 +518,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/processor-recipe.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-5.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, 10 },
         tint = { r = 1, g = 1, b = 1, a = 1 },
       },
     },
-    icon_size = 32,
   },
 })
