@@ -143,7 +143,7 @@ data:extend({
       time = 120,
     },
     order = "e-p-b-ca",
-    upgrade = "true",
+    upgrade = true,
   },
   {
     type = "technology",
@@ -194,6 +194,6 @@ data:extend({
       time = 120,
     },
     order = "e-p-b-ca",
-    upgrade = "true",
+    upgrade = true,
   },
 })
