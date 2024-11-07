@@ -13,6 +13,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-iron.png",
+        icon_size = 32
       } or {
         icon = "__base__/graphics/icons/iron-plate.png",
         icon_size = 64,
@@ -20,11 +21,11 @@ data:extend({
       },
       {
         icon = "__angelsrefininggraphics__/graphics/icons/angels-ore1-crushed.png",
+        icon_size = 32,
         scale = 0.4,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "b[iron-ore]-a[crushed]",
   },
   {
@@ -40,6 +41,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-copper.png",
+        icon_size = 32
       } or {
         icon = "__base__/graphics/icons/copper-plate.png",
         icon_size = 64,
@@ -47,6 +49,7 @@ data:extend({
       },
       {
         icon = "__angelsrefininggraphics__/graphics/icons/angels-ore3-crushed.png",
+        icon_size = 32,
         scale = 0.4,
         shift = { -10, -10 },
       },

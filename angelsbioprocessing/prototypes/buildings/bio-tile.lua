@@ -70,39 +70,39 @@ data:extend({
     },
     walking_sound = {
       {
-        filename = "__base__/sound/walking/decorative-grass-01.ogg",
+        filename = "__base__/sound/walking/decorative-grass-1.ogg",
         volume = 0.8,
       },
       {
-        filename = "__base__/sound/walking/decorative-grass-02.ogg",
+        filename = "__base__/sound/walking/decorative-grass-2.ogg",
         volume = 0.8,
       },
       {
-        filename = "__base__/sound/walking/decorative-grass-03.ogg",
+        filename = "__base__/sound/walking/decorative-grass-3.ogg",
         volume = 0.8,
       },
       {
-        filename = "__base__/sound/walking/decorative-grass-04.ogg",
+        filename = "__base__/sound/walking/decorative-grass-4.ogg",
         volume = 0.8,
       },
       {
-        filename = "__base__/sound/walking/decorative-grass-05.ogg",
+        filename = "__base__/sound/walking/decorative-grass-5.ogg",
         volume = 0.8,
       },
       {
-        filename = "__base__/sound/walking/decorative-grass-06.ogg",
+        filename = "__base__/sound/walking/decorative-grass-6.ogg",
         volume = 0.8,
       },
       {
-        filename = "__base__/sound/walking/decorative-grass-07.ogg",
+        filename = "__base__/sound/walking/decorative-grass-7.ogg",
         volume = 0.8,
       },
       {
-        filename = "__base__/sound/walking/decorative-grass-08.ogg",
+        filename = "__base__/sound/walking/decorative-grass-8.ogg",
         volume = 0.8,
       },
       {
-        filename = "__base__/sound/walking/decorative-grass-09.ogg",
+        filename = "__base__/sound/walking/decorative-grass-9.ogg",
         volume = 0.8,
       },
       {

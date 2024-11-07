@@ -209,14 +209,15 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
+        icon_size = 32
       },
       {
         icon = "__angelsrefininggraphics__/graphics/icons/crystal-dust.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     order = "a[creation]-a[powder]",
   },
   {

@@ -112,7 +112,7 @@ data:extend({
     icon_size = 256,
     prerequisites = {
       "water-treatment-2",
-      "advanced-electronics",
+      "advanced-circuit",
       "chemical-science-pack",
     },
     effects = {

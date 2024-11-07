@@ -6,9 +6,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-temperate-generator.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     subgroup = "bio-processing-buildings-nauvis-a",
     order = "b[generator]-a",
     place_result = "bio-generator-temperate-1",
@@ -20,9 +20,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-temperate-generator.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     flags = { "placeable-neutral", "player-creation" },
     minable = { mining_time = 1, result = "bio-generator-temperate-1" },
     max_health = 300,
@@ -128,9 +128,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-swamp-generator.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     subgroup = "bio-processing-buildings-nauvis-a",
     order = "b[generator]-b",
     place_result = "bio-generator-swamp-1",
@@ -142,9 +142,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-swamp-generator.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     flags = { "placeable-neutral", "player-creation" },
     minable = { mining_time = 1, result = "bio-generator-swamp-1" },
     max_health = 300,
@@ -250,9 +250,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-desert-generator.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     subgroup = "bio-processing-buildings-nauvis-a",
     order = "b[generator]-c",
     place_result = "bio-generator-desert-1",
@@ -264,9 +264,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-desert-generator.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     flags = { "placeable-neutral", "player-creation" },
     minable = { mining_time = 1, result = "bio-generator-desert-1" },
     max_health = 300,
@@ -374,9 +374,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-arboretum.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     subgroup = "bio-processing-buildings-nauvis-a",
     order = "c[arboretum]-a", -- c[arboretum]-b reserved for bob greenhouse (see override)
     place_result = "bio-arboretum-1",
@@ -388,9 +388,9 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-arboretum.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     flags = { "placeable-neutral", "player-creation" },
     minable = { mining_time = 1, result = "bio-arboretum-1" },
     max_health = 300,

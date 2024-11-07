@@ -19,9 +19,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/liquid-fermentation-raw.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/solid-corn.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
@@ -32,7 +34,6 @@ data:extend({
       "gas-acid",--[[for the yellow]]
       "gas-acid",--[[for the yellow]]
     }),
-    icon_size = 32,
   },
   {
     type = "recipe",
@@ -53,9 +54,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/liquid-fermentation-raw.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/solid-fruit.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
@@ -66,7 +69,6 @@ data:extend({
       AF.fluid_color("P"),--[[for the orange]]
       AF.fluid_color("P"),--[[for the orange]]
     }),
-    icon_size = 32,
   },
   {
     type = "recipe",

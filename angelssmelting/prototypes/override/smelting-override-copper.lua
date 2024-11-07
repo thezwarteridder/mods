@@ -58,6 +58,7 @@ if angelsmods.trigger.smelting_products["copper"].plate then
       icons = {
         {
           icon = "__angelssmeltinggraphics__/graphics/icons/plate-copper.png",
+          icon_size = 32
         },
         {
           icon = "__base__/graphics/icons/copper-ore.png",
@@ -66,7 +67,6 @@ if angelsmods.trigger.smelting_products["copper"].plate then
           shift = { -10, -10 },
         },
       },
-      icon_size = 32,
       subgroup = "angels-copper-casting",
       order = "j[angels-plate-copper]-b",
     },
@@ -133,14 +133,15 @@ if angelsmods.trigger.smelting_products["copper"].wire then
       icons = {
         {
           icon = "__angelssmeltinggraphics__/graphics/icons/wire-copper.png",
+          icon_size = 32,
         },
         {
           icon = "__angelssmeltinggraphics__/graphics/icons/plate-copper.png",
+          icon_size = 32,
           scale = 0.4375,
           shift = { -10, -10 },
         },
       },
-      icon_size = 32,
       subgroup = "angels-copper-casting",
       order = "k[angels-wire-copper]-a",
     },

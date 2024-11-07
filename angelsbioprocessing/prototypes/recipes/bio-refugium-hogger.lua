@@ -129,12 +129,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/hogger-1-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "a",
   },
   {
@@ -160,12 +161,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/hogger-2-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "b",
   },
   {
@@ -191,12 +193,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/hogger-3-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "c",
   },
   {
@@ -222,12 +225,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/hogger-4-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "d",
   },
   {
@@ -253,12 +257,13 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/hogger-5-icon.png",
+        icon_size = 32
       },
     },
-    icon_size = 32,
     order = "d",
   },
   -- BUTCHERY

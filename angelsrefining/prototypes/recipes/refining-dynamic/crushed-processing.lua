@@ -13,10 +13,15 @@ data:extend({
       { type = "item", name = "slag", amount = 1 },
     },
     icons = {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png" },
-      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore1-crushed.png", scale = 0.5, shift = { -10, 10 } },
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png",
+        icon_size = 32
+      },
+      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore1-crushed.png",
+        icon_size = 32,
+        scale = 0.5,
+        shift = { -10, 10 }
+      },
     },
-    icon_size = 32,
     order = "a[angelsore1-crushed-processing]",
   },
   {
@@ -32,10 +37,15 @@ data:extend({
       { type = "item", name = "slag", amount = 1 },
     },
     icons = {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png" },
-      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore2-crushed.png", scale = 0.5, shift = { -10, 10 } },
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png",
+        icon_size = 32
+      },
+      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore2-crushed.png",
+        icon_size = 32,
+        scale = 0.5,
+        shift = { -10, 10 }
+      },
     },
-    icon_size = 32,
     order = "b[angelsore2-crushed-processing]",
   },
   {
@@ -51,10 +61,15 @@ data:extend({
       { type = "item", name = "slag", amount = 1 },
     },
     icons = {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png" },
-      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore3-crushed.png", scale = 0.5, shift = { -10, 10 } },
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png",
+        icon_size = 32
+      },
+      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore3-crushed.png",
+        icon_size = 32,
+        scale = 0.5,
+        shift = { -10, 10 }
+      },
     },
-    icon_size = 32,
     order = "c[angelsore3-crushed-processing]",
   },
   {
@@ -70,10 +85,15 @@ data:extend({
       { type = "item", name = "slag", amount = 1 },
     },
     icons = {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png" },
-      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore4-crushed.png", scale = 0.5, shift = { -10, 10 } },
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png",
+        icon_size = 32
+      },
+      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore4-crushed.png",
+        icon_size = 32,
+        scale = 0.5,
+        shift = { -10, 10 }
+      },
     },
-    icon_size = 32,
     order = "d[angelsore4-crushed-processing]",
   },
   {
@@ -89,10 +109,15 @@ data:extend({
       { type = "item", name = "slag", amount = 1 },
     },
     icons = {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png" },
-      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore5-crushed.png", scale = 0.5, shift = { -10, 10 } },
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png",
+        icon_size = 32
+      },
+      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore5-crushed.png",
+        icon_size = 32,
+        scale = 0.5,
+        shift = { -10, 10 }
+      },
     },
-    icon_size = 32,
     order = "e[angelsore5-crushed-processing]",
   },
   {
@@ -108,10 +133,15 @@ data:extend({
       { type = "item", name = "slag", amount = 1 },
     },
     icons = {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png" },
-      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore6-crushed.png", scale = 0.5, shift = { -10, 10 } },
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png",
+        icon_size = 32
+      },
+      { icon = "__angelsrefininggraphics__/graphics/icons/angels-ore6-crushed.png",
+        icon_size = 32,
+        scale = 0.5,
+        shift = { -10, 10 }
+      },
     },
-    icon_size = 32,
     order = "f[angelsore6-crushed-processing]",
   },
 })

@@ -503,7 +503,7 @@ data:extend({
     icon = "__angelsrefininggraphics__/graphics/technology/slag-processing.png",
     icon_size = 64,
     prerequisites = {
-      "advanced-electronics-2",
+      "processing-unit",
       "production-science-pack",
       "slag-processing-2",
     },
@@ -634,7 +634,7 @@ data:extend({
     prerequisites = {
       "ore-floatation",
       "advanced-ore-refining-2",
-      "advanced-electronics",
+      "advanced-circuit",
       "chemical-science-pack",
     },
     effects = {
@@ -802,7 +802,7 @@ data:extend({
     prerequisites = {
       "ore-leaching",
       "advanced-ore-refining-3",
-      "advanced-electronics-2",
+      "processing-unit",
       "production-science-pack",
     },
     effects = {

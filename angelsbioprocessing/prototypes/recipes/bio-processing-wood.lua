@@ -93,11 +93,11 @@ data:extend({
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
+        icon_size = 32,
         scale = 0.32,
         shift = { -12, -12 },
       },
     },
-    icon_size = 32,
     crafting_machine_tint = {
       primary = { r = 100 / 255, g = 100 / 255, b = 100 / 255, a = 1 },
     },
@@ -403,11 +403,11 @@ data:extend({
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
+        icon_size = 32,
         scale = 0.32,
         shift = { -12, -12 },
       },
     },
-    icon_size = 32,
     crafting_machine_tint = {
       primary = { r = 0 / 255, g = 100 / 255, b = 0 / 255, a = 1 },
     },
@@ -664,11 +664,11 @@ data:extend({
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
+        icon_size = 32,
         scale = 0.32,
         shift = { -12, -12 },
       },
     },
-    icon_size = 32,
     crafting_machine_tint = {
       primary = { r = 0 / 255, g = 0 / 255, b = 100 / 255, a = 1 },
     },
@@ -876,11 +876,11 @@ data:extend({
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
+        icon_size = 32,
         scale = 0.32,
         shift = { -12, -12 },
       },
     },
-    icon_size = 32,
     crafting_machine_tint = {
       primary = { r = 100 / 255, g = 100 / 255, b = 0 / 255, a = 1 },
     },

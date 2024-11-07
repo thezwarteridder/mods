@@ -187,14 +187,15 @@ data:extend({
     icons = {
       {
         icon = "__angelspetrochemgraphics__/graphics/icons/solid-sodium-sulfate.png",
+        icon_size = 32
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/liquid-brown-liquor.png",
+        icon_size = 32,
         scale = 0.4375,
         shift = { -10, -10 },
       },
     },
-    icon_size = 32,
     crafting_machine_tint = AF.get_recipe_tints({
       "water-red-waste",
       "liquid-brown-liquor",

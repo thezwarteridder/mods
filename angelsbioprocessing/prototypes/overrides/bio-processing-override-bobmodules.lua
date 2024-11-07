@@ -146,7 +146,7 @@ if mods["bobmodules"] then
       icon_size = 256,
       prerequisites = {
         "modules",
-        "advanced-electronics-2",
+        "processing-unit",
         "bio-processing-crystal-shard-1",
       },
       effects = {
@@ -167,7 +167,7 @@ if mods["bobmodules"] then
       order = "i-a",
     },
   })
-  OV.remove_unlock("advanced-electronics-2", "module-processor-board-2")
+  OV.remove_unlock("processing-unit", "module-processor-board-2")
   for _, type in pairs({ "speed", "efficiency", "productivity" }) do
     -- remove the marked as upgrade from base game
     local tech = data.raw.technology[type .. "-module-3"]
@@ -237,7 +237,7 @@ if mods["bobmodules"] then
     OV.remove_prereq("pollution-clean-module-6", "advanced-electronics-3")
     OV.remove_prereq("pollution-create-module-6", "advanced-electronics-3")
   else
-    OV.remove_unlock("advanced-electronics-2", "module-processor-board-3")
+    OV.remove_unlock("processing-unit", "module-processor-board-3")
   end
 
   -----------------------------------------------------------------------------
