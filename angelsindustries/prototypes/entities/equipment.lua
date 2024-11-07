@@ -26,10 +26,11 @@ data:extend({
       type = "full",
     },
     energy_source = {
-      type = "burner",
+      type = "electric",
       usage_priority = "primary-output",
     },
     burner = {
+      type = "burner",
       fuel_categories = { "chemical" },
       effectivity = 0.5,
       fuel_inventory_size = 3,
