@@ -47,7 +47,7 @@ data:extend({
       pipe_connections = {
         {
           flow_direction = "output",
-          position = { 0, 0.25 },
+          position = { 0, 0 },
           direction = defines.direction.north
         },
       },
@@ -213,7 +213,7 @@ data:extend({
       pipe_connections = {
         {
           flow_direction = "output",
-          position = { 0, 1 },
+          position = { 0, 0.25},
           direction = defines.direction.north
         },
       },
