@@ -55,8 +55,8 @@ data:extend({
     prerequisites = {},
     effects = {
       {
-        type = "ghost-time-to-live",
-        modifier = 60 * 60 * 60 * 24 * 7,
+        type = "create-ghost-on-entity-death",
+        modifier = true, --60 * 60 * 60 * 24 * 7,
       },
     },
     unit = {
