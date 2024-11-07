@@ -175,7 +175,7 @@ if angelsmods.industries.tech then
     -- entity
     local lab_entity_tier = util.table.deepcopy(lab_entity)
     lab_entity_tier.name = lab_item_tier.place_result
-    lab_entity_tier.localised_name = { "entity-name.angels-main-lab", tier_index }
+    lab_entity_tier.localised_name = { "entity-name.angels-main-lab", tostring(tier_index) }
     lab_entity_tier.localised_description = {
       "",
       { "entity-description.angels-main-lab" },
