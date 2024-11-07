@@ -18,7 +18,7 @@ if angelsmods.addons.mobility.crawlertrain.enabled then
     { type = "item", name = "speed-module", amounts = { 0, 2, 0, 0, 0 } },
     { type = "item", name = "speed-module-2", amounts = { 0, 0, 2, 0, 0 } },
     { type = "item", name = "speed-module-3", amounts = { 0, 0, 0, 2, 0 } },
-    { type = "item", name = "rocket-control-unit", amounts = { 0, 0, 0, 0, 2 } },
+    { type = "item", name = "processing-unit", amounts = { 0, 0, 0, 0, 2 } },
     { type = "item", name = "steel-plate", amounts = { 40, "+10", 0, 0, 0 } },
     { type = "item", name = "low-density-structure", amounts = { 0, 0, 50, "+25", "+25" } },
   }, "angels-crawler-train")
@@ -40,7 +40,7 @@ if angelsmods.addons.mobility.crawlertrain.enabled then
     { type = "item", name = "efficiency-module", amounts = { 0, 1, 0, 0, 0 } },
     { type = "item", name = "efficiency-module-2", amounts = { 0, 0, 1, 0, 0 } },
     { type = "item", name = "efficiency-module-3", amounts = { 0, 0, 0, 1, 0 } },
-    { type = "item", name = "rocket-control-unit", amounts = { 0, 0, 0, 0, 2 } },
+    { type = "item", name = "processing-unit", amounts = { 0, 0, 0, 0, 2 } },
     { type = "item", name = "steel-plate", amounts = { 35, "+5", 0, 0, 0 } },
     { type = "item", name = "low-density-structure", amounts = { 0, 0, 40, "+20", "+20" } },
   }, "angels-crawler-train")
@@ -76,7 +76,7 @@ if angelsmods.addons.mobility.crawlertrain.enabled then
     { type = "item", name = "efficiency-module", amounts = { 0, 2, 0, 0, 0 } },
     { type = "item", name = "efficiency-module-2", amounts = { 0, 0, 2, 0, 0 } },
     { type = "item", name = "efficiency-module-3", amounts = { 0, 0, 0, 2, 0 } },
-    { type = "item", name = "rocket-control-unit", amounts = { 0, 0, 0, 0, 2 } },
+    { type = "item", name = "processing-unit", amounts = { 0, 0, 0, 0, 2 } },
     { type = "item", name = "iron-gear-wheel", amounts = { 25, 0, 0, 0, 0 } },
     { type = "item", name = "iron-chest", amounts = { 0, 5, 0, 0, 0 } },
     { type = "item", name = "steel-chest", amounts = { 0, 0, 5, 0, 0 } },
@@ -103,7 +103,7 @@ if angelsmods.addons.mobility.petrotrain.enabled then
     { type = "item", name = "speed-module", amounts = { 0, 2, 0, 0, 0 } },
     { type = "item", name = "speed-module-2", amounts = { 0, 0, 2, 0, 0 } },
     { type = "item", name = "speed-module-3", amounts = { 0, 0, 0, 2, 0 } },
-    { type = "item", name = "rocket-control-unit", amounts = { 0, 0, 0, 0, 2 } },
+    { type = "item", name = "processing-unit", amounts = { 0, 0, 0, 0, 2 } },
     { type = "item", name = "steel-plate", amounts = { 40, "+10", 0, 0, 0 } },
     { type = "item", name = "low-density-structure", amounts = { 0, 0, 50, "+25", "+25" } },
   }, "angels-petro-train")
@@ -161,7 +161,7 @@ if angelsmods.addons.mobility.smeltingtrain.enabled then
     { type = "item", name = "speed-module", amounts = { 0, 2, 0, 0, 0 } },
     { type = "item", name = "speed-module-2", amounts = { 0, 0, 2, 0, 0 } },
     { type = "item", name = "speed-module-3", amounts = { 0, 0, 0, 2, 0 } },
-    { type = "item", name = "rocket-control-unit", amounts = { 0, 0, 0, 0, 2 } },
+    { type = "item", name = "processing-unit", amounts = { 0, 0, 0, 0, 2 } },
     { type = "item", name = "steel-plate", amounts = { 40, "+10", 0, 0, 0 } },
     { type = "item", name = "low-density-structure", amounts = { 0, 0, 50, "+25", "+25" } },
   }, "angels-smelting-train")
@@ -183,7 +183,7 @@ if angelsmods.addons.mobility.smeltingtrain.enabled then
     { type = "item", name = "efficiency-module", amounts = { 0, 1, 0, 0, 0 } },
     { type = "item", name = "efficiency-module-2", amounts = { 0, 0, 1, 0, 0 } },
     { type = "item", name = "efficiency-module-3", amounts = { 0, 0, 0, 1, 0 } },
-    { type = "item", name = "rocket-control-unit", amounts = { 0, 0, 0, 0, 2 } },
+    { type = "item", name = "processing-unit", amounts = { 0, 0, 0, 0, 2 } },
     { type = "item", name = "steel-plate", amounts = { 35, "+5", 0, 0, 0 } },
     { type = "item", name = "low-density-structure", amounts = { 0, 0, 40, "+20", "+20" } },
   }, "angels-smelting-train")

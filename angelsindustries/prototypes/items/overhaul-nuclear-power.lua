@@ -125,7 +125,7 @@ data:extend({
     subgroup = "angels-power-nuclear-fuel-cell",
     order = "a[uranium]-a",
     fuel_category = "nuclear",
-    burnt_result = "used-up-uranium-fuel-cell",
+    burnt_result = "depleted-uranium-fuel-cell",
     fuel_value = "1.5GJ",
     fuel_glow_color = util.color("6aff00"), -- Green with hint of yellow
     stack_size = 50,

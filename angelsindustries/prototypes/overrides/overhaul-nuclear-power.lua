@@ -61,7 +61,7 @@ if angelsmods.industries.overhaul then
       name = "nuclear-fuel-reprocessing",
       ingredients = {
         { "!!" },
-        { type = "item", name = "used-up-uranium-fuel-cell", amount = 5 },
+        { type = "item", name = "depleted-uranium-fuel-cell", amount = 5 },
       },
       results = {
         { "!!" },

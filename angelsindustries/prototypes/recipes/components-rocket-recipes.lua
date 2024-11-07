@@ -28,7 +28,7 @@ if angelsmods.industries.components then
       category = "advanced-crafting",
       ingredients = {
         { type = "item", name = "low-density-structure", amount = 25 },
-        { type = "item", name = "rocket-control-unit", amount = 01 },
+        { type = "item", name = "processing-unit", amount = 01 },
       },
       results = {{ type = "item", name = "angels-rocket-hull", amount = 1 }},
     },
@@ -41,7 +41,7 @@ if angelsmods.industries.components then
       ingredients = {
         { type = "item", name = "low-density-structure", amount = 10 },
         { type = "item", name = "rocket-fuel", amount = 75 },
-        { type = "item", name = "rocket-control-unit", amount = 60 },
+        { type = "item", name = "processing-unit", amount = 60 },
       },
       results = {{ type = "item", name = "angels-rocket-ion-thruster", amount = 1 }},
     },
@@ -55,7 +55,7 @@ if angelsmods.industries.components then
         { type = "item", name = "low-density-structure", amount = 30 },
         { type = "item", name = "angels-rocket-ion-thruster", amount = 5 },
         { type = "item", name = "rocket-fuel", amount = 250 },
-        { type = "item", name = "rocket-control-unit", amount = 40 },
+        { type = "item", name = "processing-unit", amount = 40 },
       },
       results = {{ type = "item", name = "angels-rocket-ion-booster", amount = 1 }},
     },
@@ -67,7 +67,7 @@ if angelsmods.industries.components then
       category = "advanced-crafting",
       ingredients = {
         { type = "item", name = "fusion-reactor-equipment", amount = 1 },
-        { type = "item", name = "rocket-control-unit", amount = 15 },
+        { type = "item", name = "processing-unit", amount = 15 },
         { type = "item", name = "angels-deuterium-fuel-cell", amount = 1 },
       },
       results = {{ type = "item", name = "angels-rocket-fusion-reactor", amount = 1 }},
@@ -80,7 +80,7 @@ if angelsmods.industries.components then
       category = "advanced-crafting",
       ingredients = {
         { type = "item", name = "low-density-structure", amount = 20 },
-        { type = "item", name = "rocket-control-unit", amount = 50 },
+        { type = "item", name = "processing-unit", amount = 50 },
         { type = "item", name = "angels-heavy-energy-shield-vequip", amount = 5 },
         { type = "item", name = "radar", amount = 10 },
       },
@@ -94,7 +94,7 @@ if angelsmods.industries.components then
       category = "advanced-crafting",
       ingredients = {
         { type = "item", name = "low-density-structure", amount = 20 },
-        { type = "item", name = "rocket-control-unit", amount = 50 },
+        { type = "item", name = "processing-unit", amount = 50 },
         { type = "item", name = "discharge-defense-equipment", amount = 5 },
         { type = "item", name = "radar", amount = 10 },
       },

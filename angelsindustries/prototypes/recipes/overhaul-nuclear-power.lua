@@ -202,7 +202,7 @@ data:extend({
     subgroup = "angels-power-nuclear-fuel-cell",
     energy_required = 80, --120
     ingredients = {
-      { type = "item", name = "used-up-uranium-fuel-cell", amount = 10 },
+      { type = "item", name = "depleted-uranium-fuel-cell", amount = 10 },
       { type = "fluid", name = "liquid-hydrofluoric-acid", amount = 60 },
     },
     results = {
@@ -732,7 +732,7 @@ data:extend({
       angelsmods.industries.number_tint
     ),
     ingredients = {
-      { type = "item", name = "rocket-control-unit", amount = 10 },
+      { type = "item", name = "processing-unit", amount = 10 },
       { type = "item", name = "explosives", amount = 10 },
       { type = "item", name = "rocket-booster", amount = 1 },
       { type = "item", name = "plutonium-240", amount = 30 },
@@ -754,7 +754,7 @@ data:extend({
       angelsmods.industries.number_tint
     ),
     ingredients = {
-      { type = "item", name = "rocket-control-unit", amount = 20 },
+      { type = "item", name = "processing-unit", amount = 20 },
       { type = "item", name = "explosives", amount = 20 },
       { type = "item", name = "rocket-booster", amount = 1 },
       { type = "fluid", name = "gas-deuterium", amount = 3600 },
@@ -800,7 +800,7 @@ data:extend({
     order = "c-b-b",
     results =
     {
-      {type="item", name="used-up-uranium-fuel-cell", amount=1}
+      {type="item", name="depleted-uranium-fuel-cell", amount=1}
     },
   },
 }
@@ -838,7 +838,7 @@ if mods["angelsindustries"] and angelsmods.industries.overhaul then
     order = "c-b-b",
     results =
     {
-      {type="item", name="used-up-uranium-fuel-cell", amount=1}
+      {type="item", name="depleted-uranium-fuel-cell", amount=1}
     },
   }
 })

@@ -21,7 +21,7 @@ if angelsmods.industries.overhaul then
   move_item("kovarex-enrichment-process", "angels-power-nuclear-processing", "a[uranium]-b[enrichment]", "recipe")
 
   move_item("uranium-fuel-cell", "angels-power-nuclear-fuel-cell", "a[uranium]-b")
-  move_item("used-up-uranium-fuel-cell", "angels-power-nuclear-fuel-cell", "a[uranium]-c")
+  move_item("depleted-uranium-fuel-cell", "angels-power-nuclear-fuel-cell", "a[uranium]-c")
   move_item("uranium-fuel-cell", "angels-power-nuclear-fuel-cell", "a[uranium]-a", "recipe")
   move_item("nuclear-fuel-reprocessing", "angels-power-nuclear-fuel-cell", "a[uranium]-c", "recipe")
 
