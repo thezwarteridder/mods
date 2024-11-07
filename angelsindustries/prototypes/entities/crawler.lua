@@ -68,7 +68,8 @@ data:extend({
     selection_box = { { -1.5, -2.25 }, { 1.5, 2.25 } },
     effectivity = 0.7,
     braking_power = "800kW",
-    burner = {
+    energy_source = {
+      type = "burner",
       effectivity = 0.75,
       fuel_inventory_size = 3,
       smoke = {
