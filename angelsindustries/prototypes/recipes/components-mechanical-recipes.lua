@@ -502,11 +502,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/mechanical-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/gear.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -528,11 +530,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/mechanical-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/axle.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -554,11 +558,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/mechanical-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/roller-chain.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -580,11 +586,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/mechanical-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/spring.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -606,11 +614,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/mechanical-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/bearing.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,

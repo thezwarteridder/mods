@@ -17,7 +17,7 @@ data:extend({
     icons = {{
       icon = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x32.png",
       priority = "extra-high-no-scale",
-      size = 32,
+      icon_size = 32,
       scale = 0.5,
       mipmap_count = 2,
       flags = { "gui-icon" },
@@ -25,7 +25,7 @@ data:extend({
     small_icons = {{
       icon = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x24.png",
       priority = "extra-high-no-scale",
-      size = 24,
+      icon_size = 24,
       scale = 0.5,
       mipmap_count = 2,
       flags = { "gui-icon" },
@@ -33,7 +33,7 @@ data:extend({
     disabled_icons = {{
       icon = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x32.png",
       priority = "extra-high-no-scale",
-      size = 32,
+      icon_size = 32,
       scale = 0.5,
       mipmap_count = 2,
       flags = { "gui-icon" },
@@ -41,7 +41,7 @@ data:extend({
     disabled_small_icons = {{
       icon = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x24.png",
       priority = "extra-high-no-scale",
-      size = 24,
+      icon_size = 24,
       scale = 0.5,
       mipmap_count = 2,
       flags = { "gui-icon" },

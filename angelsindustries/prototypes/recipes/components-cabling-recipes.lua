@@ -169,11 +169,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cabling.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cable-harness-1.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -195,11 +197,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cabling.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cable-harness-2.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -221,11 +225,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cabling.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cable-harness-3.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -247,6 +253,7 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cabling.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cable-harness-4.png",
@@ -274,11 +281,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cabling.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/cable-harness-5.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,

@@ -288,11 +288,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/construction-components.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/girder.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -314,11 +316,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/construction-components.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/rivet.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -340,11 +344,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/construction-components.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/bracket.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -366,11 +372,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/construction-components.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/plating.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
@@ -392,11 +400,13 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/construction-components.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/strut.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
