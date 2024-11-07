@@ -12,7 +12,6 @@ data:extend({
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-crown.png",
-        icon_size = 32,
         icon_size = 15,
         scale = 0.4,
         shift = { 7.3, -9.5 },
@@ -41,7 +40,6 @@ data:extend({
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-crown.png",
-        icon_size = 32,
         icon_size = 15,
         scale = 0.45,
         shift = { 8, -11 },
@@ -70,7 +68,6 @@ data:extend({
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-crown.png",
-        icon_size = 32,
         icon_size = 15,
         scale = 0.5,
         shift = { 9, -12 },

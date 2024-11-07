@@ -12,8 +12,6 @@ angelsmods.trigger.lab_ignore_token["lab-module"] = true
 --ARTIFACTS
 angelsmods.trigger.artifacts = angelsmods.trigger.artifacts or {}
 if bobmods and bobmods.enemies and data.raw.item["small-alien-artifact-blue"] then
-  require("prototypes.technology.bio-processing-artifacts") -- Only load artifacts if bobs is enabled (causes startup halt without this)
-
   angelsmods.trigger.artifacts["red"] = true
   angelsmods.trigger.artifacts["yellow"] = true
   angelsmods.trigger.artifacts["orange"] = true
@@ -130,6 +128,7 @@ require("prototypes.recipes.bio-module")
 require("prototypes.technology.bio-processing-algae")
 require("prototypes.technology.bio-processing-wood-paper")
 require("prototypes.technology.bio-processing-alien")
+require("prototypes.technology.bio-processing-artifacts")
 require("prototypes.technology.crop-farming")
 require("prototypes.technology.bio-refugium")
 require("prototypes.technology.bio-module")

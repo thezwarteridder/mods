@@ -150,6 +150,9 @@ function welcome_dialog:create_welcome_dialog(player_index)
   })
   welcomeFrameFooter.style.horizontally_stretchable = true
 
+-- TODO
+-- 'draggable_space_with_no_left_margin' no longer exists
+
 --   local footerSpace = welcomeFrameFooter.add({
 --     type = "empty-widget",
 --     name = "bottom_space",
