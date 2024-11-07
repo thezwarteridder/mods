@@ -252,6 +252,7 @@ if angelsmods.industries.components then
           icon = "__angelsindustriesgraphics__/graphics/icons/cable-harness-4.png",
           scale = 0.4375,
           shift = { -10, -10 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
