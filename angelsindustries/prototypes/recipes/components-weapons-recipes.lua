@@ -259,6 +259,7 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/weapon-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/trigger.png",
@@ -285,6 +286,7 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/weapon-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/explosion-chamber.png",
@@ -311,6 +313,7 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/weapon-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/fluid-chamber.png",
@@ -337,6 +340,7 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/weapon-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/energy-chamber.png",
@@ -363,6 +367,7 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/weapon-parts.png",
+          icon_size = 32,
         },
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/accelerator-coil.png",

@@ -159,6 +159,7 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/motor-casing-5.png",
+          icon_size = 32,
         },
         {
           icon = "__angelssmeltinggraphics__/graphics/icons/expendable-mold.png",
@@ -189,6 +190,7 @@ if angelsmods.industries.components then
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/motor-casing-5.png",
           tint = { r = 0.7, g = 0.7, b = 0.7 },
+          icon_size = 32,
         },
         {
           icon = "__angelssmeltinggraphics__/graphics/icons/non-expendable-mold.png",
@@ -216,6 +218,7 @@ if angelsmods.industries.components then
       icons = {
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/motor-casing-5.png",
+          icon_size = 32,
         },
         {
           icon = "__angelssmeltinggraphics__/graphics/icons/non-expendable-mold.png",

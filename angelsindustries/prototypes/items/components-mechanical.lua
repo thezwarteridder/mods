@@ -47,6 +47,7 @@ if angelsmods.industries.components then
         {
           icon = "__angelsindustriesgraphics__/graphics/icons/motor-casing-5.png",
           tint = { r = 0.7, g = 0.7, b = 0.7 },
+          icon_size = 32,
         },
       },
       icon_size = 32,
