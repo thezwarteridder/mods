@@ -476,7 +476,7 @@ if angelsmods.industries.tech then
             fuel_categories = { "chemical" },
             effectivity = 0.65,
             fuel_inventory_size = 1,
-            emissions_per_minute = 6,
+            emissions_per_minute = {pollution = 6},
             smoke = {
               {
                 name = "smoke",

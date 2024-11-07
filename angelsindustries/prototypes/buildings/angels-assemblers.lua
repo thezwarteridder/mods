@@ -83,7 +83,7 @@ data:extend({
       fuel_categories = { "chemical" },
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions_per_minute = 0.01,
+      emissions_per_minute = {pollution = 0.01},
       -- smoke =
       -- {
       -- {
@@ -196,7 +196,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.05 / 1.5,
+      emissions_per_minute = {pollution = 0.05 / 1.5},
     },
     energy_usage = "90kW",
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -297,7 +297,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.05 / 1.5,
+      emissions_per_minute = {pollution = 0.05 / 1.5},
     },
     energy_usage = "90kW",
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -416,7 +416,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.04 / 2.5,
+      emissions_per_minute = {pollution = 0.04 / 2.5},
     },
     energy_usage = "150kW",
     module_slots = 2,
@@ -538,7 +538,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.04 / 2.5,
+      emissions_per_minute = {pollution = 0.04 / 2.5},
     },
     energy_usage = "150kW",
     module_slots = 2,
@@ -642,7 +642,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.03 / 3.5,
+      emissions_per_minute = {pollution = 0.03 / 3.5},
     },
     energy_usage = "210kW",
     module_slots = 4,
@@ -764,7 +764,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = 0.03 / 3.5,
+      emissions_per_minute = {pollution = 0.03 / 3.5},
     },
     energy_usage = "210kW",
     module_slots = 4,

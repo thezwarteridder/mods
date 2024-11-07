@@ -77,7 +77,7 @@ if angelsmods.industries.tech then
       energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = 0.05 / 1.5,
+        emissions_per_minute = {pollution = 0.05 / 1.5},
       },
       energy_usage = "90kW",
       ingredient_count = 1,
@@ -195,7 +195,7 @@ if angelsmods.industries.tech then
       energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = 0.05 / 1.5,
+        emissions_per_minute = {pollution = 0.05 / 1.5},
       },
       energy_usage = "90kW",
       ingredient_count = 1,
@@ -307,7 +307,7 @@ if angelsmods.industries.tech then
       energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = 0.05 / 1.5,
+        emissions_per_minute = {pollution = 0.05 / 1.5},
       },
       energy_usage = "90kW",
       ingredient_count = 1,
@@ -419,7 +419,7 @@ if angelsmods.industries.tech then
       energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = 0.05 / 1.5,
+        emissions_per_minute = {pollution = 0.05 / 1.5},
       },
       energy_usage = "90kW",
       ingredient_count = 1,
@@ -531,7 +531,7 @@ if angelsmods.industries.tech then
       energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = 0.05 / 1.5,
+        emissions_per_minute = {pollution = 0.05 / 1.5},
       },
       energy_usage = "90kW",
       ingredient_count = 1,
@@ -649,7 +649,7 @@ if angelsmods.industries.tech then
       energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = 0.05 / 1.5,
+        emissions_per_minute = {pollution = 0.05 / 1.5},
       },
       energy_usage = "90kW",
       ingredient_count = 1,
@@ -755,7 +755,7 @@ if angelsmods.industries.tech then
       energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = 0.05 / 1.5,
+        emissions_per_minute = {pollution = 0.05 / 1.5},
       },
       energy_usage = "90kW",
       ingredient_count = 1,
