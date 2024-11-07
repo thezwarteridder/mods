@@ -14,38 +14,38 @@ data:extend({
     toggleable = true,
     associated_control_input = "toggle-ghosting",
     technology_to_unlock = "angels-hidden-ghosting",
-    icon = {
-      filename = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x32.png",
+    icons = {{
+      icon = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x32.png",
       priority = "extra-high-no-scale",
       size = 32,
       scale = 0.5,
       mipmap_count = 2,
       flags = { "gui-icon" },
-    },
-    small_icon = {
-      filename = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x24.png",
+    }},
+    small_icons = {{
+      icon = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x24.png",
       priority = "extra-high-no-scale",
       size = 24,
       scale = 0.5,
       mipmap_count = 2,
       flags = { "gui-icon" },
-    },
-    disabled_icon = {
-      filename = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x32.png",
+    }},
+    disabled_icons = {{
+      icon = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x32.png",
       priority = "extra-high-no-scale",
       size = 32,
       scale = 0.5,
       mipmap_count = 2,
       flags = { "gui-icon" },
-    },
-    disabled_small_icon = {
-      filename = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x24.png",
+    }},
+    disabled_small_icons = {{
+      icon = "__angelsindustriesgraphics__/graphics/icons/shortcut-toolbar/toggle-ghost-x24.png",
       priority = "extra-high-no-scale",
       size = 24,
       scale = 0.5,
       mipmap_count = 2,
       flags = { "gui-icon" },
-    },
+    }},
   },
   {
     type = "technology",
