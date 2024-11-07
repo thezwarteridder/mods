@@ -66,7 +66,7 @@ if angelsmods.industries.components then
       enabled = false,
       category = "advanced-crafting",
       ingredients = {
-        { type = "item", name = "fusion-reactor-equipment", amount = 1 },
+        { type = "item", name = "fission-reactor-equipment", amount = 1 },
         { type = "item", name = "processing-unit", amount = 15 },
         { type = "item", name = "angels-deuterium-fuel-cell", amount = 1 },
       },

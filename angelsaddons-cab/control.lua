@@ -10,7 +10,7 @@ script.on_event(defines.events.on_player_joined_game, function(event)
       player.insert("angels-cab-deploy-charge")
       player.insert("angels-cab-undeploy-charge")
       player.insert("angels-cab-energy-interface-mk1")
-      player.insert("fusion-reactor-equipment")
+      player.insert("fission-reactor-equipment")
 
       player.insert("medium-electric-pole")
       player.insert("rocket-fuel")

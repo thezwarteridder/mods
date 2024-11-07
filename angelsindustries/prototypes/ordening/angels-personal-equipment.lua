@@ -43,7 +43,7 @@ if mods["bobequipment"] then
 end
 
 -- fusion reactor
-reorder("item", "fusion-reactor-equipment", "angels-personal-equipment-power-a", "b")
+reorder("item", "fission-reactor-equipment", "angels-personal-equipment-power-a", "b")
 if mods["bobequipment"] then
   data:extend({
     {
@@ -53,7 +53,7 @@ if mods["bobequipment"] then
       order = "d-b[equipment]-b",
     },
   })
-  reorder("item", "fusion-reactor-equipment", "angels-personal-equipment-power-b", "a")
+  reorder("item", "fission-reactor-equipment", "angels-personal-equipment-power-b", "a")
   reorder("item", "fusion-reactor-equipment-2", "angels-personal-equipment-power-b", "b")
   reorder("item", "fusion-reactor-equipment-3", "angels-personal-equipment-power-b", "c")
   reorder("item", "fusion-reactor-equipment-4", "angels-personal-equipment-power-b", "d")

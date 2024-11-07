@@ -90,7 +90,7 @@ if angelsmods.industries.components then
       prerequisites = {
         "angels-rocket",
         "angels-fusion-power-1",
-        "fusion-reactor-equipment",
+        "fission-reactor-equipment",
       },
       effects = {
         {

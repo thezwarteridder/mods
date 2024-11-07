@@ -7,7 +7,7 @@ funcs.update_equipment("energy-shield-equipment", "energy-shield-mk2-equipment",
 funcs.update_equipment("battery-equipment", "battery-equipment", "angels-basegame-energy")
 funcs.update_equipment("battery-equipment", "battery-mk2-equipment", "angels-basegame-energy")
 funcs.update_equipment("solar-panel-equipment", "solar-panel-equipment", "angels-basegame-energy")
-funcs.update_equipment("generator-equipment", "fusion-reactor-equipment", "angels-basegame-energy")
+funcs.update_equipment("generator-equipment", "fission-reactor-equipment", "angels-basegame-energy")
 
 funcs.update_equipment("active-defense-equipment", "personal-laser-defense-equipment", "angels-basegame-attack")
 funcs.update_equipment("active-defense-equipment", "discharge-defense-equipment", "angels-basegame-attack")
