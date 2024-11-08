@@ -1135,6 +1135,7 @@ function angelsmods.functions.remove_resource(resource)
       and planet.map_gen_settings.autoplace_controls[resource]
     then
       planet.map_gen_settings.autoplace_controls[resource] = nil
+      planet.map_gen_settings.autoplace_settings.entity.settings[resource] = nil
     end
     if
       infinite_resource
@@ -1144,6 +1145,7 @@ function angelsmods.functions.remove_resource(resource)
       and planet.map_gen_settings.autoplace_controls[infinite_resource]
     then
       planet.map_gen_settings.autoplace_controls[infinite_resource] = nil
+      planet.map_gen_settings.autoplace_settings.entity.settings[infinite_resource] = nil
     end
   end
 
