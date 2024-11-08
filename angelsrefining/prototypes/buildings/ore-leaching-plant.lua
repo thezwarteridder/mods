@@ -23,7 +23,7 @@ data:extend({
       },
     }, 1, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "ore-leaching-plant" },
     fast_replaceable_group = "ore-leaching-plant",
     next_upgrade = "ore-leaching-plant-2",
@@ -39,16 +39,18 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "200kW",
-    animation = {
-      filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/1ore-leaching-plant.png",
-      priority = "extra-high",
-      width = 192,
-      height = 192,
-      frame_count = 1,
-      shift = { 0.4, -0.14 },
+    graphics_set = {
+      animation = {
+        filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/1ore-leaching-plant.png",
+        priority = "extra-high",
+        width = 192,
+        height = 192,
+        frame_count = 1,
+        shift = { 0.4, -0.14 },
+      },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound = {
@@ -69,7 +71,9 @@ data:extend({
         pipe_picture = angelsmods.refining.leachingpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -98,7 +102,7 @@ data:extend({
       },
     }, 2, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "ore-leaching-plant-2" },
     fast_replaceable_group = "ore-leaching-plant",
     next_upgrade = "ore-leaching-plant-3",
@@ -114,27 +118,29 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "250kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/1ore-leaching-plant.png",
-          priority = "extra-high",
-          width = 192,
-          height = 192,
-          frame_count = 1,
-          shift = { 0.4, -0.14 },
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/2ore-leaching-plant-overlay.png",
-          tint = { r = 0.2, g = 0.3, b = 0.45 },
-          priority = "high",
-          width = 192,
-          height = 192,
-          frame_count = 1,
-          shift = { 0.4, -0.14 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/1ore-leaching-plant.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            frame_count = 1,
+            shift = { 0.4, -0.14 },
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/2ore-leaching-plant-overlay.png",
+            tint = { r = 0.2, g = 0.3, b = 0.45 },
+            priority = "high",
+            width = 192,
+            height = 192,
+            frame_count = 1,
+            shift = { 0.4, -0.14 },
+          },
         },
       },
     },
@@ -157,7 +163,9 @@ data:extend({
         pipe_picture = angelsmods.refining.leachingpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -185,7 +193,7 @@ data:extend({
       },
     }, 3, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "ore-leaching-plant-3" },
     fast_replaceable_group = "ore-leaching-plant",
     max_health = 300,
@@ -200,27 +208,29 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3.6},
+      emissions_per_minute = { pollution = 3.6 },
     },
     energy_usage = "300kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/1ore-leaching-plant.png",
-          priority = "extra-high",
-          width = 192,
-          height = 192,
-          frame_count = 1,
-          shift = { 0.4, -0.14 },
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/2ore-leaching-plant-overlay.png",
-          tint = { r = 0.50, g = 0.1, b = 0.05 },
-          priority = "high",
-          width = 192,
-          height = 192,
-          frame_count = 1,
-          shift = { 0.4, -0.14 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/1ore-leaching-plant.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            frame_count = 1,
+            shift = { 0.4, -0.14 },
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-leaching-plant/2ore-leaching-plant-overlay.png",
+            tint = { r = 0.50, g = 0.1, b = 0.05 },
+            priority = "high",
+            width = 192,
+            height = 192,
+            frame_count = 1,
+            shift = { 0.4, -0.14 },
+          },
         },
       },
     },
@@ -243,7 +253,9 @@ data:extend({
         pipe_picture = angelsmods.refining.leachingpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },

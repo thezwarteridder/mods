@@ -35,36 +35,38 @@ data:extend({
     },
     energy_usage = "150kW",
     --ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-fish-shadow.png",
-          width = 288,
-          height = 288,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
-        },
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-fish-off.png",
-          width = 288,
-          height = 288,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-fish-shadow.png",
+            width = 288,
+            height = 288,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-fish-off.png",
+            width = 288,
+            height = 288,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
         },
       },
-    },
-    working_visualisations = {
-      {
-        animation = {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-fish.png",
-          width = 288,
-          height = 288,
-          line_length = 7,
-          frame_count = 49,
-          shift = { 0, 0 },
-          animation_speed = 49 / 90,
+      working_visualisations = {
+        {
+          animation = {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-fish.png",
+            width = 288,
+            height = 288,
+            line_length = 7,
+            frame_count = 49,
+            shift = { 0, 0 },
+            animation_speed = 49 / 90,
+          },
         },
       },
     },
@@ -92,7 +94,9 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -3.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -3.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -114,7 +118,7 @@ data:extend({
     icon = "__angelsbioprocessinggraphics__/graphics/icons/bio-refugium-puffer.png",
     icon_size = 32,
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "bio-refugium-puffer" },
     max_health = 300,
     corpse = "big-remnants",
@@ -134,25 +138,27 @@ data:extend({
     },
     energy_usage = "150kW",
     --ingredient_count = 4,
-    animation = {
-      filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-puffer-off.png",
-      width = 224,
-      height = 256,
-      line_length = 1,
-      frame_count = 1,
-      shift = { 0, -0.5 },
-      animation_speed = 0.5,
-    },
-    working_visualisations = {
-      {
-        animation = {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-puffer.png",
-          width = 224,
-          height = 256,
-          line_length = 6,
-          frame_count = 36,
-          shift = { 0, -0.5 },
-          animation_speed = 36 / 60,
+    graphics_set = {
+      animation = {
+        filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-puffer-off.png",
+        width = 224,
+        height = 256,
+        line_length = 1,
+        frame_count = 1,
+        shift = { 0, -0.5 },
+        animation_speed = 0.5,
+      },
+      working_visualisations = {
+        {
+          animation = {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-puffer.png",
+            width = 224,
+            height = 256,
+            line_length = 6,
+            frame_count = 36,
+            shift = { 0, -0.5 },
+            animation_speed = 36 / 60,
+          },
         },
       },
     },
@@ -195,13 +201,17 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -223,7 +233,7 @@ data:extend({
     icon = "__angelsbioprocessinggraphics__/graphics/icons/alien-farm.png",
     icon_size = 32,
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "bio-refugium-biter" },
     max_health = 300,
     corpse = "big-remnants",
@@ -242,25 +252,27 @@ data:extend({
     },
     energy_usage = "150kW",
     --ingredient_count = 4,
-    animation = {
-      filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-biter-off.png",
-      width = 288,
-      height = 288,
-      line_length = 1,
-      frame_count = 1,
-      shift = { 0, 0 },
-      --animation_speed = 0.5,
-    },
-    working_visualisations = {
-      {
-        animation = {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-biter.png",
-          width = 288,
-          height = 288,
-          line_length = 4,
-          frame_count = 16,
-          shift = { 0, 0 },
-          animation_speed = 0.5 * 0.75 / 2,
+    graphics_set = {
+      animation = {
+        filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-biter-off.png",
+        width = 288,
+        height = 288,
+        line_length = 1,
+        frame_count = 1,
+        shift = { 0, 0 },
+        --animation_speed = 0.5,
+      },
+      working_visualisations = {
+        {
+          animation = {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-refugium/bio-refugium-biter.png",
+            width = 288,
+            height = 288,
+            line_length = 4,
+            frame_count = 16,
+            shift = { 0, 0 },
+            animation_speed = 0.5 * 0.75 / 2,
+          },
         },
       },
     },
@@ -304,7 +316,7 @@ data:extend({
     icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
     icon_size = 32,
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "bio-refugium-hogger" },
     max_health = 300,
     corpse = "big-remnants",
@@ -324,14 +336,16 @@ data:extend({
     },
     energy_usage = "150kW",
     --ingredient_count = 4,
-    animation = {
-      filename = "__angelsbioprocessinggraphics__/graphics/entity/7x7.png",
-      width = 288,
-      height = 288,
-      line_length = 1,
-      frame_count = 1,
-      shift = { 0, 0 },
-      --animation_speed = 0.5,
+    graphics_set = {
+      animation = {
+        filename = "__angelsbioprocessinggraphics__/graphics/entity/7x7.png",
+        width = 288,
+        height = 288,
+        line_length = 1,
+        frame_count = 1,
+        shift = { 0, 0 },
+        --animation_speed = 0.5,
+      },
     },
     -- working_visualisation=
     -- {

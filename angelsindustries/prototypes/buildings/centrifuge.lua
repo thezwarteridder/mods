@@ -6,9 +6,9 @@ for _, centrifuge_name in pairs({
 }) do
   local centrifuge = data.raw["assembling-machine"][centrifuge_name]
   if centrifuge then
-    centrifuge.animation = nil
+    centrifuge.graphics_set.animation = nil
 
-    centrifuge.idle_animation = {
+    centrifuge.graphics_set.idle_animation = {
       layers = {
         -- Centrifuge C
         {
@@ -136,7 +136,7 @@ for _, centrifuge_name in pairs({
       },
     }
 
-    centrifuge.working_visualisations = {
+    centrifuge.graphics_set.working_visualisations = {
       -- WORKING LIGHTS
       -- Centrifuge A (Front Left)
       {

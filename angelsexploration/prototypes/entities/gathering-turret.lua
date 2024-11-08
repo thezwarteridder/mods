@@ -135,16 +135,19 @@ data:extend({
       shift = { 0, -0.46 },
       scale = 0.78,
     }),
-
-    base_picture = angelsmods.functions.merge_layers(
-      angelsmods.functions.create_gathering_turret_base({ type = "gun", apply_runtime_tint = true }),
-      angelsmods.functions.create_gathering_turret_base({
-        type = "laser",
-        apply_runtime_tint = true,
-        shift = { 0, -0.46 },
-        scale = 0.78,
-      })
-    ),
+    graphics_set = {
+      base_visualisation = {
+        animation = angelsmods.functions.merge_layers(
+          angelsmods.functions.create_gathering_turret_base({ type = "gun", apply_runtime_tint = true }),
+          angelsmods.functions.create_gathering_turret_base({
+            type = "laser",
+            apply_runtime_tint = true,
+            shift = { 0, -0.46 },
+            scale = 0.78,
+          })
+        ),
+      },
+    },
 
     vehicle_impact_sound = sounds.generic_impact,
 
@@ -220,26 +223,30 @@ data:extend({
       },
       max_sounds_per_type = 4,
     },
-    start = angelsmods.functions.create_gathering_turret_beam_start({
-      flags = { "trilinear-filtering" },
-      blend_mode = "additive-soft",
-    }),
-    ending = angelsmods.functions.create_gathering_turret_beam_end({
-      flags = { "trilinear-filtering" },
-      blend_mode = "additive-soft",
-    }),
-    head = angelsmods.functions.create_gathering_turret_beam_head({
-      flags = { "trilinear-filtering" },
-      blend_mode = "additive-soft",
-    }),
-    tail = angelsmods.functions.create_gathering_turret_beam_tail({
-      flags = { "trilinear-filtering" },
-      blend_mode = "additive-soft",
-    }),
-    body = angelsmods.functions.create_gathering_turret_beam_body({
-      flags = { "trilinear-filtering" },
-      blend_mode = "additive-soft",
-    }),
+    graphics_set = {
+      beam = {
+        start = angelsmods.functions.create_gathering_turret_beam_start({
+          flags = { "trilinear-filtering" },
+          blend_mode = "additive-soft",
+        }),
+        ending = angelsmods.functions.create_gathering_turret_beam_end({
+          flags = { "trilinear-filtering" },
+          blend_mode = "additive-soft",
+        }),
+        head = angelsmods.functions.create_gathering_turret_beam_head({
+          flags = { "trilinear-filtering" },
+          blend_mode = "additive-soft",
+        }),
+        tail = angelsmods.functions.create_gathering_turret_beam_tail({
+          flags = { "trilinear-filtering" },
+          blend_mode = "additive-soft",
+        }),
+        body = angelsmods.functions.create_gathering_turret_beam_body({
+          flags = { "trilinear-filtering" },
+          blend_mode = "additive-soft",
+        }),
+      },
+    },
     light_animations = angelsmods.functions.create_gathering_turret_beam_light({
       flags = { "trilinear-filtering" },
       blend_mode = "additive-soft",

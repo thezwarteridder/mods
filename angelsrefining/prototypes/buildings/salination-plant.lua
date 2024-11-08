@@ -23,7 +23,7 @@ data:extend({
       },
     }, 1, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "salination-plant" },
     fast_replaceable_group = "salination-plant",
     next_upgrade = "salination-plant-2",
@@ -39,57 +39,59 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "200kW",
     ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/salination-plant-base.png",
-          priority = "extra-high",
-          width = 244,
-          height = 270,
-          frame_count = 36,
-          line_length = 6,
-          shift = util.by_pixel(-2, -12),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/hr-salination-plant-base.png",
-                priority = "extra-high",
-                width = 484,
-                height = 540,
-                frame_count = 36,
-                line_length = 6,
-                shift = util.by_pixel(-2.5, -12),
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/salination-plant-shadow.png",
-          priority = "extra-high",
-          width = 255,
-          height = 235,
-          repeat_count = 36,
-          shift = util.by_pixel(11, 6),
-          draw_as_shadow = true,
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/hr-salination-plant-shadow.png",
-                priority = "extra-high",
-                width = 509,
-                height = 467,
-                repeat_count = 36,
-                shift = util.by_pixel(10, 6.5),
-                draw_as_shadow = true,
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/salination-plant-base.png",
+            priority = "extra-high",
+            width = 244,
+            height = 270,
+            frame_count = 36,
+            line_length = 6,
+            shift = util.by_pixel(-2, -12),
+            animation_speed = 0.5,
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/hr-salination-plant-base.png",
+                  priority = "extra-high",
+                  width = 484,
+                  height = 540,
+                  frame_count = 36,
+                  line_length = 6,
+                  shift = util.by_pixel(-2.5, -12),
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/salination-plant-shadow.png",
+            priority = "extra-high",
+            width = 255,
+            height = 235,
+            repeat_count = 36,
+            shift = util.by_pixel(11, 6),
+            draw_as_shadow = true,
+            animation_speed = 0.5,
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/hr-salination-plant-shadow.png",
+                  priority = "extra-high",
+                  width = 509,
+                  height = 467,
+                  repeat_count = 36,
+                  shift = util.by_pixel(10, 6.5),
+                  draw_as_shadow = true,
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },
@@ -106,7 +108,9 @@ data:extend({
         --pipe_picture = salinationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -3.4 }, direction = defines.direction.south } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -3.4 }, direction = defines.direction.south },
+        },
       },
       {
         production_type = "output",
@@ -141,7 +145,7 @@ data:extend({
       },
     }, 2, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "salination-plant-2" },
     fast_replaceable_group = "salination-plant",
     max_health = 300,
@@ -156,57 +160,59 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "250kW",
     ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/salination-plant-base.png",
-          priority = "extra-high",
-          width = 244,
-          height = 270,
-          frame_count = 36,
-          line_length = 6,
-          shift = util.by_pixel(-2, -12),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/hr-salination-plant-base.png",
-                priority = "extra-high",
-                width = 484,
-                height = 540,
-                frame_count = 36,
-                line_length = 6,
-                shift = util.by_pixel(-2.5, -12),
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/salination-plant-shadow.png",
-          priority = "extra-high",
-          width = 255,
-          height = 235,
-          repeat_count = 36,
-          shift = util.by_pixel(11, 6),
-          draw_as_shadow = true,
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/hr-salination-plant-shadow.png",
-                priority = "extra-high",
-                width = 509,
-                height = 467,
-                repeat_count = 36,
-                shift = util.by_pixel(10, 6.5),
-                draw_as_shadow = true,
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/salination-plant-base.png",
+            priority = "extra-high",
+            width = 244,
+            height = 270,
+            frame_count = 36,
+            line_length = 6,
+            shift = util.by_pixel(-2, -12),
+            animation_speed = 0.5,
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/hr-salination-plant-base.png",
+                  priority = "extra-high",
+                  width = 484,
+                  height = 540,
+                  frame_count = 36,
+                  line_length = 6,
+                  shift = util.by_pixel(-2.5, -12),
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/salination-plant-shadow.png",
+            priority = "extra-high",
+            width = 255,
+            height = 235,
+            repeat_count = 36,
+            shift = util.by_pixel(11, 6),
+            draw_as_shadow = true,
+            animation_speed = 0.5,
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/salination-plant/hr-salination-plant-shadow.png",
+                  priority = "extra-high",
+                  width = 509,
+                  height = 467,
+                  repeat_count = 36,
+                  shift = util.by_pixel(10, 6.5),
+                  draw_as_shadow = true,
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },
@@ -223,7 +229,9 @@ data:extend({
         --pipe_picture = salinationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -3.4 }, direction = defines.direction.south } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -3.4 }, direction = defines.direction.south },
+        },
       },
       {
         production_type = "output",

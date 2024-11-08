@@ -41,54 +41,58 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "100kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-base.png",
-          priority = "high",
-          width = 71,
-          height = 87,
-          line_length = 4,
-          frame_count = 4,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -10),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-base.png",
             priority = "high",
-            width = 138,
-            height = 170,
+            width = 71,
+            height = 87,
             line_length = 4,
             frame_count = 4,
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -9.5),
-            scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-shadow.png",
-          priority = "high",
-          width = 93,
-          height = 51,
-          repeat_count = 4,
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(13.5, 9.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-shadow.png",
-                priority = "high",
-                width = 183,
-                height = 99,
-                repeat_count = 4,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(13, 9),
-                scale = 0.5,
-              }
-            or nil,
+            shift = util.by_pixel(0, -10),
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-base.png",
+                  priority = "high",
+                  width = 138,
+                  height = 170,
+                  line_length = 4,
+                  frame_count = 4,
+                  animation_speed = 0.5,
+                  shift = util.by_pixel(0.5, -9.5),
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-shadow.png",
+            priority = "high",
+            width = 93,
+            height = 51,
+            repeat_count = 4,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(13.5, 9.5),
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-shadow.png",
+                  priority = "high",
+                  width = 183,
+                  height = 99,
+                  repeat_count = 4,
+                  animation_speed = 0.5,
+                  draw_as_shadow = true,
+                  shift = util.by_pixel(13, 9),
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },
@@ -142,54 +146,58 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "125kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-base.png",
-          priority = "high",
-          width = 71,
-          height = 87,
-          line_length = 4,
-          frame_count = 4,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -10),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-base.png",
             priority = "high",
-            width = 138,
-            height = 170,
+            width = 71,
+            height = 87,
             line_length = 4,
             frame_count = 4,
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -9.5),
-            scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-shadow.png",
-          priority = "high",
-          width = 93,
-          height = 51,
-          repeat_count = 4,
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(13.5, 9.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-shadow.png",
-                priority = "high",
-                width = 183,
-                height = 99,
-                repeat_count = 4,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(13, 9),
-                scale = 0.5,
-              }
-            or nil,
+            shift = util.by_pixel(0, -10),
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-base.png",
+                  priority = "high",
+                  width = 138,
+                  height = 170,
+                  line_length = 4,
+                  frame_count = 4,
+                  animation_speed = 0.5,
+                  shift = util.by_pixel(0.5, -9.5),
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-shadow.png",
+            priority = "high",
+            width = 93,
+            height = 51,
+            repeat_count = 4,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(13.5, 9.5),
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-shadow.png",
+                  priority = "high",
+                  width = 183,
+                  height = 99,
+                  repeat_count = 4,
+                  animation_speed = 0.5,
+                  draw_as_shadow = true,
+                  shift = util.by_pixel(13, 9),
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },
@@ -243,54 +251,58 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "150kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-base.png",
-          priority = "high",
-          width = 71,
-          height = 87,
-          line_length = 4,
-          frame_count = 4,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -10),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-base.png",
             priority = "high",
-            width = 138,
-            height = 170,
+            width = 71,
+            height = 87,
             line_length = 4,
             frame_count = 4,
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -9.5),
-            scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-shadow.png",
-          priority = "high",
-          width = 93,
-          height = 51,
-          repeat_count = 4,
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(13.5, 9.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-shadow.png",
-                priority = "high",
-                width = 183,
-                height = 99,
-                repeat_count = 4,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(13, 9),
-                scale = 0.5,
-              }
-            or nil,
+            shift = util.by_pixel(0, -10),
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-base.png",
+                  priority = "high",
+                  width = 138,
+                  height = 170,
+                  line_length = 4,
+                  frame_count = 4,
+                  animation_speed = 0.5,
+                  shift = util.by_pixel(0.5, -9.5),
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-shadow.png",
+            priority = "high",
+            width = 93,
+            height = 51,
+            repeat_count = 4,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(13.5, 9.5),
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-shadow.png",
+                  priority = "high",
+                  width = 183,
+                  height = 99,
+                  repeat_count = 4,
+                  animation_speed = 0.5,
+                  draw_as_shadow = true,
+                  shift = util.by_pixel(13, 9),
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },
@@ -343,54 +355,58 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3.6},
+      emissions_per_minute = { pollution = 3.6 },
     },
     energy_usage = "175kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-base.png",
-          priority = "high",
-          width = 71,
-          height = 87,
-          line_length = 4,
-          frame_count = 4,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -10),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-base.png",
             priority = "high",
-            width = 138,
-            height = 170,
+            width = 71,
+            height = 87,
             line_length = 4,
             frame_count = 4,
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -9.5),
-            scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-shadow.png",
-          priority = "high",
-          width = 93,
-          height = 51,
-          repeat_count = 4,
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(13.5, 9.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-shadow.png",
-                priority = "high",
-                width = 183,
-                height = 99,
-                repeat_count = 4,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(13, 9),
-                scale = 0.5,
-              }
-            or nil,
+            shift = util.by_pixel(0, -10),
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-base.png",
+                  priority = "high",
+                  width = 138,
+                  height = 170,
+                  line_length = 4,
+                  frame_count = 4,
+                  animation_speed = 0.5,
+                  shift = util.by_pixel(0.5, -9.5),
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/powder-mixer-shadow.png",
+            priority = "high",
+            width = 93,
+            height = 51,
+            repeat_count = 4,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(13.5, 9.5),
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelssmeltinggraphics__/graphics/entity/powder-mixer/hr-powder-mixer-shadow.png",
+                  priority = "high",
+                  width = 183,
+                  height = 99,
+                  repeat_count = 4,
+                  animation_speed = 0.5,
+                  draw_as_shadow = true,
+                  shift = util.by_pixel(13, 9),
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },

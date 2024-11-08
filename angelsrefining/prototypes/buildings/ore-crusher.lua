@@ -39,7 +39,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions_per_minute = {pollution = 4.2},
+      emissions_per_minute = { pollution = 4.2 },
       smoke = {
         {
           name = "smoke",
@@ -53,49 +53,55 @@ data:extend({
     },
     energy_usage = "100kW",
     ingredient_count = 2,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-base.png",
-          priority = "extra-high",
-          width = 94,
-          height = 108,
-          frame_count = 16,
-          line_length = 4,
-          shift = util.by_pixel(0, -5),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-base.png",
             priority = "extra-high",
-            width = 189,
-            height = 214,
+            width = 94,
+            height = 108,
             frame_count = 16,
             line_length = 4,
-            shift = util.by_pixel(-0.5, -5),
+            shift = util.by_pixel(0, -5),
             animation_speed = 0.5,
-            scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-shadow.png",
-          priority = "extra-high",
-          width = 141,
-          height = 72,
-          repeat_count = 16,
-          shift = util.by_pixel(25, 17),
-          draw_as_shadow = true,
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-shadow.png",
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-base.png",
+                  priority = "extra-high",
+                  width = 189,
+                  height = 214,
+                  frame_count = 16,
+                  line_length = 4,
+                  shift = util.by_pixel(-0.5, -5),
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-shadow.png",
             priority = "extra-high",
-            width = 282,
-            height = 140,
+            width = 141,
+            height = 72,
             repeat_count = 16,
-            shift = util.by_pixel(24, 17.5),
+            shift = util.by_pixel(25, 17),
             draw_as_shadow = true,
             animation_speed = 0.5,
-            scale = 0.5,
-          } or nil,
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-shadow.png",
+                  priority = "extra-high",
+                  width = 282,
+                  height = 140,
+                  repeat_count = 16,
+                  shift = util.by_pixel(24, 17.5),
+                  draw_as_shadow = true,
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },
@@ -147,53 +153,59 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "100kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-base.png",
-          priority = "extra-high",
-          width = 94,
-          height = 108,
-          frame_count = 16,
-          line_length = 4,
-          shift = util.by_pixel(0, -5),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-base.png",
             priority = "extra-high",
-            width = 189,
-            height = 214,
+            width = 94,
+            height = 108,
             frame_count = 16,
             line_length = 4,
-            shift = util.by_pixel(-0.5, -5),
+            shift = util.by_pixel(0, -5),
             animation_speed = 0.5,
-            scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-shadow.png",
-          priority = "extra-high",
-          width = 141,
-          height = 72,
-          repeat_count = 16,
-          shift = util.by_pixel(25, 17),
-          draw_as_shadow = true,
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-shadow.png",
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-base.png",
+                  priority = "extra-high",
+                  width = 189,
+                  height = 214,
+                  frame_count = 16,
+                  line_length = 4,
+                  shift = util.by_pixel(-0.5, -5),
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-shadow.png",
             priority = "extra-high",
-            width = 282,
-            height = 140,
+            width = 141,
+            height = 72,
             repeat_count = 16,
-            shift = util.by_pixel(24, 17.5),
+            shift = util.by_pixel(25, 17),
             draw_as_shadow = true,
             animation_speed = 0.5,
-            scale = 0.5,
-          } or nil,
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-shadow.png",
+                  priority = "extra-high",
+                  width = 282,
+                  height = 140,
+                  repeat_count = 16,
+                  shift = util.by_pixel(24, 17.5),
+                  draw_as_shadow = true,
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },
@@ -244,53 +256,59 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "125kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-base.png",
-          priority = "extra-high",
-          width = 94,
-          height = 108,
-          frame_count = 16,
-          line_length = 4,
-          shift = util.by_pixel(0, -5),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-base.png",
             priority = "extra-high",
-            width = 189,
-            height = 214,
+            width = 94,
+            height = 108,
             frame_count = 16,
             line_length = 4,
-            shift = util.by_pixel(-0.5, -5),
+            shift = util.by_pixel(0, -5),
             animation_speed = 0.5,
-            scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-shadow.png",
-          priority = "extra-high",
-          width = 141,
-          height = 72,
-          repeat_count = 16,
-          shift = util.by_pixel(25, 17),
-          draw_as_shadow = true,
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-shadow.png",
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-base.png",
+                  priority = "extra-high",
+                  width = 189,
+                  height = 214,
+                  frame_count = 16,
+                  line_length = 4,
+                  shift = util.by_pixel(-0.5, -5),
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-shadow.png",
             priority = "extra-high",
-            width = 282,
-            height = 140,
+            width = 141,
+            height = 72,
             repeat_count = 16,
-            shift = util.by_pixel(24, 17.5),
+            shift = util.by_pixel(25, 17),
             draw_as_shadow = true,
             animation_speed = 0.5,
-            scale = 0.5,
-          } or nil,
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-shadow.png",
+                  priority = "extra-high",
+                  width = 282,
+                  height = 140,
+                  repeat_count = 16,
+                  shift = util.by_pixel(24, 17.5),
+                  draw_as_shadow = true,
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },
@@ -340,53 +358,59 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "150kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-base.png",
-          priority = "extra-high",
-          width = 94,
-          height = 108,
-          frame_count = 16,
-          line_length = 4,
-          shift = util.by_pixel(0, -5),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-base.png",
             priority = "extra-high",
-            width = 189,
-            height = 214,
+            width = 94,
+            height = 108,
             frame_count = 16,
             line_length = 4,
-            shift = util.by_pixel(-0.5, -5),
+            shift = util.by_pixel(0, -5),
             animation_speed = 0.5,
-            scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-shadow.png",
-          priority = "extra-high",
-          width = 141,
-          height = 72,
-          repeat_count = 16,
-          shift = util.by_pixel(25, 17),
-          draw_as_shadow = true,
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-shadow.png",
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-base.png",
+                  priority = "extra-high",
+                  width = 189,
+                  height = 214,
+                  frame_count = 16,
+                  line_length = 4,
+                  shift = util.by_pixel(-0.5, -5),
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/ore-crusher-shadow.png",
             priority = "extra-high",
-            width = 282,
-            height = 140,
+            width = 141,
+            height = 72,
             repeat_count = 16,
-            shift = util.by_pixel(24, 17.5),
+            shift = util.by_pixel(25, 17),
             draw_as_shadow = true,
             animation_speed = 0.5,
-            scale = 0.5,
-          } or nil,
+            hr_version = angelsmods.trigger.enable_hq_graphics
+                and {
+                  filename = "__angelsrefininggraphics__/graphics/entity/ore-crusher/hr-ore-crusher-shadow.png",
+                  priority = "extra-high",
+                  width = 282,
+                  height = 140,
+                  repeat_count = 16,
+                  shift = util.by_pixel(24, 17.5),
+                  draw_as_shadow = true,
+                  animation_speed = 0.5,
+                  scale = 0.5,
+                }
+              or nil,
+          },
         },
       },
     },

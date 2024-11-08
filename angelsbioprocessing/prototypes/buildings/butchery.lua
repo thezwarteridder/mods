@@ -45,16 +45,18 @@ data:extend({
       emissions_per_minute = { pollution = 0.01 * 60 },
     },
     energy_usage = "150kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-butchery/bio-butchery.png",
-          width = 160,
-          height = 160,
-          frame_count = 36,
-          line_length = 6,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-butchery/bio-butchery.png",
+            width = 160,
+            height = 160,
+            frame_count = 36,
+            line_length = 6,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
       },
     },
