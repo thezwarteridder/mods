@@ -63,8 +63,8 @@ if angelsmods.industries.components then
     angelsmods.industries.blocks.enhancement5 = true
 
     OV.remove_prereq("automation-2", "angels-components-construction-2")
-    OV.remove_prereq("automation-3", "advanced-electronics")
-    OV.remove_prereq("automation-5", "advanced-electronics-2")
+    OV.remove_prereq("automation-3", "advanced-circuit")
+    OV.remove_prereq("automation-5", "processing-unit")
     if angelsmods.industries.tech then
       OV.add_prereq("automation-2", "tech-specialised-labs-basic-enhance-1")
       OV.remove_prereq("automation-3", "tech-specialised-labs-advanced-enhance-1")

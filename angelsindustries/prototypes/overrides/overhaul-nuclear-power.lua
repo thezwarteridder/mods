@@ -233,8 +233,8 @@ if angelsmods.industries.overhaul then
     angelsmods.functions.hide("deuterium-fuel-cell-2")
     angelsmods.functions.add_flag("deuterium-fuel-cell-2", "hide-from-fuel-tooltip")
 
-    OV.global_replace_item("fusion-catalyst", "angels-muon-fusion-catalyst")
-    angelsmods.functions.hide("fusion-catalyst")
+    OV.global_replace_item("fission-catalyst", "angels-muon-fusion-catalyst")
+    angelsmods.functions.hide("fission-catalyst")
 
     OV.disable_recipe("deuterium-fuel-reprocessing")
     OV.global_replace_technology("deuterium-fuel-reprocessing", "angels-fusion-power-1")

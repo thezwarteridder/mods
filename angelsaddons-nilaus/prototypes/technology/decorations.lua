@@ -5,7 +5,7 @@ data:extend({
     icon = "__angelsaddons-nilaus__/graphics/technology/nilaus-tech.png",
     icon_size = 128,
     prerequisites = {
-      "optics",
+      "lamp",
     },
     effects = {
       {

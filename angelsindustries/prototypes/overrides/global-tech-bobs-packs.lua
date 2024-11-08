@@ -231,13 +231,13 @@ if angelsmods.industries.tech then
     AI.pack_replace("inserter-capacity-bonus-3", "blue", "orange")
     AI.pack_replace("inserter-stack-size-bonus-2", "blue", "orange")
     if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
-      OV.remove_prereq("stack-inserter", "tech-orange-circuit")
-      AI.pack_replace("stack-inserter", "orange", "green")
+      OV.remove_prereq("bulk-inserter", "tech-orange-circuit")
+      AI.pack_replace("bulk-inserter", "orange", "green")
       AI.pack_replace("express-inserters", "blue", "orange")
-      AI.pack_replace("stack-inserter-2", "blue", "orange")
+      AI.pack_replace("bulk-inserter-2", "blue", "orange")
     else
       AI.pack_replace("express-inserters", "green", "blue")
-      AI.pack_replace("stack-inserter-2", "blue", "yellow")
+      AI.pack_replace("bulk-inserter-2", "blue", "yellow")
     end
     -- belt techs
     AI.pack_replace("logistics-3", "blue", "orange")
@@ -360,7 +360,7 @@ if angelsmods.industries.tech then
     AI.pack_replace("personal-roboport-modular-equipment-1", "green", "orange")
     AI.pack_replace("exoskeleton-equipment", "blue", "green")
     AI.pack_replace("exoskeleton-equipment-2", "blue", "orange")
-    OV.remove_prereq("exoskeleton-equipment-2", "advanced-electronics-2")
+    OV.remove_prereq("exoskeleton-equipment-2", "processing-unit")
     OV.remove_prereq("exoskeleton-equipment-3", "production-science-pack")
     AI.pack_replace("solar-panel-equipment", "orange", "green")
     AI.pack_replace("solar-panel-equipment-2", "blue", "orange")

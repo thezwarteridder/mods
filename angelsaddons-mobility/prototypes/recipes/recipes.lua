@@ -80,8 +80,8 @@ if angelsmods.addons.mobility.crawlertrain.enabled then
     { type = "item", name = "iron-gear-wheel", amounts = { 25, 0, 0, 0, 0 } },
     { type = "item", name = "iron-chest", amounts = { 0, 5, 0, 0, 0 } },
     { type = "item", name = "steel-chest", amounts = { 0, 0, 5, 0, 0 } },
-    { type = "item", name = "logistic-chest-storage", amounts = { 0, 0, 0, 5, 0 } },
-    { type = "item", name = "logistic-chest-buffer", amounts = { 0, 0, 0, 0, 5 } },
+    { type = "item", name = "storage-chest", amounts = { 0, 0, 0, 5, 0 } },
+    { type = "item", name = "buffer-chest", amounts = { 0, 0, 0, 0, 5 } },
     { type = "item", name = "steel-plate", amounts = { 20, "+5", 0, 0, 0 } },
     { type = "item", name = "low-density-structure", amounts = { 0, 0, 25, "+10", "+15" } },
   }, "angels-crawler-train")

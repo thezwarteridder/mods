@@ -119,7 +119,7 @@ data:extend({
     icon_size = 128,
     prerequisites = {
       "cargo-robots",
-      "advanced-electronics",
+      "advanced-circuit",
     },
     effects = {
       {
@@ -152,7 +152,7 @@ data:extend({
     icon_size = 128,
     prerequisites = {
       "angels-construction-robots-2",
-      "advanced-electronics-2",
+      "processing-unit",
       "low-density-structure",
     },
     effects = {
@@ -184,7 +184,7 @@ data:extend({
     prerequisites = {
       "cargo-robots-2",
       "electric-engine",
-      "advanced-electronics-2",
+      "processing-unit",
       "low-density-structure",
     },
     effects = {

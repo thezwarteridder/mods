@@ -38,11 +38,11 @@ move_item("iron-chest", "angels-chests-small-a", "a[chest]-b[iron]")
 move_item("steel-chest", "angels-chests-small-b", "a")
 move_item("repair-pack", "angels-chests-small-a", "b[repair-pack]-a", "repair-tool")
 -- steel chests
-move_item("logistic-chest-active-provider", "angels-chests-small-b", "b")
-move_item("logistic-chest-passive-provider", "angels-chests-small-b", "c")
-move_item("logistic-chest-storage", "angels-chests-small-b", "d")
-move_item("logistic-chest-buffer", "angels-chests-small-b", "e")
-move_item("logistic-chest-requester", "angels-chests-small-b", "f")
+move_item("active-provider-chest", "angels-chests-small-b", "b")
+move_item("passive-provider-chest", "angels-chests-small-b", "c")
+move_item("storage-chest", "angels-chests-small-b", "d")
+move_item("buffer-chest", "angels-chests-small-b", "e")
+move_item("requester-chest", "angels-chests-small-b", "f")
 
 if mods["boblogistics"] then
   data:extend({

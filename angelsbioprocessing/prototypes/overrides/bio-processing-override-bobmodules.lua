@@ -132,7 +132,7 @@ if mods["bobmodules"] then
     -- remove the marked as upgrade from base game
     local tech = data.raw.technology[type .. "-module-2"]
     if tech then
-      tech.upgrade = "false"
+      tech.upgrade = false
     end
   end
   -- tier 2 modules
@@ -172,7 +172,7 @@ if mods["bobmodules"] then
     -- remove the marked as upgrade from base game
     local tech = data.raw.technology[type .. "-module-3"]
     if tech then
-      tech.upgrade = "false"
+      tech.upgrade = false
     end
   end
   for _, type in pairs({ "speed", "efficiency", "productivity", "pollution-clean", "pollution-create" }) do
@@ -449,8 +449,8 @@ if mods["bobmodules"] then
       name = name .. "-" .. i
     end
     data.raw.module[name].effect = {
-      productivity = { bonus = 0.075 * i },
-      pollution = { bonus = 0.075 * i }, -- extra pollution absorption
+      productivity = 0.075 * i,
+      pollution = 0.075 * i, -- extra pollution absorption
     }
   end
 

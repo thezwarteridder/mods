@@ -5,7 +5,7 @@ data:extend({
     icon = "__angelsindustriesgraphics__/graphics/technology/vequip.png",
     icon_size = 128,
     prerequisites = {
-      "advanced-electronics",
+      "advanced-circuit",
     },
     effects = {
       {

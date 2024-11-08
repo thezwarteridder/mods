@@ -148,7 +148,7 @@ local function calculate_science_pack_level()
   if script.active_mods["SpaceMod"] then
     technologies_to_ignore["space-assembly"] = true
     technologies_to_ignore["protection-fields"] = true
-    technologies_to_ignore["fusion-reactor"] = true
+    technologies_to_ignore["fission-reactor"] = true
     technologies_to_ignore["fuel-cells"] = true
     technologies_to_ignore["habitation"] = true
     technologies_to_ignore["life-support-systems"] = true
@@ -164,7 +164,7 @@ local function calculate_tech_bonus_effects()
   tech_bonus_effects = {
     -- inserter bonus
     ["inserter-stack-size-bonus"] = true,
-    ["stack-inserter-capacity-bonus"] = true,
+    ["bulk-inserter-capacity-bonus"] = true,
     -- lab bonus
     ["laboratory-speed"] = true,
     ["laboratory-productivity"] = true,
