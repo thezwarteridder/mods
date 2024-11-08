@@ -1130,9 +1130,9 @@ function angelsmods.functions.remove_resource(resource)
   for _, planet in pairs(data.raw.planet) do
     if
       planet
-      and preset.map_gen_settings
-      and preset.map_gen_settings.autoplace_controls
-      and preset.map_gen_settings.autoplace_controls[resource]
+      and planet.map_gen_settings
+      and planet.map_gen_settings.autoplace_controls
+      and planet.map_gen_settings.autoplace_controls[resource]
     then
       planet.map_gen_settings.autoplace_controls[resource] = nil
     end
