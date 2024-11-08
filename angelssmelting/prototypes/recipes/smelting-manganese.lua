@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "manganese-ore-processing",
+    localised_name = { "item-name.processed-manganese" },
     category = "ore-processing",
     subgroup = "angels-manganese",
     energy_required = 2,
@@ -20,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "manganese-processed-processing",
+    localised_name = { "item-name.pellet-manganese" },
     category = "pellet-pressing",
     subgroup = "angels-manganese",
     energy_required = 2,
@@ -35,6 +37,7 @@ data:extend({
   {
     type = "recipe",
     name = "manganese-processed-processing-alt",
+    localised_name = { "item-name.solid-manganese-oxide" },
     category = "chemical-smelting-2",
     subgroup = "angels-manganese",
     energy_required = 2,
@@ -56,6 +59,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-manganese-smelting",
+    localised_name = { "item-name.solid-manganese-oxide" },
     category = "chemical-smelting-2",
     subgroup = "angels-manganese",
     energy_required = 4,
@@ -77,6 +81,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-manganese-smelting",
+    localised_name = { "item-name.cathode-manganese" },
     category = "chemical-smelting",
     subgroup = "angels-manganese",
     energy_required = 6,
@@ -98,6 +103,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-manganese-oxide-smelting",
+    localised_name = { "item-name.cathode-manganese" },
     category = "chemical-smelting-2",
     subgroup = "angels-manganese",
     energy_required = 6,
@@ -123,6 +129,7 @@ data:extend({
   {
     type = "recipe",
     name = "manganese-ore-smelting",
+    localised_name = { "item-name.ingot-manganese" },
     category = "blast-smelting",
     subgroup = "angels-manganese",
     energy_required = 4,
@@ -144,6 +151,7 @@ data:extend({
   {
     type = "recipe",
     name = "cathode-manganese-smelting",
+    localised_name = { "item-name.ingot-manganese" },
     category = "blast-smelting-2",
     subgroup = "angels-manganese",
     energy_required = 4,
@@ -180,6 +188,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-manganese-smelting",
+    localised_name = { "fluid-name.liquid-molten-manganese" },
     category = "induction-smelting",
     subgroup = "angels-manganese-casting",
     energy_required = 4,
@@ -196,6 +205,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-manganese-casting",
+    localised_name = { "item-name.angels-roll-manganese" },
     category = "strand-casting",
     subgroup = "angels-manganese-casting",
     enabled = false,
@@ -218,6 +228,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-manganese-casting-fast",
+    localised_name = { "item-name.angels-roll-manganese" },
     category = "strand-casting-2",
     subgroup = "angels-manganese-casting",
     enabled = false,
@@ -264,6 +275,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-manganese-converting",
+    localised_name = { "item-name.angels-plate-manganese" },
     category = "advanced-crafting",
     subgroup = "angels-manganese-casting",
     energy_required = 0.5,

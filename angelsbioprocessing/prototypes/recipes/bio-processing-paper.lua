@@ -100,6 +100,7 @@ data:extend({
   {
     type = "recipe",
     name = "carbon-from-charcoal",
+    localised_name = { "item-name.solid-carbon" },
     category = "liquifying",
     subgroup = "bio-processing-wood",
     enabled = false,

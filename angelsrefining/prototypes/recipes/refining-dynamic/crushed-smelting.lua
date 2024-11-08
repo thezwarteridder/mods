@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "angelsore1-crushed-smelting",
+    localised_name = { "item-name.iron-plate" },
     category = "smelting",
     subgroup = "raw-material",
     energy_required = 7,
@@ -31,6 +32,7 @@ data:extend({
   {
     type = "recipe",
     name = "angelsore3-crushed-smelting",
+    localised_name = { "item-name.copper-plate" },
     category = "smelting",
     subgroup = "raw-material",
     energy_required = 7,

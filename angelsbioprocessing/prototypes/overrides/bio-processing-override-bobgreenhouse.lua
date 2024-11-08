@@ -164,6 +164,7 @@ if mods["bobgreenhouse"] then
     {
       type = "recipe",
       name = "wood-sawing-manual",
+      localised_name = { "item-name.wood" },
       category = "angels-manual-crafting",
       always_show_made_in = true,
       enabled = false,

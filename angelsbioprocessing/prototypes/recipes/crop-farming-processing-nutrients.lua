@@ -2,6 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-beans-nutrients",
+    localised_name = { "fluid-name.liquid-nutrient-pulp" },
     category = "nutrient-extractor",
     subgroup = "bio-processor-nutrient",
     enabled = false,
@@ -25,6 +26,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-corn-nutrients",
+    localised_name = { "fluid-name.liquid-nutrient-pulp" },
     category = "nutrient-extractor",
     subgroup = "bio-processor-nutrient",
     enabled = false,
@@ -48,6 +50,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-leafs-nutrients",
+    localised_name = { "fluid-name.liquid-nutrient-pulp" },
     category = "nutrient-extractor",
     subgroup = "bio-processor-nutrient",
     enabled = false,
@@ -71,6 +74,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-nuts-nutrients",
+    localised_name = { "fluid-name.liquid-nutrient-pulp" },
     category = "nutrient-extractor",
     subgroup = "bio-processor-nutrient",
     enabled = false,
@@ -94,6 +98,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-pips-nutrients",
+    localised_name = { "fluid-name.liquid-nutrient-pulp" },
     category = "nutrient-extractor",
     subgroup = "bio-processor-nutrient",
     enabled = false,
@@ -117,6 +122,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-fruit-nutrients",
+    localised_name = { "fluid-name.liquid-nutrient-pulp" },
     category = "nutrient-extractor",
     subgroup = "bio-processor-nutrient",
     enabled = false,

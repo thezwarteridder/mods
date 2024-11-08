@@ -270,6 +270,7 @@ data:extend({
   {
     type = "recipe",
     name = "hogger-butchery-1",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-hogger-butchery",
     enabled = false,
@@ -288,6 +289,7 @@ data:extend({
   {
     type = "recipe",
     name = "hogger-butchery-2",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-hogger-butchery",
     enabled = false,
@@ -306,6 +308,7 @@ data:extend({
   {
     type = "recipe",
     name = "hogger-butchery-3",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-hogger-butchery",
     enabled = false,
@@ -324,6 +327,7 @@ data:extend({
   {
     type = "recipe",
     name = "hogger-butchery-4",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-hogger-butchery",
     enabled = false,
@@ -342,6 +346,7 @@ data:extend({
   {
     type = "recipe",
     name = "hogger-butchery-5",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-hogger-butchery",
     enabled = false,

@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "tin-ore-processing",
+    localised_name = { "item-name.processed-tin" },
     category = "ore-processing",
     subgroup = "angels-tin",
     energy_required = 2,
@@ -20,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "tin-processed-processing",
+    localised_name = { "item-name.pellet-tin" },
     category = "pellet-pressing",
     subgroup = "angels-tin",
     energy_required = 2,
@@ -36,6 +38,7 @@ data:extend({
   {
     type = "recipe",
     name = "tin-ore-smelting",
+    localised_name = { "item-name.ingot-tin" },
     category = "blast-smelting",
     subgroup = "angels-tin",
     energy_required = 4,
@@ -56,6 +59,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-tin-smelting",
+    localised_name = { "item-name.ingot-tin" },
     category = "blast-smelting-2",
     subgroup = "angels-tin",
     energy_required = 4,
@@ -77,6 +81,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-tin-smelting",
+    localised_name = { "item-name.ingot-tin" },
     category = "blast-smelting-3",
     subgroup = "angels-tin",
     energy_required = 4,
@@ -114,6 +119,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-tin-smelting",
+    localised_name = { "fluid-name.liquid-molten-tin" },
     category = "induction-smelting",
     subgroup = "angels-tin-casting",
     energy_required = 4,
@@ -131,6 +137,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-tin-casting",
+    localised_name = { "item-name.angels-roll-tin" },
     category = "strand-casting",
     subgroup = "angels-tin-casting",
     enabled = false,
@@ -153,6 +160,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-tin-casting-fast",
+    localised_name = { "item-name.angels-roll-tin" },
     category = "strand-casting-2",
     subgroup = "angels-tin-casting",
     enabled = false,
@@ -177,6 +185,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-tin-casting",
+    localised_name = { "item-name.angels-wire-coil-tin" },
     category = "strand-casting",
     subgroup = "angels-tin-casting",
     enabled = false,
@@ -200,6 +209,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-tin-casting-fast",
+    localised_name = { "item-name.angels-wire-coil-tin" },
     category = "strand-casting-2",
     subgroup = "angels-tin-casting",
     enabled = false,
@@ -247,6 +257,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-tin-converting",
+    localised_name = { "item-name.angels-plate-tin" },
     category = "advanced-crafting",
     subgroup = "angels-tin-casting",
     energy_required = 0.5,
@@ -293,6 +304,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-tin-converting",
+    localised_name = { "item-name.angels-wire-tin" },
     category = "advanced-crafting",
     subgroup = "angels-tin-casting",
     energy_required = 1,

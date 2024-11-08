@@ -6,12 +6,14 @@ local get_trigger_name = angelsmods.functions.get_trigger_names()
 
 local icon_lookup_table_fallback = { icon = "__angelsrefininggraphics__/graphics/icons/void.png", icon_size = 32 }
 local icon_lookup_table = {
-  ["bauxite-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-bauxite.png", icon_size = 32 }
+  ["bauxite-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-bauxite.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/bauxite-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/bauxite-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["cobalt-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-cobalt.png", icon_size = 32 }
+  ["cobalt-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-cobalt.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/cobalt-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/cobalt-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
@@ -24,7 +26,8 @@ local icon_lookup_table = {
 
   ["fluorite-ore"] = { icon = "__angelsrefininggraphics__/graphics/icons/ore-fluorite.png", icon_size = 32 },
 
-  ["gold-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-gold.png", icon_size = 32 }
+  ["gold-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-gold.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/gold-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/gold-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
@@ -35,53 +38,65 @@ local icon_lookup_table = {
 
   ["iron-slag"] = { icon = "__angelsrefininggraphics__/graphics/icons/iron-slag.png", icon_size = 32 },
 
-  ["lead-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-lead.png", icon_size = 32 }
+  ["lead-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-lead.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/lead-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/lead-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["nickel-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-nickel.png", icon_size = 32 }
+  ["nickel-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-nickel.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/nickel-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/nickel-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["platinum-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-platinum.png", icon_size = 32 }
+  ["platinum-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-platinum.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["rutile-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-rutile.png", icon_size = 32 }
+  ["rutile-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-rutile.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/rutile-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/rutile-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["silica-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silica.png", icon_size = 32 }
+  ["silica-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silica.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/quartz.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/quartz.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["silver-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silver.png", icon_size = 32 }
+  ["silver-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silver.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/silver-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/silver-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["thorium-ore"] = mods["angelsindustries"]
-      and angelsmods.industries.overhaul
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-thorium.png", icon_size = 64 }
-    or mods["bobplates"] and { icon = "__boblibrary__/graphics/icons/ore-5.png", icon_size = 32, tint = { b = 0.25, g = 1, r = 1 } }
-    or icon_lookup_table_fallback,
+  ["thorium-ore"] = mods["angelsindustries"] and angelsmods.industries.overhaul and {
+    icon = "__angelssmeltinggraphics__/graphics/icons/ore-thorium.png",
+    icon_size = 64,
+  } or mods["bobplates"] and {
+    icon = "__boblibrary__/graphics/icons/ore-5.png",
+    icon_size = 32,
+    tint = { b = 0.25, g = 1, r = 1 },
+  } or icon_lookup_table_fallback,
 
-  ["tin-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-tin.png", icon_size = 32 }
+  ["tin-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-tin.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/tin-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/tin-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["tungsten-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-tungsten.png", icon_size = 32 }
+  ["tungsten-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-tungsten.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/tungsten-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/tungsten-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
   ["uranium-ore"] = { icon = "__base__/graphics/icons/uranium-ore.png", icon_size = 64 },
 
-  ["zinc-ore"] = mods["angelssmelting"] and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-zinc.png", icon_size = 32 }
+  ["zinc-ore"] = mods["angelssmelting"]
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-zinc.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/zinc-ore.png", icon_size = 32 }
     or mods["bobplates"] and { icon = "__bobplates__/graphics/icons/ore/zinc-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
@@ -332,12 +347,16 @@ local create_sorting_mix_recipe = function(recipe_base_name, ore_result_products
     local ore_name = type(ore_result_product) == "table" and (ore_result_product[1] or ore_result_product.name)
       or ore_result_product
     local ore_amount = type(ore_result_product) == "table" and (ore_result_product[2] or ore_result_product.amount) or 1
+    local type_name = type(ore_result_product) == "table" and ore_result_product.type or "item";
     local recipe = {
       name = string.format(recipe_base_name, recipe_index),
+      localised_name = {
+         type_name .. "-name." .. ore_name,
+      },
       results = {
         { "!!" },
         {
-          type = type(ore_result_product) == "table" and ore_result_product.type or "item",
+          type = type_name,
           name = ore_name,
           amount = ore_amount,
         },

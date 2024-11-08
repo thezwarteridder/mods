@@ -32,6 +32,7 @@ if angelsmods.trigger.smelting_products["cobalt-steel"].plate then
       {
         type = "recipe",
         name = "angels-cobalt-steel-smelting-1",
+        localised_name = { "fluid-name.liquid-molten-cobalt-steel" },
         category = "induction-smelting-3",
         subgroup = "angels-alloys-casting",
         energy_required = 4,

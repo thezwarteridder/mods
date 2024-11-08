@@ -2,6 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "alien-processed-meat",
+    localised_name = { "item-name.bio-alien-processed-meat" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-butchery",
     enabled = false,
@@ -408,6 +409,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-queen-small-butchering",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-biter-butchery",
     enabled = false,
@@ -432,6 +434,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-small-butchering",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-biter-butchery",
     enabled = false,
@@ -449,6 +452,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-queen-medium-butchering",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-biter-butchery",
     enabled = false,
@@ -473,6 +477,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-medium-butchering",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-biter-butchery",
     enabled = false,
@@ -490,6 +495,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-queen-big-butchering",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-biter-butchery",
     enabled = false,
@@ -514,6 +520,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-big-butchering",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-biter-butchery",
     enabled = false,

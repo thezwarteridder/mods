@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "cobalt-ore-processing",
+    localised_name = { "item-name.processed-cobalt" },
     category = "ore-processing-3",
     subgroup = "angels-cobalt",
     energy_required = 2,
@@ -20,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "cobalt-processed-processing",
+    localised_name = { "item-name.pellet-cobalt" },
     category = "pellet-pressing-3",
     subgroup = "angels-cobalt",
     energy_required = 2,
@@ -35,6 +37,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-cobalt-smelting",
+    localised_name = { "item-name.solid-cobalt-hydroxide" },
     category = "liquifying",
     subgroup = "angels-cobalt",
     energy_required = 4,
@@ -52,6 +55,7 @@ data:extend({
   {
     type = "recipe",
     name = "cobalt-ore-processing-alt",
+    localised_name = { "item-name.solid-cobalt-oxide" },
     category = "chemical-smelting-2",
     subgroup = "angels-cobalt",
     energy_required = 2,
@@ -73,6 +77,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-cobalt-smelting",
+    localised_name = { "item-name.solid-cobalt-oxide" },
     category = "chemical-smelting-3",
     subgroup = "angels-cobalt",
     energy_required = 4,
@@ -94,6 +99,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-cobalt-hydroxide-smelting",
+    localised_name = { "item-name.solid-cobalt-oxide" },
     category = "chemical-smelting-4",
     subgroup = "angels-cobalt",
     energy_required = 4,
@@ -116,6 +122,7 @@ data:extend({
   {
     type = "recipe",
     name = "cobalt-ore-smelting",
+    localised_name = { "item-name.ingot-cobalt" },
     category = "blast-smelting-3",
     subgroup = "angels-cobalt",
     energy_required = 4,
@@ -137,6 +144,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-cobalt-oxide-smelting",
+    localised_name = { "item-name.ingot-cobalt" },
     category = "blast-smelting-4",
     subgroup = "angels-cobalt",
     energy_required = 4,
@@ -174,6 +182,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-cobalt-smelting",
+    localised_name = { "fluid-name.liquid-molten-cobalt" },
     category = "induction-smelting-3",
     subgroup = "angels-cobalt-casting",
     energy_required = 4,
@@ -190,6 +199,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-cobalt-casting",
+    localised_name = { "item-name.angels-roll-cobalt" },
     category = "strand-casting-3",
     subgroup = "angels-cobalt-casting",
     enabled = false,
@@ -212,6 +222,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-cobalt-casting-fast",
+    localised_name = { "item-name.angels-roll-cobalt" },
     category = "strand-casting-4",
     subgroup = "angels-cobalt-casting",
     enabled = false,
@@ -258,6 +269,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-cobalt-converting",
+    localised_name = { "item-name.angels-plate-cobalt" },
     category = "advanced-crafting",
     subgroup = "angels-cobalt-casting",
     energy_required = 0.5,

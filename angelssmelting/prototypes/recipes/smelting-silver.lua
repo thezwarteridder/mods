@@ -6,6 +6,7 @@ data:extend({
   {
     type = "recipe",
     name = "silver-ore-processing",
+    localised_name = { "item-name.processed-silver" },
     category = "ore-processing-2",
     subgroup = "angels-silver",
     energy_required = 2,
@@ -22,6 +23,7 @@ data:extend({
   {
     type = "recipe",
     name = "silver-processed-processing",
+    localised_name = { "item-name.pellet-silver" },
     category = "pellet-pressing-2",
     subgroup = "angels-silver",
     energy_required = 2,
@@ -37,6 +39,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-silver-smelting",
+    localised_name = { "item-name.solid-silver-nitrate" },
     category = "liquifying",
     subgroup = "angels-silver",
     energy_required = 4,
@@ -54,6 +57,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-silver-smelting",
+    localised_name = { "item-name.solid-sodium-silver-cyanide" },
     category = "chemical-smelting-3",
     subgroup = "angels-silver",
     energy_required = 6,
@@ -74,6 +78,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-sodium-silver-cyanide-smelting",
+    localised_name = { "item-name.cathode-silver" },
     category = "chemical-smelting-3",
     subgroup = "angels-silver",
     energy_required = 6,
@@ -90,6 +95,7 @@ data:extend({
   {
     type = "recipe",
     name = "silver-ore-smelting",
+    localised_name = { "item-name.ingot-silver" },
     category = "blast-smelting-2",
     subgroup = "angels-silver",
     energy_required = 4,
@@ -106,6 +112,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-silver-nitrate-smelting",
+    localised_name = { "item-name.ingot-silver" },
     category = "blast-smelting-3",
     subgroup = "angels-silver",
     energy_required = 4,
@@ -122,6 +129,7 @@ data:extend({
   {
     type = "recipe",
     name = "cathode-silver-smelting",
+    localised_name = { "item-name.ingot-silver" },
     category = "blast-smelting-4",
     subgroup = "angels-silver",
     energy_required = 4,
@@ -154,6 +162,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-silver-smelting",
+    localised_name = { "fluid-name.liquid-molten-silver" },
     category = "induction-smelting-2",
     subgroup = "angels-silver-casting",
     energy_required = 4,
@@ -170,6 +179,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-silver-casting",
+    localised_name = { "item-name.angels-roll-silver" },
     category = "strand-casting-2",
     subgroup = "angels-silver-casting",
     enabled = false,
@@ -188,6 +198,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-silver-casting-fast",
+    localised_name = { "item-name.angels-roll-silver" },
     category = "strand-casting-3",
     subgroup = "angels-silver-casting",
     enabled = false,
@@ -208,6 +219,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-silver-casting",
+    localised_name = { "item-name.angels-wire-coil-silver" },
     category = "strand-casting-2",
     subgroup = "angels-silver-casting",
     enabled = false,
@@ -231,6 +243,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-silver-casting-fast",
+    localised_name = { "item-name.angels-wire-coil-silver" },
     category = "strand-casting-3",
     subgroup = "angels-silver-casting",
     enabled = false,
@@ -278,6 +291,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-silver-converting",
+    localised_name = { "item-name.angels-plate-silver" },
     category = "advanced-crafting",
     subgroup = "angels-silver-casting",
     energy_required = 0.5,
@@ -300,6 +314,7 @@ data:extend({
   {
     type = "recipe",
     name = "basic-silvered-copper-wire",
+    localised_name = { "item-name.angels-wire-silver" },
     subgroup = "angels-silver-casting",
     order = "m",
     enabled = false,
@@ -324,6 +339,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-silver-converting",
+    localised_name = { "item-name.angels-wire-silver" },
     category = "advanced-crafting",
     subgroup = "angels-silver-casting",
     energy_required = 1,

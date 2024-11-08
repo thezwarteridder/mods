@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-steam-water",
+    localised_name = { "fluid-name.steam" },
     category = "petrochem-boiler",
     subgroup = "water-boiling",
     energy_required = 1,
@@ -30,6 +31,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-steam-water-purified",
+    localised_name = { "fluid-name.steam" },
     category = "petrochem-boiler",
     subgroup = "water-boiling",
     energy_required = 1,
@@ -194,6 +196,7 @@ data:extend({
   {
     type = "recipe",
     name = "water-synthesis",
+    localised_name = { "fluid-name.water-purified" },
     category = "chemistry",
     subgroup = "petrochem-basics",
     energy_required = 2,

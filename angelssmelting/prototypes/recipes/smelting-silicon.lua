@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "silica-ore-processing",
+    localised_name = { "item-name.processed-silica" },
     category = "ore-processing-2",
     subgroup = "angels-silicon",
     energy_required = 2,
@@ -21,6 +22,7 @@ data:extend({
   {
     type = "recipe",
     name = "silica-processed-processing",
+    localised_name = { "item-name.pellet-silica" },
     category = "pellet-pressing-2",
     subgroup = "angels-silicon",
     energy_required = 2,
@@ -37,6 +39,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-silicon-smelting",
+    localised_name = { "fluid-name.liquid-trichlorosilane" },
     category = "chemical-smelting-2",
     subgroup = "angels-silicon",
     energy_required = 4,
@@ -59,6 +62,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-silicon-smelting",
+    localised_name = { "fluid-name.gas-silane" },
     category = "chemical-smelting-3",
     subgroup = "angels-silicon",
     energy_required = 4,
@@ -83,6 +87,7 @@ data:extend({
   {
     type = "recipe",
     name = "silicon-ore-smelting",
+    localised_name = { "item-name.ingot-silicon" },
     category = "blast-smelting-2",
     subgroup = "angels-silicon",
     energy_required = 4,
@@ -104,6 +109,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-trichlorosilane-smelting",
+    localised_name = { "item-name.ingot-silicon" },
     category = "chemical-smelting-2",
     subgroup = "angels-silicon",
     energy_required = 4,
@@ -125,6 +131,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-silane-smelting",
+    localised_name = { "item-name.ingot-silicon" },
     category = "chemical-smelting-3",
     subgroup = "angels-silicon",
     energy_required = 4,
@@ -162,6 +169,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-silicon-smelting",
+    localised_name = { "fluid-name.liquid-molten-silicon" },
     category = "induction-smelting-2",
     subgroup = "angels-silicon-casting",
     energy_required = 4,
@@ -211,6 +219,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-mono-silicon-1",
+    localised_name = { "item-name.angels-mono-silicon" },
     category = "casting-2",
     subgroup = "angels-silicon-casting",
     enabled = false,
@@ -232,6 +241,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-mono-silicon-2",
+    localised_name = { "item-name.angels-mono-silicon" },
     category = "casting-3",
     subgroup = "angels-silicon-casting",
     enabled = false,

@@ -6,6 +6,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-casing-iron-plate",
+      localised_name = { "item-name.motor-casing-1" },
       category = "crafting",
       subgroup = "angels-iron-casting",
       energy_required = 0.5,
@@ -146,6 +147,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-casing-tungsten-1",
+      localised_name = { "item-name.motor-casing-5" },
       category = "sintering-4",
       subgroup = "angels-tungsten-casting",
       enabled = false,
@@ -176,6 +178,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-casing-tungsten-green",
+      localised_name = { "item-name.motor-casing-5-green" },
       category = "crafting",
       subgroup = "angels-tungsten-casting",
       enabled = false,
@@ -207,6 +210,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-casing-tungsten-2",
+      localised_name = { "item-name.motor-casing-5" },
       category = "sintering-5",
       subgroup = "angels-tungsten-casting",
       enabled = false,
@@ -487,6 +491,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "mechanical-parts-gear",
+      localised_name = { "item-name.mechanical-parts" },
       subgroup = "angels-motors",
       order = "f",
       energy_required = 3,
@@ -516,6 +521,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "mechanical-parts-axle",
+      localised_name = { "item-name.mechanical-parts" },
       subgroup = "angels-motors",
       order = "g",
       energy_required = 3,
@@ -544,6 +550,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "mechanical-parts-roller-chain",
+      localised_name = { "item-name.mechanical-parts" },
       subgroup = "angels-motors",
       order = "h",
       energy_required = 3,
@@ -572,6 +579,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "mechanical-parts-spring",
+      localised_name = { "item-name.mechanical-parts" },
       subgroup = "angels-motors",
       order = "i",
       energy_required = 3,
@@ -600,6 +608,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "mechanical-parts-bearing",
+      localised_name = { "item-name.mechanical-parts" },
       subgroup = "angels-motors",
       order = "j",
       energy_required = 3,

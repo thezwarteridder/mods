@@ -44,6 +44,7 @@ data:extend({
   {
     type = "recipe",
     name = "algae-brown-burning-wash",
+    localised_name = { "item-name.solid-sodium-carbonate" },
     category = "liquifying",
     subgroup = "bio-processing-brown",
     enabled = false,
@@ -206,6 +207,7 @@ data:extend({
   {
     type = "recipe",
     name = "blue-fiber-algae",
+    localised_name = { "item-name.blue-cellulose-fiber" },
     category = "crafting",
     subgroup = "bio-processing-blue",
     enabled = false,
@@ -223,6 +225,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-ammonia-from-blue-fiber",
+    localised_name = { "recipe-name.gas-ammonia" },
     category = "liquifying",
     subgroup = "bio-processing-blue",
     enabled = false,
@@ -262,6 +265,7 @@ data:extend({
   {
     type = "recipe",
     name = "red-fiber-algae",
+    localised_name = { "item-name.red-cellulose-fiber" },
     category = "crafting",
     subgroup = "bio-processing-red",
     enabled = false,

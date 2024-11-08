@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "iron-ore-processing",
+    localised_name = { "item-name.processed-iron" },
     category = "ore-processing",
     subgroup = "angels-iron",
     energy_required = 2,
@@ -20,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "iron-processed-processing",
+    localised_name = { "item-name.pellet-iron" },
     category = "pellet-pressing",
     subgroup = "angels-iron",
     energy_required = 2,
@@ -37,6 +39,7 @@ data:extend({
   {
     type = "recipe",
     name = "iron-ore-smelting",
+    localised_name = { "item-name.ingot-iron" },
     category = "blast-smelting",
     subgroup = "angels-iron",
     energy_required = 4,
@@ -57,6 +60,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-iron-smelting",
+    localised_name = { "item-name.ingot-iron" },
     category = "blast-smelting-2",
     subgroup = "angels-iron",
     energy_required = 4,
@@ -78,6 +82,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-iron-smelting",
+    localised_name = { "item-name.ingot-iron" },
     category = "blast-smelting-3",
     subgroup = "angels-iron",
     energy_required = 4,
@@ -148,6 +153,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-iron-smelting-1",
+    localised_name = { "fluid-name.liquid-molten-iron" },
     category = "induction-smelting",
     subgroup = "angels-iron-casting",
     energy_required = 4,
@@ -169,6 +175,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-iron-smelting-2",
+    localised_name = { "fluid-name.liquid-molten-iron" },
     category = "induction-smelting",
     subgroup = "angels-iron-casting",
     energy_required = 4,
@@ -191,6 +198,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-iron-smelting-3",
+    localised_name = { "fluid-name.liquid-molten-iron" },
     category = "induction-smelting-2",
     subgroup = "angels-iron-casting",
     energy_required = 4,
@@ -213,6 +221,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-iron-smelting-4",
+    localised_name = { "fluid-name.liquid-molten-iron" },
     category = "induction-smelting-3",
     subgroup = "angels-iron-casting",
     energy_required = 4,
@@ -236,6 +245,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-iron-smelting-5",
+    localised_name = { "fluid-name.liquid-molten-iron" },
     category = "induction-smelting-4",
     subgroup = "angels-iron-casting",
     energy_required = 4,
@@ -259,6 +269,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-iron-casting",
+    localised_name = { "item-name.angels-roll-iron" },
     category = "strand-casting",
     subgroup = "angels-iron-casting",
     enabled = false,
@@ -281,6 +292,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-iron-casting-fast",
+    localised_name = { "item-name.angels-roll-iron" },
     category = "strand-casting-2",
     subgroup = "angels-iron-casting",
     enabled = false,
@@ -305,6 +317,7 @@ data:extend({
   {
     type = "recipe",
     name = "rod-stack-iron-casting",
+    localised_name = { "item-name.angels-rod-stack-iron" },
     category = "strand-casting",
     subgroup = "angels-iron-casting",
     enabled = false,
@@ -327,6 +340,7 @@ data:extend({
   {
     type = "recipe",
     name = "rod-stack-iron-casting-fast",
+    localised_name = { "item-name.angels-rod-stack-iron" },
     category = "strand-casting-2",
     subgroup = "angels-iron-casting",
     enabled = false,
@@ -373,6 +387,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-iron-converting",
+    localised_name = { "item-name.angels-plate-iron" },
     category = "advanced-crafting",
     subgroup = "angels-iron-casting",
     energy_required = 0.5,
@@ -395,6 +410,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-rod-iron-plate",
+    localised_name = { "item-name.iron-stick" },
     category = "crafting",
     subgroup = "angels-iron-casting",
     energy_required = 0.5,
@@ -418,6 +434,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-rod-stack-iron-converting",
+    localised_name = { "item-name.iron-stick" },
     category = "advanced-crafting",
     subgroup = "angels-iron-casting",
     energy_required = 0.5,

@@ -297,6 +297,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-butchery-0",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-fish-butchery",
     enabled = false,
@@ -314,6 +315,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-butchery-1",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-fish-butchery",
     enabled = false,
@@ -331,6 +333,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-butchery-2",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-fish-butchery",
     enabled = false,
@@ -348,6 +351,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-butchery-3",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-fish-butchery",
     enabled = false,
@@ -368,6 +372,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-pressing-0",
+    localised_name = { "fluid-name.liquid-raw-fish-oil" },
     category = "bio-pressing",
     subgroup = "bio-processor-press-fish",
     enabled = false,
@@ -394,6 +399,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-pressing-1",
+    localised_name = { "fluid-name.liquid-raw-fish-oil" },
     category = "bio-pressing",
     subgroup = "bio-processor-press-fish",
     enabled = false,
@@ -420,6 +426,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-pressing-2",
+    localised_name = { "fluid-name.liquid-raw-fish-oil" },
     category = "bio-pressing",
     subgroup = "bio-processor-press-fish",
     enabled = false,
@@ -446,6 +453,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-pressing-3",
+    localised_name = { "fluid-name.liquid-raw-fish-oil" },
     category = "bio-pressing",
     subgroup = "bio-processor-press-fish",
     enabled = false,
@@ -472,6 +480,7 @@ data:extend({
   {
     type = "recipe",
     name = "fish-pulp-nutrients",
+    localised_name = { "fluid-name.liquid-nutrient-pulp" },
     category = "nutrient-extractor",
     subgroup = "bio-processor-press-fish",
     enabled = false,
@@ -586,6 +595,7 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-splinter-crystalization-1",
+    localised_name = { "item-name.crystal-splinter-raw" },
     category = "crystallizing",
     subgroup = "bio-biter-processing-crystal-splinter",
     enabled = false,
@@ -607,6 +617,7 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-splinter-crystalization-2",
+    localised_name = { "item-name.crystal-splinter-raw" },
     category = "crystallizing",
     subgroup = "bio-biter-processing-crystal-splinter",
     enabled = false,

@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "tree-generator-1",
+    localised_name = { "item-name.tree-seed" },
     category = "angels-tree",
     subgroup = "bio-arboretum",
     enabled = false,
@@ -24,6 +25,7 @@ data:extend({
   {
     type = "recipe",
     name = "tree-generator-2",
+    localised_name = { "item-name.tree-seed" },
     category = "angels-tree",
     subgroup = "bio-arboretum",
     enabled = false,
@@ -46,6 +48,7 @@ data:extend({
   {
     type = "recipe",
     name = "tree-generator-3",
+    localised_name = { "item-name.tree-seed" },
     category = "angels-tree",
     subgroup = "bio-arboretum",
     enabled = false,
@@ -107,6 +110,7 @@ data:extend({
   {
     type = "recipe",
     name = "tree-arboretum-1",
+    localised_name = { "item-name.solid-tree" },
     category = "angels-arboretum",
     subgroup = "bio-arboretum",
     enabled = false,
@@ -132,6 +136,7 @@ data:extend({
   {
     type = "recipe",
     name = "tree-arboretum-2",
+    localised_name = { "item-name.solid-tree" },
     category = "angels-arboretum",
     subgroup = "bio-arboretum",
     enabled = false,
@@ -158,6 +163,7 @@ data:extend({
   {
     type = "recipe",
     name = "tree-arboretum-3",
+    localised_name = { "item-name.solid-tree" },
     category = "angels-arboretum",
     subgroup = "bio-arboretum",
     enabled = false,
@@ -239,6 +245,7 @@ data:extend({
   {
     type = "recipe",
     name = "wood-sawing-1",
+    localised_name = { "item-name.wood" },
     category = "advanced-crafting",
     subgroup = "bio-processing-wood",
     enabled = false,
@@ -263,6 +270,7 @@ data:extend({
   {
     type = "recipe",
     name = "wood-sawing-2",
+    localised_name = { "item-name.wood" },
     category = "advanced-crafting",
     subgroup = "bio-processing-wood",
     enabled = false,
@@ -287,6 +295,7 @@ data:extend({
   {
     type = "recipe",
     name = "wood-sawing-3",
+    localised_name = { "item-name.wood" },
     category = "advanced-crafting",
     subgroup = "bio-processing-wood",
     enabled = false,
@@ -312,6 +321,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-tree-generator-1",
+    localised_name = { "item-name.tree-temperate-seed" },
     category = "angels-tree-temperate",
     subgroup = "bio-arboretum-temperate",
     enabled = false,
@@ -333,6 +343,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-tree-generator-2",
+    localised_name = { "item-name.tree-temperate-seed" },
     category = "angels-tree-temperate",
     subgroup = "bio-arboretum-temperate",
     enabled = false,
@@ -355,6 +366,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-tree-generator-3",
+    localised_name = { "item-name.tree-temperate-seed" },
     category = "angels-tree-temperate",
     subgroup = "bio-arboretum-temperate",
     enabled = false,
@@ -379,6 +391,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-tree-arboretum-0",
+    localised_name = { "entity-name.temperate-tree" },
     category = "angels-arboretum",
     subgroup = "bio-arboretum-temperate",
     enabled = false,
@@ -470,6 +483,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-resin-tree",
+    localised_name = { "item-name.bio-resin" },
     category = "seed-extractor",
     subgroup = "bio-arboretum-temperate",
     enabled = false,
@@ -514,6 +528,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-resin-resin-liquification",
+    localised_name = { "fluid-name.liquid-resin" },
     category = "liquifying",
     subgroup = "bio-arboretum-temperate",
     enabled = false,
@@ -542,6 +557,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-resin-wood-reprocessing",
+    localised_name = { "recipe-name.solid-resin" },
     category = "bio-processor",
     subgroup = "bio-arboretum-temperate",
     enabled = false,
@@ -564,6 +580,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-tree-generator-1",
+    localised_name = { "item-name.tree-swamp-seed" },
     category = "angels-tree-swamp",
     subgroup = "bio-arboretum-swamp",
     enabled = false,
@@ -588,6 +605,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-tree-generator-2",
+    localised_name = { "item-name.tree-swamp-seed" },
     category = "angels-tree-swamp",
     subgroup = "bio-arboretum-swamp",
     enabled = false,
@@ -613,6 +631,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-tree-generator-3",
+    localised_name = { "item-name.tree-swamp-seed" },
     category = "angels-tree-swamp",
     subgroup = "bio-arboretum-swamp",
     enabled = false,
@@ -640,6 +659,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-tree-arboretum-0",
+    localised_name = { "entity-name.swamp-tree" },
     category = "angels-arboretum",
     subgroup = "bio-arboretum-swamp",
     enabled = false,
@@ -731,6 +751,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-plastic-tree",
+    localised_name = { "item-name.bio-plastic" },
     category = "seed-extractor",
     subgroup = "bio-arboretum-swamp",
     enabled = false,
@@ -776,6 +797,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-tree-generator-1",
+    localised_name = { "item-name.tree-desert-seed" },
     category = "angels-tree-desert",
     subgroup = "bio-arboretum-desert",
     enabled = false,
@@ -800,6 +822,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-tree-generator-2",
+    localised_name = { "item-name.tree-desert-seed" },
     category = "angels-tree-desert",
     subgroup = "bio-arboretum-desert",
     enabled = false,
@@ -825,6 +848,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-tree-generator-3",
+    localised_name = { "item-name.tree-desert-seed" },
     category = "angels-tree-desert",
     subgroup = "bio-arboretum-desert",
     enabled = false,
@@ -852,6 +876,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-tree-arboretum-0",
+    localised_name = { "entity-name.desert-tree" },
     category = "angels-arboretum",
     subgroup = "bio-arboretum-desert",
     enabled = false,
@@ -943,6 +968,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-rubber-tree",
+    localised_name = { "item-name.bio-rubber" },
     category = "seed-extractor",
     subgroup = "bio-arboretum-desert",
     enabled = false,

@@ -6,6 +6,7 @@ data:extend({
   {
     type = "recipe",
     name = "chrome-ore-processing",
+    localised_name = { "item-name.processed-chrome" },
     category = "ore-processing-4",
     subgroup = "angels-chrome",
     energy_required = 2,
@@ -22,6 +23,7 @@ data:extend({
   {
     type = "recipe",
     name = "chrome-processed-processing",
+    localised_name = { "item-name.pellet-chrome" },
     category = "pellet-pressing-4",
     subgroup = "angels-chrome",
     energy_required = 2,
@@ -37,6 +39,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-chrome-smelting",
+    localised_name = { "item-name.solid-chromate" },
     category = "blast-smelting-4",
     subgroup = "angels-chrome",
     energy_required = 4,
@@ -54,6 +57,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-chromate-smelting",
+    localised_name = { "item-name.solid-dichromate" },
     category = "liquifying",
     subgroup = "angels-chrome",
     energy_required = 4,
@@ -79,6 +83,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-dichromate-smelting",
+    localised_name = { "item-name.solid-chrome-oxide" },
     category = "chemical-smelting-4",
     subgroup = "angels-chrome",
     energy_required = 4,
@@ -99,6 +104,7 @@ data:extend({
   {
     type = "recipe",
     name = "chrome-ore-smelting",
+    localised_name = { "item-name.ingot-chrome" },
     category = "chemical-smelting-3",
     subgroup = "angels-chrome",
     energy_required = 4,
@@ -118,6 +124,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-chrome-smelting",
+    localised_name = { "item-name.ingot-chrome" },
     category = "blast-smelting-4",
     subgroup = "angels-chrome",
     energy_required = 4,
@@ -137,6 +144,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-chrome-oxide-smelting",
+    localised_name = { "item-name.ingot-chrome" },
     category = "blast-smelting-4",
     subgroup = "angels-chrome",
     energy_required = 4,
@@ -172,6 +180,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-chrome-smelting",
+    localised_name = { "fluid-name.liquid-molten-chrome" },
     category = "induction-smelting-4",
     subgroup = "angels-chrome-casting",
     energy_required = 4,
@@ -188,6 +197,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-chrome-casting",
+    localised_name = { "item-name.angels-roll-chrome" },
     category = "strand-casting-4",
     subgroup = "angels-chrome-casting",
     enabled = false,
@@ -206,6 +216,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-chrome-casting-fast",
+    localised_name = { "item-name.angels-roll-chrome" },
     category = "strand-casting-4",
     subgroup = "angels-chrome-casting",
     enabled = false,
@@ -248,6 +259,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-chrome-converting",
+    localised_name = { "item-name.angels-plate-chrome" },
     category = "advanced-crafting",
     subgroup = "angels-chrome-casting",
     energy_required = 0.5,

@@ -557,6 +557,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-soil-alternative",
+    localised_name = { "item-name.solid-soil" },
     category = "crafting",
     subgroup = "bio-wood",
     enabled = false,

@@ -32,6 +32,7 @@ if angelsmods.trigger.smelting_products["bronze"].plate then
       {
         type = "recipe",
         name = "angels-bronze-smelting-1",
+        localised_name = { "fluid-name.liquid-molten-bronze" },
         category = "induction-smelting",
         subgroup = "angels-alloys-casting",
         energy_required = 4,
@@ -54,6 +55,7 @@ if angelsmods.trigger.smelting_products["bronze"].plate then
       {
         type = "recipe",
         name = "angels-bronze-smelting-2",
+        localised_name = { "fluid-name.liquid-molten-bronze" },
         category = "induction-smelting-2",
         subgroup = "angels-alloys-casting",
         energy_required = 4,
@@ -77,6 +79,7 @@ if angelsmods.trigger.smelting_products["bronze"].plate then
       {
         type = "recipe",
         name = "angels-bronze-smelting-3",
+        localised_name = { "fluid-name.liquid-molten-bronze" },
         category = "induction-smelting-3",
         subgroup = "angels-alloys-casting",
         energy_required = 4,

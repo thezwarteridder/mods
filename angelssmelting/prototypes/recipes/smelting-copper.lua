@@ -5,6 +5,7 @@ data:extend({
   {
     type = "recipe",
     name = "copper-ore-processing",
+    localised_name = { "item-name.processed-copper" },
     category = "ore-processing",
     subgroup = "angels-copper",
     energy_required = 2,
@@ -21,6 +22,7 @@ data:extend({
   {
     type = "recipe",
     name = "copper-processed-processing",
+    localised_name = { "item-name.pellet-copper" },
     category = "pellet-pressing",
     subgroup = "angels-copper",
     energy_required = 2,
@@ -36,6 +38,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-copper-smelting",
+    localised_name = { "item-name.anode-copper" },
     category = "blast-smelting-3",
     subgroup = "angels-copper",
     energy_required = 4,
@@ -54,6 +57,7 @@ data:extend({
   {
     type = "recipe",
     name = "copper-ore-smelting",
+    localised_name = { "item-name.ingot-copper" },
     category = "blast-smelting",
     subgroup = "angels-copper",
     energy_required = 4,
@@ -74,6 +78,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-copper-smelting",
+    localised_name = { "item-name.ingot-copper" },
     category = "blast-smelting-2",
     subgroup = "angels-copper",
     energy_required = 4,
@@ -95,6 +100,7 @@ data:extend({
   {
     type = "recipe",
     name = "anode-copper-smelting",
+    localised_name = { "item-name.ingot-copper" },
     category = "chemical-smelting-2",
     subgroup = "angels-copper",
     energy_required = 6,
@@ -132,6 +138,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-copper-smelting",
+    localised_name = { "fluid-name.liquid-molten-copper" },
     category = "induction-smelting",
     subgroup = "angels-copper-casting",
     energy_required = 4,
@@ -148,6 +155,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-copper-casting",
+    localised_name = { "item-name.angels-roll-copper" },
     category = "strand-casting",
     subgroup = "angels-copper-casting",
     enabled = false,
@@ -170,6 +178,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-copper-casting-fast",
+    localised_name = { "item-name.angels-roll-copper" },
     category = "strand-casting-2",
     subgroup = "angels-copper-casting",
     enabled = false,
@@ -194,6 +203,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-copper-casting",
+    localised_name = { "item-name.angels-wire-coil-copper" },
     category = "strand-casting",
     subgroup = "angels-copper-casting",
     enabled = false,
@@ -216,6 +226,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-copper-casting-fast",
+    localised_name = { "item-name.angels-wire-coil-copper" },
     category = "strand-casting-2",
     subgroup = "angels-copper-casting",
     enabled = false,
@@ -262,6 +273,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-copper-converting",
+    localised_name = { "item-name.angels-plate-copper" },
     category = "advanced-crafting",
     subgroup = "angels-copper-casting",
     energy_required = 0.5,
@@ -284,6 +296,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-copper-converting",
+    localised_name = { "item-name.angels-wire-copper" },
     category = "advanced-crafting",
     subgroup = "angels-copper-casting",
     energy_required = 1,

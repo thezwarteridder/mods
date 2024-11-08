@@ -58,6 +58,7 @@ if ore_exists("lead") then
   OV.patch_recipes({
     {
       name = "angelsore5-crushed-smelting",
+      localised_name = { "item-name." .. mods["angelssmelting"] and "angels-plate-lead" or "lead-plate" },
       results = {
         { "!!" },
         { name = mods["angelssmelting"] and "angels-plate-lead" or "lead-plate", amount = 1 },
@@ -73,6 +74,7 @@ if ore_exists("tin") then
   OV.patch_recipes({
     {
       name = "angelsore6-crushed-smelting",
+      localised_name = { "item-name." .. mods["angelssmelting"] and "angels-plate-tin" or "tin-plate" },
       results = {
         { "!!" },
         { name = mods["angelssmelting"] and "angels-plate-tin" or "tin-plate", amount = 1 },

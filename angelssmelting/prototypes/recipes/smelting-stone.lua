@@ -22,6 +22,7 @@ data:extend({
   {
     type = "recipe",
     name = "cement-mixture-1",
+    localised_name = { "item-name.solid-cement" },
     category = "powder-mixing",
     subgroup = "angels-stone",
     energy_required = 4,
@@ -43,6 +44,7 @@ data:extend({
   {
     type = "recipe",
     name = "cement-mixture-2",
+    localised_name = { "item-name.solid-cement" },
     category = "powder-mixing-2",
     subgroup = "angels-stone",
     energy_required = 4,
@@ -66,6 +68,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-clay-brick-raw",
+    localised_name = { "item-name.clay-brick-raw" },
     category = "crafting",
     subgroup = "angels-stone",
     energy_required = 4,
@@ -83,6 +86,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-clay-brick",
+    localised_name = { "item-name.clay-brick" },
     category = "smelting",
     subgroup = "angels-stone",
     energy_required = 4,
@@ -100,6 +104,7 @@ data:extend({
   {
     type = "recipe",
     name = "concrete-mixture-1",
+    localised_name = { "fluid-name.liquid-concrete" },
     category = "crafting-with-fluid",
     subgroup = "angels-stone-casting",
     energy_required = 4,
@@ -122,6 +127,7 @@ data:extend({
   {
     type = "recipe",
     name = "concrete-mixture-2",
+    localised_name = { "fluid-name.liquid-concrete" },
     category = "crafting-with-fluid",
     subgroup = "angels-stone-casting",
     energy_required = 4,
@@ -146,6 +152,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-concrete",
+    localised_name = { "item-name.concrete" },
     category = "crafting-with-fluid",
     subgroup = "angels-stone-casting",
     energy_required = 4,
@@ -166,6 +173,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-concrete-brick",
+    localised_name = { "item-name.concrete-brick" },
     category = "crafting-with-fluid",
     subgroup = "angels-stone-casting",
     energy_required = 4,
@@ -182,6 +190,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-reinforced-concrete-brick",
+    localised_name = { "item-name.reinforced-concrete-brick" },
     category = "crafting-with-fluid",
     subgroup = "angels-stone-casting",
     energy_required = 4,

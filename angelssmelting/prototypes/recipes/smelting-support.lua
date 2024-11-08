@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "coolant-cool-steam",
+    localised_name = { "fluid-name.water-purified" },
     category = "cooling",
     subgroup = "coolant",
     energy_required = 2,
@@ -28,6 +29,7 @@ data:extend({
   {
     type = "recipe",
     name = "coolant",
+    localised_name = { "fluid-name.liquid-coolant" },
     category = "chemistry",
     subgroup = "coolant",
     energy_required = 4,
@@ -46,6 +48,7 @@ data:extend({
   {
     type = "recipe",
     name = "coolant-used-filtration-1",
+    localised_name = { "fluid-name.liquid-coolant" },
     category = "filtering-2",
     subgroup = "coolant",
     energy_required = 5, --4
@@ -65,6 +68,7 @@ data:extend({
   {
     type = "recipe",
     name = "coolant-used-filtration-2",
+    localised_name = { "fluid-name.liquid-coolant" },
     category = "filtering-3",
     subgroup = "coolant",
     energy_required = 3.5, --4
@@ -176,6 +180,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-casing-resin-mold",
+    localised_name = { "item-name.motor-casing-0" },
     category = "crafting",
     subgroup = "angels-mold-casting",
     energy_required = 4,

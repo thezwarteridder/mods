@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "titanium-ore-processing",
+    localised_name = { "item-name.processed-titanium" },
     category = "ore-processing-3",
     subgroup = "angels-titanium",
     energy_required = 2,
@@ -20,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "titanium-processed-processing",
+    localised_name = { "item-name.pellet-titanium" },
     category = "pellet-pressing-3",
     subgroup = "angels-titanium",
     energy_required = 2,
@@ -35,6 +37,7 @@ data:extend({
   {
     type = "recipe",
     name = "titanium-ore-smelting",
+    localised_name = { "fluid-name.liquid-titanium-tetrachloride" },
     category = "chemical-smelting-2",
     subgroup = "angels-titanium",
     energy_required = 8,
@@ -61,6 +64,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-titanium-smelting",
+    localised_name = { "fluid-name.liquid-titanium-tetrachloride" },
     category = "chemical-smelting-3",
     subgroup = "angels-titanium",
     energy_required = 8,
@@ -87,6 +91,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-titanium-tetrachloride-smelting",
+    localised_name = { "item-name.sponge-titanium" },
     category = "chemical-smelting-2",
     subgroup = "angels-titanium",
     energy_required = 6,
@@ -104,6 +109,7 @@ data:extend({
   {
     type = "recipe",
     name = "sponge-titanium-smelting",
+    localised_name = { "item-name.ingot-titanium" },
     category = "blast-smelting-3",
     subgroup = "angels-titanium",
     energy_required = 4,
@@ -124,6 +130,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-titanium-smelting",
+    localised_name = { "item-name.ingot-titanium" },
     category = "blast-smelting-4",
     subgroup = "angels-titanium",
     energy_required = 6,
@@ -164,6 +171,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-titanium-smelting-1",
+    localised_name = { "fluid-name.liquid-molten-titanium" },
     category = "induction-smelting-3",
     subgroup = "angels-titanium-casting",
     energy_required = 4,
@@ -185,6 +193,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-titanium-smelting-2",
+    localised_name = { "fluid-name.liquid-molten-titanium" },
     category = "induction-smelting-4",
     subgroup = "angels-titanium-casting",
     energy_required = 4,
@@ -207,6 +216,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-titanium-smelting-3",
+    localised_name = { "fluid-name.liquid-molten-titanium" },
     category = "induction-smelting-4",
     subgroup = "angels-titanium-casting",
     energy_required = 4,
@@ -229,6 +239,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-titanium-smelting-4",
+    localised_name = { "fluid-name.liquid-molten-titanium" },
     category = "induction-smelting-4",
     subgroup = "angels-titanium-casting",
     energy_required = 4,
@@ -252,6 +263,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-titanium-smelting-5",
+    localised_name = { "fluid-name.liquid-molten-titanium" },
     category = "induction-smelting-4",
     subgroup = "angels-titanium-casting",
     energy_required = 4,
@@ -275,6 +287,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-titanium-casting",
+    localised_name = { "item-name.angels-roll-titanium" },
     category = "strand-casting-3",
     subgroup = "angels-titanium-casting",
     enabled = false,
@@ -297,6 +310,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-titanium-casting-fast",
+    localised_name = { "item-name.angels-roll-titanium" },
     category = "strand-casting-4",
     subgroup = "angels-titanium-casting",
     enabled = false,
@@ -342,6 +356,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-titanium-converting",
+    localised_name = { "item-name.angels-plate-titanium" },
     category = "advanced-crafting",
     subgroup = "angels-titanium-casting",
     energy_required = 0.5,

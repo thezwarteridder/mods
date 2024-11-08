@@ -516,6 +516,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-synthesis-reforming",
+    localised_name = { "fluid-name.gas-synthesis" },
     category = "chemistry",
     subgroup = "petrochem-carbon-synthesis",
     energy_required = 2,
@@ -616,6 +617,7 @@ data:extend({
   {
     type = "recipe",
     name = "steam-cracking-gas-residual",
+    localised_name = { "fluid-name.gas-synthesis" },
     category = "steam-cracking",
     subgroup = "petrochem-carbon-synthesis",
     energy_required = 4,
@@ -637,6 +639,7 @@ data:extend({
   {
     type = "recipe",
     name = "steam-cracking-oil-residual",
+    localised_name = { "fluid-name.gas-residual" },
     category = "steam-cracking",
     subgroup = "petrochem-carbon-synthesis",
     energy_required = 4,

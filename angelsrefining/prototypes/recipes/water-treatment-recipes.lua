@@ -204,6 +204,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-salt-dissolving",
+    localised_name = { "fluid-name.water-saline" },
     category = "salination-plant",
     subgroup = "water-salination",
     energy_required = 2,
@@ -230,6 +231,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-salt-from-saline",
+    localised_name = { "item-name.solid-salt" },
     category = "salination-plant",
     subgroup = "water-salination",
     energy_required = 5,
@@ -284,6 +286,7 @@ data:extend({
   {
     type = "recipe",
     name = "washing-1",
+    localised_name = { "fluid-name.water-heavy-mud" },
     category = "washing-plant",
     subgroup = "water-washing",
     energy_required = 5,
@@ -304,6 +307,7 @@ data:extend({
   {
     type = "recipe",
     name = "washing-2",
+    localised_name = { "fluid-name.water-concentrated-mud" },
     category = "washing-plant",
     subgroup = "water-washing",
     energy_required = 5,
@@ -328,6 +332,7 @@ data:extend({
   {
     type = "recipe",
     name = "washing-3",
+    localised_name = { "fluid-name.water-light-mud" },
     category = "washing-plant",
     subgroup = "water-washing",
     energy_required = 5,
@@ -352,6 +357,7 @@ data:extend({
   {
     type = "recipe",
     name = "washing-4",
+    localised_name = { "fluid-name.water-thin-mud" },
     category = "washing-plant",
     subgroup = "water-washing",
     energy_required = 5,
@@ -372,6 +378,7 @@ data:extend({
   {
     type = "recipe",
     name = "washing-5",
+    localised_name = { "fluid-name.water-saline" },
     category = "washing-plant",
     subgroup = "water-washing",
     energy_required = 5,
@@ -410,6 +417,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-mud-landfill",
+    localised_name = { "item-name.landfill" },
     category = "crafting",
     subgroup = "water-washing-filtering",
     energy_required = 5,

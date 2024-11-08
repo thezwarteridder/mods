@@ -1108,6 +1108,7 @@ data:extend({
   {
     type = "recipe",
     name = "puffer-butchery-1",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-puffer-butchery",
     enabled = false,
@@ -1126,6 +1127,7 @@ data:extend({
   {
     type = "recipe",
     name = "puffer-butchery-2",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-puffer-butchery",
     enabled = false,
@@ -1144,6 +1146,7 @@ data:extend({
   {
     type = "recipe",
     name = "puffer-butchery-3",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-puffer-butchery",
     enabled = false,
@@ -1162,6 +1165,7 @@ data:extend({
   {
     type = "recipe",
     name = "puffer-butchery-4",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-puffer-butchery",
     enabled = false,
@@ -1180,6 +1184,7 @@ data:extend({
   {
     type = "recipe",
     name = "puffer-butchery-5",
+    localised_name = { "item-name.bio-raw-meat" },
     category = "bio-butchery",
     subgroup = "bio-puffer-butchery",
     enabled = false,
@@ -1201,6 +1206,7 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-shard-crystalization-1",
+    localised_name = { "item-name.crystal-shard-raw" },
     category = "crystallizing-2",
     subgroup = "bio-biter-processing-crystal-shard",
     enabled = false,
@@ -1224,6 +1230,7 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-shard-crystalization-2",
+    localised_name = { "item-name.crystal-shard-raw" },
     category = "crystallizing-2",
     subgroup = "bio-biter-processing-crystal-shard",
     enabled = false,

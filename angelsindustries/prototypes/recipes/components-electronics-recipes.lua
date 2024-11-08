@@ -105,6 +105,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "electronic-parts-resistor",
+      localised_name = { "item-name.electronic-parts" },
       subgroup = "angels-loaded-circuit-board",
       order = "f",
       energy_required = 1.5,
@@ -133,6 +134,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "electronic-parts-transistor",
+      localised_name = { "item-name.electronic-parts" },
       subgroup = "angels-loaded-circuit-board",
       order = "g",
       energy_required = 1.5,
@@ -161,6 +163,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "electronic-parts-microchip",
+      localised_name = { "item-name.electronic-parts" },
       subgroup = "angels-loaded-circuit-board",
       order = "h",
       energy_required = 1.5,
@@ -189,6 +192,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "electronic-parts-transformer",
+      localised_name = { "item-name.electronic-parts" },
       subgroup = "angels-loaded-circuit-board",
       order = "i",
       energy_required = 1.5,
@@ -217,6 +221,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "electronic-parts-cpu",
+      localised_name = { "item-name.electronic-parts" },
       subgroup = "angels-loaded-circuit-board",
       order = "j",
       energy_required = 1.5,
@@ -261,6 +266,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-grey-board-alternative",
+      localised_name = { "item-name.circuit-grey-board" },
       energy_required = 0.5,
       category = "crafting",
       subgroup = "angels-board",

@@ -5,6 +5,7 @@ data:extend({
   {
     type = "recipe",
     name = "glass-mixture-1",
+    localised_name = { "item-name.solid-glass-mixture" },
     category = "powder-mixing",
     subgroup = "angels-glass",
     energy_required = 4,
@@ -25,6 +26,7 @@ data:extend({
   {
     type = "recipe",
     name = "glass-mixture-2",
+    localised_name = { "item-name.solid-glass-mixture" },
     category = "powder-mixing-2",
     subgroup = "angels-glass",
     energy_required = 4,
@@ -46,6 +48,7 @@ data:extend({
   {
     type = "recipe",
     name = "glass-mixture-3",
+    localised_name = { "item-name.solid-glass-mixture" },
     category = "powder-mixing-3",
     subgroup = "angels-glass",
     energy_required = 4,
@@ -68,6 +71,7 @@ data:extend({
   {
     type = "recipe",
     name = "glass-mixture-4",
+    localised_name = { "item-name.solid-glass-mixture" },
     category = "powder-mixing-3",
     subgroup = "angels-glass",
     energy_required = 4,
@@ -92,6 +96,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-glass-smelting",
+    localised_name = { "fluid-name.liquid-molten-glass" },
     category = "induction-smelting-2",
     subgroup = "angels-glass-casting",
     energy_required = 4,
@@ -130,6 +135,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-coil-glass-fiber-fast",
+    localised_name = { "item-name.angels-coil-glass-fiber" },
     category = "strand-casting-3",
     subgroup = "angels-glass-casting",
     enabled = false,
@@ -155,6 +161,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-glass-1",
+    localised_name = { "item-name.angels-plate-glass" },
     category = "casting-2",
     subgroup = "angels-glass-casting",
     enabled = false,
@@ -175,6 +182,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-glass-2",
+    localised_name = { "item-name.angels-plate-glass" },
     category = "casting-3",
     subgroup = "angels-glass-casting",
     enabled = false,
@@ -198,6 +206,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-glass-3",
+    localised_name = { "item-name.angels-plate-glass" },
     category = "casting-4",
     subgroup = "angels-glass-casting",
     enabled = false,

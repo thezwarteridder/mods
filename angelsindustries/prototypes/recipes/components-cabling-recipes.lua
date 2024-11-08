@@ -154,6 +154,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "cabling-cable-harness-1",
+      localised_name = { "item-name.angels-cabling" },
       subgroup = "angels-servo-motor",
       order = "f",
       enabled = true,
@@ -183,6 +184,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "cabling-cable-harness-2",
+      localised_name = { "item-name.angels-cabling" },
       subgroup = "angels-servo-motor",
       order = "g",
       enabled = false,
@@ -211,6 +213,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "cabling-cable-harness-3",
+      localised_name = { "item-name.angels-cabling" },
       subgroup = "angels-servo-motor",
       order = "h",
       enabled = false,
@@ -239,6 +242,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "cabling-cable-harness-4",
+      localised_name = { "item-name.angels-cabling" },
       subgroup = "angels-servo-motor",
       order = "h",
       enabled = false,
@@ -267,6 +271,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "cabling-cable-harness-5",
+      localised_name = { "item-name.angels-cabling" },
       subgroup = "angels-servo-motor",
       order = "h",
       enabled = false,

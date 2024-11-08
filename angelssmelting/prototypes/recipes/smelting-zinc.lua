@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "zinc-ore-processing",
+    localised_name = { "item-name.processed-zinc" },
     category = "ore-processing-2",
     subgroup = "angels-zinc",
     energy_required = 2,
@@ -21,6 +22,7 @@ data:extend({
   {
     type = "recipe",
     name = "zinc-processed-processing",
+    localised_name = { "item-name.pellet-zinc" },
     category = "pellet-pressing-2",
     subgroup = "angels-zinc",
     energy_required = 2,
@@ -37,6 +39,7 @@ data:extend({
   {
     type = "recipe",
     name = "zinc-ore-processing-alt",
+    localised_name = { "item-name.solid-zinc-oxide" },
     category = "chemical-smelting",
     subgroup = "angels-zinc",
     energy_required = 2,
@@ -60,6 +63,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-zinc-smelting",
+    localised_name = { "item-name.solid-zinc-oxide" },
     category = "chemical-smelting-3",
     subgroup = "angels-zinc",
     energy_required = 4,
@@ -83,6 +87,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-zinc-oxide-smelting",
+    localised_name = { "item-name.cathode-zinc" },
     category = "chemical-smelting-3",
     subgroup = "angels-zinc",
     energy_required = 6,
@@ -100,6 +105,7 @@ data:extend({
   {
     type = "recipe",
     name = "zinc-ore-smelting",
+    localised_name = { "item-name.ingot-zinc" },
     category = "chemical-smelting",
     subgroup = "angels-zinc",
     energy_required = 4,
@@ -125,6 +131,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-zinc-smelting",
+    localised_name = { "item-name.ingot-zinc" },
     category = "chemical-smelting-2",
     subgroup = "angels-zinc",
     energy_required = 4,
@@ -149,6 +156,7 @@ data:extend({
   {
     type = "recipe",
     name = "cathode-zinc-smelting",
+    localised_name = { "item-name.ingot-zinc" },
     category = "blast-smelting-4",
     subgroup = "angels-zinc",
     energy_required = 4,
@@ -185,6 +193,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-zinc-smelting",
+    localised_name = { "fluid-name.liquid-molten-zinc" },
     category = "induction-smelting-2",
     subgroup = "angels-zinc-casting",
     energy_required = 4,
@@ -201,6 +210,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-zinc-casting",
+    localised_name = { "item-name.angels-roll-zinc" },
     category = "strand-casting-2",
     subgroup = "angels-zinc-casting",
     enabled = false,
@@ -223,6 +233,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-zinc-casting-fast",
+    localised_name = { "item-name.angels-roll-zinc" },
     category = "strand-casting-3",
     subgroup = "angels-zinc-casting",
     enabled = false,
@@ -268,6 +279,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-zinc-converting",
+    localised_name = { "item-name.angels-plate-zinc" },
     category = "advanced-crafting",
     subgroup = "angels-zinc-casting",
     energy_required = 0.5,

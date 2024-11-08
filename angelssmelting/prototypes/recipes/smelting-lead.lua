@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "lead-ore-processing",
+    localised_name = { "item-name.processed-lead" },
     category = "ore-processing",
     subgroup = "angels-lead",
     energy_required = 2,
@@ -20,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "lead-processed-processing",
+    localised_name = { "item-name.pellet-lead" },
     category = "pellet-pressing",
     subgroup = "angels-lead",
     energy_required = 2,
@@ -35,6 +37,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-lead-smelting",
+    localised_name = { "item-name.solid-lead-oxide" },
     category = "blast-smelting-2",
     subgroup = "angels-lead",
     energy_required = 4,
@@ -53,6 +56,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-lead-smelting",
+    localised_name = { "item-name.anode-lead" },
     category = "blast-smelting-3",
     subgroup = "angels-lead",
     energy_required = 4,
@@ -96,6 +100,7 @@ data:extend({
   {
     type = "recipe",
     name = "lead-ore-smelting",
+    localised_name = { "item-name.ingot-lead" },
     category = "blast-smelting",
     subgroup = "angels-lead",
     energy_required = 4,
@@ -119,6 +124,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-lead-oxide-smelting",
+    localised_name = { "item-name.ingot-lead" },
     category = "blast-smelting-2",
     subgroup = "angels-lead",
     energy_required = 4,
@@ -141,6 +147,7 @@ data:extend({
   {
     type = "recipe",
     name = "anode-lead-smelting",
+    localised_name = { "item-name.ingot-lead" },
     category = "chemical-smelting-2",
     subgroup = "angels-lead",
     energy_required = 6,
@@ -180,6 +187,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-lead-smelting",
+    localised_name = { "fluid-name.liquid-molten-lead" },
     category = "induction-smelting",
     subgroup = "angels-lead-casting",
     energy_required = 4,
@@ -196,6 +204,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-lead-casting",
+    localised_name = { "item-name.angels-roll-lead" },
     category = "strand-casting",
     subgroup = "angels-lead-casting",
     enabled = false,
@@ -218,6 +227,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-lead-casting-fast",
+    localised_name = { "item-name.angels-roll-lead" },
     category = "strand-casting-2",
     subgroup = "angels-lead-casting",
     enabled = false,
@@ -264,6 +274,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-lead-converting",
+    localised_name = { "item-name.angels-plate-lead" },
     category = "advanced-crafting",
     subgroup = "angels-lead-casting",
     energy_required = 0.5,

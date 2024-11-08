@@ -500,6 +500,7 @@ data:extend({
   {
     type = "recipe",
     name = "rocket-booster-1",
+    localised_name = { "item-name.rocket-booster" },
     category = "advanced-crafting",
     subgroup = "petrochem-fuel",
     energy_required = 1,
@@ -517,6 +518,7 @@ data:extend({
   {
     type = "recipe",
     name = "rocket-booster-2",
+    localised_name = { "item-name.rocket-booster" },
     category = "advanced-crafting",
     subgroup = "petrochem-fuel",
     energy_required = 1,

@@ -21,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-solder-smelting-1",
+    localised_name = { "fluid-name.liquid-molten-solder" },
     category = "induction-smelting",
     subgroup = "angels-solder-casting",
     energy_required = 4,
@@ -42,6 +43,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-solder-smelting-2",
+    localised_name = { "fluid-name.liquid-molten-solder" },
     category = "induction-smelting",
     subgroup = "angels-solder-casting",
     energy_required = 4,
@@ -64,6 +66,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-solder-smelting-3",
+    localised_name = { "fluid-name.liquid-molten-solder" },
     category = "induction-smelting-2",
     subgroup = "angels-solder-casting",
     energy_required = 4,
@@ -86,6 +89,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-solder-smelting-4",
+    localised_name = { "fluid-name.liquid-molten-solder" },
     category = "induction-smelting-3",
     subgroup = "angels-solder-casting",
     energy_required = 4,
@@ -109,6 +113,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-solder-casting",
+    localised_name = { "item-name.angels-roll-solder" },
     category = "strand-casting",
     subgroup = "angels-solder-casting",
     enabled = false,
@@ -131,6 +136,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-solder-casting-fast",
+    localised_name = { "item-name.angels-roll-solder" },
     category = "strand-casting-2",
     subgroup = "angels-solder-casting",
     enabled = false,
@@ -156,6 +162,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-solder-mixture-smelting",
+    localised_name = { "item-name.angels-solder" },
     category = "smelting",
     subgroup = "angels-solder-casting",
     enabled = false,
@@ -198,6 +205,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-solder-converting",
+    localised_name = { "item-name.angels-solder" },
     category = "advanced-crafting",
     subgroup = "angels-solder-casting",
     energy_required = 0.5,

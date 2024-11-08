@@ -107,6 +107,7 @@ if angelsmods.trigger.artifacts["red"] then
       {
         type = "recipe",
         name = "alien-artifact-red-from-small",
+        localised_name = { "item-name.alien-artifact-red" },
         category = "crafting",
         enabled = false,
         energy_required = 5,
@@ -122,6 +123,7 @@ if angelsmods.trigger.artifacts["red"] then
       {
         type = "recipe",
         name = "alien-artifact-red-from-basic",
+        localised_name = { "item-name.alien-artifact-red" },
         category = "crafting",
         subgroup = "bio-processing-alien-large-convert",
         enabled = false,
@@ -255,6 +257,7 @@ if angelsmods.trigger.artifacts["yellow"] then
       {
         type = "recipe",
         name = "alien-artifact-yellow-from-small",
+        localised_name = { "item-name.alien-artifact-yellow" },
         category = "crafting",
         enabled = false,
         energy_required = 5,
@@ -270,6 +273,7 @@ if angelsmods.trigger.artifacts["yellow"] then
       {
         type = "recipe",
         name = "alien-artifact-yellow-from-basic",
+        localised_name = { "item-name.alien-artifact-yellow" },
         category = "crafting",
         subgroup = "bio-processing-alien-large-convert",
         enabled = false,
@@ -403,6 +407,7 @@ if angelsmods.trigger.artifacts["orange"] then
       {
         type = "recipe",
         name = "alien-artifact-orange-from-small",
+        localised_name = { "item-name.alien-artifact-orange" },
         category = "crafting",
         enabled = false,
         energy_required = 5,
@@ -418,6 +423,7 @@ if angelsmods.trigger.artifacts["orange"] then
       {
         type = "recipe",
         name = "alien-artifact-orange-from-basic",
+        localised_name = { "item-name.alien-artifact-orange" },
         category = "crafting",
         subgroup = "bio-processing-alien-large-convert",
         enabled = false,
@@ -551,6 +557,7 @@ if angelsmods.trigger.artifacts["blue"] then
       {
         type = "recipe",
         name = "alien-artifact-blue-from-small",
+        localised_name = { "item-name.alien-artifact-blue" },
         category = "crafting",
         enabled = false,
         energy_required = 5,
@@ -566,6 +573,7 @@ if angelsmods.trigger.artifacts["blue"] then
       {
         type = "recipe",
         name = "alien-artifact-blue-from-basic",
+        localised_name = { "item-name.alien-artifact-blue" },
         category = "crafting",
         subgroup = "bio-processing-alien-large-convert",
         enabled = false,
@@ -699,6 +707,7 @@ if angelsmods.trigger.artifacts["purple"] then
       {
         type = "recipe",
         name = "alien-artifact-purple-from-small",
+        localised_name = { "item-name.alien-artifact-purple" },
         category = "crafting",
         enabled = false,
         energy_required = 5,
@@ -714,6 +723,7 @@ if angelsmods.trigger.artifacts["purple"] then
       {
         type = "recipe",
         name = "alien-artifact-purple-from-basic",
+        localised_name = { "item-name.alien-artifact-purple" },
         category = "crafting",
         subgroup = "bio-processing-alien-large-convert",
         enabled = false,
@@ -847,6 +857,7 @@ if angelsmods.trigger.artifacts["green"] then
       {
         type = "recipe",
         name = "alien-artifact-green-from-small",
+        localised_name = { "item-name.alien-artifact-green" },
         category = "crafting",
         enabled = false,
         energy_required = 5,
@@ -862,6 +873,7 @@ if angelsmods.trigger.artifacts["green"] then
       {
         type = "recipe",
         name = "alien-artifact-green-from-basic",
+        localised_name = { "item-name.alien-artifact-green" },
         category = "crafting",
         subgroup = "bio-processing-alien-large-convert",
         enabled = false,
@@ -988,6 +1000,7 @@ if angelsmods.trigger.artifacts["base"] then -- pink
       {
         type = "recipe",
         name = "alien-artifact-from-small",
+        localised_name = { "item-name.alien-artifact" },
         category = "crafting",
         enabled = false,
         energy_required = 5,

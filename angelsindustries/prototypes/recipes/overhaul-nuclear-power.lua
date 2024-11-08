@@ -246,6 +246,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-mixed-oxide-cell",
+    localised_name = { "item-name.AMOX-cell" },
     enabled = false,
     category = "centrifuging-2",
     subgroup = "angels-power-nuclear-fuel-cell",
@@ -723,6 +724,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-atomic-bomb",
+    localised_name = { "item-name.atomic-bomb" },
     category = "advanced-chemistry",
     enabled = false,
     energy_required = 50,
@@ -745,6 +747,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-atomic-bomb-2",
+    localised_name = { "item-name.atomic-bomb" },
     category = "advanced-chemistry",
     enabled = false,
     energy_required = 50,

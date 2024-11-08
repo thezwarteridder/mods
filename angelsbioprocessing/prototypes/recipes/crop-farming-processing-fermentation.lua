@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "fermentation-corn",
+    localised_name = { "fluid-name.liquid-fermentation-raw" },
     category = "liquifying",
     subgroup = "bio-processor-fermentation",
     enabled = false,
@@ -38,6 +39,7 @@ data:extend({
   {
     type = "recipe",
     name = "fermentation-fruit",
+    localised_name = { "fluid-name.liquid-fermentation-raw" },
     category = "liquifying",
     subgroup = "bio-processor-fermentation",
     enabled = false,
@@ -128,6 +130,7 @@ data:extend({
   {
     type = "recipe",
     name = "ethanol-to-ethylene-synthesis",
+    localised_name = { "fluid-name.gas-ethylene" },
     category = "chemistry",
     subgroup = "bio-processor-fermentation",
     enabled = false,
@@ -157,6 +160,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-acetic-acid-catalyst",
+    localised_name = { "fluid-name.liquid-acetic-acid" },
     category = "advanced-chemistry",
     subgroup = "bio-plastic",
     enabled = false,
@@ -215,6 +219,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-acetate-mixture",
+    localised_name = { "fluid-name.liquid-cellulose-acetate-mixture" },
     category = "advanced-chemistry",
     subgroup = "bio-plastic",
     enabled = false,
@@ -269,6 +274,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-plastic-1",
+    localised_name = { "fluid-name.liquid-plastic" },
     category = "chemistry",
     subgroup = "bio-plastic",
     enabled = false,
@@ -296,6 +302,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-propionic-acid-catalyst",
+    localised_name = { "fluid-name.liquid-propionic-acid" },
     category = "advanced-chemistry",
     subgroup = "bio-plastic",
     enabled = false,
@@ -326,6 +333,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-plastic-2",
+    localised_name = { "fluid-name.liquid-plastic" },
     category = "chemistry",
     subgroup = "bio-plastic",
     enabled = false,

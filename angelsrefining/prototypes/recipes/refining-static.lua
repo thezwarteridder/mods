@@ -1040,6 +1040,7 @@ data:extend({
   {
     type = "recipe",
     name = "filter-ceramic-refurbish",
+    localised_name = { "item-name.filter-ceramic" },
     category = "crafting-with-fluid",
     subgroup = "geode-crystallization",
     energy_required = 0.5,
@@ -1375,6 +1376,7 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-dust-liquify",
+    localised_name = { "fluid-name.crystal-slurry" },
     category = "liquifying",
     subgroup = "liquifying",
     energy_required = 3,
@@ -1551,6 +1553,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-iron-pebbles-smelting",
+    localised_name = { "item-name.iron-plate" },
     category = "smelting",
     subgroup = "raw-material",
     energy_required = 7,
@@ -1580,6 +1583,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-iron-nugget-smelting",
+    localised_name = { "item-name.iron-plate" },
     category = "smelting",
     subgroup = "raw-material",
     energy_required = 7,
@@ -1625,6 +1629,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-copper-pebbles-smelting",
+    localised_name = { "item-name.copper-plate" },
     category = "smelting",
     subgroup = "raw-material",
     energy_required = 7,
@@ -1654,6 +1659,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-copper-nugget-smelting",
+    localised_name = { "item-name.copper-plate" },
     category = "smelting",
     subgroup = "raw-material",
     energy_required = 7,

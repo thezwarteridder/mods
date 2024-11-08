@@ -93,6 +93,7 @@ if angelsmods.trigger.smelting_products["glass"].board then
     OV.patch_recipes({
       {
         name = "angels-glass-fiber-board",
+        localised_name = { "item-name.fibreglass-board" },
         results = {
           { "!!" },
           { name = "fibreglass-board", type = "item", amount = 4 },

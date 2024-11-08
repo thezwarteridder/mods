@@ -128,6 +128,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-casing-1",
+      localised_name = { "item-name.battery-casing" },
       subgroup = "angels-anodes",
       order = "g",
       enabled = false,
@@ -236,6 +237,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-casing-2",
+      localised_name = { "item-name.battery-casing" },
       subgroup = "angels-anodes",
       order = "h",
       enabled = false,
@@ -386,6 +388,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-casing-3",
+      localised_name = { "item-name.battery-casing" },
       subgroup = "angels-anodes",
       order = "i",
       enabled = false,
@@ -495,6 +498,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-casing-4",
+      localised_name = { "item-name.battery-casing" },
       subgroup = "angels-electrolytes",
       order = "j",
       enabled = false,
@@ -606,6 +610,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-casing-5",
+      localised_name = { "item-name.battery-casing" },
       subgroup = "angels-electrolytes",
       order = "k",
       enabled = false,
@@ -717,6 +722,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-casing-6",
+      localised_name = { "item-name.battery-casing" },
       subgroup = "angels-electrolytes",
       order = "l",
       enabled = false,

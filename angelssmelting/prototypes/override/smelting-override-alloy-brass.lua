@@ -32,6 +32,7 @@ if angelsmods.trigger.smelting_products["brass"].plate then
       {
         type = "recipe",
         name = "angels-brass-smelting-1",
+        localised_name = { "fluid-name.liquid-molten-brass" },
         category = "induction-smelting-2",
         subgroup = "angels-alloys-casting",
         energy_required = 4,
@@ -54,6 +55,7 @@ if angelsmods.trigger.smelting_products["brass"].plate then
       {
         type = "recipe",
         name = "angels-brass-smelting-2",
+        localised_name = { "fluid-name.liquid-molten-brass" },
         category = "induction-smelting-3",
         subgroup = "angels-alloys-casting",
         energy_required = 4,
@@ -77,6 +79,7 @@ if angelsmods.trigger.smelting_products["brass"].plate then
       {
         type = "recipe",
         name = "angels-brass-smelting-3",
+        localised_name = { "fluid-name.liquid-molten-brass" },
         category = "induction-smelting-4",
         subgroup = "angels-alloys-casting",
         energy_required = 4,

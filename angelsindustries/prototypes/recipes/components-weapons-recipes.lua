@@ -245,6 +245,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "weapon-parts-trigger",
+      localised_name = { "item-name.weapon-parts" },
       subgroup = "angels-weapons",
       order = "f",
       energy_required = 3,
@@ -273,6 +274,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "weapon-parts-explosionchamber",
+      localised_name = { "item-name.weapon-parts" },
       subgroup = "angels-weapons",
       order = "g",
       energy_required = 3,
@@ -301,6 +303,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "weapon-parts-fluidchamber",
+      localised_name = { "item-name.weapon-parts" },
       subgroup = "angels-weapons",
       order = "h",
       energy_required = 3,
@@ -329,6 +332,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "weapon-parts-energycrystal",
+      localised_name = { "item-name.weapon-parts" },
       subgroup = "angels-weapons",
       order = "i",
       energy_required = 3,
@@ -357,6 +361,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "weapon-parts-acceleratorcoil",
+      localised_name = { "item-name.weapon-parts" },
       subgroup = "angels-weapons",
       order = "j",
       energy_required = 3,

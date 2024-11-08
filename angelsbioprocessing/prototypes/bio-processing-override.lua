@@ -81,7 +81,11 @@ else
 
   if bobmods and bobmods.plates then
     OV.patch_recipes({
-      { name = "algae-brown-burning", results = { { "!!" }, { name = "solid-lithium", amount = 1, type = "item" } } },
+      {
+        name = "algae-brown-burning",
+        localised_name = { "item-name.solid-lithium" },
+        results = { { "!!" }, { name = "solid-lithium", amount = 1, type = "item" } },
+      },
     })
   else
     OV.modify_input("substrate-dish", { "paste-copper", "paste-silver" })

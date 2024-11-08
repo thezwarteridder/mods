@@ -5,6 +5,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-plastic",
+    localised_name = { "item-name.plastic-bar" },
     category = "crafting-with-fluid",
     subgroup = "petrochem-solids",
     enabled = false,
@@ -22,6 +23,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-plastic-1",
+    localised_name = { "fluid-name.liquid-plastic" },
     category = "liquifying",
     subgroup = "petrochem-solids",
     energy_required = 2,
@@ -42,6 +44,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-plastic-2",
+    localised_name = { "fluid-name.liquid-plastic" },
     category = "chemistry",
     subgroup = "petrochem-solids",
     energy_required = 2,
@@ -63,6 +66,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-plastic-3",
+    localised_name = { "fluid-name.liquid-plastic" },
     category = "chemistry",
     subgroup = "petrochem-solids",
     energy_required = 2,
@@ -107,6 +111,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-resin-1",
+    localised_name = { "fluid-name.liquid-resin" },
     category = "chemistry",
     subgroup = "petrochem-solids",
     energy_required = 2,
@@ -128,6 +133,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-resin-2",
+    localised_name = { "fluid-name.liquid-resin" },
     category = "chemistry",
     subgroup = "petrochem-solids",
     energy_required = 2,
@@ -149,6 +155,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-resin-3",
+    localised_name = { "fluid-name.liquid-resin" },
     category = "chemistry",
     subgroup = "petrochem-solids",
     energy_required = 2,
@@ -193,6 +200,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-rubber-1",
+    localised_name = { "fluid-name.liquid-rubber" },
     category = "chemistry",
     subgroup = "petrochem-solids-2",
     energy_required = 2,
@@ -237,6 +245,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-fuel-methane",
+    localised_name = { "item-name.solid-fuel" },
     category = "chemistry",
     subgroup = "petrochem-fuel",
     energy_required = 4,
@@ -257,6 +266,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-fuel-naphtha",
+    localised_name = { "item-name.solid-fuel" },
     category = "chemistry",
     subgroup = "petrochem-fuel",
     energy_required = 4,
@@ -281,6 +291,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-fuel-fuel-oil",
+    localised_name = { "item-name.solid-fuel" },
     category = "chemistry",
     subgroup = "petrochem-fuel",
     energy_required = 4,
@@ -305,6 +316,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-fuel-synthesis",
+    localised_name = { "item-name.solid-fuel" },
     category = "chemistry",
     subgroup = "petrochem-fuel",
     energy_required = 4,
@@ -329,6 +341,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-fuel-hydrazine",
+    localised_name = { "item-name.solid-fuel" },
     category = "chemistry",
     subgroup = "petrochem-fuel",
     energy_required = 4,
@@ -482,6 +495,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-nitroglycerin",
+    localised_name = { "item-name.explosives" },
     category = "advanced-chemistry",
     subgroup = "petrochem-solids-2",
     energy_required = 2,
@@ -508,6 +522,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-trinitrotoluene",
+    localised_name = { "item-name.explosives" },
     category = "advanced-chemistry",
     subgroup = "petrochem-solids-2",
     energy_required = 2,

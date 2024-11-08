@@ -273,6 +273,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-components-girder",
+      localised_name = { "item-name.construction-components" },
       subgroup = "angels-construction-frames",
       order = "f",
       enabled = true,
@@ -302,6 +303,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-components-rivet",
+      localised_name = { "item-name.construction-components" },
       subgroup = "angels-construction-frames",
       order = "g",
       enabled = false,
@@ -330,6 +332,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-components-bracket",
+      localised_name = { "item-name.construction-components" },
       subgroup = "angels-construction-frames",
       order = "h",
       enabled = false,
@@ -358,6 +361,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-components-plating",
+      localised_name = { "item-name.construction-components" },
       subgroup = "angels-construction-frames",
       order = "h",
       enabled = false,
@@ -386,6 +390,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-components-strut",
+      localised_name = { "item-name.construction-components" },
       subgroup = "angels-construction-frames",
       order = "h",
       enabled = false,

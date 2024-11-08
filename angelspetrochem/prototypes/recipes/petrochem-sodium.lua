@@ -52,6 +52,7 @@ data:extend({
     -- from sulfate
     type = "recipe",
     name = "solid-sodium-sulfate-separation",
+    localised_name = { "item-name.solid-sodium" },
     category = "petrochem-electrolyser",
     subgroup = "petrochem-sodium",
     energy_required = 2,
@@ -142,6 +143,7 @@ data:extend({
     -- from hydroxide
     type = "recipe",
     name = "liquid-aqueous-sodium-hydroxide-reverse",
+    localised_name = { "item-name.solid-sodium-hydroxide" },
     category = "liquifying",
     subgroup = "petrochem-sodium",
     energy_required = 2,
@@ -188,6 +190,7 @@ data:extend({
     -- generation
     type = "recipe",
     name = "solid-sodium-carbonate-electrolysis",
+    localised_name = { "fluid-name.liquid-aqueous-sodium-hydroxide" },
     category = "petrochem-electrolyser",
     subgroup = "petrochem-sodium",
     energy_required = 2,

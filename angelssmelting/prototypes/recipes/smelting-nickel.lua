@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "nickel-ore-processing",
+    localised_name = { "item-name.processed-nickel" },
     category = "ore-processing-2",
     subgroup = "angels-nickel",
     energy_required = 2,
@@ -20,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "nickel-processed-processing",
+    localised_name = { "item-name.pellet-nickel" },
     category = "pellet-pressing-2",
     subgroup = "angels-nickel",
     energy_required = 2,
@@ -35,6 +37,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-nickel-smelting",
+    localised_name = { "item-name.cathode-nickel" },
     category = "chemical-smelting-2",
     subgroup = "angels-nickel",
     energy_required = 6,
@@ -51,6 +54,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-nickel-smelting",
+    localised_name = { "item-name.solid-nickel-carbonyl" },
     category = "blast-smelting-4",
     subgroup = "angels-nickel",
     energy_required = 4,
@@ -69,6 +73,7 @@ data:extend({
   {
     type = "recipe",
     name = "nickel-ore-smelting",
+    localised_name = { "item-name.ingot-nickel" },
     category = "blast-smelting-2",
     subgroup = "angels-nickel",
     energy_required = 4,
@@ -90,6 +95,7 @@ data:extend({
   {
     type = "recipe",
     name = "cathode-nickel-smelting",
+    localised_name = { "item-name.ingot-nickel" },
     category = "blast-smelting-3",
     subgroup = "angels-nickel",
     energy_required = 4,
@@ -110,6 +116,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-nickel-carbonyl-smelting",
+    localised_name = { "item-name.ingot-nickel" },
     category = "blast-smelting-4",
     subgroup = "angels-nickel",
     energy_required = 4,
@@ -147,6 +154,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-nickel-smelting",
+    localised_name = { "fluid-name.liquid-molten-nickel" },
     category = "induction-smelting-2",
     subgroup = "angels-nickel-casting",
     energy_required = 4,
@@ -163,6 +171,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-nickel-casting",
+    localised_name = { "item-name.angels-roll-nickel" },
     category = "strand-casting-2",
     subgroup = "angels-nickel-casting",
     enabled = false,
@@ -185,6 +194,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-nickel-casting-fast",
+    localised_name = { "item-name.angels-roll-nickel" },
     category = "strand-casting-3",
     subgroup = "angels-nickel-casting",
     enabled = false,
@@ -231,6 +241,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-nickel-converting",
+    localised_name = { "item-name.angels-plate-nickel" },
     category = "advanced-crafting",
     subgroup = "angels-nickel-casting",
     energy_required = 0.5,

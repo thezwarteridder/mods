@@ -223,6 +223,7 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-powder-slurry",
+    localised_name = { "fluid-name.crystal-slurry" },
     category = "liquifying",
     subgroup = "bio-biter-processing-crystal-full",
     enabled = false,

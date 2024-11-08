@@ -6,6 +6,7 @@ data:extend({
   {
     type = "recipe",
     name = "platinum-ore-processing",
+    localised_name = { "item-name.processed-platinum" },
     category = "ore-processing-4",
     subgroup = "angels-platinum",
     energy_required = 2,
@@ -22,6 +23,7 @@ data:extend({
   {
     type = "recipe",
     name = "platinum-processed-processing",
+    localised_name = { "item-name.pellet-platinum" },
     category = "pellet-pressing-4",
     subgroup = "angels-platinum",
     energy_required = 2,
@@ -37,6 +39,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-platinum-smelting",
+    localised_name = { "fluid-name.liquid-hexachloroplatinic-acid" },
     category = "chemistry",
     subgroup = "angels-platinum",
     energy_required = 6,
@@ -58,6 +61,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-hexachloroplatinic-acid-smelting",
+    localised_name = { "item-name.solid-ammonium-chloroplatinate" },
     category = "chemical-smelting-4",
     subgroup = "angels-platinum",
     energy_required = 4,
@@ -75,6 +79,7 @@ data:extend({
   {
     type = "recipe",
     name = "platinum-ore-smelting",
+    localised_name = { "item-name.ingot-platinum" },
     category = "blast-smelting-4",
     subgroup = "angels-platinum",
     energy_required = 4,
@@ -91,6 +96,7 @@ data:extend({
   {
     type = "recipe",
     name = "processed-platinum-smelting",
+    localised_name = { "item-name.ingot-platinum" },
     category = "blast-smelting-4",
     subgroup = "angels-platinum",
     energy_required = 4,
@@ -108,6 +114,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-ammonium-chloroplatinate-smelting",
+    localised_name = { "item-name.ingot-platinum" },
     category = "blast-smelting-4",
     subgroup = "angels-platinum",
     energy_required = 4,
@@ -140,6 +147,7 @@ data:extend({
   {
     type = "recipe",
     name = "molten-platinum-smelting",
+    localised_name = { "fluid-name.liquid-molten-platinum" },
     category = "induction-smelting-4",
     subgroup = "angels-platinum-casting",
     energy_required = 4,
@@ -156,6 +164,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-platinum-casting",
+    localised_name = { "item-name.angels-roll-platinum" },
     category = "strand-casting-4",
     subgroup = "angels-platinum-casting",
     enabled = false,
@@ -174,6 +183,7 @@ data:extend({
   {
     type = "recipe",
     name = "roll-platinum-casting-fast",
+    localised_name = { "item-name.angels-roll-platinum" },
     category = "strand-casting-4",
     subgroup = "angels-platinum-casting",
     enabled = false,
@@ -194,6 +204,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-platinum-casting",
+    localised_name = { "item-name.angels-wire-coil-platinum" },
     category = "strand-casting-4",
     subgroup = "angels-platinum-casting",
     enabled = false,
@@ -217,6 +228,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-platinum-casting-fast",
+    localised_name = { "item-name.angels-wire-coil-platinum" },
     category = "strand-casting-4",
     subgroup = "angels-platinum-casting",
     enabled = false,
@@ -264,6 +276,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-roll-platinum-converting",
+    localised_name = { "item-name.angels-plate-platinum" },
     category = "advanced-crafting",
     subgroup = "angels-platinum-casting",
     energy_required = 0.5,
@@ -286,6 +299,7 @@ data:extend({
   {
     type = "recipe",
     name = "basic-platinated-copper-wire",
+    localised_name = { "item-name.angels-wire-platinum" },
     subgroup = "angels-platinum-casting",
     order = "m",
     enabled = false,
@@ -310,6 +324,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-coil-platinum-converting",
+    localised_name = { "item-name.angels-wire-platinum" },
     category = "advanced-crafting",
     subgroup = "angels-platinum-casting",
     energy_required = 1,

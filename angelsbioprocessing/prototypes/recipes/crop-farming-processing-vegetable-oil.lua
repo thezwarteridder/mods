@@ -2,6 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-raw-vegetable-oil-nuts",
+    localised_name = { "fluid-name.liquid-raw-vegetable-oil" },
     category = "bio-pressing",
     subgroup = "bio-processor-press-vegetables",
     enabled = false,
@@ -25,6 +26,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-raw-vegetable-oil-pips",
+    localised_name = { "fluid-name.liquid-raw-vegetable-oil" },
     category = "bio-pressing",
     subgroup = "bio-processor-press-vegetables",
     enabled = false,
@@ -48,6 +50,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-raw-vegetable-oil-beans",
+    localised_name = { "fluid-name.liquid-raw-vegetable-oil" },
     category = "bio-pressing",
     subgroup = "bio-processor-press-vegetables",
     enabled = false,
