@@ -63,6 +63,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-chlorauric-acid",
+    localised_name = { "fluid-name.liquid-chlorauric-acid" },
     category = "chemistry",
     subgroup = "angels-gold",
     energy_required = 4,
@@ -174,6 +175,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-gold",
+    localised_name = { "item-name.powder-gold" },
     category = "advanced-crafting",
     subgroup = "angels-gold",
     energy_required = 0.5,
@@ -308,6 +310,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-gold",
+    localised_name = { "item-name.angels-plate-gold" },
     category = "casting-3",
     subgroup = "angels-gold-casting",
     enabled = false,
@@ -352,6 +355,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-wire-gold",
+    localised_name = { "item-name.angels-wire-gold" },
     subgroup = "angels-gold-casting",
     enabled = false,
     category = "crafting",

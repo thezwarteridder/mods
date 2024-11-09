@@ -380,6 +380,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-thorium-fuel-cell",
+    localised_name = { "item-name.angels-thorium-fuel-cell" },
     enabled = false,
     category = "centrifuging-3",
     subgroup = "angels-power-nuclear-fuel-cell",
@@ -508,7 +509,13 @@ data:extend({
       { type = "item", name = "neptunium-240", amount = 2 },
       { type = "item", name = "uranium-234", amount = 2, probability = 0.05 },
       { type = "fluid", name = "water-greenyellow-waste", amount = 60, ignored_by_productivity = 60 },
-      { type = "item", name = "angels-muon-fusion-catalyst", amount = 1, ignored_by_productivity = 1, probability = 4 / 30 },
+      {
+        type = "item",
+        name = "angels-muon-fusion-catalyst",
+        amount = 1,
+        ignored_by_productivity = 1,
+        probability = 4 / 30,
+      },
     },
     icons = {
       { -- need to have something as bottom layer
@@ -551,6 +558,8 @@ data:extend({
   {
     type = "recipe",
     name = "angels-deuterium-fuel-cell",
+    --crafting_machine_tint = angelsmods.functions.get_fluid_recipe_tint("gas-deuterium"),
+    localised_name = { "item-name.angels-deuterium-fuel-cell" },
     enabled = false,
     category = "centrifuging-3",
     subgroup = "angels-power-nuclear-fuel-cell",
@@ -691,6 +700,9 @@ data:extend({
   {
     type = "recipe",
     name = "angels-nuclear-fuel",
+    --icon = "__base__/graphics/icons/nuclear-fuel.png",
+    --icon_size = 64,
+    localised_name = { "item-name.angels-nuclear-fuel" },
     energy_required = 90,
     enabled = false,
     category = "centrifuging-2",
@@ -707,6 +719,9 @@ data:extend({
   { --do i want this?
     type = "recipe",
     name = "angels-nuclear-fuel-2",
+    --icon = "__base__/graphics/icons/nuclear-fuel.png",
+    --icon_size = 64,
+    localised_name = { "item-name.angels-nuclear-fuel-2" },
     energy_required = 90,
     enabled = false,
     category = "centrifuging-3",

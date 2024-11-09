@@ -29,6 +29,7 @@ data:extend({
     -- from hydroxide
     type = "recipe",
     name = "solid-sodium",
+    localised_name = { "item-name.solid-sodium" },
     category = "petrochem-electrolyser",
     subgroup = "petrochem-sodium",
     energy_required = 2,
@@ -73,6 +74,7 @@ data:extend({
     -- carbonate
     type = "recipe",
     name = "solid-sodium-carbonate",
+    localised_name = { "item-name.solid-sodium-carbonate" },
     category = "liquifying",
     subgroup = "petrochem-sodium",
     energy_required = 2,
@@ -92,6 +94,7 @@ data:extend({
     -- cyanide
     type = "recipe",
     name = "solid-sodium-cyanide",
+    localised_name = { "item-name.solid-sodium-cyanide" },
     category = "chemistry",
     subgroup = "petrochem-sodium",
     energy_required = 2,
@@ -123,6 +126,7 @@ data:extend({
     -- generation
     type = "recipe",
     name = "solid-sodium-hydroxide",
+    localised_name = { "item-name.solid-sodium-hydroxide" },
     category = "liquifying",
     subgroup = "petrochem-sodium",
     energy_required = 2,
@@ -220,6 +224,7 @@ data:extend({
     -- from solid
     type = "recipe",
     name = "liquid-aqueous-sodium-hydroxide",
+    localised_name = { "fluid-name.liquid-aqueous-sodium-hydroxide" },
     category = "liquifying",
     subgroup = "petrochem-sodium",
     energy_required = 2,
@@ -245,6 +250,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-sodium-hypochlorite",
+    localised_name = { "item-name.solid-sodium-hypochlorite" },
     category = "chemistry",
     subgroup = "petrochem-sodium",
     energy_required = 4,
@@ -268,6 +274,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-sodium-chlorate",
+    localised_name = { "item-name.solid-sodium-chlorate" },
     category = "chemistry",
     subgroup = "petrochem-sodium",
     energy_required = 2,
@@ -291,6 +298,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-sodium-perchlorate",
+    localised_name = { "item-name.solid-sodium-perchlorate" },
     category = "chemistry",
     subgroup = "petrochem-sodium",
     energy_required = 2,

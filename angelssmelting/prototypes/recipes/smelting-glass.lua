@@ -113,6 +113,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-coil-glass-fiber",
+    localised_name = { "item-name.angels-coil-glass-fiber" },
     category = "strand-casting-2",
     subgroup = "angels-glass-casting",
     enabled = false,

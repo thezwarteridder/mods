@@ -155,6 +155,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-titanium",
+    localised_name = { "item-name.powder-titanium" },
     category = "advanced-crafting",
     subgroup = "angels-titanium",
     energy_required = 0.5,
@@ -335,6 +336,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-titanium",
+    localised_name = { "item-name.angels-plate-titanium" },
     category = "casting-3",
     subgroup = "angels-titanium-casting",
     enabled = false,

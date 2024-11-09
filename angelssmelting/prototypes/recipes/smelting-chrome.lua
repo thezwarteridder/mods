@@ -164,6 +164,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-chrome",
+    localised_name = { "item-name.powder-chrome" },
     category = "advanced-crafting",
     subgroup = "angels-chrome",
     energy_required = 0.5,
@@ -238,6 +239,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-chrome",
+    localised_name = { "item-name.angels-plate-chrome" },
     category = "casting-4",
     subgroup = "angels-chrome-casting",
     enabled = false,

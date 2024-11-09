@@ -131,6 +131,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-platinum",
+    localised_name = { "item-name.powder-platinum" },
     category = "advanced-crafting",
     subgroup = "angels-platinum",
     energy_required = 0.5,
@@ -255,6 +256,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-platinum",
+    localised_name = { "item-name.angels-plate-platinum" },
     category = "casting-4",
     subgroup = "angels-platinum-casting",
     enabled = false,

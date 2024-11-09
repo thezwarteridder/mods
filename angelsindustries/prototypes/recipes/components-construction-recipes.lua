@@ -6,6 +6,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "grate-iron",
+      localised_name = { "item-name.grate-iron" },
       enabled = true,
       category = "crafting",
       energy_required = 0.5,
@@ -21,6 +22,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "grate-steel",
+      localised_name = { "item-name.grate-steel" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 1,
@@ -35,6 +37,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "grate-aluminium",
+      localised_name = { "item-name.grate-aluminium" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 1.5,
@@ -49,6 +52,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "grate-titanium",
+      localised_name = { "item-name.grate-titanium" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 2,
@@ -63,6 +67,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "grate-tungsten",
+      localised_name = { "item-name.grate-tungsten" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 3,
@@ -80,6 +85,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-frame-1",
+      localised_name = { "item-name.construction-frame-1" },
       enabled = true,
       category = "crafting",
       energy_required = 1 * angelsmods.industries.component_crafting_time_multiplier, --1:2 ratio to grate
@@ -100,6 +106,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-frame-2",
+      localised_name = { "item-name.construction-frame-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 1.5 * angelsmods.industries.component_crafting_time_multiplier, --2:3 ratio to grate
@@ -120,6 +127,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-frame-3",
+      localised_name = { "item-name.construction-frame-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 2 * angelsmods.industries.component_crafting_time_multiplier, -- 3:4 ratio to grate
@@ -141,6 +149,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-frame-4",
+      localised_name = { "item-name.construction-frame-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 3.5 * angelsmods.industries.component_crafting_time_multiplier, -- 4:7 ratio to grate
@@ -163,6 +172,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "construction-frame-5",
+      localised_name = { "item-name.construction-frame-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.component_crafting_time_multiplier, -- 3:5 ratio to grate
@@ -189,6 +199,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-girder",
+      localised_name = { "item-name.angels-girder" },
       subgroup = "angels-construction-grates",
       order = "f",
       enabled = true,
@@ -206,6 +217,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-rivet",
+      localised_name = { "item-name.angels-rivet" },
       subgroup = "angels-construction-grates",
       order = "g",
       enabled = false,
@@ -222,6 +234,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-bracket",
+      localised_name = { "item-name.angels-bracket" },
       subgroup = "angels-construction-grates",
       order = "h",
       enabled = false,
@@ -238,6 +251,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-plating",
+      localised_name = { "item-name.angels-plating" },
       subgroup = "angels-construction-grates",
       order = "i",
       enabled = false,
@@ -254,6 +268,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-strut",
+      localised_name = { "item-name.angels-strut" },
       subgroup = "angels-construction-grates",
       order = "j",
       enabled = false,

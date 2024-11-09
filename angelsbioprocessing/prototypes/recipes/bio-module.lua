@@ -2,6 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-bio-yield-module",
+    localised_name = { "item-name.angels-bio-yield-module" },
     enabled = false,
     ingredients = {
       { type = "item", name = "crystal-splinter-green", amount = 1 },
@@ -10,11 +11,12 @@ data:extend({
       { type = "item", name = "token-bio", amount = 1 },
     },
     energy_required = 15,
-    results = {{ type = "item", name = "angels-bio-yield-module", amount = 1 }},
+    results = { { type = "item", name = "angels-bio-yield-module", amount = 1 } },
   },
   {
     type = "recipe",
     name = "angels-bio-yield-module-2",
+    localised_name = { "item-name.angels-bio-yield-module-2" },
     enabled = false,
     ingredients = {
       { type = "item", name = "angels-bio-yield-module", amount = 4 },
@@ -24,11 +26,12 @@ data:extend({
       { type = "item", name = "token-bio", amount = 2 },
     },
     energy_required = 30,
-    results = {{ type = "item", name = "angels-bio-yield-module-2", amount = 1 }},
+    results = { { type = "item", name = "angels-bio-yield-module-2", amount = 1 } },
   },
   {
     type = "recipe",
     name = "angels-bio-yield-module-3",
+    localised_name = { "item-name.angels-bio-yield-module-3" },
     enabled = false,
     ingredients = {
       { type = "item", name = "angels-bio-yield-module-2", amount = 5 },
@@ -38,7 +41,7 @@ data:extend({
       { type = "item", name = "token-bio", amount = 3 },
     },
     energy_required = 60,
-    results = {{ type = "item", name = "angels-bio-yield-module-3", amount = 1 }},
+    results = { { type = "item", name = "angels-bio-yield-module-3", amount = 1 } },
   },
 })
 

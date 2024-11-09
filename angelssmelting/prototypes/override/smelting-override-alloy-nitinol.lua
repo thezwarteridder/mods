@@ -51,6 +51,7 @@ if angelsmods.trigger.smelting_products["nitinol"].plate then
       {
         type = "recipe",
         name = "angels-plate-nitinol",
+        localised_name = { "item-name.nitinol-alloy" },
         category = "casting-4",
         subgroup = "angels-alloys-casting",
         energy_required = 4,

@@ -166,6 +166,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-aluminium",
+    localised_name = { "item-name.powder-aluminium" },
     category = "advanced-crafting",
     subgroup = "angels-aluminium",
     energy_required = 0.5,
@@ -300,6 +301,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-aluminium",
+    localised_name = { "item-name.angels-plate-aluminium" },
     category = "casting-2",
     subgroup = "angels-aluminium-casting",
     enabled = false,

@@ -138,6 +138,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-nickel",
+    localised_name = { "item-name.powder-nickel" },
     category = "advanced-crafting",
     subgroup = "angels-nickel",
     energy_required = 0.5,
@@ -220,6 +221,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-nickel",
+    localised_name = { "item-name.angels-plate-nickel" },
     category = "casting-2",
     subgroup = "angels-nickel-casting",
     enabled = false,

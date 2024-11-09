@@ -103,6 +103,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-tin",
+    localised_name = { "item-name.powder-tin" },
     category = "advanced-crafting",
     subgroup = "angels-tin",
     energy_required = 0.5,
@@ -236,6 +237,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-tin",
+    localised_name = { "item-name.angels-plate-tin" },
     category = "casting",
     subgroup = "angels-tin-casting",
     enabled = false,

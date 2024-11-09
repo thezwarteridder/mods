@@ -197,6 +197,7 @@ data:extend({
   {
     type = "recipe",
     name = "stone-crushed",
+    localised_name = { "item-name.stone" },
     category = "crafting",
     subgroup = "processing-crafting",
     ingredients = {

@@ -4,6 +4,9 @@ data:extend({
   {
     type = "recipe",
     name = "alien-spores",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/alien-spores.png",
+    --icon_size = 32,
+    localised_name = { "fluid-name.alien-spores" },
     category = "water-treatment",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -23,6 +26,9 @@ data:extend({
   {
     type = "recipe",
     name = "alien-bacteria",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/alien-bacteria.png",
+    --icon_size = 32,
+    localised_name = { "item-name.alien-bacteria" },
     category = "bio-processing",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -43,6 +49,7 @@ data:extend({
   {
     type = "recipe",
     name = "alien-goo",
+    localised_name = { "fluid-name.alien-goo" },
     category = "liquifying",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -62,6 +69,9 @@ data:extend({
   {
     type = "recipe",
     name = "petri-dish",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/petri-dish.png",
+    --icon_size = 32,
+    localised_name = { "item-name.petri-dish" },
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
     energy_required = 2,
@@ -79,6 +89,9 @@ data:extend({
   {
     type = "recipe",
     name = "substrate-dish",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/substrate-dish.png",
+    --icon_size = 32,
+    localised_name = { "item-name.substrate-dish" },
     category = "crafting",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -98,6 +111,9 @@ data:extend({
   {
     type = "recipe",
     name = "seeded-dish",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/alien-pre-artifact.png",
+    --icon_size = 32,
+    localised_name = { "item-name.seeded-dish" },
     category = "crafting",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -117,6 +133,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-seed",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-seed" },
     category = "crafting",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -136,6 +155,9 @@ data:extend({
   {
     type = "recipe",
     name = "egg-shell-seed",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.egg-shell-seed" },
     category = "crafting",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -155,6 +177,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-enhancer",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-enhancer" },
     category = "crafting-with-fluid",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -175,6 +200,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-grindstone",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-grindstone" },
     category = "crafting",
     subgroup = "bio-processing-alien-intermediate",
     enabled = false,
@@ -209,7 +237,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsrefininggraphics__/graphics/icons/crystal-dust.png",

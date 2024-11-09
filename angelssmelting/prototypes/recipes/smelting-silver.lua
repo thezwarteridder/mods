@@ -146,6 +146,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-silver",
+    localised_name = { "item-name.powder-silver" },
     category = "advanced-crafting",
     subgroup = "angels-silver",
     energy_required = 0.5,
@@ -270,6 +271,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-silver",
+    localised_name = { "item-name.angels-plate-silver" },
     category = "casting-2",
     subgroup = "angels-silver-casting",
     enabled = false,

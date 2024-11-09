@@ -177,6 +177,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-zinc",
+    localised_name = { "item-name.powder-zinc" },
     category = "advanced-crafting",
     subgroup = "angels-zinc",
     energy_required = 0.5,
@@ -258,6 +259,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-zinc",
+    localised_name = { "item-name.angels-plate-zinc" },
     category = "casting-2",
     subgroup = "angels-zinc-casting",
     enabled = false,

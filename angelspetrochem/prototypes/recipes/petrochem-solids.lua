@@ -89,6 +89,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-resin",
+    localised_name = { "item-name.solid-resin" },
     category = "crafting-with-fluid",
     subgroup = "petrochem-solids",
     enabled = false,
@@ -178,6 +179,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-rubber",
+    localised_name = { "item-name.solid-rubber" },
     category = "crafting-with-fluid",
     subgroup = "petrochem-solids-2",
     enabled = false,
@@ -362,6 +364,7 @@ data:extend({
   {
     type = "recipe",
     name = "catalyst-metal-carrier",
+    localised_name = { "item-name.catalyst-metal-carrier" },
     category = "crafting",
     subgroup = "petrochem-catalysts",
     energy_required = 4,
@@ -379,6 +382,7 @@ data:extend({
   {
     type = "recipe",
     name = "catalyst-metal-red",
+    localised_name = { "item-name.catalyst-metal-red" },
     category = "crafting",
     subgroup = "petrochem-catalysts",
     energy_required = 2,
@@ -398,6 +402,7 @@ data:extend({
   {
     type = "recipe",
     name = "catalyst-metal-green",
+    localised_name = { "item-name.catalyst-metal-green" },
     category = "crafting",
     subgroup = "petrochem-catalysts",
     energy_required = 2,
@@ -417,6 +422,7 @@ data:extend({
   {
     type = "recipe",
     name = "catalyst-metal-blue",
+    localised_name = { "item-name.catalyst-metal-blue" },
     category = "crafting",
     subgroup = "petrochem-catalysts",
     energy_required = 2,
@@ -436,6 +442,7 @@ data:extend({
   {
     type = "recipe",
     name = "catalyst-metal-yellow",
+    localised_name = { "item-name.catalyst-metal-yellow" },
     category = "crafting",
     subgroup = "petrochem-catalysts",
     energy_required = 2,
@@ -456,6 +463,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-electrode",
+    localised_name = { "item-name.angels-electrode" },
     category = "crafting",
     subgroup = "petrochem-catalysts",
     energy_required = 1,

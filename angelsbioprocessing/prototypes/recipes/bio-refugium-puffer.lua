@@ -2,6 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-puffer-atmosphere",
+    localised_name = { "fluid-name.gas-puffer-atmosphere" },
     category = "advanced-chemistry",
     subgroup = "bio-puffer-1",
     enabled = false,
@@ -31,6 +32,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-puffer-egg-shell-powder",
+    localised_name = { "item-name.bio-puffer-egg-shell-powder" },
     category = "ore-refining-t1-5",
     subgroup = "bio-puffer-egg",
     enabled = false,
@@ -254,7 +256,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-2-icon.png",
@@ -312,7 +314,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
@@ -370,7 +372,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
@@ -428,7 +430,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
@@ -486,7 +488,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/empty_icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
@@ -555,11 +557,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
     },
     order = "aa",
@@ -613,11 +615,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-2-icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
     },
     order = "ab",
@@ -671,11 +673,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-3-icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
     },
     order = "ac",
@@ -729,11 +731,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-4-icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
     },
     order = "ad",
@@ -787,11 +789,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-5-icon.png",
-        icon_size = 32
+        icon_size = 32,
       },
     },
     order = "ae",
@@ -814,15 +816,29 @@ data:extend({
       { type = "fluid", name = "gas-puffer-atmosphere", amount = 20 },
     },
     results = {
-      { type = "item", name = "bio-puffer-2", amount = 1, probability = 0.95, ignored_by_productivity = 1, ignored_by_stats = 1 },
-      { type = "item", name = "bio-puffer-3", amount = 1, probability = 0.90, ignored_by_productivity = 1, ignored_by_stats = 1 },
+      {
+        type = "item",
+        name = "bio-puffer-2",
+        amount = 1,
+        probability = 0.95,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
+      {
+        type = "item",
+        name = "bio-puffer-3",
+        amount = 1,
+        probability = 0.90,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
       { type = "fluid", name = "gas-acid", amount = 20, ignored_by_productivity = 20 },
       { type = "item", name = "bio-puffer-egg-1", amount = 1 },
     },
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-2-icon.png",
@@ -854,15 +870,29 @@ data:extend({
       { type = "fluid", name = "gas-puffer-atmosphere", amount = 20 },
     },
     results = {
-      { type = "item", name = "bio-puffer-1", amount = 1, probability = 0.90, ignored_by_productivity = 1, ignored_by_stats = 1 },
-      { type = "item", name = "bio-puffer-2", amount = 1, probability = 0.85, ignored_by_productivity = 1, ignored_by_stats = 1 },
+      {
+        type = "item",
+        name = "bio-puffer-1",
+        amount = 1,
+        probability = 0.90,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
+      {
+        type = "item",
+        name = "bio-puffer-2",
+        amount = 1,
+        probability = 0.85,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
       { type = "fluid", name = "gas-acid", amount = 20, ignored_by_productivity = 20 },
       { type = "item", name = "bio-puffer-egg-2", amount = 1 },
     },
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
@@ -894,15 +924,29 @@ data:extend({
       { type = "fluid", name = "gas-puffer-atmosphere", amount = 20 },
     },
     results = {
-      { type = "item", name = "bio-puffer-1", amount = 1, probability = 0.85, ignored_by_productivity = 1, ignored_by_stats = 1 },
-      { type = "item", name = "bio-puffer-3", amount = 1, probability = 0.80, ignored_by_productivity = 1, ignored_by_stats = 11 },
+      {
+        type = "item",
+        name = "bio-puffer-1",
+        amount = 1,
+        probability = 0.85,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
+      {
+        type = "item",
+        name = "bio-puffer-3",
+        amount = 1,
+        probability = 0.80,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 11,
+      },
       { type = "fluid", name = "gas-acid", amount = 20, ignored_by_productivity = 20 },
       { type = "item", name = "bio-puffer-egg-3", amount = 1 },
     },
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
@@ -934,15 +978,29 @@ data:extend({
       { type = "fluid", name = "gas-puffer-atmosphere", amount = 20 },
     },
     results = {
-      { type = "item", name = "bio-puffer-1", amount = 1, probability = 0.80, ignored_by_productivity = 1, ignored_by_stats = 1 },
-      { type = "item", name = "bio-puffer-4", amount = 1, probability = 0.75, ignored_by_productivity = 1, ignored_by_stats = 1 },
+      {
+        type = "item",
+        name = "bio-puffer-1",
+        amount = 1,
+        probability = 0.80,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
+      {
+        type = "item",
+        name = "bio-puffer-4",
+        amount = 1,
+        probability = 0.75,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
       { type = "fluid", name = "gas-acid", amount = 20, ignored_by_productivity = 20 },
       { type = "item", name = "bio-puffer-egg-4", amount = 1 },
     },
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",
@@ -974,15 +1032,29 @@ data:extend({
       { type = "fluid", name = "gas-puffer-atmosphere", amount = 20 },
     },
     results = {
-      { type = "item", name = "bio-puffer-1", amount = 1, probability = 0.75, ignored_by_productivity = 1, ignored_by_stats = 1 },
-      { type = "item", name = "bio-puffer-5", amount = 1, probability = 0.70, ignored_by_productivity = 1, ignored_by_stats = 1 },
+      {
+        type = "item",
+        name = "bio-puffer-1",
+        amount = 1,
+        probability = 0.75,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
+      {
+        type = "item",
+        name = "bio-puffer-5",
+        amount = 1,
+        probability = 0.70,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+      },
       { type = "fluid", name = "gas-acid", amount = 20, ignored_by_productivity = 20 },
       { type = "item", name = "bio-puffer-egg-5", amount = 1 },
     },
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/puffer-1-icon.png",

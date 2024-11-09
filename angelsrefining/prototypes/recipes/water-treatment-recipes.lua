@@ -2,6 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "water-mineralized",
+    localised_name = { "fluid-name.water-mineralized" },
     category = "liquifying",
     subgroup = "water-treatment",
     energy_required = 1,
@@ -179,6 +180,7 @@ data:extend({
   {
     type = "recipe",
     name = "water-saline",
+    localised_name = { "fluid-name.water-saline" },
     category = "salination-plant",
     subgroup = "water-salination",
     energy_required = 5,
@@ -250,6 +252,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-salt",
+    localised_name = { "item-name.solid-salt" },
     category = "salination-plant",
     subgroup = "water-salination",
     energy_required = 5,
@@ -268,6 +271,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-lithium",
+    localised_name = { "item-name.solid-lithium" },
     category = "salination-plant",
     subgroup = "water-salination",
     energy_required = 5,
@@ -399,6 +403,7 @@ data:extend({
   {
     type = "recipe",
     name = "water-viscous-mud",
+    localised_name = { "fluid-name.water-viscous-mud" },
     category = "liquifying",
     subgroup = "water-washing",
     energy_required = 5,
@@ -467,6 +472,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-clay",
+    localised_name = { "item-name.solid-clay" },
     category = "washing-plant",
     subgroup = "water-washing-filtering",
     energy_required = 5,
@@ -489,6 +495,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-limestone",
+    localised_name = { "item-name.solid-limestone" },
     category = "washing-plant",
     subgroup = "water-washing-filtering",
     energy_required = 5,
@@ -511,6 +518,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-sand",
+    localised_name = { "item-name.solid-sand" },
     category = "washing-plant",
     subgroup = "water-washing-filtering",
     energy_required = 5,

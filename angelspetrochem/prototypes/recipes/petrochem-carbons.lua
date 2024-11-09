@@ -812,7 +812,12 @@ data:extend({
     },
     always_show_products = true,
     icons = angelsmods.functions.create_gas_recipe_icon({
-      { "__angelspetrochemgraphics__/graphics/icons/molecules/polyethylene.png", 72, { 11.5 * 32 / 10.24, 0 }, 32 / 10.24 },
+      {
+        "__angelspetrochemgraphics__/graphics/icons/molecules/polyethylene.png",
+        72,
+        { 11.5 * 32 / 10.24, 0 },
+        32 / 10.24,
+      },
     }, "CHH"),
     crafting_machine_tint = AF.get_recipe_tints({ "liquid-polyethylene", "gas-ethylene" }),
     order = "c[liquid-polyethylene-catalyst]",
@@ -1037,6 +1042,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-ethylene-carbonate",
+    localised_name = { "fluid-name.liquid-ethylene-carbonate" },
     category = "chemistry",
     subgroup = "petrochem-chemistry",
     energy_required = 4,
@@ -1090,6 +1096,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-bisphenol-a",
+    localised_name = { "fluid-name.liquid-bisphenol-a" },
     category = "advanced-chemistry",
     subgroup = "petrochem-chemistry",
     energy_required = 4,

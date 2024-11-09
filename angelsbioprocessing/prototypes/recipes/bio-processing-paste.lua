@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-cellulose",
+    localised_name = { "item-name.paste-cellulose" },
     category = "liquifying",
     subgroup = "bio-processing-green",
     enabled = false,
@@ -23,6 +24,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-copper",
+    localised_name = { "item-name.paste-copper" },
     category = "crafting",
     subgroup = "bio-processing-paste",
     enabled = false,
@@ -41,6 +43,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-gold",
+    localised_name = { "item-name.paste-gold" },
     category = "crafting",
     subgroup = "bio-processing-paste",
     enabled = false,
@@ -59,6 +62,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-tungsten",
+    localised_name = { "item-name.paste-tungsten" },
     category = "crafting",
     subgroup = "bio-processing-paste",
     enabled = false,
@@ -77,6 +81,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-cobalt",
+    localised_name = { "item-name.paste-cobalt" },
     category = "crafting",
     subgroup = "bio-processing-paste",
     enabled = false,
@@ -95,6 +100,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-titanium",
+    localised_name = { "item-name.paste-titanium" },
     category = "crafting",
     subgroup = "bio-processing-paste",
     enabled = false,
@@ -113,6 +119,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-zinc",
+    localised_name = { "item-name.paste-zinc" },
     category = "crafting",
     subgroup = "bio-processing-paste",
     enabled = false,
@@ -131,6 +138,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-iron",
+    localised_name = { "item-name.paste-iron" },
     category = "crafting",
     subgroup = "bio-processing-paste",
     enabled = false,
@@ -149,6 +157,7 @@ data:extend({
   {
     type = "recipe",
     name = "paste-silver",
+    localised_name = { "item-name.paste-silver" },
     category = "crafting",
     subgroup = "bio-processing-paste",
     enabled = false,

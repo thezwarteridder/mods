@@ -6,6 +6,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-construction-1",
+      localised_name = { "item-name.block-construction-1" },
       enabled = true,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -22,6 +23,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-construction-2",
+      localised_name = { "item-name.block-construction-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -38,6 +40,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-construction-3",
+      localised_name = { "item-name.block-construction-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -54,6 +57,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-construction-4",
+      localised_name = { "item-name.block-construction-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -70,6 +74,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-construction-5",
+      localised_name = { "item-name.block-construction-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -89,6 +94,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-electronics-0",
+      localised_name = { "item-name.block-electronics-0" },
       enabled = true,
       category = "crafting",
       energy_required = 1 * angelsmods.industries.block_crafting_time_multiplier,
@@ -105,6 +111,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-electronics-1",
+      localised_name = { "item-name.block-electronics-1" },
       enabled = false,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -123,6 +130,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-electronics-2",
+      localised_name = { "item-name.block-electronics-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -141,6 +149,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-electronics-3",
+      localised_name = { "item-name.block-electronics-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -159,6 +168,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-electronics-4",
+      localised_name = { "item-name.block-electronics-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -177,6 +187,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-electronics-5",
+      localised_name = { "item-name.block-electronics-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -198,6 +209,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-fluidbox-1",
+      localised_name = { "item-name.block-fluidbox-1" },
       enabled = true,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -214,6 +226,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-fluidbox-2",
+      localised_name = { "item-name.block-fluidbox-2" },
       enabled = false, -- tier 2.5
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -233,6 +246,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-mechanical-1",
+      localised_name = { "item-name.block-mechanical-1" },
       enabled = true,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -249,6 +263,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-mechanical-2",
+      localised_name = { "item-name.block-mechanical-2" },
       enabled = false, -- tier 2.5
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -268,6 +283,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-enhancement-1",
+      localised_name = { "item-name.block-enhancement-1" },
       enabled = false,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -286,6 +302,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-enhancement-2",
+      localised_name = { "item-name.block-enhancement-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -304,6 +321,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-enhancement-3",
+      localised_name = { "item-name.block-enhancement-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -322,6 +340,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-enhancement-4",
+      localised_name = { "item-name.block-enhancement-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -340,6 +359,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-enhancement-5",
+      localised_name = { "item-name.block-enhancement-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -361,6 +381,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-energy-1",
+      localised_name = { "item-name.block-energy-1" },
       enabled = false,
       category = "crafting",
       energy_required = 2. * angelsmods.industries.block_crafting_time_multiplier,
@@ -379,6 +400,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-energy-2",
+      localised_name = { "item-name.block-energy-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -397,6 +419,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-energy-3",
+      localised_name = { "item-name.block-energy-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -415,6 +438,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-energy-4",
+      localised_name = { "item-name.block-energy-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -433,6 +457,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-energy-5",
+      localised_name = { "item-name.block-energy-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -454,6 +479,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-exploration-1",
+      localised_name = { "item-name.block-exploration-1" },
       enabled = false,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -472,6 +498,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-exploration-2",
+      localised_name = { "item-name.block-exploration-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -490,6 +517,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-exploration-3",
+      localised_name = { "item-name.block-exploration-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -508,6 +536,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-exploration-4",
+      localised_name = { "item-name.block-exploration-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -526,6 +555,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-exploration-5",
+      localised_name = { "item-name.block-exploration-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -547,6 +577,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-logistic-1",
+      localised_name = { "item-name.block-logistic-1" },
       enabled = false,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -565,6 +596,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-logistic-2",
+      localised_name = { "item-name.block-logistic-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -583,6 +615,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-logistic-3",
+      localised_name = { "item-name.block-logistic-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -601,6 +634,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-logistic-4",
+      localised_name = { "item-name.block-logistic-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -619,6 +653,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-logistic-5",
+      localised_name = { "item-name.block-logistic-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -640,6 +675,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-production-1",
+      localised_name = { "item-name.block-production-1" },
       enabled = false,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -658,6 +694,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-production-2",
+      localised_name = { "item-name.block-production-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -676,6 +713,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-production-3",
+      localised_name = { "item-name.block-production-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -694,6 +732,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-production-4",
+      localised_name = { "item-name.block-production-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -712,6 +751,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-production-5",
+      localised_name = { "item-name.block-production-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -733,6 +773,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-extraction-3",
+      localised_name = { "item-name.block-extraction-3" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -751,6 +792,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-extraction-4",
+      localised_name = { "item-name.block-extraction-4" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -769,6 +811,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-extraction-5",
+      localised_name = { "item-name.block-extraction-5" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -790,6 +833,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-cprocessing-3",
+      localised_name = { "item-name.block-cprocessing-3" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -807,6 +851,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-cprocessing-4",
+      localised_name = { "item-name.block-cprocessing-4" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -824,6 +869,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-cprocessing-5",
+      localised_name = { "item-name.block-cprocessing-5" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -844,6 +890,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-mprocessing-3",
+      localised_name = { "item-name.block-mprocessing-3" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -862,6 +909,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-mprocessing-4",
+      localised_name = { "item-name.block-mprocessing-4" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -880,6 +928,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-mprocessing-5",
+      localised_name = { "item-name.block-mprocessing-5" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -901,6 +950,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-bprocessing-3",
+      localised_name = { "item-name.block-bprocessing-3" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -919,6 +969,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-bprocessing-4",
+      localised_name = { "item-name.block-bprocessing-4" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -937,6 +988,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-bprocessing-5",
+      localised_name = { "item-name.block-bprocessing-5" },
       enabled = true,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,
@@ -958,6 +1010,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-warfare-1",
+      localised_name = { "item-name.block-warfare-1" },
       enabled = false,
       category = "crafting",
       energy_required = 2.5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -976,6 +1029,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-warfare-2",
+      localised_name = { "item-name.block-warfare-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5 * angelsmods.industries.block_crafting_time_multiplier,
@@ -994,6 +1048,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-warfare-3",
+      localised_name = { "item-name.block-warfare-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 8 * angelsmods.industries.block_crafting_time_multiplier,
@@ -1012,6 +1067,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-warfare-4",
+      localised_name = { "item-name.block-warfare-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 15 * angelsmods.industries.block_crafting_time_multiplier,
@@ -1030,6 +1086,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "block-warfare-5",
+      localised_name = { "item-name.block-warfare-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 25 * angelsmods.industries.block_crafting_time_multiplier,

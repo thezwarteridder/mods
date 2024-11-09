@@ -12,6 +12,7 @@ data:extend({
   {
     type = "recipe",
     name = "algae-brown",
+    localised_name = { "item-name.algae-brown" },
     category = "bio-processing-2",
     subgroup = "bio-processing-brown",
     enabled = false,
@@ -68,6 +69,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-alginic-acid",
+    localised_name = { "item-name.solid-alginic-acid" },
     category = "crafting",
     subgroup = "bio-processing-brown",
     enabled = false,
@@ -129,6 +131,7 @@ data:extend({
   {
     type = "recipe",
     name = "algae-green",
+    localised_name = { "item-name.algae-green" },
     category = "bio-processing-2",
     subgroup = "bio-processing-green",
     enabled = false,
@@ -189,6 +192,7 @@ data:extend({
   {
     type = "recipe",
     name = "algae-blue",
+    localised_name = { "item-name.algae-blue" },
     category = "bio-processing-4",
     subgroup = "bio-processing-blue",
     enabled = false,
@@ -247,6 +251,7 @@ data:extend({
   {
     type = "recipe",
     name = "algae-red",
+    localised_name = { "item-name.algae-red" },
     category = "bio-processing-3",
     subgroup = "bio-processing-red",
     enabled = false,
@@ -283,6 +288,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-calcium-carbonate",
+    localised_name = { "item-name.solid-calcium-carbonate" },
     category = "liquifying",
     subgroup = "bio-processing-red",
     enabled = false,

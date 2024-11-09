@@ -122,6 +122,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-copper",
+    localised_name = { "item-name.powder-copper" },
     category = "advanced-crafting",
     subgroup = "angels-copper",
     energy_required = 0.5,
@@ -252,6 +253,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-copper",
+    localised_name = { "item-name.angels-plate-copper" },
     category = "casting",
     subgroup = "angels-copper-casting",
     enabled = false,

@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-big-chest",
+    localised_name = { "entity-name.angels-big-chest" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -17,6 +18,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-logistic-chest-requester",
+    localised_name = { "entity-name.angels-logistic-chest-requester" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -32,6 +34,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-logistic-chest-passive-provider",
+    localised_name = { "entity-name.angels-logistic-chest-passive-provider" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -47,6 +50,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-logistic-chest-active-provider",
+    localised_name = { "entity-name.angels-logistic-chest-active-provider" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -62,6 +66,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-logistic-chest-storage",
+    localised_name = { "entity-name.angels-logistic-chest-storage" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -77,6 +82,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-logistic-chest-buffer",
+    localised_name = { "entity-name.angels-logistic-chest-buffer" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -93,6 +99,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-construction-robot",
+    localised_name = { "entity-name.angels-construction-robot" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -109,6 +116,7 @@ data:extend({
   {
     type = "recipe",
     name = "cargo-robot",
+    localised_name = { "entity-name.cargo-robot" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -125,6 +133,7 @@ data:extend({
   {
     type = "recipe",
     name = "cargo-robot-2",
+    localised_name = { "entity-name.cargo-robot-2" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -143,6 +152,7 @@ data:extend({
   {
     type = "recipe",
     name = "cargo-hub",
+    localised_name = { "entity-name.cargo-hub" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -159,6 +169,7 @@ data:extend({
   {
     type = "recipe",
     name = "cargo-roboport",
+    localised_name = { "entity-name.cargo-roboport" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -175,6 +186,7 @@ data:extend({
   {
     type = "recipe",
     name = "cargo-box",
+    localised_name = { "entity-name.cargo-box" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -192,6 +204,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-zone-expander",
+    localised_name = { "entity-name.angels-zone-expander" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -206,6 +219,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-zone-expander-2",
+    localised_name = { "entity-name.angels-zone-expander-2" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -222,6 +236,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-zone-expander-3",
+    localised_name = { "entity-name.angels-zone-expander-3" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -239,6 +254,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-construction-zone-expander",
+    localised_name = { "entity-name.angels-construction-zone-expander" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -253,6 +269,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-construction-zone-expander-2",
+    localised_name = { "entity-name.angels-construction-zone-expander-2" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -269,6 +286,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-construction-zone-expander-3",
+    localised_name = { "entity-name.angels-construction-zone-expander-3" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -286,6 +304,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-relay-station",
+    localised_name = { "entity-name.angels-relay-station" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -300,6 +319,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-relay-station-2",
+    localised_name = { "entity-name.angels-relay-station-2" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -316,6 +336,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-relay-station-3",
+    localised_name = { "entity-name.angels-relay-station-3" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -332,6 +353,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-charging-station",
+    localised_name = { "entity-name.angels-charging-station" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -349,6 +371,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-lamp",
+    localised_name = { "entity-name.angels-lamp" },
     enabled = false,
     energy_required = 5,
     ingredients = {

@@ -209,6 +209,7 @@ data:extend({
   {
     type = "recipe",
     name = "mold-expendable",
+    localised_name = { "item-name.mold-expendable" },
     category = "sintering",
     subgroup = "angels-mold-casting",
     energy_required = 4,
@@ -225,7 +226,7 @@ data:extend({
     icons = {
       {
         icon = "__angelssmeltinggraphics__/graphics/icons/expendable-mold.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelssmeltinggraphics__/graphics/icons/motor-casing-0.png",
@@ -239,6 +240,7 @@ data:extend({
   {
     type = "recipe",
     name = "mold-non-expendable",
+    localised_name = { "item-name.mold-non-expendable" },
     category = "sintering-3",
     subgroup = "angels-mold-casting",
     energy_required = 4,

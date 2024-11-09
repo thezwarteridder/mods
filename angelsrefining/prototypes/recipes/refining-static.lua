@@ -986,6 +986,7 @@ data:extend({
   {
     type = "recipe",
     name = "filter-frame",
+    localised_name = { "item-name.filter-frame" },
     category = "crafting",
     subgroup = "geode-crystallization",
     energy_required = 1,
@@ -1004,6 +1005,7 @@ data:extend({
   {
     type = "recipe",
     name = "filter-coal",
+    localised_name = { "item-name.filter-coal" },
     category = "crafting",
     subgroup = "geode-crystallization",
     energy_required = 1,
@@ -1022,6 +1024,7 @@ data:extend({
   {
     type = "recipe",
     name = "filter-ceramic",
+    localised_name = { "item-name.filter-ceramic" },
     category = "crafting",
     subgroup = "geode-crystallization",
     energy_required = 1,
@@ -1059,6 +1062,7 @@ data:extend({
   {
     type = "recipe",
     name = "milling-drum",
+    localised_name = { "item-name.milling-drum" },
     category = "crafting-with-fluid",
     subgroup = "ore-powderizer",
     energy_required = 1,
@@ -1077,6 +1081,7 @@ data:extend({
   {
     type = "recipe",
     name = "milling-drum-used",
+    localised_name = { "item-name.milling-drum" },
     category = "crafting-with-fluid",
     subgroup = "ore-powderizer",
     energy_required = 1,
@@ -1498,6 +1503,7 @@ data:extend({
   {
     type = "recipe",
     name = "catalysator-brown",
+    localised_name = { "item-name.catalysator-brown" },
     category = "crystallizing",
     subgroup = "geode-crystallization",
     --subgroup = "slag-processing-1",
@@ -1516,6 +1522,7 @@ data:extend({
   {
     type = "recipe",
     name = "catalysator-green",
+    localised_name = { "item-name.catalysator-green" },
     category = "crystallizing-2",
     subgroup = "geode-crystallization",
     energy_required = 0.5,
@@ -1533,6 +1540,7 @@ data:extend({
   {
     type = "recipe",
     name = "catalysator-orange",
+    localised_name = { "item-name.catalysator-orange" },
     category = "crystallizing-3",
     subgroup = "geode-crystallization",
     energy_required = 0.5,
@@ -1565,7 +1573,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-iron.png",
-        icon_size = 32
+        icon_size = 32,
       } or {
         icon = "__base__/graphics/icons/iron-plate.png",
         icon_size = 64,
@@ -1595,7 +1603,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-iron.png",
-        icon_size = 32
+        icon_size = 32,
       } or {
         icon = "__base__/graphics/icons/iron-plate.png",
         icon_size = 64,
@@ -1613,6 +1621,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-iron-pebbles",
+    localised_name = { "item-name.angels-iron-pebbles" },
     category = "ore-refining-t1",
     subgroup = "ore-sorting-advanced",
     energy_required = 1,
@@ -1671,7 +1680,7 @@ data:extend({
     icons = {
       mods["angelssmelting"] and {
         icon = "__angelssmeltinggraphics__/graphics/icons/plate-copper.png",
-        icon_size = 32
+        icon_size = 32,
       } or {
         icon = "__base__/graphics/icons/copper-plate.png",
         icon_size = 64,
@@ -1689,6 +1698,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-copper-pebbles",
+    localised_name = { "item-name.angels-copper-pebbles" },
     category = "ore-refining-t1",
     subgroup = "ore-sorting-advanced",
     energy_required = 1,

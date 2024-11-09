@@ -77,6 +77,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-hexafluorosilicic-acid",
+    localised_name = { "fluid-name.liquid-hexafluorosilicic-acid" },
     category = "liquifying",
     subgroup = "angels-lead",
     energy_required = 2,
@@ -171,6 +172,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-lead",
+    localised_name = { "item-name.powder-lead" },
     category = "advanced-crafting",
     subgroup = "angels-lead",
     energy_required = 0.5,
@@ -253,6 +255,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-lead",
+    localised_name = { "item-name.angels-plate-lead" },
     category = "casting",
     subgroup = "angels-lead-casting",
     enabled = false,

@@ -81,7 +81,7 @@ if angelsmods.industries.components then
         name = "angels-casing-" .. metal .. "-1",
         category = category1,
         subgroup = "angels-" .. metal .. "-casting",
-        localised_name = { "recipe-name.casing", metal, ''..num, "expendable" },
+        localised_name = { "recipe-name.casing", metal, "" .. num, "expendable" },
         enabled = false,
         energy_required = 3 * num,
         ingredients = {
@@ -113,7 +113,7 @@ if angelsmods.industries.components then
         name = "angels-casing-" .. metal .. "-2",
         category = category2,
         subgroup = "angels-" .. metal .. "-casting",
-        localised_name = { "recipe-name.casing", metal, ''..num, "reusable" },
+        localised_name = { "recipe-name.casing", metal, "" .. num, "reusable" },
         enabled = false,
         energy_required = 2 * num,
         ingredients = {
@@ -242,6 +242,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-block-1",
+      localised_name = { "item-name.motor-block-1" },
       enabled = false,
       category = "crafting",
       energy_required = 1, -- 1:2 ratio with motor
@@ -258,6 +259,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-block-2",
+      localised_name = { "item-name.motor-block-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 2, -- 2:3 ratio with motor
@@ -273,6 +275,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-block-3",
+      localised_name = { "item-name.motor-block-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 3, -- 3:4 ratio with motor
@@ -289,6 +292,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-block-4",
+      localised_name = { "item-name.motor-block-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 4, -- 4:7 ratio with motor
@@ -305,6 +309,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-block-5",
+      localised_name = { "item-name.motor-block-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 6, -- 3:5 ratio with motor
@@ -324,6 +329,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-1",
+      localised_name = { "item-name.motor-1" },
       energy_required = 2 * angelsmods.industries.component_crafting_time_multiplier,
       category = "crafting",
       enabled = false,
@@ -340,6 +346,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-2",
+      localised_name = { "item-name.motor-2" },
       energy_required = 3 * angelsmods.industries.component_crafting_time_multiplier,
       category = "advanced-crafting",
       enabled = false,
@@ -356,6 +363,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-3",
+      localised_name = { "item-name.motor-3" },
       energy_required = 4 * angelsmods.industries.component_crafting_time_multiplier,
       category = "advanced-crafting",
       enabled = false,
@@ -373,6 +381,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-4",
+      localised_name = { "item-name.motor-4" },
       energy_required = 7 * angelsmods.industries.component_crafting_time_multiplier,
       category = "advanced-crafting",
       enabled = false,
@@ -391,6 +400,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "motor-5",
+      localised_name = { "item-name.motor-5" },
       energy_required = 10 * angelsmods.industries.component_crafting_time_multiplier,
       category = "advanced-crafting",
       enabled = false,
@@ -413,6 +423,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-gear",
+      localised_name = { "item-name.angels-gear" },
       subgroup = "angels-motor-block",
       order = "f",
       energy_required = 1,
@@ -430,6 +441,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "angels-axle",
+      localised_name = { "item-name.angels-axle" },
       subgroup = "angels-motor-block",
       order = "g",
       energy_required = 1,
@@ -438,12 +450,13 @@ if angelsmods.industries.components then
       ingredients = {
         { type = "item", name = "angels-rod-steel", amount = 1 },
       },
-      results = {{ type = "item", name = "angels-axle", amount = 1 }},
+      results = { { type = "item", name = "angels-axle", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "angels-roller-chain",
+      localised_name = { "item-name.angels-roller-chain" },
       subgroup = "angels-motor-block",
       order = "h",
       energy_required = 1.5,
@@ -452,12 +465,13 @@ if angelsmods.industries.components then
       ingredients = {
         { type = "item", name = "angels-plate-aluminium", amount = 1 },
       },
-      results = {{ type = "item", name = "angels-roller-chain", amount = 1 }},
+      results = { { type = "item", name = "angels-roller-chain", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "angels-spring",
+      localised_name = { "item-name.angels-spring" },
       subgroup = "angels-motor-block",
       order = "i",
       energy_required = 2,
@@ -466,12 +480,13 @@ if angelsmods.industries.components then
       ingredients = {
         { type = "item", name = "angels-plate-titanium", amount = 1 },
       },
-      results = {{ type = "item", name = "angels-spring", amount = 1 }},
+      results = { { type = "item", name = "angels-spring", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "angels-bearing",
+      localised_name = { "item-name.angels-bearing" },
       subgroup = "angels-motor-block",
       order = "j",
       energy_required = 2.5,
@@ -482,7 +497,7 @@ if angelsmods.industries.components then
         { type = "item", name = "steel-plate", amount = 1 },
         { type = "fluid", name = "lubricant", amount = 1 },
       },
-      results = {{ type = "item", name = "angels-bearing", amount = 1 }},
+      results = { { type = "item", name = "angels-bearing", amount = 1 } },
       icon_size = 32,
     },
     -----------------------------------------------------------------------------

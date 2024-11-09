@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-solder-mixture",
+    localised_name = { "item-name.angels-solder-mixture" },
     category = "crafting",
     subgroup = "angels-alloys",
     enabled = false,
@@ -184,6 +185,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-solder",
+    localised_name = { "item-name.angels-solder" },
     category = "casting",
     subgroup = "angels-solder-casting",
     enabled = false,

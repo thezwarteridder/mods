@@ -23,6 +23,7 @@ if angelsmods.trigger.artifacts["red"] then
       {
         type = "recipe",
         name = "alien-pre-artifact-red",
+        localised_name = { "item-name.alien-pre-artifact-red" },
         category = "crafting",
         subgroup = "bio-processing-alien-pre",
         enabled = false,
@@ -43,6 +44,7 @@ if angelsmods.trigger.artifacts["red"] then
       {
         type = "recipe",
         name = "small-alien-artifact-red",
+        localised_name = { "item-name.small-alien-artifact-red" },
         category = "crafting",
         subgroup = "bio-processing-alien-small",
         enabled = false,
@@ -173,6 +175,7 @@ if angelsmods.trigger.artifacts["yellow"] then
       {
         type = "recipe",
         name = "alien-pre-artifact-yellow",
+        localised_name = { "item-name.alien-pre-artifact-yellow" },
         category = "crafting",
         subgroup = "bio-processing-alien-pre",
         enabled = false,
@@ -193,6 +196,7 @@ if angelsmods.trigger.artifacts["yellow"] then
       {
         type = "recipe",
         name = "small-alien-artifact-yellow",
+        localised_name = { "item-name.small-alien-artifact-yellow" },
         category = "crafting",
         subgroup = "bio-processing-alien-small",
         enabled = false,
@@ -323,6 +327,7 @@ if angelsmods.trigger.artifacts["orange"] then
       {
         type = "recipe",
         name = "alien-pre-artifact-orange",
+        localised_name = { "item-name.alien-pre-artifact-orange" },
         category = "crafting",
         subgroup = "bio-processing-alien-pre",
         enabled = false,
@@ -343,6 +348,7 @@ if angelsmods.trigger.artifacts["orange"] then
       {
         type = "recipe",
         name = "small-alien-artifact-orange",
+        localised_name = { "item-name.small-alien-artifact-orange" },
         category = "crafting",
         subgroup = "bio-processing-alien-small",
         enabled = false,
@@ -473,6 +479,7 @@ if angelsmods.trigger.artifacts["blue"] then
       {
         type = "recipe",
         name = "alien-pre-artifact-blue",
+        localised_name = { "item-name.alien-pre-artifact-blue" },
         category = "crafting",
         subgroup = "bio-processing-alien-pre",
         enabled = false,
@@ -493,6 +500,7 @@ if angelsmods.trigger.artifacts["blue"] then
       {
         type = "recipe",
         name = "small-alien-artifact-blue",
+        localised_name = { "item-name.small-alien-artifact-blue" },
         category = "crafting",
         subgroup = "bio-processing-alien-small",
         enabled = false,
@@ -623,6 +631,7 @@ if angelsmods.trigger.artifacts["purple"] then
       {
         type = "recipe",
         name = "alien-pre-artifact-purple",
+        localised_name = { "item-name.alien-pre-artifact-purple" },
         category = "crafting",
         subgroup = "bio-processing-alien-pre",
         enabled = false,
@@ -643,6 +652,7 @@ if angelsmods.trigger.artifacts["purple"] then
       {
         type = "recipe",
         name = "small-alien-artifact-purple",
+        localised_name = { "item-name.small-alien-artifact-purple" },
         category = "crafting",
         subgroup = "bio-processing-alien-small",
         enabled = false,
@@ -773,6 +783,7 @@ if angelsmods.trigger.artifacts["green"] then
       {
         type = "recipe",
         name = "alien-pre-artifact-green",
+        localised_name = { "item-name.alien-pre-artifact-green" },
         category = "crafting",
         subgroup = "bio-processing-alien-pre",
         enabled = false,
@@ -793,6 +804,7 @@ if angelsmods.trigger.artifacts["green"] then
       {
         type = "recipe",
         name = "small-alien-artifact-green",
+        localised_name = { "item-name.small-alien-artifact-green" },
         category = "crafting",
         subgroup = "bio-processing-alien-small",
         enabled = false,
@@ -923,6 +935,7 @@ if angelsmods.trigger.artifacts["base"] then -- pink
       {
         type = "recipe",
         name = "alien-pre-artifact-base",
+        localised_name = { "item-name.alien-pre-artifact-base" },
         category = "crafting",
         subgroup = "bio-processing-alien-pre",
         enabled = false,
@@ -942,6 +955,7 @@ if angelsmods.trigger.artifacts["base"] then -- pink
       {
         type = "recipe",
         name = "small-alien-artifact",
+        localised_name = { "item-name.small-alien-artifact" },
         category = "crafting",
         subgroup = "bio-processing-alien-small",
         enabled = false,

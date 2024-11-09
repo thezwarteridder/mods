@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-fish-atmosphere",
+    localised_name = { "fluid-name.liquid-fish-atmosphere" },
     category = "chemistry",
     subgroup = "bio-fish",
     enabled = false,
@@ -28,6 +29,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-polluted-fish-atmosphere",
+    localised_name = { "fluid-name.liquid-polluted-fish-atmosphere" },
     category = "liquifying",
     subgroup = "bio-fish-breeding",
     enabled = false,
@@ -188,7 +190,14 @@ data:extend({
       { type = "fluid", name = "liquid-fish-atmosphere", amount = 100 },
     },
     results = {
-      { type = "item", name = "raw-fish", amount_min = 2, amount_max = 4, ignored_by_productivity = 2, ignored_by_stats = 2 },
+      {
+        type = "item",
+        name = "raw-fish",
+        amount_min = 2,
+        amount_max = 4,
+        ignored_by_productivity = 2,
+        ignored_by_stats = 2,
+      },
       { type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100 },
       --{type="fluid", name="water-yellow-waste", amount=20},
     },
@@ -218,17 +227,24 @@ data:extend({
       { type = "fluid", name = "liquid-fish-atmosphere", amount = 100 },
     },
     results = {
-      { type = "item", name = "alien-fish-1-raw", amount_min = 5, amount_max = 10, ignored_by_productivity = 2, ignored_by_stats = 2 },
+      {
+        type = "item",
+        name = "alien-fish-1-raw",
+        amount_min = 5,
+        amount_max = 10,
+        ignored_by_productivity = 2,
+        ignored_by_stats = 2,
+      },
       { type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100 },
     },
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/alien-fish-1.png",
-        icon_size = 32
+        icon_size = 32,
       },
     },
     order = "ab",
@@ -247,17 +263,24 @@ data:extend({
       { type = "fluid", name = "liquid-fish-atmosphere", amount = 100 },
     },
     results = {
-      { type = "item", name = "alien-fish-2-raw", amount_min = 5, amount_max = 10, ignored_by_productivity = 2, ignored_by_stats = 2 },
+      {
+        type = "item",
+        name = "alien-fish-2-raw",
+        amount_min = 5,
+        amount_max = 10,
+        ignored_by_productivity = 2,
+        ignored_by_stats = 2,
+      },
       { type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100 },
     },
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/alien-fish-2.png",
-        icon_size = 32
+        icon_size = 32,
       },
     },
     order = "ac",
@@ -276,17 +299,24 @@ data:extend({
       { type = "fluid", name = "liquid-fish-atmosphere", amount = 100 },
     },
     results = {
-      { type = "item", name = "alien-fish-3-raw", amount_min = 5, amount_max = 10, ignored_by_productivity = 2, ignored_by_stats = 2 },
+      {
+        type = "item",
+        name = "alien-fish-3-raw",
+        amount_min = 5,
+        amount_max = 10,
+        ignored_by_productivity = 2,
+        ignored_by_stats = 2,
+      },
       { type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100 },
     },
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/alien-fish-3.png",
-        icon_size = 32
+        icon_size = 32,
       },
     },
     order = "ad",

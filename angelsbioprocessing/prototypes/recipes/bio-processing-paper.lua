@@ -23,6 +23,7 @@ data:extend({
   {
     type = "recipe",
     name = "wood-pellets",
+    localised_name = { "item-name.wood-pellets" },
     category = "crafting",
     subgroup = "bio-processing-wood",
     enabled = false,
@@ -40,6 +41,7 @@ data:extend({
   {
     type = "recipe",
     name = "wood-bricks",
+    localised_name = { "item-name.wood-bricks" },
     category = "crafting",
     subgroup = "bio-processing-wood",
     enabled = false,
@@ -84,6 +86,7 @@ data:extend({
   {
     type = "recipe",
     name = "wood-charcoal",
+    localised_name = { "item-name.wood-charcoal" },
     category = "smelting",
     subgroup = "bio-processing-wood",
     enabled = false,
@@ -126,6 +129,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-wood-pulp",
+    localised_name = { "item-name.solid-wood-pulp" },
     category = "liquifying",
     subgroup = "bio-paper",
     enabled = false,
@@ -148,6 +152,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-pulping-liquor",
+    localised_name = { "fluid-name.liquid-pulping-liquor" },
     category = "advanced-chemistry",
     subgroup = "bio-liquor",
     enabled = false,
@@ -188,7 +193,7 @@ data:extend({
     icons = {
       {
         icon = "__angelspetrochemgraphics__/graphics/icons/solid-sodium-sulfate.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/liquid-brown-liquor.png",
@@ -235,6 +240,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-white-liquor",
+    localised_name = { "fluid-name.liquid-white-liquor" },
     category = "liquifying",
     subgroup = "bio-liquor",
     enabled = false,

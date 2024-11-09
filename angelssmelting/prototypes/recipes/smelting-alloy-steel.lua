@@ -21,6 +21,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-steel",
+    localised_name = { "item-name.powder-steel" },
     category = "advanced-crafting",
     subgroup = "angels-iron",
     energy_required = 0.5,
@@ -250,6 +251,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-steel",
+    localised_name = { "item-name.angels-plate-steel" },
     category = "casting",
     subgroup = "angels-steel-casting",
     enabled = false,

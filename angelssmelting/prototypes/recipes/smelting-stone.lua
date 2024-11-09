@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-lime",
+    localised_name = { "item-name.solid-lime" },
     category = "blast-smelting",
     subgroup = "angels-stone",
     energy_required = 4,

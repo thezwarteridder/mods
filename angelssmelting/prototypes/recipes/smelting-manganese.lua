@@ -172,6 +172,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-manganese",
+    localised_name = { "item-name.powder-manganese" },
     category = "advanced-crafting",
     subgroup = "angels-manganese",
     energy_required = 0.5,
@@ -254,6 +255,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-manganese",
+    localised_name = { "item-name.angels-plate-manganese" },
     category = "casting",
     subgroup = "angels-manganese-casting",
     enabled = false,

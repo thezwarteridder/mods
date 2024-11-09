@@ -192,6 +192,8 @@ data:extend({
   {
     type = "recipe",
     name = "solid-saw",
+    --icon_size = 32,
+    localised_name = { "item-name.solid-saw" },
     category = "crafting",
     subgroup = "bio-wood",
     enabled = false,
@@ -209,6 +211,8 @@ data:extend({
   {
     type = "recipe",
     name = "solid-crystal-tipped-saw",
+    --icon_size = 32,
+    localised_name = { "item-name.solid-crystal-tipped-saw" },
     category = "crafting",
     subgroup = "bio-wood",
     enabled = false,
@@ -227,6 +231,8 @@ data:extend({
   {
     type = "recipe",
     name = "solid-crystal-full-saw",
+    --icon_size = 32,
+    localised_name = { "item-name.solid-crystal-full-saw" },
     category = "crafting",
     subgroup = "bio-wood",
     enabled = false,
@@ -256,7 +262,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "wood", amount_min = 6, amount_max = 8 },
-      { type = "item", name = "solid-saw", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 0.9 },
+      {
+        type = "item",
+        name = "solid-saw",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 0.9,
+      },
     },
     main_product = "wood",
     allow_decomposition = false,
@@ -281,7 +294,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "wood", amount_min = 6, amount_max = 8 },
-      { type = "item", name = "solid-crystal-tipped-saw", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 0.95 },
+      {
+        type = "item",
+        name = "solid-crystal-tipped-saw",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 0.95,
+      },
     },
     main_product = "wood",
     allow_decomposition = false,
@@ -306,7 +326,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "wood", amount_min = 6, amount_max = 8 },
-      { type = "item", name = "solid-crystal-full-saw", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 0.99 },
+      {
+        type = "item",
+        name = "solid-crystal-full-saw",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 0.99,
+      },
     },
     main_product = "wood",
     allow_decomposition = false,
@@ -501,6 +528,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-resin",
+    localised_name = { "fluid-name.liquid-resin" },
     category = "liquifying",
     subgroup = "bio-arboretum-temperate",
     enabled = false,
@@ -769,6 +797,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-plastic",
+    localised_name = { "fluid-name.liquid-plastic" },
     category = "liquifying",
     subgroup = "bio-arboretum-swamp",
     enabled = false,
@@ -986,6 +1015,7 @@ data:extend({
   {
     type = "recipe",
     name = "bio-rubber",
+    localised_name = { "fluid-name.liquid-rubber" },
     category = "liquifying",
     subgroup = "bio-arboretum-desert",
     enabled = false,

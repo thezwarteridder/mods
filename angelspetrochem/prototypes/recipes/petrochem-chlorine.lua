@@ -28,6 +28,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-hydrogen-chloride",
+    localised_name = { "fluid-name.gas-hydrogen-chloride" },
     category = "chemistry",
     subgroup = "petrochem-chlorine",
     energy_required = 2,
@@ -71,6 +72,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-chlor-methane",
+    localised_name = { "fluid-name.gas-chlor-methane" },
     category = "chemistry",
     subgroup = "petrochem-chlorine",
     energy_required = 2,
@@ -92,6 +94,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-hydrochloric-acid",
+    localised_name = { "fluid-name.liquid-hydrochloric-acid" },
     category = "chemistry",
     subgroup = "petrochem-chlorine",
     energy_required = 2,
@@ -144,6 +147,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-ferric-chloride-solution",
+    localised_name = { "fluid-name.liquid-ferric-chloride-solution" },
     category = "liquifying",
     subgroup = "petrochem-chlorine",
     energy_required = 2,
@@ -169,6 +173,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-cupric-chloride-solution",
+    localised_name = { "fluid-name.liquid-cupric-chloride-solution" },
     category = "liquifying",
     subgroup = "petrochem-chlorine",
     energy_required = 2,
@@ -221,6 +226,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-epichlorhydrin",
+    localised_name = { "fluid-name.gas-epichlorhydrin" },
     category = "chemistry",
     subgroup = "petrochem-chlorine-2",
     energy_required = 2,
@@ -247,6 +253,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-glycerol",
+    localised_name = { "fluid-name.liquid-glycerol" },
     category = "chemistry",
     subgroup = "petrochem-chlorine-2",
     energy_required = 2,
@@ -268,6 +275,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-perchloric-acid",
+    localised_name = { "fluid-name.liquid-perchloric-acid" },
     category = "liquifying",
     subgroup = "petrochem-chlorine-2",
     energy_required = 2,
@@ -293,6 +301,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-phosgene",
+    localised_name = { "fluid-name.gas-phosgene" },
     category = "chemistry",
     subgroup = "petrochem-chlorine-2",
     energy_required = 2,

@@ -179,11 +179,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-medium.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-crown.png",
@@ -226,11 +226,11 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/breeding.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-big.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/biter-crown.png",
@@ -247,6 +247,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-small",
+    localised_name = { "item-name.biter-small" },
     category = "bio-refugium-biter",
     subgroup = "bio-biter-egg",
     enabled = false,
@@ -268,6 +269,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-medium",
+    localised_name = { "item-name.biter-medium" },
     category = "bio-refugium-biter",
     subgroup = "bio-biter-egg",
     enabled = false,
@@ -289,6 +291,7 @@ data:extend({
   {
     type = "recipe",
     name = "biter-big",
+    localised_name = { "item-name.biter-big" },
     category = "bio-refugium-biter",
     subgroup = "bio-biter-egg",
     enabled = false,

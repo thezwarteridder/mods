@@ -57,6 +57,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-sulfur-dioxide",
+    localised_name = { "fluid-name.gas-sulfur-dioxide" },
     category = "liquifying",
     subgroup = "petrochem-sulfur",
     energy_required = 2,
@@ -104,6 +105,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-sulfuric-acid",
+    localised_name = { "fluid-name.liquid-sulfuric-acid" },
     category = "chemistry",
     subgroup = "petrochem-sulfur",
     energy_required = 2,
@@ -219,6 +221,7 @@ data:extend({
   {
     type = "recipe",
     name = "filter-lime",
+    localised_name = { "item-name.filter-lime" },
     category = "crafting",
     subgroup = "petrochem-catalysts",
     energy_required = 2,

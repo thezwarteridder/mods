@@ -20,7 +20,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-raw.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-blue.png",
@@ -46,6 +46,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-splinter-blue",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-splinter-blue" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-splinter",
     enabled = false,
@@ -57,7 +60,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-splinter-blue", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-splinter-blue",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -67,6 +77,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-splinter-red",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-splinter-red" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-splinter",
     enabled = false,
@@ -78,7 +91,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-splinter-red", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-splinter-red",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -88,6 +108,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-splinter-green",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-splinter-green" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-splinter",
     enabled = false,
@@ -99,7 +122,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-splinter-green", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-splinter-green",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -148,7 +178,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-blue.png",
@@ -179,7 +209,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-red.png",
@@ -210,7 +240,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-splinter-green.png",
@@ -242,7 +272,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-raw.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-blue.png",
@@ -268,6 +298,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-shard-blue",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-shard-blue" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-shard",
     enabled = false,
@@ -279,7 +312,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-shard-blue", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-shard-blue",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -289,6 +329,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-shard-red",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-shard-red" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-shard",
     enabled = false,
@@ -300,7 +343,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-shard-red", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-shard-red",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -310,6 +360,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-shard-green",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-shard-green" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-shard",
     enabled = false,
@@ -321,7 +374,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-shard-green", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-shard-green",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -370,7 +430,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-blue.png",
@@ -401,7 +461,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-red.png",
@@ -432,7 +492,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-shard-green.png",
@@ -464,7 +524,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-raw.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-blue.png",
@@ -490,6 +550,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-full-blue",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-full-blue" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-full",
     enabled = false,
@@ -501,7 +564,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-full-blue", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-full-blue",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -511,6 +581,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-full-red",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-full-red" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-full",
     enabled = false,
@@ -522,7 +595,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-full-red", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-full-red",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -532,6 +612,9 @@ data:extend({
   {
     type = "recipe",
     name = "crystal-full-green",
+    --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
+    --icon_size = 32,
+    localised_name = { "item-name.crystal-full-green" },
     category = "crafting-with-fluid",
     subgroup = "bio-biter-processing-crystal-full",
     enabled = false,
@@ -543,7 +626,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "crystal-full-green", amount = 1 },
-      { type = "item", name = "crystal-grindstone", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 2 / 3 },
+      {
+        type = "item",
+        name = "crystal-grindstone",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 2 / 3,
+      },
     },
     main_product = "crystal-full-green",
     --icon = "__angelsbioprocessinggraphics__/graphics/icons/void.png",
@@ -592,7 +682,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-blue.png",
@@ -623,7 +713,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-red.png",
@@ -654,7 +744,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-powder.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/crystal-full-green.png",

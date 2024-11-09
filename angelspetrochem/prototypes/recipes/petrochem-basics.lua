@@ -277,6 +277,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-calcium-chloride",
+    localised_name = { "item-name.solid-calcium-chloride" },
     category = "chemistry",
     subgroup = "petrochem-basics",
     energy_required = 2,
@@ -534,6 +535,7 @@ data:extend({
   {
     type = "recipe",
     name = "coal-crushed",
+    localised_name = { "item-name.coal-crushed" },
     category = "ore-refining-t1",
     subgroup = "petrochem-coal",
     energy_required = 1,
@@ -551,6 +553,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-coke",
+    localised_name = { "item-name.solid-coke" },
     category = "smelting",
     subgroup = "petrochem-coal",
     energy_required = 1,
@@ -590,6 +593,7 @@ data:extend({
   {
     type = "recipe",
     name = "pellet-coke",
+    localised_name = { "item-name.pellet-coke" },
     category = "crafting",
     subgroup = "petrochem-coal",
     energy_required = 1,
@@ -719,7 +723,13 @@ data:extend({
     energy_required = 4,
     enabled = false,
     ingredients = {
-      { type = "fluid", name = "liquid-water-semiheavy-1", amount = 200, ignored_by_stats = 200, minimum_temperature = 26 },
+      {
+        type = "fluid",
+        name = "liquid-water-semiheavy-1",
+        amount = 200,
+        ignored_by_stats = 200,
+        minimum_temperature = 26,
+      },
       { type = "fluid", name = "water-purified", amount = 50 },
     },
     results = {
@@ -752,7 +762,13 @@ data:extend({
     energy_required = 4,
     enabled = false,
     ingredients = {
-      { type = "fluid", name = "liquid-water-semiheavy-2", amount = 200, ignored_by_stats = 200, minimum_temperature = 26 },
+      {
+        type = "fluid",
+        name = "liquid-water-semiheavy-2",
+        amount = 200,
+        ignored_by_stats = 200,
+        minimum_temperature = 26,
+      },
       { type = "fluid", name = "water-purified", amount = 50 },
     },
     results = {
@@ -785,7 +801,13 @@ data:extend({
     energy_required = 4,
     enabled = false,
     ingredients = {
-      { type = "fluid", name = "liquid-water-semiheavy-3", amount = 200, ignored_by_stats = 200, minimum_temperature = 26 },
+      {
+        type = "fluid",
+        name = "liquid-water-semiheavy-3",
+        amount = 200,
+        ignored_by_stats = 200,
+        minimum_temperature = 26,
+      },
       { type = "fluid", name = "water-purified", amount = 50 },
     },
     results = {

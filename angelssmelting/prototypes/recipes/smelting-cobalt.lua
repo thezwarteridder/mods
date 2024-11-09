@@ -166,6 +166,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-cobalt",
+    localised_name = { "item-name.powder-cobalt" },
     category = "advanced-crafting",
     subgroup = "angels-cobalt",
     energy_required = 0.5,
@@ -248,6 +249,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-cobalt",
+    localised_name = { "item-name.angels-plate-cobalt" },
     category = "casting-3",
     subgroup = "angels-cobalt-casting",
     enabled = false,

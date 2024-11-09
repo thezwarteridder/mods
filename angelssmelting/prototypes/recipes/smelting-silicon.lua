@@ -153,6 +153,7 @@ data:extend({
   {
     type = "recipe",
     name = "powder-silicon",
+    localised_name = { "item-name.powder-silicon" },
     category = "advanced-crafting",
     subgroup = "angels-silicon",
     energy_required = 0.5,
@@ -187,6 +188,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-mono-silicon-seed",
+    localised_name = { "item-name.angels-mono-silicon-seed" },
     category = "casting-2",
     subgroup = "angels-silicon-casting",
     enabled = false,
@@ -203,6 +205,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-quartz-crucible",
+    localised_name = { "item-name.angels-quartz-crucible" },
     category = "crafting",
     subgroup = "angels-silicon-casting",
     enabled = false,
@@ -253,7 +256,14 @@ data:extend({
     },
     results = {
       { type = "item", name = "angels-mono-silicon", amount = 6 },
-      { type = "item", name = "angels-quartz-crucible", amount = 1, ignored_by_productivity = 1, ignored_by_stats = 1, probability = 0.80 },
+      {
+        type = "item",
+        name = "angels-quartz-crucible",
+        amount = 1,
+        ignored_by_productivity = 1,
+        ignored_by_stats = 1,
+        probability = 0.80,
+      },
     },
     main_product = "angels-mono-silicon",
     icons = angelsmods.functions.add_number_icon_layer(
@@ -266,6 +276,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-silicon-wafer",
+    localised_name = { "item-name.angels-silicon-wafer" },
     category = "crafting",
     subgroup = "angels-silicon-casting",
     enabled = false,

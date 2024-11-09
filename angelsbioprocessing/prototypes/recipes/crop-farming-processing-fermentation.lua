@@ -20,7 +20,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/liquid-fermentation-raw.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/solid-corn.png",
@@ -56,7 +56,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/liquid-fermentation-raw.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/solid-fruit.png",
@@ -191,6 +191,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-acetic-anhydride",
+    localised_name = { "fluid-name.liquid-acetic-anhydride" },
     category = "advanced-chemistry",
     subgroup = "bio-plastic",
     enabled = false,
@@ -246,6 +247,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-cellulose-acetate",
+    localised_name = { "fluid-name.liquid-cellulose-acetate" },
     category = "chemistry",
     subgroup = "bio-plastic",
     enabled = false,

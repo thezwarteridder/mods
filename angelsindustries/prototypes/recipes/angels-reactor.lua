@@ -5,6 +5,7 @@ if angelsmods.industries.overhaul then
     {
       type = "recipe",
       name = "angels-burner-reactor",
+      localised_name = { "item-name.angels-burner-reactor" },
       energy_required = 8,
       enabled = false,
       ingredients = {
@@ -14,7 +15,7 @@ if angelsmods.industries.overhaul then
         { type = "item", name = "t5-plate", amount = 100 },
         { type = "item", name = data.raw.item["lead-plate"] and "lead-plate" or "angels-plate-lead", amount = 350 },
       },
-      results = {{ type = "item", name = "angels-burner-reactor", amount = 1 }},
+      results = { { type = "item", name = "angels-burner-reactor", amount = 1 } },
     },
   })
 end

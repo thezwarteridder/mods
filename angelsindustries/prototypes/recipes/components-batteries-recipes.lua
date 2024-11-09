@@ -6,6 +6,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-1",
+      localised_name = { "item-name.battery-1" },
       enabled = false,
       category = "crafting-with-fluid",
       energy_required = 1 * angelsmods.industries.component_crafting_time_multiplier,
@@ -25,6 +26,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-2",
+      localised_name = { "item-name.battery-2" },
       enabled = false,
       category = "crafting-with-fluid",
       energy_required = 2 * angelsmods.industries.component_crafting_time_multiplier,
@@ -44,6 +46,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-3",
+      localised_name = { "item-name.battery-3" },
       enabled = false,
       category = "crafting-with-fluid",
       energy_required = 3 * angelsmods.industries.component_crafting_time_multiplier,
@@ -63,6 +66,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-4",
+      localised_name = { "item-name.battery-4" },
       enabled = false,
       category = "crafting-with-fluid",
       energy_required = 4 * angelsmods.industries.component_crafting_time_multiplier,
@@ -82,6 +86,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-5",
+      localised_name = { "item-name.battery-5" },
       enabled = false,
       category = "crafting-with-fluid",
       energy_required = 6 * angelsmods.industries.component_crafting_time_multiplier,
@@ -101,6 +106,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-6",
+      localised_name = { "item-name.battery-6" },
       enabled = false,
       category = "crafting-with-fluid",
       energy_required = 10 * angelsmods.industries.component_crafting_time_multiplier,
@@ -157,6 +163,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-frame-1",
+      localised_name = { "item-name.battery-frame-1" },
       subgroup = "angels-batteries",
       order = "g",
       enabled = false,
@@ -175,6 +182,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-anode-1",
+      localised_name = { "item-name.battery-anode-1" },
       enabled = false,
       category = "crafting",
       energy_required = 1,
@@ -191,6 +199,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-cathode-1",
+      localised_name = { "item-name.battery-cathode-1" },
       enabled = false,
       category = "crafting",
       energy_required = 1,
@@ -207,6 +216,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-electrolyte-1",
+      localised_name = { "fluid-name.battery-electrolyte-1" },
       enabled = false,
       category = "chemistry",
       energy_required = 2.5,
@@ -266,6 +276,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-frame-2",
+      localised_name = { "item-name.battery-frame-2" },
       subgroup = "angels-batteries",
       order = "h",
       enabled = false,
@@ -283,6 +294,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-anode-2",
+      localised_name = { "item-name.battery-anode-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 1.5,
@@ -299,6 +311,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-cathode-2",
+      localised_name = { "item-name.battery-cathode-2" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 1.5,
@@ -315,6 +328,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-electrolyte-2",
+      localised_name = { "fluid-name.battery-electrolyte-2" },
       enabled = false,
       category = "chemistry",
       energy_required = 2.5,
@@ -417,6 +431,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-frame-3",
+      localised_name = { "item-name.battery-frame-3" },
       subgroup = "angels-batteries",
       order = "i",
       enabled = false,
@@ -434,6 +449,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-anode-3",
+      localised_name = { "item-name.battery-anode-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 2,
@@ -450,6 +466,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-cathode-3",
+      localised_name = { "item-name.battery-cathode-3" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 2,
@@ -467,6 +484,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-electrolyte-3",
+      localised_name = { "fluid-name.battery-electrolyte-3" },
       enabled = false,
       category = "chemistry",
       energy_required = 2.5,
@@ -528,6 +546,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-frame-4",
+      localised_name = { "item-name.battery-frame-4" },
       subgroup = "angels-cathodes",
       order = "j",
       enabled = false,
@@ -545,6 +564,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-anode-4",
+      localised_name = { "item-name.battery-anode-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 3.5,
@@ -561,6 +581,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-cathode-4",
+      localised_name = { "item-name.battery-cathode-4" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 3.5,
@@ -578,6 +599,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-electrolyte-4",
+      localised_name = { "fluid-name.battery-electrolyte-4" },
       enabled = false,
       category = "chemistry",
       energy_required = 2.5,
@@ -639,6 +661,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-frame-5",
+      localised_name = { "item-name.battery-frame-5" },
       subgroup = "angels-cathodes",
       order = "k",
       enabled = false,
@@ -656,6 +679,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-anode-5",
+      localised_name = { "item-name.battery-anode-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5,
@@ -674,6 +698,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-cathode-5",
+      localised_name = { "item-name.battery-cathode-5" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 5,
@@ -692,6 +717,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-electrolyte-5",
+      localised_name = { "fluid-name.battery-electrolyte-5" },
       enabled = false,
       category = "chemistry",
       energy_required = 2.5,
@@ -751,6 +777,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-frame-6",
+      localised_name = { "item-name.battery-frame-6" },
       subgroup = "angels-cathodes",
       order = "l",
       enabled = false,
@@ -768,6 +795,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-anode-6",
+      localised_name = { "item-name.battery-anode-6" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 7,
@@ -784,6 +812,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-cathode-6",
+      localised_name = { "item-name.battery-cathode-6" },
       enabled = false,
       category = "advanced-crafting",
       energy_required = 7,
@@ -800,6 +829,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "battery-electrolyte-6",
+      localised_name = { "fluid-name.battery-electrolyte-6" },
       enabled = false,
       category = "chemistry",
       energy_required = 2.5,

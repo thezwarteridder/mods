@@ -6,6 +6,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-resistor",
+      localised_name = { "item-name.circuit-resistor" },
       subgroup = "angels-circuit-board",
       order = "f",
       energy_required = 0.5,
@@ -15,7 +16,7 @@ if angelsmods.industries.components then
         { type = "item", name = "solid-paper", amount = 1 },
         { type = "item", name = "copper-cable", amount = 1 },
       },
-      results = {{ type = "item", name = "circuit-resistor", amount = 1 }},
+      results = { { type = "item", name = "circuit-resistor", amount = 1 } },
       allow_decomposition = true,
       icon_size = 32,
     },
@@ -40,6 +41,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-transistor",
+      localised_name = { "item-name.circuit-transistor" },
       subgroup = "angels-circuit-board",
       order = "g",
       energy_required = 1,
@@ -49,12 +51,13 @@ if angelsmods.industries.components then
         { type = "item", name = "iron-plate", amount = 1 },
         { type = "item", name = "angels-wire-tin", amount = 1 },
       },
-      results = {{ type = "item", name = "circuit-transistor", amount = 1 }},
+      results = { { type = "item", name = "circuit-transistor", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "circuit-microchip",
+      localised_name = { "item-name.circuit-microchip" },
       subgroup = "angels-circuit-board",
       order = "h",
       energy_required = 1.5,
@@ -65,12 +68,13 @@ if angelsmods.industries.components then
         { type = "item", name = "angels-wire-silver", amount = 1 },
         { type = "fluid", name = "liquid-sulfuric-acid", amount = 1 },
       },
-      results = {{ type = "item", name = "circuit-microchip", amount = 1 }},
+      results = { { type = "item", name = "circuit-microchip", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "circuit-transformer",
+      localised_name = { "item-name.circuit-transformer" },
       subgroup = "angels-circuit-board",
       order = "i",
       energy_required = 2,
@@ -80,12 +84,13 @@ if angelsmods.industries.components then
         { type = "item", name = "iron-plate", amount = 1 },
         { type = "item", name = "angels-wire-gold", amount = 1 },
       },
-      results = {{ type = "item", name = "circuit-transformer", amount = 1 }},
+      results = { { type = "item", name = "circuit-transformer", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "circuit-cpu",
+      localised_name = { "item-name.circuit-cpu" },
       subgroup = "angels-circuit-board",
       order = "j",
       energy_required = 2.5,
@@ -96,7 +101,7 @@ if angelsmods.industries.components then
         { type = "item", name = "angels-wire-platinum", amount = 1 },
         { type = "fluid", name = "liquid-sulfuric-acid", amount = 1 },
       },
-      results = {{ type = "item", name = "circuit-cpu", amount = 1 }},
+      results = { { type = "item", name = "circuit-cpu", amount = 1 } },
       icon_size = 32,
     },
     -----------------------------------------------------------------------------
@@ -253,13 +258,14 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-grey-board",
+      localised_name = { "item-name.circuit-grey-board" },
       energy_required = 0.25,
       category = "crafting",
       enabled = true,
       ingredients = {
         { type = "item", name = "wood", amount = 1 },
       },
-      results = {{ type = "item", name = "circuit-grey-board", amount = 1 }},
+      results = { { type = "item", name = "circuit-grey-board", amount = 1 } },
       allow_decomposition = true,
       icon_size = 32,
     },
@@ -285,19 +291,21 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-red-board",
+      localised_name = { "item-name.circuit-red-board" },
       energy_required = 0.5,
       category = "crafting",
       enabled = false,
       ingredients = {
         { type = "item", name = "solid-paper", amount = 1 },
       },
-      results = {{ type = "item", name = "circuit-red-board", amount = 1 }},
+      results = { { type = "item", name = "circuit-red-board", amount = 1 } },
       allow_decomposition = true,
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "circuit-green-board",
+      localised_name = { "item-name.circuit-green-board" },
       energy_required = 1,
       category = "advanced-crafting",
       enabled = false,
@@ -305,12 +313,13 @@ if angelsmods.industries.components then
         { type = "item", name = "solid-paper", amount = 1 },
         { type = "fluid", name = "liquid-resin", amount = 2 },
       },
-      results = {{ type = "item", name = "circuit-green-board", amount = 1 }},
+      results = { { type = "item", name = "circuit-green-board", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "circuit-orange-board",
+      localised_name = { "item-name.circuit-orange-board" },
       energy_required = 1.5,
       category = "advanced-crafting",
       enabled = false,
@@ -318,12 +327,13 @@ if angelsmods.industries.components then
         { type = "item", name = "cellulose-fiber", amount = 1 },
         { type = "fluid", name = "liquid-plastic", amount = 2 },
       },
-      results = {{ type = "item", name = "circuit-orange-board", amount = 1 }},
+      results = { { type = "item", name = "circuit-orange-board", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "circuit-blue-board",
+      localised_name = { "item-name.circuit-blue-board" },
       energy_required = 2,
       category = "advanced-crafting",
       enabled = false,
@@ -331,12 +341,13 @@ if angelsmods.industries.components then
         { type = "item", name = "angels-coil-glass-fiber", amount = 2 },
         { type = "fluid", name = "liquid-resin", amount = 2 },
       },
-      results = {{ type = "item", name = "circuit-blue-board", amount = 1 }},
+      results = { { type = "item", name = "circuit-blue-board", amount = 1 } },
       icon_size = 32,
     },
     {
       type = "recipe",
       name = "circuit-yellow-board",
+      localised_name = { "item-name.circuit-yellow-board" },
       energy_required = 3,
       category = "chemistry",
       enabled = false,
@@ -346,7 +357,7 @@ if angelsmods.industries.components then
         { type = "fluid", name = "liquid-plastic", amount = 2 },
       },
       crafting_machine_tint = angelsmods.functions.get_fluid_recipe_tint("liquid-resin"),
-      results = {{ type = "item", name = "circuit-yellow-board", amount = 1 }},
+      results = { { type = "item", name = "circuit-yellow-board", amount = 1 } },
       icon_size = 32,
     },
     -----------------------------------------------------------------------------
@@ -355,6 +366,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-grey",
+      localised_name = { "item-name.circuit-grey" },
       subgroup = "angels-board",
       order = "h",
       energy_required = 0.25, -- 1:1 ratio to boards
@@ -373,6 +385,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-red",
+      localised_name = { "item-name.circuit-red" },
       energy_required = 1, --1:2 ratio to boards
       category = "crafting",
       enabled = false,
@@ -389,6 +402,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-green",
+      localised_name = { "item-name.circuit-green" },
       energy_required = 1.5, --2:3 ratio to boards
       category = "advanced-crafting",
       enabled = false,
@@ -404,6 +418,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-orange",
+      localised_name = { "item-name.circuit-orange" },
       energy_required = 2, -- 3:4 ratio to boards
       category = "advanced-crafting",
       enabled = false,
@@ -420,6 +435,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-blue",
+      localised_name = { "item-name.circuit-blue" },
       energy_required = 3.5, -- 4:7 ratio to boards
       category = "advanced-crafting",
       enabled = false,
@@ -436,6 +452,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-yellow",
+      localised_name = { "item-name.circuit-yellow" },
       energy_required = 5, -- 3:5 ratio to boards
       category = "advanced-crafting",
       enabled = false,
@@ -455,6 +472,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-red-loaded",
+      localised_name = { "item-name.circuit-red-loaded" },
       energy_required = 1 * angelsmods.industries.component_crafting_time_multiplier,
       category = "crafting",
       enabled = false,
@@ -472,6 +490,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-green-loaded",
+      localised_name = { "item-name.circuit-green-loaded" },
       energy_required = 1.5 * angelsmods.industries.component_crafting_time_multiplier,
       category = "advanced-crafting",
       enabled = false,
@@ -493,6 +512,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-orange-loaded",
+      localised_name = { "item-name.circuit-orange-loaded" },
       energy_required = 2 * angelsmods.industries.component_crafting_time_multiplier,
       category = "advanced-crafting",
       enabled = false,
@@ -515,6 +535,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-blue-loaded",
+      localised_name = { "item-name.circuit-blue-loaded" },
       energy_required = 3.5 * angelsmods.industries.component_crafting_time_multiplier,
       category = "advanced-crafting",
       enabled = false,
@@ -534,6 +555,7 @@ if angelsmods.industries.components then
     {
       type = "recipe",
       name = "circuit-yellow-loaded",
+      localised_name = { "item-name.circuit-yellow-loaded" },
       energy_required = 5 * angelsmods.industries.component_crafting_time_multiplier,
       category = "advanced-crafting",
       enabled = false,

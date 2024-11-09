@@ -22,7 +22,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
@@ -81,7 +81,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
@@ -144,7 +144,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/temperate-1-seed.png",
@@ -200,7 +200,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
@@ -259,7 +259,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
@@ -322,7 +322,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/desert-1-seed.png",
@@ -378,7 +378,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
@@ -437,7 +437,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
@@ -500,7 +500,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-garden.png",
-        icon_size = 32
+        icon_size = 32,
       },
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/swamp-1-seed.png",
@@ -539,6 +539,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-soil",
+    localised_name = { "item-name.solid-soil" },
     category = "crafting",
     subgroup = "bio-wood",
     enabled = false,
@@ -576,6 +577,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-fertilizer",
+    localised_name = { "item-name.solid-fertilizer" },
     category = "crafting-with-fluid",
     subgroup = "bio-wood",
     enabled = false,
@@ -593,6 +595,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-alienated-fertilizer",
+    localised_name = { "item-name.solid-alienated-fertilizer" },
     category = "crafting-with-fluid",
     subgroup = "bio-wood",
     enabled = false,
@@ -631,6 +634,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-upgrade",
+    localised_name = { "item-name.temperate-upgrade" },
     category = "crafting",
     subgroup = "bio-processing-blocks",
     enabled = false,
@@ -648,6 +652,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-upgrade",
+    localised_name = { "item-name.desert-upgrade" },
     category = "crafting",
     subgroup = "bio-processing-blocks",
     enabled = false,
@@ -665,6 +670,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-upgrade",
+    localised_name = { "item-name.swamp-upgrade" },
     category = "crafting",
     subgroup = "bio-processing-blocks",
     enabled = false,
@@ -845,7 +851,7 @@ data:extend({
     icons = {
       {
         icon = "__angelsbioprocessinggraphics__/graphics/icons/token-bio.png",
-        icon_size = 32
+        icon_size = 32,
         --scale = 0.5,
         --shift = {0,-5}
       },

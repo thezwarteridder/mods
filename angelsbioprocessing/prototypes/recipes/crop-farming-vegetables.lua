@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-1",
+    localised_name = { "item-name.temperate-1" },
     category = "temperate-farming",
     subgroup = "farming-temperate",
     enabled = false,
@@ -26,6 +27,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-2",
+    localised_name = { "item-name.temperate-2" },
     category = "temperate-farming",
     subgroup = "farming-temperate",
     enabled = false,
@@ -49,6 +51,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-3",
+    localised_name = { "item-name.temperate-3" },
     category = "temperate-farming",
     subgroup = "farming-temperate",
     enabled = false,
@@ -72,6 +75,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-4",
+    localised_name = { "item-name.temperate-4" },
     category = "advanced-temperate-farming",
     subgroup = "farming-temperate",
     enabled = false,
@@ -96,6 +100,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-5",
+    localised_name = { "item-name.temperate-5" },
     category = "advanced-temperate-farming",
     subgroup = "farming-temperate",
     enabled = false,
@@ -121,6 +126,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-1-seed",
+    localised_name = { "item-name.temperate-1-seed" },
     category = "seed-extractor",
     subgroup = "farming-temperate-seed",
     enabled = false,
@@ -137,6 +143,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-2-seed",
+    localised_name = { "item-name.temperate-2-seed" },
     category = "seed-extractor",
     subgroup = "farming-temperate-seed",
     enabled = false,
@@ -153,6 +160,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-3-seed",
+    localised_name = { "item-name.temperate-3-seed" },
     category = "seed-extractor",
     subgroup = "farming-temperate-seed",
     enabled = false,
@@ -171,6 +179,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-4-seed",
+    localised_name = { "item-name.temperate-4-seed" },
     category = "seed-extractor",
     subgroup = "farming-temperate-seed",
     enabled = false,
@@ -189,6 +198,7 @@ data:extend({
   {
     type = "recipe",
     name = "temperate-5-seed",
+    localised_name = { "item-name.temperate-5-seed" },
     category = "seed-extractor",
     subgroup = "farming-temperate-seed",
     enabled = false,
@@ -208,6 +218,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-1",
+    localised_name = { "item-name.desert-1" },
     category = "desert-farming",
     subgroup = "farming-desert",
     enabled = false,
@@ -231,6 +242,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-2",
+    localised_name = { "item-name.desert-2" },
     category = "desert-farming",
     subgroup = "farming-desert",
     enabled = false,
@@ -254,6 +266,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-3",
+    localised_name = { "item-name.desert-3" },
     category = "desert-farming",
     subgroup = "farming-desert",
     enabled = false,
@@ -277,6 +290,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-4",
+    localised_name = { "item-name.desert-4" },
     category = "advanced-desert-farming",
     subgroup = "farming-desert",
     enabled = false,
@@ -301,6 +315,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-5",
+    localised_name = { "item-name.desert-5" },
     category = "advanced-desert-farming",
     subgroup = "farming-desert",
     enabled = false,
@@ -326,6 +341,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-1-seed",
+    localised_name = { "item-name.desert-1-seed" },
     category = "seed-extractor",
     subgroup = "farming-desert-seed",
     enabled = false,
@@ -342,6 +358,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-2-seed",
+    localised_name = { "item-name.desert-2-seed" },
     category = "seed-extractor",
     subgroup = "farming-desert-seed",
     enabled = false,
@@ -358,6 +375,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-3-seed",
+    localised_name = { "item-name.desert-3-seed" },
     category = "seed-extractor",
     subgroup = "farming-desert-seed",
     enabled = false,
@@ -376,6 +394,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-4-seed",
+    localised_name = { "item-name.desert-4-seed" },
     category = "seed-extractor",
     subgroup = "farming-desert-seed",
     enabled = false,
@@ -394,6 +413,7 @@ data:extend({
   {
     type = "recipe",
     name = "desert-5-seed",
+    localised_name = { "item-name.desert-5-seed" },
     category = "seed-extractor",
     subgroup = "farming-desert-seed",
     enabled = false,
@@ -413,6 +433,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-1",
+    localised_name = { "item-name.swamp-1" },
     category = "swamp-farming",
     subgroup = "farming-swamp",
     enabled = false,
@@ -436,6 +457,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-2",
+    localised_name = { "item-name.swamp-2" },
     category = "swamp-farming",
     subgroup = "farming-swamp",
     enabled = false,
@@ -459,6 +481,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-3",
+    localised_name = { "item-name.swamp-3" },
     category = "swamp-farming",
     subgroup = "farming-swamp",
     enabled = false,
@@ -482,6 +505,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-4",
+    localised_name = { "item-name.swamp-4" },
     category = "advanced-swamp-farming",
     subgroup = "farming-swamp",
     enabled = false,
@@ -506,6 +530,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-5",
+    localised_name = { "item-name.swamp-5" },
     category = "advanced-swamp-farming",
     subgroup = "farming-swamp",
     enabled = false,
@@ -531,6 +556,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-1-seed",
+    localised_name = { "item-name.swamp-1-seed" },
     category = "seed-extractor",
     subgroup = "farming-swamp-seed",
     enabled = false,
@@ -547,6 +573,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-2-seed",
+    localised_name = { "item-name.swamp-2-seed" },
     category = "seed-extractor",
     subgroup = "farming-swamp-seed",
     enabled = false,
@@ -563,6 +590,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-3-seed",
+    localised_name = { "item-name.swamp-3-seed" },
     category = "seed-extractor",
     subgroup = "farming-swamp-seed",
     enabled = false,
@@ -581,6 +609,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-4-seed",
+    localised_name = { "item-name.swamp-4-seed" },
     category = "seed-extractor",
     subgroup = "farming-swamp-seed",
     enabled = false,
@@ -599,6 +628,7 @@ data:extend({
   {
     type = "recipe",
     name = "swamp-5-seed",
+    localised_name = { "item-name.swamp-5-seed" },
     category = "seed-extractor",
     subgroup = "farming-swamp-seed",
     enabled = false,

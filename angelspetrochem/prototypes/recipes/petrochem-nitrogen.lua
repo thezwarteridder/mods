@@ -4,6 +4,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-air-filtering",
+    localised_name = { "fluid-name.gas-compressed-air" },
     category = "petrochem-air-filtering",
     subgroup = "petrochem-nitrogen",
     energy_required = 6,
@@ -97,6 +98,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-nitrogen-dioxide",
+    localised_name = { "fluid-name.gas-nitrogen-dioxide" },
     category = "chemistry",
     subgroup = "petrochem-nitrogen",
     energy_required = 2,
@@ -141,6 +143,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-ammonium-chloride",
+    localised_name = { "fluid-name.gas-ammonium-chloride" },
     category = "chemistry",
     subgroup = "petrochem-nitrogen",
     energy_required = 2,
@@ -185,6 +188,7 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-nitric-acid",
+    localised_name = { "fluid-name.liquid-nitric-acid" },
     category = "chemistry",
     subgroup = "petrochem-nitrogen",
     energy_required = 2,
@@ -266,6 +270,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-monochloramine",
+    localised_name = { "fluid-name.gas-monochloramine" },
     category = "liquifying",
     subgroup = "petrochem-rocket",
     energy_required = 4,
@@ -395,6 +400,7 @@ data:extend({
   {
     type = "recipe",
     name = "gas-dinitrogen-tetroxide",
+    localised_name = { "fluid-name.gas-dinitrogen-tetroxide" },
     category = "chemistry",
     subgroup = "petrochem-rocket",
     energy_required = 2,
@@ -419,6 +425,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-ammonium-nitrate",
+    localised_name = { "item-name.solid-ammonium-nitrate" },
     category = "chemistry",
     subgroup = "petrochem-rocket",
     energy_required = 2,
@@ -437,6 +444,7 @@ data:extend({
   {
     type = "recipe",
     name = "solid-ammonium-perchlorate",
+    localised_name = { "item-name.solid-ammonium-perchlorate" },
     category = "chemistry",
     subgroup = "petrochem-rocket",
     energy_required = 2,
@@ -463,6 +471,7 @@ data:extend({
   {
     type = "recipe",
     name = "rocket-oxidizer-capsule",
+    localised_name = { "item-name.rocket-oxidizer-capsule" },
     category = "chemistry",
     subgroup = "petrochem-fuel",
     energy_required = 4.5,
@@ -481,6 +490,7 @@ data:extend({
   {
     type = "recipe",
     name = "rocket-fuel-capsule",
+    localised_name = { "item-name.rocket-fuel-capsule" },
     category = "chemistry",
     subgroup = "petrochem-fuel",
     energy_required = 4.5,

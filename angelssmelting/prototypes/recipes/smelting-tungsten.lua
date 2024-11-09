@@ -241,6 +241,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-plate-tungsten",
+    localised_name = { "item-name.angels-plate-tungsten" },
     category = "sintering-4",
     subgroup = "angels-tungsten-casting",
     enabled = false,

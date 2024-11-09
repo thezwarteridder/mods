@@ -17,9 +17,10 @@ data:extend({
   {
     type = "recipe",
     name = "wall-0",
+    localised_name = { "entity-name.wall-0" },
     enabled = true,
     ingredients = { { type = "item", name = "stone", amount = 5 }, { type = "item", name = "wood", amount = 1 } },
-    results = {{ type = "item", name = "wall-0", amount = 1 }},
+    results = { { type = "item", name = "wall-0", amount = 1 } },
   },
 })
 -- STONE WALL TIER 1 -----------------------------------------------------------
