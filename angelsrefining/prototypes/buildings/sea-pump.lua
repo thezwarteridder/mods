@@ -170,16 +170,7 @@ data:extend({
         frame_count = 1,
         variation_count = 1,
         shift = util.by_pixel(0, 0),
-        hr_version = {
-          filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/empty.png",
-          priority = "extra-high",
-          width = 1,
-          height = 1,
-          frame_count = 1,
-          variation_count = 1,
-          shift = util.by_pixel(0, 0),
-          scale = 1,
-        },
+        scale = 1,
       },
     },
     map_color = { 0, 0, 0, 0 },
@@ -276,24 +267,13 @@ data:extend({
     --      {
     --        priority = "high",
     --        filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
-    --        line_length = 8,
-    --        width = 104,
-    --        height = 102,
-    --        frame_count = 40,
-    --        shift = util.by_pixel(-4, -24),
     --        animation_speed = 0.5,
-    --        hr_version =
-    --        {
-    --          priority = "high",
-    --          filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-horsehead.png",
-    --          animation_speed = 0.5,
-    --          scale = 0.5,
-    --          line_length = 8,
-    --          width = 206,
-    --          height = 202,
-    --          frame_count = 40,
-    --          shift = util.by_pixel(-4, -24)
-    --        }
+    --        scale = 0.5,
+    --        line_length = 8,
+    --        width = 206,
+    --        height = 202,
+    --        frame_count = 40,
+    --        shift = util.by_pixel(-4, -24)
     --      },
     --      {
     --        priority = "high",
@@ -301,23 +281,11 @@ data:extend({
     --        animation_speed = 0.5,
     --        draw_as_shadow = true,
     --        line_length = 8,
-    --        width = 155,
-    --        height = 41,
+    --        width = 309,
+    --        height = 82,
     --        frame_count = 40,
-    --        shift = util.by_pixel(17.5, 14.5),
-    --        hr_version =
-    --        {
-    --          priority = "high",
-    --          filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-horsehead-shadow.png",
-    --          animation_speed = 0.5,
-    --          draw_as_shadow = true,
-    --          line_length = 8,
-    --          width = 309,
-    --          height = 82,
-    --          frame_count = 40,
-    --          scale = 0.5,
-    --          shift = util.by_pixel(17.75, 14.5)
-    --        }
+    --        scale = 0.5,
+    --        shift = util.by_pixel(17.75, 14.5)
     --      }
     --    }
     --  }

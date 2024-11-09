@@ -50,72 +50,47 @@ data:extend({
       animation = {
         layers = {
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base.png",
             priority = "high",
-            width = 168,
-            height = 189,
-            line_length = 6,
+            width = 332,
+            height = 374,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(-1, -12),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 332,
-                  height = 374,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-base_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-base_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(-1, -11.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(-1, -11.5),
+            scale = 0.5,
           },
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow.png",
             priority = "high",
-            width = 224,
-            height = 141,
-            line_length = 6,
+            width = 448,
+            height = 280,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow_01.png",
+                width_in_frames = 4,
+                height_in_frames = 7,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow_02.png",
+                width_in_frames = 4,
+                height_in_frames = 2,
+              },
+            },
             animation_speed = 0.5,
             draw_as_shadow = true,
-            shift = util.by_pixel(28, 13),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 448,
-                  height = 280,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-shadow_01.png",
-                      width_in_frames = 4,
-                      height_in_frames = 7,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-shadow_02.png",
-                      width_in_frames = 4,
-                      height_in_frames = 2,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  draw_as_shadow = true,
-                  shift = util.by_pixel(28, 12.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(28, 12.5),
+            scale = 0.5,
           },
         },
       },
@@ -123,39 +98,26 @@ data:extend({
         {
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light.png",
             priority = "high",
-            width = 168,
-            height = 189,
-            line_length = 6,
+            width = 332,
+            height = 374,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(-1, -12),
+            shift = util.by_pixel(-1, -11.5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 332,
-                  height = 374,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-light_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-light_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(-1, -11.5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -250,72 +212,47 @@ data:extend({
       animation = {
         layers = {
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base.png",
             priority = "high",
-            width = 168,
-            height = 189,
-            line_length = 6,
+            width = 332,
+            height = 374,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(-1, -12),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 332,
-                  height = 374,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-base_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-base_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(-1, -11.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(-1, -11.5),
+            scale = 0.5,
           },
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow.png",
             priority = "high",
-            width = 224,
-            height = 141,
-            line_length = 6,
+            width = 448,
+            height = 280,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow_01.png",
+                width_in_frames = 4,
+                height_in_frames = 7,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow_02.png",
+                width_in_frames = 4,
+                height_in_frames = 2,
+              },
+            },
             animation_speed = 0.5,
             draw_as_shadow = true,
-            shift = util.by_pixel(28, 13),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 448,
-                  height = 280,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-shadow_01.png",
-                      width_in_frames = 4,
-                      height_in_frames = 7,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-shadow_02.png",
-                      width_in_frames = 4,
-                      height_in_frames = 2,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  draw_as_shadow = true,
-                  shift = util.by_pixel(28, 12.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(28, 12.5),
+            scale = 0.5,
           },
         },
       },
@@ -323,39 +260,26 @@ data:extend({
         {
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light.png",
             priority = "high",
-            width = 168,
-            height = 189,
-            line_length = 6,
+            width = 332,
+            height = 374,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(-1, -12),
+            shift = util.by_pixel(-1, -11.5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 332,
-                  height = 374,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-light_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-light_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(-1, -11.5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -450,72 +374,47 @@ data:extend({
       animation = {
         layers = {
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base.png",
             priority = "high",
-            width = 168,
-            height = 189,
-            line_length = 6,
+            width = 332,
+            height = 374,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(-1, -12),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 332,
-                  height = 374,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-base_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-base_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(-1, -11.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(-1, -11.5),
+            scale = 0.5,
           },
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow.png",
             priority = "high",
-            width = 224,
-            height = 141,
-            line_length = 6,
+            width = 448,
+            height = 280,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow_01.png",
+                width_in_frames = 4,
+                height_in_frames = 7,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow_02.png",
+                width_in_frames = 4,
+                height_in_frames = 2,
+              },
+            },
             animation_speed = 0.5,
             draw_as_shadow = true,
-            shift = util.by_pixel(28, 13),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 448,
-                  height = 280,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-shadow_01.png",
-                      width_in_frames = 4,
-                      height_in_frames = 7,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-shadow_02.png",
-                      width_in_frames = 4,
-                      height_in_frames = 2,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  draw_as_shadow = true,
-                  shift = util.by_pixel(28, 12.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(28, 12.5),
+            scale = 0.5,
           },
         },
       },
@@ -523,39 +422,26 @@ data:extend({
         {
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light.png",
             priority = "high",
-            width = 168,
-            height = 189,
-            line_length = 6,
+            width = 332,
+            height = 374,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(-1, -12),
+            shift = util.by_pixel(-1, -11.5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 332,
-                  height = 374,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-light_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-light_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(-1, -11.5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -649,72 +535,47 @@ data:extend({
       animation = {
         layers = {
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base.png",
             priority = "high",
-            width = 168,
-            height = 189,
-            line_length = 6,
+            width = 332,
+            height = 374,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-base_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(-1, -12),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 332,
-                  height = 374,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-base_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-base_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(-1, -11.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(-1, -11.5),
+            scale = 0.5,
           },
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow.png",
             priority = "high",
-            width = 224,
-            height = 141,
-            line_length = 6,
+            width = 448,
+            height = 280,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow_01.png",
+                width_in_frames = 4,
+                height_in_frames = 7,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-shadow_02.png",
+                width_in_frames = 4,
+                height_in_frames = 2,
+              },
+            },
             animation_speed = 0.5,
             draw_as_shadow = true,
-            shift = util.by_pixel(28, 13),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 448,
-                  height = 280,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-shadow_01.png",
-                      width_in_frames = 4,
-                      height_in_frames = 7,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-shadow_02.png",
-                      width_in_frames = 4,
-                      height_in_frames = 2,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  draw_as_shadow = true,
-                  shift = util.by_pixel(28, 12.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(28, 12.5),
+            scale = 0.5,
           },
         },
       },
@@ -722,39 +583,26 @@ data:extend({
         {
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light.png",
             priority = "high",
-            width = 168,
-            height = 189,
-            line_length = 6,
+            width = 332,
+            height = 374,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/chemical-furnace-light_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(-1, -12),
+            shift = util.by_pixel(-1, -11.5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 332,
-                  height = 374,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-light_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/chemical-furnace/hr-chemical-furnace-light_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(-1, -11.5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },

@@ -49,72 +49,47 @@ data:extend({
       animation = {
         layers = {
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-base_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-base_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(0, -5),
+            scale = 0.5,
           },
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow.png",
             priority = "high",
-            width = 216,
-            height = 170,
-            line_length = 6,
+            width = 429,
+            height = 336,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow_01.png",
+                width_in_frames = 3,
+                height_in_frames = 6,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow_02.png",
+                width_in_frames = 3,
+                height_in_frames = 6,
+              },
+            },
             animation_speed = 0.5,
             draw_as_shadow = true,
-            shift = util.by_pixel(24, 9),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 429,
-                  height = 336,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-shadow_01.png",
-                      width_in_frames = 3,
-                      height_in_frames = 6,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-shadow_02.png",
-                      width_in_frames = 3,
-                      height_in_frames = 6,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  draw_as_shadow = true,
-                  shift = util.by_pixel(23, 8.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(23, 8.5),
+            scale = 0.5,
           },
         },
       },
@@ -123,37 +98,25 @@ data:extend({
           apply_recipe_tint = "primary",
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-recipe-tint-mask_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-recipe-tint-mask_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(0, -5),
+            scale = 0.5,
           },
         },
         {
@@ -161,61 +124,37 @@ data:extend({
           north_animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/vertical-pipe-shadow-patch.png",
             priority = "high",
-            width = 64,
-            height = 64,
+            width = 128,
+            height = 128,
             repeat_count = 36,
             draw_as_shadow = true,
             shift = { 2, -2 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-vertical-pipe-shadow-patch.png",
-                  priority = "high",
-                  width = 128,
-                  height = 128,
-                  repeat_count = 36,
-                  draw_as_shadow = true,
-                  shift = { 2, -2 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
+            shift = util.by_pixel(0, -5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-lights_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-lights_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -296,72 +235,47 @@ data:extend({
       animation = {
         layers = {
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-base_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-base_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(0, -5),
+            scale = 0.5,
           },
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow.png",
             priority = "high",
-            width = 216,
-            height = 170,
-            line_length = 6,
+            width = 429,
+            height = 336,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow_01.png",
+                width_in_frames = 3,
+                height_in_frames = 6,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow_02.png",
+                width_in_frames = 3,
+                height_in_frames = 6,
+              },
+            },
             animation_speed = 0.5,
             draw_as_shadow = true,
-            shift = util.by_pixel(24, 9),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 429,
-                  height = 336,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-shadow_01.png",
-                      width_in_frames = 3,
-                      height_in_frames = 6,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-shadow_02.png",
-                      width_in_frames = 3,
-                      height_in_frames = 6,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  draw_as_shadow = true,
-                  shift = util.by_pixel(23, 8.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(23, 8.5),
+            scale = 0.5,
           },
         },
       },
@@ -370,37 +284,25 @@ data:extend({
           apply_recipe_tint = "primary",
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-recipe-tint-mask_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-recipe-tint-mask_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(0, -5),
+            scale = 0.5,
           },
         },
         {
@@ -408,61 +310,37 @@ data:extend({
           north_animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/vertical-pipe-shadow-patch.png",
             priority = "high",
-            width = 64,
-            height = 64,
+            width = 128,
+            height = 128,
             repeat_count = 36,
             draw_as_shadow = true,
             shift = { 2, -2 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-vertical-pipe-shadow-patch.png",
-                  priority = "high",
-                  width = 128,
-                  height = 128,
-                  repeat_count = 36,
-                  draw_as_shadow = true,
-                  shift = { 2, -2 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
+            shift = util.by_pixel(0, -5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-lights_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-lights_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -536,72 +414,47 @@ data:extend({
       animation = {
         layers = {
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-base_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-base_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(0, -5),
+            scale = 0.5,
           },
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow.png",
             priority = "high",
-            width = 216,
-            height = 170,
-            line_length = 6,
+            width = 429,
+            height = 336,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow_01.png",
+                width_in_frames = 3,
+                height_in_frames = 6,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow_02.png",
+                width_in_frames = 3,
+                height_in_frames = 6,
+              },
+            },
             animation_speed = 0.5,
             draw_as_shadow = true,
-            shift = util.by_pixel(24, 9),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 429,
-                  height = 336,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-shadow_01.png",
-                      width_in_frames = 3,
-                      height_in_frames = 6,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-shadow_02.png",
-                      width_in_frames = 3,
-                      height_in_frames = 6,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  draw_as_shadow = true,
-                  shift = util.by_pixel(23, 8.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(23, 8.5),
+            scale = 0.5,
           },
         },
       },
@@ -610,37 +463,25 @@ data:extend({
           apply_recipe_tint = "primary",
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-recipe-tint-mask_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-recipe-tint-mask_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(0, -5),
+            scale = 0.5,
           },
         },
         {
@@ -648,61 +489,37 @@ data:extend({
           north_animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/vertical-pipe-shadow-patch.png",
             priority = "high",
-            width = 64,
-            height = 64,
+            width = 128,
+            height = 128,
             repeat_count = 36,
             draw_as_shadow = true,
             shift = { 2, -2 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-vertical-pipe-shadow-patch.png",
-                  priority = "high",
-                  width = 128,
-                  height = 128,
-                  repeat_count = 36,
-                  draw_as_shadow = true,
-                  shift = { 2, -2 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
+            shift = util.by_pixel(0, -5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-lights_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-lights_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -780,72 +597,47 @@ data:extend({
       animation = {
         layers = {
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-base_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-base_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-base_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(0, -5),
+            scale = 0.5,
           },
           {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow.png",
             priority = "high",
-            width = 216,
-            height = 170,
-            line_length = 6,
+            width = 429,
+            height = 336,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow_01.png",
+                width_in_frames = 3,
+                height_in_frames = 6,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-shadow_02.png",
+                width_in_frames = 3,
+                height_in_frames = 6,
+              },
+            },
             animation_speed = 0.5,
             draw_as_shadow = true,
-            shift = util.by_pixel(24, 9),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 429,
-                  height = 336,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-shadow_01.png",
-                      width_in_frames = 3,
-                      height_in_frames = 6,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-shadow_02.png",
-                      width_in_frames = 3,
-                      height_in_frames = 6,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  draw_as_shadow = true,
-                  shift = util.by_pixel(23, 8.5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(23, 8.5),
+            scale = 0.5,
           },
         },
       },
@@ -854,37 +646,25 @@ data:extend({
           apply_recipe_tint = "primary",
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-recipe-tint-mask_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-recipe-tint-mask_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-recipe-tint-mask_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  scale = 0.5,
-                }
-              or nil,
+            shift = util.by_pixel(0, -5),
+            scale = 0.5,
           },
         },
         {
@@ -892,61 +672,37 @@ data:extend({
           north_animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/vertical-pipe-shadow-patch.png",
             priority = "high",
-            width = 64,
-            height = 64,
+            width = 128,
+            height = 128,
             repeat_count = 36,
             draw_as_shadow = true,
             shift = { 2, -2 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-vertical-pipe-shadow-patch.png",
-                  priority = "high",
-                  width = 128,
-                  height = 128,
-                  repeat_count = 36,
-                  draw_as_shadow = true,
-                  shift = { 2, -2 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
           always_draw = true,
           animation = {
-            filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights.png",
             priority = "high",
-            width = 170,
-            height = 192,
-            line_length = 6,
+            width = 336,
+            height = 381,
             frame_count = 36,
+            stripes = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights_01.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/induction-furnace-working-lights_02.png",
+                width_in_frames = 6,
+                height_in_frames = 3,
+              },
+            },
             animation_speed = 0.5,
-            shift = util.by_pixel(0.5, -5.5),
+            shift = util.by_pixel(0, -5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  priority = "high",
-                  width = 336,
-                  height = 381,
-                  frame_count = 36,
-                  stripes = {
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-lights_01.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                    {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/induction-furnace/hr-induction-furnace-working-lights_02.png",
-                      width_in_frames = 6,
-                      height_in_frames = 3,
-                    },
-                  },
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },

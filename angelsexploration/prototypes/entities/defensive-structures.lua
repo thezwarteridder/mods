@@ -38,9 +38,6 @@ local function addTintToSprite(sprite, tintToAdd)
       -- it has no effect, adding a tint to a shadow
       sprite.tint = util.table.deepcopy(tintToAdd)
     end
-    if sprite.hr_version and not sprite.hr_version.draw_as_shadow then
-      sprite.hr_version.tint = util.table.deepcopy(tintToAdd)
-    end
   end
 
   return sprite

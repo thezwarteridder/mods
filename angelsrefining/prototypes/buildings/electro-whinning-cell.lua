@@ -53,18 +53,6 @@ data:extend({
         line_length = 6,
         shift = { 0, 0 },
         animation_speed = 0.5,
-        -- hr_version =
-        -- {
-        -- filename = "__angelsrefininggraphics__/graphics/entity/electro-whinning-cell/1electro-whinning-cell.png",
-        -- priority = "extra-high",
-        -- width = 192,
-        -- height = 192,
-        -- frame_count = 16,
-        -- line_length = 4,
-        -- shift = {0.45, 0.7},
-        -- animation_speed = 0.5,
-        -- scale = 0.5
-        -- },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -161,18 +149,6 @@ data:extend({
         line_length = 6,
         shift = { 0, 0 },
         animation_speed = 0.5,
-        -- hr_version =
-        -- {
-        -- filename = "__angelsrefininggraphics__/graphics/entity/electro-whinning-cell/1electro-whinning-cell.png",
-        -- priority = "extra-high",
-        -- width = 192,
-        -- height = 192,
-        -- frame_count = 16,
-        -- line_length = 4,
-        -- shift = {0.45, 0.7},
-        -- animation_speed = 0.5,
-        -- scale = 0.5
-        -- },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },

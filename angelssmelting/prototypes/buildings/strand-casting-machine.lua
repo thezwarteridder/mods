@@ -88,38 +88,19 @@ data:extend({
               {
                 filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
                 priority = "high",
-                width = 167,
-                height = 197,
+                width = 329,
+                height = 392,
                 shift = util.by_pixel(0, -16.5),
-                hr_version = angelsmods.trigger.enable_hq_graphics
-                    and {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-idle-state.png",
-                      priority = "high",
-                      width = 329,
-                      height = 392,
-                      shift = util.by_pixel(0, -16.5),
-                      scale = 0.5,
-                    }
-                  or nil,
+                scale = 0.5,
               },
               {
                 filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
                 priority = "high",
-                width = 223,
-                height = 157,
+                width = 444,
+                height = 311,
                 draw_as_shadow = true,
                 shift = util.by_pixel(29.5, 3.5),
-                hr_version = angelsmods.trigger.enable_hq_graphics
-                    and {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-shadow.png",
-                      priority = "high",
-                      width = 444,
-                      height = 311,
-                      draw_as_shadow = true,
-                      shift = util.by_pixel(29.5, 3.5),
-                      scale = 0.5,
-                    }
-                  or nil,
+                scale = 0.5,
               },
             },
           },
@@ -130,19 +111,10 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             shift = util.by_pixel(0, -16.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-recipe-mask.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  shift = util.by_pixel(0, -16.5),
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
@@ -150,25 +122,13 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             line_length = 6,
             frame_count = 24,
             animation_speed = 0.5,
             shift = util.by_pixel(0, -16.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-working-animation.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  line_length = 6,
-                  frame_count = 24,
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -16.5),
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
@@ -176,27 +136,14 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             line_length = 6,
             frame_count = 24,
             animation_speed = 0.5,
             shift = util.by_pixel(0, -16.5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-light.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  line_length = 6,
-                  frame_count = 24,
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -16.5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -297,38 +244,19 @@ data:extend({
               {
                 filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
                 priority = "high",
-                width = 167,
-                height = 197,
+                width = 329,
+                height = 392,
                 shift = util.by_pixel(0, -16.5),
-                hr_version = angelsmods.trigger.enable_hq_graphics
-                    and {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-idle-state.png",
-                      priority = "high",
-                      width = 329,
-                      height = 392,
-                      shift = util.by_pixel(0, -16.5),
-                      scale = 0.5,
-                    }
-                  or nil,
+                scale = 0.5,
               },
               {
                 filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
                 priority = "high",
-                width = 223,
-                height = 157,
+                width = 444,
+                height = 311,
                 draw_as_shadow = true,
                 shift = util.by_pixel(29.5, 3.5),
-                hr_version = angelsmods.trigger.enable_hq_graphics
-                    and {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-shadow.png",
-                      priority = "high",
-                      width = 444,
-                      height = 311,
-                      draw_as_shadow = true,
-                      shift = util.by_pixel(29.5, 3.5),
-                      scale = 0.5,
-                    }
-                  or nil,
+                scale = 0.5,
               },
             },
           },
@@ -339,19 +267,10 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             shift = util.by_pixel(0, -16.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-recipe-mask.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  shift = util.by_pixel(0, -16.5),
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
@@ -359,25 +278,13 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             line_length = 6,
             frame_count = 24,
             animation_speed = 0.5,
             shift = util.by_pixel(0, -16.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-working-animation.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  line_length = 6,
-                  frame_count = 24,
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -16.5),
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
@@ -385,27 +292,14 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             line_length = 6,
             frame_count = 24,
             animation_speed = 0.5,
             shift = util.by_pixel(0, -16.5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-light.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  line_length = 6,
-                  frame_count = 24,
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -16.5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -506,38 +400,19 @@ data:extend({
               {
                 filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
                 priority = "high",
-                width = 167,
-                height = 197,
+                width = 329,
+                height = 392,
                 shift = util.by_pixel(0, -16.5),
-                hr_version = angelsmods.trigger.enable_hq_graphics
-                    and {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-idle-state.png",
-                      priority = "high",
-                      width = 329,
-                      height = 392,
-                      shift = util.by_pixel(0, -16.5),
-                      scale = 0.5,
-                    }
-                  or nil,
+                scale = 0.5,
               },
               {
                 filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
                 priority = "high",
-                width = 223,
-                height = 157,
+                width = 444,
+                height = 311,
                 draw_as_shadow = true,
                 shift = util.by_pixel(29.5, 3.5),
-                hr_version = angelsmods.trigger.enable_hq_graphics
-                    and {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-shadow.png",
-                      priority = "high",
-                      width = 444,
-                      height = 311,
-                      draw_as_shadow = true,
-                      shift = util.by_pixel(29.5, 3.5),
-                      scale = 0.5,
-                    }
-                  or nil,
+                scale = 0.5,
               },
             },
           },
@@ -548,19 +423,10 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             shift = util.by_pixel(0, -16.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-recipe-mask.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  shift = util.by_pixel(0, -16.5),
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
@@ -568,25 +434,13 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             line_length = 6,
             frame_count = 24,
             animation_speed = 0.5,
             shift = util.by_pixel(0, -16.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-working-animation.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  line_length = 6,
-                  frame_count = 24,
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -16.5),
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
@@ -594,27 +448,14 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             line_length = 6,
             frame_count = 24,
             animation_speed = 0.5,
             shift = util.by_pixel(0, -16.5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-light.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  line_length = 6,
-                  frame_count = 24,
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -16.5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
@@ -714,38 +555,19 @@ data:extend({
               {
                 filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
                 priority = "high",
-                width = 167,
-                height = 197,
+                width = 329,
+                height = 392,
                 shift = util.by_pixel(0, -16.5),
-                hr_version = angelsmods.trigger.enable_hq_graphics
-                    and {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-idle-state.png",
-                      priority = "high",
-                      width = 329,
-                      height = 392,
-                      shift = util.by_pixel(0, -16.5),
-                      scale = 0.5,
-                    }
-                  or nil,
+                scale = 0.5,
               },
               {
                 filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
                 priority = "high",
-                width = 223,
-                height = 157,
+                width = 444,
+                height = 311,
                 draw_as_shadow = true,
                 shift = util.by_pixel(29.5, 3.5),
-                hr_version = angelsmods.trigger.enable_hq_graphics
-                    and {
-                      filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-shadow.png",
-                      priority = "high",
-                      width = 444,
-                      height = 311,
-                      draw_as_shadow = true,
-                      shift = util.by_pixel(29.5, 3.5),
-                      scale = 0.5,
-                    }
-                  or nil,
+                scale = 0.5,
               },
             },
           },
@@ -756,19 +578,10 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             shift = util.by_pixel(0, -16.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-recipe-mask.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  shift = util.by_pixel(0, -16.5),
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
@@ -776,25 +589,13 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             line_length = 6,
             frame_count = 24,
             animation_speed = 0.5,
             shift = util.by_pixel(0, -16.5),
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-working-animation.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  line_length = 6,
-                  frame_count = 24,
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -16.5),
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         {
@@ -802,27 +603,14 @@ data:extend({
           animation = {
             filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
             priority = "high",
-            width = 167,
-            height = 197,
+            width = 329,
+            height = 392,
             line_length = 6,
             frame_count = 24,
             animation_speed = 0.5,
             shift = util.by_pixel(0, -16.5),
             draw_as_light = true,
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-light.png",
-                  priority = "high",
-                  width = 329,
-                  height = 392,
-                  line_length = 6,
-                  frame_count = 24,
-                  animation_speed = 0.5,
-                  shift = util.by_pixel(0, -16.5),
-                  draw_as_light = true,
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
       },
