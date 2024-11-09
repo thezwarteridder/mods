@@ -6,7 +6,13 @@ if angelsmods.trigger.smelting_products["glass"].mixture then --only change it i
 end
 
 if angelsmods.industries and angelsmods.industries.overhaul then
-  OV.patch_recipes({ { name = "algae-brown-burning", results = { { "!!" }, { name = "solid-lithium", amount = 2 } } } })
+  OV.patch_recipes({
+    {
+      name = "algae-brown-burning",
+      localised_name = { "item-name.solid-lithium" },
+      results = { { "!!" }, { name = "solid-lithium", amount = 2 } },
+    },
+  })
   -- OV.remove_unlock("bio-paper-1", "circuit-paper-board")
 
   -- MODULES

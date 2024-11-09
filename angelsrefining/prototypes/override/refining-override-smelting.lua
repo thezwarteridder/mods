@@ -55,13 +55,15 @@ end
 -- CRUSHED SMELTING -----------------------------------------------------------
 -------------------------------------------------------------------------------
 if ore_exists("lead") then
+  local item_name = mods["angelssmelting"] and "angels-plate-lead" or "lead-plate"
+
   OV.patch_recipes({
     {
       name = "angelsore5-crushed-smelting",
-      localised_name = { "item-name." .. mods["angelssmelting"] and "angels-plate-lead" or "lead-plate" },
+      localised_name = { "item-name." .. item_name },
       results = {
         { "!!" },
-        { name = mods["angelssmelting"] and "angels-plate-lead" or "lead-plate", amount = 1 },
+        { name = item_name, amount = 1 },
       },
       icon = "__angelsrefininggraphics__/graphics/icons/lead-plate-crushed.png",
     },
@@ -71,13 +73,15 @@ else
 end
 
 if ore_exists("tin") then
+  local item_name = mods["angelssmelting"] and "angels-plate-tin" or "tin-plate"
+
   OV.patch_recipes({
     {
       name = "angelsore6-crushed-smelting",
-      localised_name = { "item-name." .. mods["angelssmelting"] and "angels-plate-tin" or "tin-plate" },
+      localised_name = { "item-name." .. item_name },
       results = {
         { "!!" },
-        { name = mods["angelssmelting"] and "angels-plate-tin" or "tin-plate", amount = 1 },
+        { name = item_name, amount = 1 },
       },
       icon = "__angelsrefininggraphics__/graphics/icons/tin-plate-crushed.png",
     },
