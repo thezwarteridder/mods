@@ -44,7 +44,7 @@ data:extend({
     ingredient_count = 4,
     graphics_set = {
       animation = {
-        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-hr.png",
+        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer.png",
         priority = "extra-high",
         width = 256,
         height = 256,
@@ -107,7 +107,7 @@ data:extend({
     ingredient_count = 4,
     graphics_set = {
       animation = {
-        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-hr.png",
+        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer.png",
         priority = "extra-high",
         width = 256,
         height = 256,
@@ -169,7 +169,7 @@ data:extend({
     ingredient_count = 4,
     graphics_set = {
       animation = {
-        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-hr.png",
+        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer.png",
         priority = "extra-high",
         width = 256,
         height = 256,

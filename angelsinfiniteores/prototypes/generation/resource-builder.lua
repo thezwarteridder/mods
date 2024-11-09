@@ -171,7 +171,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 1 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-11-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-11.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -187,7 +187,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 2 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-12-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-12.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -203,7 +203,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 3 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-13-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-13.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -219,7 +219,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 4 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-14-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-14.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -235,7 +235,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 5 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-15-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-15.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -251,7 +251,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 6 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-16-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-16.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -267,7 +267,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 7 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-17-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-17.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -283,7 +283,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 8 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-18-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-18.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -303,7 +303,7 @@ if not angelsmods.functions.make_resource then
           end
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-19-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-19.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -318,7 +318,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 10 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-20-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-20.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -333,7 +333,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 11 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-21-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-21.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
@@ -348,7 +348,7 @@ if not angelsmods.functions.make_resource then
         if input.sheet == 12 then
           return {
             sheet = {
-              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-22-hr.png",
+              filename = "__angelsinfiniteores__/graphics/entity/ores/ore-22.png",
               priority = "extra-high",
               tint = input.tint,
               width = 128,
