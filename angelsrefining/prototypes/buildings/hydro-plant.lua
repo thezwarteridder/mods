@@ -357,7 +357,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         pipe_connections = {
-          { flow_direction = "input", position = { -2, -3.4 }, direction = defines.direction.south },
+          { flow_direction = "input", position = { -2, -3 }, direction = defines.direction.north },
         },
       },
       {
@@ -365,7 +365,7 @@ data:extend({
         pipe_picture = hydropipepictures2(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, 3.4 }, direction = defines.direction.north } },
+        pipe_connections = { { flow_direction = "output", position = { 2, 3 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
@@ -373,7 +373,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { flow_direction = "output", position = { -2, 3.4 }, direction = defines.direction.north },
+          { flow_direction = "output", position = { -2, 3 }, direction = defines.direction.south },
         },
       },
     },
@@ -670,7 +670,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         pipe_connections = {
-          { flow_direction = "input", position = { -2, -3.4 }, direction = defines.direction.south },
+          { flow_direction = "input", position = { -2, -3 }, direction = defines.direction.north },
         },
       },
       {
@@ -678,7 +678,7 @@ data:extend({
         pipe_picture = hydropipepictures2(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, 3.4 }, direction = defines.direction.north } },
+        pipe_connections = { { flow_direction = "output", position = { 2, 3 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
@@ -686,7 +686,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { flow_direction = "output", position = { -2, 3.4 }, direction = defines.direction.north },
+          { flow_direction = "output", position = { -2, 3 }, direction = defines.direction.south },
         },
       },
     },
@@ -982,7 +982,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         pipe_connections = {
-          { flow_direction = "input", position = { -2, -3.4 }, direction = defines.direction.south },
+          { flow_direction = "input", position = { -2, -3 }, direction = defines.direction.north },
         },
       },
       {
@@ -990,7 +990,7 @@ data:extend({
         pipe_picture = hydropipepictures2(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, 3.4 }, direction = defines.direction.north } },
+        pipe_connections = { { flow_direction = "output", position = { 2, 3 }, direction = defines.direction.south } },
       },
       {
         production_type = "output",
@@ -998,7 +998,7 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 100,
         pipe_connections = {
-          { flow_direction = "output", position = { -2, 3.4 }, direction = defines.direction.north },
+          { flow_direction = "output", position = { -2, 3 }, direction = defines.direction.south },
         },
       },
     },
