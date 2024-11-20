@@ -33,37 +33,39 @@ data:extend({
     },
     energy_usage = "100kW",
     --ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/farm-base.png",
-          width = 224,
-          height = 224,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
-        },
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-basic.png",
-          width = 224,
-          height = 224,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/farm-base.png",
+            width = 224,
+            height = 224,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-basic.png",
+            width = 224,
+            height = 224,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
         },
       },
-    },
-    working_visualisations = {
-      {
-        apply_recipe_tint = "primary",
-        animation = {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-animation-1.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 224,
-          height = 224,
-          shift = { 0, 0 },
-          animation_speed = 0.005,
+      working_visualisations = {
+        {
+          apply_recipe_tint = "primary",
+          animation = {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-animation-1.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 224,
+            height = 224,
+            shift = { 0, 0 },
+            animation_speed = 0.005,
+          },
         },
       },
     },
@@ -116,37 +118,39 @@ data:extend({
     },
     energy_usage = "125kW",
     --ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/farm-base.png",
-          width = 224,
-          height = 224,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
-        },
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-temperate.png",
-          width = 224,
-          height = 224,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/farm-base.png",
+            width = 224,
+            height = 224,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-temperate.png",
+            width = 224,
+            height = 224,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
         },
       },
-    },
-    working_visualisations = {
-      {
-        apply_recipe_tint = "primary",
-        animation = {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-animation-2.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 224,
-          height = 224,
-          shift = { 0, 0 },
-          animation_speed = 0.01,
+      working_visualisations = {
+        {
+          apply_recipe_tint = "primary",
+          animation = {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-animation-2.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 224,
+            height = 224,
+            shift = { 0, 0 },
+            animation_speed = 0.01,
+          },
         },
       },
     },
@@ -199,37 +203,39 @@ data:extend({
     },
     energy_usage = "125kW",
     --ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/farm-base.png",
-          width = 224,
-          height = 224,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
-        },
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-desert.png",
-          width = 224,
-          height = 224,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/farm-base.png",
+            width = 224,
+            height = 224,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-desert.png",
+            width = 224,
+            height = 224,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
         },
       },
-    },
-    working_visualisations = {
-      {
-        apply_recipe_tint = "primary",
-        animation = {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-animation-3.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 224,
-          height = 224,
-          shift = { 0, 0 },
-          animation_speed = 0.01,
+      working_visualisations = {
+        {
+          apply_recipe_tint = "primary",
+          animation = {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-animation-3.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 224,
+            height = 224,
+            shift = { 0, 0 },
+            animation_speed = 0.01,
+          },
         },
       },
     },
@@ -282,37 +288,39 @@ data:extend({
     },
     energy_usage = "125kW",
     --ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/farm-base.png",
-          width = 224,
-          height = 224,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
-        },
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-water.png",
-          width = 224,
-          height = 224,
-          line_length = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/farm-base.png",
+            width = 224,
+            height = 224,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-water.png",
+            width = 224,
+            height = 224,
+            line_length = 1,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
         },
       },
-    },
-    working_visualisations = {
-      {
-        apply_recipe_tint = "primary",
-        animation = {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-animation-4.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 224,
-          height = 224,
-          shift = { 0, 0 },
-          animation_speed = 0.01,
+      working_visualisations = {
+        {
+          apply_recipe_tint = "primary",
+          animation = {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/crop-farm/field-animation-4.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 224,
+            height = 224,
+            shift = { 0, 0 },
+            animation_speed = 0.01,
+          },
         },
       },
     },

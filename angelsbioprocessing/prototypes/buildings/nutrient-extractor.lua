@@ -34,14 +34,16 @@ data:extend({
     },
     energy_usage = "150kW",
     --ingredient_count = 4,
-    animation = {
-      filename = "__angelsbioprocessinggraphics__/graphics/entity/nutrient-extractor/nutrient-extractor.png",
-      width = 160,
-      height = 160,
-      line_length = 5,
-      frame_count = 25,
-      shift = { 0, 0 },
-      animation_speed = 0.5,
+    graphics_set = {
+      animation = {
+        filename = "__angelsbioprocessinggraphics__/graphics/entity/nutrient-extractor/nutrient-extractor.png",
+        width = 160,
+        height = 160,
+        line_length = 5,
+        frame_count = 25,
+        shift = { 0, 0 },
+        animation_speed = 0.5,
+      },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound = {

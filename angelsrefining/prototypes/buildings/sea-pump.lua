@@ -20,12 +20,13 @@ data:extend({
     icon = "__angelsrefininggraphics__/graphics/icons/sea-pump-ico.png",
     icon_size = 32,
     flags = { "placeable-neutral", "player-creation", "filter-directions" },
-    collision_mask = { layers = {is_object = true, train = true }}, -- collide just with object-layer and train-layer which don't collide with water, this allows us to build on 1 tile wide ground
+    collision_mask = { layers = { is_object = true, train = true } }, -- collide just with object-layer and train-layer which don't collide with water, this allows us to build on 1 tile wide ground
     center_collision_mask = { "water-tile", "object-layer", "player-layer" }, -- to test that tile directly under the pump is ground
     fluid_box_tile_collision_test = { "ground-tile" },
     adjacent_tile_collision_test = { "water-tile" },
-    adjacent_tile_collision_mask = {layers={
-      ground_tile=true}}, -- to prevent building on edge of map :(
+    adjacent_tile_collision_mask = { layers = {
+      ground_tile = true,
+    } }, -- to prevent building on edge of map :(
     adjacent_tile_collision_box = { { -2, -3 }, { 2, -2 } },
     minable = { mining_time = 1, result = "sea-pump" },
     max_health = 200,
@@ -48,51 +49,52 @@ data:extend({
         {
           flow_direction = "output",
           position = { 0, 0 },
-          direction = defines.direction.north
+          direction = defines.direction.north,
         },
       },
     },
-    fluid_source_offset = {0, -1},
-    energy_source =
-    {
-      type = "void"
+    fluid_source_offset = { 0, -1 },
+    energy_source = {
+      type = "void",
     },
     energy_usage = "60kW",
     pumping_speed = 1500 / 60,
     tile_width = 3,
     tile_height = 3,
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    picture = {
-      north = {
-        filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/sea-pump.png",
-        priority = "high",
-        shift = { 0, -1 },
-        width = 160,
-        height = 160,
-      },
-      east = {
-        filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/sea-pump.png",
-        priority = "high",
-        shift = { 1, 0 },
-        x = 160,
-        width = 160,
-        height = 160,
-      },
-      south = {
-        filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/sea-pump.png",
-        priority = "high",
-        shift = { 0, 1 },
-        x = 320,
-        width = 160,
-        height = 160,
-      },
-      west = {
-        filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/sea-pump.png",
-        priority = "high",
-        shift = { -1, 0 },
-        x = 480,
-        width = 160,
-        height = 160,
+    graphics_set = {
+      base_pictures = {
+        north = {
+          filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/sea-pump.png",
+          priority = "high",
+          shift = { 0, -1 },
+          width = 160,
+          height = 160,
+        },
+        east = {
+          filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/sea-pump.png",
+          priority = "high",
+          shift = { 1, 0 },
+          x = 160,
+          width = 160,
+          height = 160,
+        },
+        south = {
+          filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/sea-pump.png",
+          priority = "high",
+          shift = { 0, 1 },
+          x = 320,
+          width = 160,
+          height = 160,
+        },
+        west = {
+          filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/sea-pump.png",
+          priority = "high",
+          shift = { -1, 0 },
+          x = 480,
+          width = 160,
+          height = 160,
+        },
       },
     },
     placeable_position_visualization = {
@@ -168,16 +170,7 @@ data:extend({
         frame_count = 1,
         variation_count = 1,
         shift = util.by_pixel(0, 0),
-        hr_version = {
-          filename = "__angelsrefininggraphics__/graphics/entity/sea-pump/empty.png",
-          priority = "extra-high",
-          width = 1,
-          height = 1,
-          frame_count = 1,
-          variation_count = 1,
-          shift = util.by_pixel(0, 0),
-          scale = 1,
-        },
+        scale = 1,
       },
     },
     map_color = { 0, 0, 0, 0 },
@@ -203,7 +196,7 @@ data:extend({
     damaged_trigger_effect = hit_effects.entity(),
     energy_source = {
       type = "electric",
-      emissions_per_minute = {pollution = 10},
+      emissions_per_minute = { pollution = 10 },
       usage_priority = "secondary-input",
     },
     output_fluid_box = {
@@ -213,8 +206,8 @@ data:extend({
       pipe_connections = {
         {
           flow_direction = "output",
-          position = { 0, 0.25},
-          direction = defines.direction.north
+          position = { 0, 0.25 },
+          direction = defines.direction.north,
         },
       },
     },
@@ -274,24 +267,13 @@ data:extend({
     --      {
     --        priority = "high",
     --        filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
-    --        line_length = 8,
-    --        width = 104,
-    --        height = 102,
-    --        frame_count = 40,
-    --        shift = util.by_pixel(-4, -24),
     --        animation_speed = 0.5,
-    --        hr_version =
-    --        {
-    --          priority = "high",
-    --          filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-horsehead.png",
-    --          animation_speed = 0.5,
-    --          scale = 0.5,
-    --          line_length = 8,
-    --          width = 206,
-    --          height = 202,
-    --          frame_count = 40,
-    --          shift = util.by_pixel(-4, -24)
-    --        }
+    --        scale = 0.5,
+    --        line_length = 8,
+    --        width = 206,
+    --        height = 202,
+    --        frame_count = 40,
+    --        shift = util.by_pixel(-4, -24)
     --      },
     --      {
     --        priority = "high",
@@ -299,23 +281,11 @@ data:extend({
     --        animation_speed = 0.5,
     --        draw_as_shadow = true,
     --        line_length = 8,
-    --        width = 155,
-    --        height = 41,
+    --        width = 309,
+    --        height = 82,
     --        frame_count = 40,
-    --        shift = util.by_pixel(17.5, 14.5),
-    --        hr_version =
-    --        {
-    --          priority = "high",
-    --          filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-horsehead-shadow.png",
-    --          animation_speed = 0.5,
-    --          draw_as_shadow = true,
-    --          line_length = 8,
-    --          width = 309,
-    --          height = 82,
-    --          frame_count = 40,
-    --          scale = 0.5,
-    --          shift = util.by_pixel(17.75, 14.5)
-    --        }
+    --        scale = 0.5,
+    --        shift = util.by_pixel(17.75, 14.5)
     --      }
     --    }
     --  }

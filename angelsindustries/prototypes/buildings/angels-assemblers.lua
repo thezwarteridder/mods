@@ -30,18 +30,11 @@ data:extend({
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fast_replaceable_group = "assembling-machine",
     alert_icon_shift = util.by_pixel(-3, -12),
-    animation = {
-      layers = {
-        {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-          priority = "high",
-          width = 108,
-          height = 114,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, 2),
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
             priority = "high",
             width = 214,
             height = 226,
@@ -50,19 +43,8 @@ data:extend({
             shift = util.by_pixel(0, 2),
             scale = 0.5,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
-          priority = "high",
-          width = 95,
-          height = 83,
-          frame_count = 1,
-          line_length = 1,
-          repeat_count = 32,
-          draw_as_shadow = true,
-          shift = util.by_pixel(8.5, 5.5),
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1-shadow.png",
+          {
+            filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
             priority = "high",
             width = 190,
             height = 165,
@@ -83,7 +65,7 @@ data:extend({
       fuel_categories = { "chemical" },
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions_per_minute = {pollution = 0.01},
+      emissions_per_minute = { pollution = 0.01 },
       -- smoke =
       -- {
       -- {
@@ -145,19 +127,11 @@ data:extend({
     collision_box = { { -1.2 * 2 / 3, -1.2 * 2 / 3 }, { 1.2 * 2 / 3, 1.2 * 2 / 3 } },
     selection_box = { { -1.5 * 2 / 3, -1.5 * 2 / 3 }, { 1.5 * 2 / 3, 1.5 * 2 / 3 } },
     fast_replaceable_group = "assembling-machine-small",
-    animation = {
-      layers = {
-        {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-          priority = "high",
-          width = 108,
-          height = 114,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, 2 * 2 / 3),
-          scale = 2 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
             priority = "high",
             width = 214,
             height = 226,
@@ -166,19 +140,8 @@ data:extend({
             shift = util.by_pixel(0, 2 * 2 / 3),
             scale = 0.5 * 2 / 3,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
-          priority = "high",
-          width = 95,
-          height = 83,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(8.5 * 2 / 3, 5.5 * 2 / 3),
-          scale = 2 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1-shadow.png",
+          {
+            filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
             priority = "high",
             width = 190,
             height = 165,
@@ -196,7 +159,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 0.05 / 1.5},
+      emissions_per_minute = { pollution = 0.05 / 1.5 },
     },
     energy_usage = "90kW",
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -246,19 +209,11 @@ data:extend({
     collision_box = { { -1.2 * 4 / 3, -1.2 * 4 / 3 }, { 1.2 * 4 / 3, 1.2 * 4 / 3 } },
     selection_box = { { -1.5 * 4 / 3, -1.5 * 4 / 3 }, { 1.5 * 4 / 3, 1.5 * 4 / 3 } },
     fast_replaceable_group = "assembling-machine-big",
-    animation = {
-      layers = {
-        {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-          priority = "high",
-          width = 108,
-          height = 114,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, 2 * 4 / 3),
-          scale = 4 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
             priority = "high",
             width = 214,
             height = 226,
@@ -267,19 +222,8 @@ data:extend({
             shift = util.by_pixel(0, 2 * 4 / 3),
             scale = 0.5 * 4 / 3,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
-          priority = "high",
-          width = 95,
-          height = 83,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(8.5 * 4 / 3, 5.5 * 4 / 3),
-          scale = 4 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-1/hr-assembling-machine-1-shadow.png",
+          {
+            filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
             priority = "high",
             width = 190,
             height = 165,
@@ -297,7 +241,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 0.05 / 1.5},
+      emissions_per_minute = { pollution = 0.05 / 1.5 },
     },
     energy_usage = "90kW",
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -348,19 +292,11 @@ data:extend({
     collision_box = { { -1.2 * 2 / 3, -1.2 * 2 / 3 }, { 1.2 * 2 / 3, 1.2 * 2 / 3 } },
     selection_box = { { -1.5 * 2 / 3, -1.5 * 2 / 3 }, { 1.5 * 2 / 3, 1.5 * 2 / 3 } },
     fast_replaceable_group = "assembling-machine-small",
-    animation = {
-      layers = {
-        {
-          filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
-          priority = "high",
-          width = 108,
-          height = 110,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, 4 * 2 / 3),
-          scale = 2 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-2/hr-assembling-machine-2.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
             priority = "high",
             width = 214,
             height = 218,
@@ -369,19 +305,8 @@ data:extend({
             shift = util.by_pixel(0, 4 * 2 / 3),
             scale = 0.5 * 2 / 3,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2-shadow.png",
-          priority = "high",
-          width = 98,
-          height = 82,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(12 * 2 / 3, 5 * 2 / 3),
-          scale = 2 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-2/hr-assembling-machine-2-shadow.png",
+          {
+            filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2-shadow.png",
             priority = "high",
             width = 196,
             height = 163,
@@ -416,7 +341,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 0.04 / 2.5},
+      emissions_per_minute = { pollution = 0.04 / 2.5 },
     },
     energy_usage = "150kW",
     module_slots = 2,
@@ -470,19 +395,11 @@ data:extend({
     collision_box = { { -1.2 * 4 / 3, -1.2 * 4 / 3 }, { 1.2 * 4 / 3, 1.2 * 4 / 3 } },
     selection_box = { { -1.5 * 4 / 3, -1.5 * 4 / 3 }, { 1.5 * 4 / 3, 1.5 * 4 / 3 } },
     fast_replaceable_group = "assembling-machine-big",
-    animation = {
-      layers = {
-        {
-          filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
-          priority = "high",
-          width = 108,
-          height = 110,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, 4 * 4 / 3),
-          scale = 4 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-2/hr-assembling-machine-2.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
             priority = "high",
             width = 214,
             height = 218,
@@ -491,19 +408,8 @@ data:extend({
             shift = util.by_pixel(0, 4 * 4 / 3),
             scale = 0.5 * 4 / 3,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2-shadow.png",
-          priority = "high",
-          width = 98,
-          height = 82,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(12 * 4 / 3, 5 * 4 / 3),
-          scale = 4 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-2/hr-assembling-machine-2-shadow.png",
+          {
+            filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2-shadow.png",
             priority = "high",
             width = 196,
             height = 163,
@@ -538,7 +444,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 0.04 / 2.5},
+      emissions_per_minute = { pollution = 0.04 / 2.5 },
     },
     energy_usage = "150kW",
     module_slots = 2,
@@ -591,19 +497,11 @@ data:extend({
     collision_box = { { -1.2 * 2 / 3, -1.2 * 2 / 3 }, { 1.2 * 2 / 3, 1.2 * 2 / 3 } },
     selection_box = { { -1.5 * 2 / 3, -1.5 * 2 / 3 }, { 1.5 * 2 / 3, 1.5 * 2 / 3 } },
     fast_replaceable_group = "assembling-machine-small",
-    animation = {
-      layers = {
-        {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
-          priority = "high",
-          width = 108,
-          height = 119,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, -0.5 * 2 / 3),
-          scale = 2 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
             priority = "high",
             width = 214,
             height = 237,
@@ -612,19 +510,8 @@ data:extend({
             shift = util.by_pixel(0, -0.75 * 2 / 3),
             scale = 0.5 * 2 / 3,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
-          priority = "high",
-          width = 130,
-          height = 82,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(28 * 2 / 3, 4 * 2 / 3),
-          scale = 2 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3-shadow.png",
+          {
+            filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
             priority = "high",
             width = 260,
             height = 162,
@@ -642,7 +529,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 0.03 / 3.5},
+      emissions_per_minute = { pollution = 0.03 / 3.5 },
     },
     energy_usage = "210kW",
     module_slots = 4,
@@ -713,19 +600,11 @@ data:extend({
     collision_box = { { -1.2 * 4 / 3, -1.2 * 4 / 3 }, { 1.2 * 4 / 3, 1.2 * 4 / 3 } },
     selection_box = { { -1.5 * 4 / 3, -1.5 * 4 / 3 }, { 1.5 * 4 / 3, 1.5 * 4 / 3 } },
     fast_replaceable_group = "assembling-machine-big",
-    animation = {
-      layers = {
-        {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
-          priority = "high",
-          width = 108,
-          height = 119,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(0, -0.5 * 4 / 3),
-          scale = 4 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
             priority = "high",
             width = 214,
             height = 237,
@@ -734,19 +613,8 @@ data:extend({
             shift = util.by_pixel(0, -0.75 * 4 / 3),
             scale = 0.5 * 4 / 3,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
-          priority = "high",
-          width = 130,
-          height = 82,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(28 * 4 / 3, 4 * 4 / 3),
-          scale = 4 / 3,
-          hr_version = {
-            filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3-shadow.png",
+          {
+            filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-shadow.png",
             priority = "high",
             width = 260,
             height = 162,
@@ -764,7 +632,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 0.03 / 3.5},
+      emissions_per_minute = { pollution = 0.03 / 3.5 },
     },
     energy_usage = "210kW",
     module_slots = 4,

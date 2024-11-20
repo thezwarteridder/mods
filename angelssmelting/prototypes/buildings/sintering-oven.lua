@@ -40,101 +40,63 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.2},
+      emissions_per_minute = { pollution = 1.2 },
     },
     energy_usage = "100kW",
     --ingredient_count = 2,
-    animation = {
-      layers = {
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            scale = 0.5,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
+            priority = "high",
+            width = 424,
+            height = 227,
+            shift = util.by_pixel(23, 28),
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
+        },
+      },
+      working_visualisations = {
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-base.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            blend_mode = "additive",
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_glow = true,
+            scale = 0.5,
+          },
         },
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
-          priority = "high",
-          width = 213,
-          height = 115,
-          shift = util.by_pixel(24, 29),
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-shadow.png",
-                priority = "high",
-                width = 424,
-                height = 227,
-                shift = util.by_pixel(23, 28),
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          blend_mode = "additive",
-          shift = util.by_pixel(-1, -7),
-          draw_as_glow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-glow.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                blend_mode = "additive",
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_glow = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-light.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-    },
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/sintering-oven.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -183,101 +145,63 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "150kW",
     --ingredient_count = 4,
-    animation = {
-      layers = {
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            scale = 0.5,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
+            priority = "high",
+            width = 424,
+            height = 227,
+            shift = util.by_pixel(23, 28),
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
+        },
+      },
+      working_visualisations = {
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-base.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            blend_mode = "additive",
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_glow = true,
+            scale = 0.5,
+          },
         },
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
-          priority = "high",
-          width = 213,
-          height = 115,
-          shift = util.by_pixel(24, 29),
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-shadow.png",
-                priority = "high",
-                width = 424,
-                height = 227,
-                shift = util.by_pixel(23, 28),
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          blend_mode = "additive",
-          shift = util.by_pixel(-1, -7),
-          draw_as_glow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-glow.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                blend_mode = "additive",
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_glow = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-light.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-    },
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/sintering-oven.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -326,101 +250,63 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "200kW",
     --ingredient_count = 6,
-    animation = {
-      layers = {
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            scale = 0.5,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
+            priority = "high",
+            width = 424,
+            height = 227,
+            shift = util.by_pixel(23, 28),
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
+        },
+      },
+      working_visualisations = {
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-base.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            blend_mode = "additive",
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_glow = true,
+            scale = 0.5,
+          },
         },
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
-          priority = "high",
-          width = 213,
-          height = 115,
-          shift = util.by_pixel(24, 29),
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-shadow.png",
-                priority = "high",
-                width = 424,
-                height = 227,
-                shift = util.by_pixel(23, 28),
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          blend_mode = "additive",
-          shift = util.by_pixel(-1, -7),
-          draw_as_glow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-glow.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                blend_mode = "additive",
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_glow = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-light.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-    },
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/sintering-oven.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -469,101 +355,63 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "250kW",
     --ingredient_count = 6,
-    animation = {
-      layers = {
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            scale = 0.5,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
+            priority = "high",
+            width = 424,
+            height = 227,
+            shift = util.by_pixel(23, 28),
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
+        },
+      },
+      working_visualisations = {
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-base.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            blend_mode = "additive",
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_glow = true,
+            scale = 0.5,
+          },
         },
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
-          priority = "high",
-          width = 213,
-          height = 115,
-          shift = util.by_pixel(24, 29),
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-shadow.png",
-                priority = "high",
-                width = 424,
-                height = 227,
-                shift = util.by_pixel(23, 28),
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          blend_mode = "additive",
-          shift = util.by_pixel(-1, -7),
-          draw_as_glow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-glow.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                blend_mode = "additive",
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_glow = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-light.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-    },
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/sintering-oven.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -611,101 +459,63 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3.6},
+      emissions_per_minute = { pollution = 3.6 },
     },
     energy_usage = "300kW",
     --ingredient_count = 6,
-    animation = {
-      layers = {
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            scale = 0.5,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
+            priority = "high",
+            width = 424,
+            height = 227,
+            shift = util.by_pixel(23, 28),
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
+        },
+      },
+      working_visualisations = {
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-base.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-base.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            blend_mode = "additive",
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_glow = true,
+            scale = 0.5,
+          },
         },
         {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-shadow.png",
-          priority = "high",
-          width = 213,
-          height = 115,
-          shift = util.by_pixel(24, 29),
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-shadow.png",
-                priority = "high",
-                width = 424,
-                height = 227,
-                shift = util.by_pixel(23, 28),
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+          fadeout = true,
+          effect = "uranium-glow",
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
+            priority = "high",
+            width = 326,
+            height = 350,
+            shift = util.by_pixel(-1, -6.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-glow.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          blend_mode = "additive",
-          shift = util.by_pixel(-1, -7),
-          draw_as_glow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-glow.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                blend_mode = "additive",
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_glow = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-      {
-        fadeout = true,
-        effect = "uranium-glow",
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/sintering-oven-light.png",
-          priority = "high",
-          width = 165,
-          height = 177,
-          shift = util.by_pixel(-1, -7),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/sintering-oven/hr-sintering-oven-light.png",
-                priority = "high",
-                width = 326,
-                height = 350,
-                shift = util.by_pixel(-1, -6.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
-        },
-      },
-    },
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/sintering-oven.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },

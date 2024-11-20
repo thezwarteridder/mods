@@ -35,7 +35,17 @@ data:extend({
     }, 2, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
     -- Base-game oil refinery has a custom collision_mask, which all upgrades need to match.
-    collision_mask = {layers={item=true, object=true, player=true, water_tile=true, elevated_rail=true, is_object=true, is_lower_object=true}},
+    collision_mask = {
+      layers = {
+        item = true,
+        object = true,
+        player = true,
+        water_tile = true,
+        elevated_rail = true,
+        is_object = true,
+        is_lower_object = true,
+      },
+    },
     minable = { mining_time = 1, result = "oil-refinery-2" },
     fast_replaceable_group = "oil-refinery",
     next_upgrade = "oil-refinery-3",
@@ -52,36 +62,23 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 7.2},
+      emissions_per_minute = { pollution = 7.2 },
     },
     energy_usage = "500kW",
     ingredient_count = 4,
-    animation = make_4way_animation_from_spritesheet({
-      layers = {
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
-          width = 337,
-          height = 255,
-          frame_count = 1,
-          shift = { 2.515625, 0.484375 },
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
+    graphics_set = {
+      animation = make_4way_animation_from_spritesheet({
+        layers = {
+          {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
             width = 386,
             height = 430,
             frame_count = 1,
             shift = util.by_pixel(0, -7.5),
             scale = 0.5,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
-          width = 337,
-          height = 213,
-          frame_count = 1,
-          shift = util.by_pixel(82.5, 26.5),
-          draw_as_shadow = true,
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
+          {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
             width = 674,
             height = 426,
             frame_count = 1,
@@ -90,24 +87,15 @@ data:extend({
             scale = 0.5,
           },
         },
-      },
-    }),
-    working_visualisations = {
-      {
-        north_position = util.by_pixel(34, -65),
-        east_position = util.by_pixel(-52, -61),
-        south_position = util.by_pixel(-59, -82),
-        west_position = util.by_pixel(57, -58),
-        animation = {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          shift = util.by_pixel(0, -14),
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+      }),
+      working_visualisations = {
+        {
+          north_position = util.by_pixel(34, -65),
+          east_position = util.by_pixel(-52, -61),
+          south_position = util.by_pixel(-59, -82),
+          west_position = util.by_pixel(57, -58),
+          animation = {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -116,8 +104,8 @@ data:extend({
             scale = 0.5,
             shift = util.by_pixel(0, -14.25),
           },
+          light = { intensity = 0.4, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
         },
-        light = { intensity = 0.4, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -144,19 +132,25 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -187,7 +181,17 @@ data:extend({
     }, 3, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
     -- Base-game oil refinery has a custom collision_mask, which all upgrades need to match.
-    collision_mask = {layers={item=true, object=true, player=true, water_tile=true, elevated_rail=true, is_object=true, is_lower_object=true}},
+    collision_mask = {
+      layers = {
+        item = true,
+        object = true,
+        player = true,
+        water_tile = true,
+        elevated_rail = true,
+        is_object = true,
+        is_lower_object = true,
+      },
+    },
     minable = { mining_time = 1, result = "oil-refinery-3" },
     fast_replaceable_group = "oil-refinery",
     next_upgrade = "oil-refinery-4",
@@ -204,36 +208,23 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 8.4},
+      emissions_per_minute = { pollution = 8.4 },
     },
     energy_usage = "600kW",
     ingredient_count = 4,
-    animation = make_4way_animation_from_spritesheet({
-      layers = {
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
-          width = 337,
-          height = 255,
-          frame_count = 1,
-          shift = { 2.515625, 0.484375 },
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
+    graphics_set = {
+      animation = make_4way_animation_from_spritesheet({
+        layers = {
+          {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
             width = 386,
             height = 430,
             frame_count = 1,
             shift = util.by_pixel(0, -7.5),
             scale = 0.5,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
-          width = 337,
-          height = 213,
-          frame_count = 1,
-          shift = util.by_pixel(82.5, 26.5),
-          draw_as_shadow = true,
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
+          {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
             width = 674,
             height = 426,
             frame_count = 1,
@@ -242,24 +233,15 @@ data:extend({
             scale = 0.5,
           },
         },
-      },
-    }),
-    working_visualisations = {
-      {
-        north_position = util.by_pixel(34, -65),
-        east_position = util.by_pixel(-52, -61),
-        south_position = util.by_pixel(-59, -82),
-        west_position = util.by_pixel(57, -58),
-        animation = {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          shift = util.by_pixel(0, -14),
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+      }),
+      working_visualisations = {
+        {
+          north_position = util.by_pixel(34, -65),
+          east_position = util.by_pixel(-52, -61),
+          south_position = util.by_pixel(-59, -82),
+          west_position = util.by_pixel(57, -58),
+          animation = {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -268,8 +250,8 @@ data:extend({
             scale = 0.5,
             shift = util.by_pixel(0, -14.25),
           },
+          light = { intensity = 0.4, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
         },
-        light = { intensity = 0.4, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -296,19 +278,25 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -339,7 +327,17 @@ data:extend({
     }, 4, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
     -- Base-game oil refinery has a custom collision_mask, which all upgrades need to match.
-    collision_mask = {layers={item=true, object=true, player=true, water_tile=true, elevated_rail=true, is_object=true, is_lower_object=true}},
+    collision_mask = {
+      layers = {
+        item = true,
+        object = true,
+        player = true,
+        water_tile = true,
+        elevated_rail = true,
+        is_object = true,
+        is_lower_object = true,
+      },
+    },
     minable = { mining_time = 1, result = "oil-refinery-4" },
     fast_replaceable_group = "oil-refinery",
     max_health = 300,
@@ -355,36 +353,23 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 10.8},
+      emissions_per_minute = { pollution = 10.8 },
     },
     energy_usage = "700kW",
     ingredient_count = 4,
-    animation = make_4way_animation_from_spritesheet({
-      layers = {
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
-          width = 337,
-          height = 255,
-          frame_count = 1,
-          shift = { 2.515625, 0.484375 },
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
+    graphics_set = {
+      animation = make_4way_animation_from_spritesheet({
+        layers = {
+          {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
             width = 386,
             height = 430,
             frame_count = 1,
             shift = util.by_pixel(0, -7.5),
             scale = 0.5,
           },
-        },
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
-          width = 337,
-          height = 213,
-          frame_count = 1,
-          shift = util.by_pixel(82.5, 26.5),
-          draw_as_shadow = true,
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
+          {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
             width = 674,
             height = 426,
             frame_count = 1,
@@ -393,24 +378,15 @@ data:extend({
             scale = 0.5,
           },
         },
-      },
-    }),
-    working_visualisations = {
-      {
-        north_position = util.by_pixel(34, -65),
-        east_position = util.by_pixel(-52, -61),
-        south_position = util.by_pixel(-59, -82),
-        west_position = util.by_pixel(57, -58),
-        animation = {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          shift = util.by_pixel(0, -14),
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+      }),
+      working_visualisations = {
+        {
+          north_position = util.by_pixel(34, -65),
+          east_position = util.by_pixel(-52, -61),
+          south_position = util.by_pixel(-59, -82),
+          west_position = util.by_pixel(57, -58),
+          animation = {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -419,8 +395,8 @@ data:extend({
             scale = 0.5,
             shift = util.by_pixel(0, -14.25),
           },
+          light = { intensity = 0.4, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
         },
-        light = { intensity = 0.4, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -447,19 +423,25 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },

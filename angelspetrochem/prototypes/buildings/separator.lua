@@ -23,7 +23,7 @@ data:extend({
       },
     }, 1, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "separator" },
     fast_replaceable_group = "separator",
     next_upgrade = "separator-2",
@@ -39,29 +39,31 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.2},
+      emissions_per_minute = { pollution = 1.2 },
     },
     energy_usage = "200kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelspetrochemgraphics__/graphics/entity/separator/separator.png",
-          width = 224,
-          height = 224,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelspetrochemgraphics__/graphics/entity/separator/separator.png",
+            width = 224,
+            height = 224,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          -- {
+          -- filename = "__angelspetrochemgraphics__/graphics/entity/separator/5x5-overlay.png",
+          -- tint = {r = 0.8, g = 0, b = 0},
+          -- width = 160,
+          -- height = 160,
+          -- frame_count = 1,
+          -- line_length = 4,
+          -- shift = {0, 0},
+          -- animation_speed = 0.5
+          -- },
         },
-        -- {
-        -- filename = "__angelspetrochemgraphics__/graphics/entity/separator/5x5-overlay.png",
-        -- tint = {r = 0.8, g = 0, b = 0},
-        -- width = 160,
-        -- height = 160,
-        -- frame_count = 1,
-        -- line_length = 4,
-        -- shift = {0, 0},
-        -- animation_speed = 0.5
-        -- },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -84,21 +86,27 @@ data:extend({
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -127,7 +135,7 @@ data:extend({
       },
     }, 2, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "separator-2" },
     fast_replaceable_group = "separator",
     next_upgrade = "separator-3",
@@ -143,29 +151,31 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "250kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelspetrochemgraphics__/graphics/entity/separator/separator.png",
-          width = 224,
-          height = 224,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelspetrochemgraphics__/graphics/entity/separator/separator.png",
+            width = 224,
+            height = 224,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          -- {
+          -- filename = "__angelspetrochemgraphics__/graphics/entity/separator/5x5-overlay.png",
+          -- tint = {r = 0.8, g = 0, b = 0},
+          -- width = 160,
+          -- height = 160,
+          -- frame_count = 1,
+          -- line_length = 4,
+          -- shift = {0, 0},
+          -- animation_speed = 0.5
+          -- },
         },
-        -- {
-        -- filename = "__angelspetrochemgraphics__/graphics/entity/separator/5x5-overlay.png",
-        -- tint = {r = 0.8, g = 0, b = 0},
-        -- width = 160,
-        -- height = 160,
-        -- frame_count = 1,
-        -- line_length = 4,
-        -- shift = {0, 0},
-        -- animation_speed = 0.5
-        -- },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -188,21 +198,27 @@ data:extend({
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -230,7 +246,7 @@ data:extend({
       },
     }, 3, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "separator-3" },
     fast_replaceable_group = "separator",
     next_upgrade = "separator-4",
@@ -246,29 +262,31 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "300kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelspetrochemgraphics__/graphics/entity/separator/separator.png",
-          width = 224,
-          height = 224,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelspetrochemgraphics__/graphics/entity/separator/separator.png",
+            width = 224,
+            height = 224,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          -- {
+          -- filename = "__angelspetrochemgraphics__/graphics/entity/separator/5x5-overlay.png",
+          -- tint = {r = 0.8, g = 0, b = 0},
+          -- width = 160,
+          -- height = 160,
+          -- frame_count = 1,
+          -- line_length = 4,
+          -- shift = {0, 0},
+          -- animation_speed = 0.5
+          -- },
         },
-        -- {
-        -- filename = "__angelspetrochemgraphics__/graphics/entity/separator/5x5-overlay.png",
-        -- tint = {r = 0.8, g = 0, b = 0},
-        -- width = 160,
-        -- height = 160,
-        -- frame_count = 1,
-        -- line_length = 4,
-        -- shift = {0, 0},
-        -- animation_speed = 0.5
-        -- },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -291,21 +309,27 @@ data:extend({
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -333,7 +357,7 @@ data:extend({
       },
     }, 4, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "separator-4" },
     fast_replaceable_group = "separator",
     max_health = 300,
@@ -348,29 +372,31 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "325kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelspetrochemgraphics__/graphics/entity/separator/separator.png",
-          width = 224,
-          height = 224,
-          frame_count = 1,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelspetrochemgraphics__/graphics/entity/separator/separator.png",
+            width = 224,
+            height = 224,
+            frame_count = 1,
+            shift = { 0, 0 },
+          },
+          -- {
+          -- filename = "__angelspetrochemgraphics__/graphics/entity/separator/5x5-overlay.png",
+          -- tint = {r = 0.8, g = 0, b = 0},
+          -- width = 160,
+          -- height = 160,
+          -- frame_count = 1,
+          -- line_length = 4,
+          -- shift = {0, 0},
+          -- animation_speed = 0.5
+          -- },
         },
-        -- {
-        -- filename = "__angelspetrochemgraphics__/graphics/entity/separator/5x5-overlay.png",
-        -- tint = {r = 0.8, g = 0, b = 0},
-        -- width = 160,
-        -- height = 160,
-        -- frame_count = 1,
-        -- line_length = 4,
-        -- shift = {0, 0},
-        -- animation_speed = 0.5
-        -- },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -393,21 +419,27 @@ data:extend({
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -2, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 2, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },

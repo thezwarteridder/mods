@@ -38,46 +38,31 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "150kW",
-    animation = {
-      layers = {
-        -- Base
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer.png",
-          priority = "extra-high",
-          width = 195,
-          height = 163,
-          shift = util.by_pixel(15.5, -0.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          -- Base
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer.png",
             priority = "extra-high",
             width = 390,
             height = 326,
             shift = util.by_pixel(16, 0),
             scale = 0.5,
-          } or nil,
-        },
-        -- Shadow
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-shadow.png",
-          priority = "extra-high",
-          width = 195,
-          height = 163,
-          shift = util.by_pixel(15.5, -0.5),
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-shadow.png",
-                priority = "extra-high",
-                width = 390,
-                height = 326,
-                shift = util.by_pixel(16, 0),
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+          },
+          -- Shadow
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-shadow.png",
+            priority = "extra-high",
+            width = 390,
+            height = 326,
+            shift = util.by_pixel(16, 0),
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -97,70 +82,34 @@ data:extend({
           north = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
+            size = 128,
             x = 0,
             shift = { 0, 1 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 0,
-                  shift = { 0, 1 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           east = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 64,
+            size = 128,
+            x = 128,
             shift = { -1, 0 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 128,
-                  shift = { -1, 0 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           south = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 128,
+            size = 128,
+            x = 256,
             shift = { 0, -1 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 256,
-                  shift = { 0, -1 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           west = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 192,
+            size = 128,
+            x = 384,
             shift = { 1, 0 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 384,
-                  shift = { 1, 0 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         volume = 1000,
@@ -213,46 +162,31 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "200kW",
-    animation = {
-      layers = {
-        -- Base
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer.png",
-          priority = "extra-high",
-          width = 195,
-          height = 163,
-          shift = util.by_pixel(15.5, -0.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          -- Base
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer.png",
             priority = "extra-high",
             width = 390,
             height = 326,
             shift = util.by_pixel(16, 0),
             scale = 0.5,
-          } or nil,
-        },
-        -- Shadow
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-shadow.png",
-          priority = "extra-high",
-          width = 195,
-          height = 163,
-          shift = util.by_pixel(15.5, -0.5),
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-shadow.png",
-                priority = "extra-high",
-                width = 390,
-                height = 326,
-                shift = util.by_pixel(16, 0),
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+          },
+          -- Shadow
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-shadow.png",
+            priority = "extra-high",
+            width = 390,
+            height = 326,
+            shift = util.by_pixel(16, 0),
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -272,70 +206,34 @@ data:extend({
           north = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
+            size = 128,
             x = 0,
             shift = { 0, 1 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 0,
-                  shift = { 0, 1 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           east = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 64,
+            size = 128,
+            x = 128,
             shift = { -1, 0 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 128,
-                  shift = { -1, 0 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           south = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 128,
+            size = 128,
+            x = 256,
             shift = { 0, -1 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 256,
-                  shift = { 0, -1 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           west = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 192,
+            size = 128,
+            x = 384,
             shift = { 1, 0 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 384,
-                  shift = { 1, 0 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         volume = 1000,
@@ -387,46 +285,31 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "250kW",
-    animation = {
-      layers = {
-        -- Base
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer.png",
-          priority = "extra-high",
-          width = 195,
-          height = 163,
-          shift = util.by_pixel(15.5, -0.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          -- Base
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer.png",
             priority = "extra-high",
             width = 390,
             height = 326,
             shift = util.by_pixel(16, 0),
             scale = 0.5,
-          } or nil,
-        },
-        -- Shadow
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-shadow.png",
-          priority = "extra-high",
-          width = 195,
-          height = 163,
-          shift = util.by_pixel(15.5, -0.5),
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-shadow.png",
-                priority = "extra-high",
-                width = 390,
-                height = 326,
-                shift = util.by_pixel(16, 0),
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+          },
+          -- Shadow
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-shadow.png",
+            priority = "extra-high",
+            width = 390,
+            height = 326,
+            shift = util.by_pixel(16, 0),
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -446,70 +329,34 @@ data:extend({
           north = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
+            size = 128,
             x = 0,
             shift = { 0, 1 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 0,
-                  shift = { 0, 1 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           east = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 64,
+            size = 128,
+            x = 128,
             shift = { -1, 0 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 128,
-                  shift = { -1, 0 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           south = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 128,
+            size = 128,
+            x = 256,
             shift = { 0, -1 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 256,
-                  shift = { 0, -1 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
           west = {
             filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/crystallizer-pipe-connection.png",
             priority = "extra-high",
-            size = 64,
-            x = 192,
+            size = 128,
+            x = 384,
             shift = { 1, 0 },
-            hr_version = angelsmods.trigger.enable_hq_graphics
-                and {
-                  filename = "__angelsrefininggraphics__/graphics/entity/crystallizer/hr-crystallizer-pipe-connection.png",
-                  priority = "extra-high",
-                  size = 128,
-                  x = 384,
-                  shift = { 1, 0 },
-                  scale = 0.5,
-                }
-              or nil,
+            scale = 0.5,
           },
         },
         volume = 1000,

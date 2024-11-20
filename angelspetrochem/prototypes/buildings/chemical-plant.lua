@@ -35,66 +35,68 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "250kW",
     ingredient_count = 4,
     crafting_categories = { "chemistry" },
     module_slots = 1,
     allowed_effects = { "consumption", "speed", "productivity", "pollution" },
-    animation = {
-      filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/chemical-plant.png",
-      width = 160,
-      height = 160,
-      frame_count = 1,
-      line_length = 1,
-      shift = { 0, 0 },
-    },
-    working_visualisations = {
-      {
-        apply_recipe_tint = "primary",
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-tint.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
-        },
+    graphics_set = {
+      animation = {
+        filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/chemical-plant.png",
+        width = 160,
+        height = 160,
+        frame_count = 1,
+        line_length = 1,
+        shift = { 0, 0 },
       },
-      {
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-overlay.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+      working_visualisations = {
+        {
+          apply_recipe_tint = "primary",
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-tint.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
-      },
-      {
-        apply_recipe_tint = "secondary",
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-tint.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+        {
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-overlay.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
-      },
-      {
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-overlay.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+        {
+          apply_recipe_tint = "secondary",
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-tint.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
+        },
+        {
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-overlay.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
       },
     },
@@ -125,7 +127,9 @@ data:extend({
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -1.4 }, direction = defines.direction.south } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -1.4 }, direction = defines.direction.south },
+        },
       },
       {
         production_type = "input",
@@ -137,7 +141,9 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, 1.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, 1.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
@@ -183,66 +189,68 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "300kW",
     ingredient_count = 4,
     crafting_categories = { "chemistry" },
     module_slots = 2,
     allowed_effects = { "consumption", "speed", "productivity", "pollution" },
-    animation = {
-      filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/chemical-plant.png",
-      width = 160,
-      height = 160,
-      frame_count = 1,
-      line_length = 1,
-      shift = { 0, 0 },
-    },
-    working_visualisations = {
-      {
-        apply_recipe_tint = "primary",
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-tint.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
-        },
+    graphics_set = {
+      animation = {
+        filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/chemical-plant.png",
+        width = 160,
+        height = 160,
+        frame_count = 1,
+        line_length = 1,
+        shift = { 0, 0 },
       },
-      {
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-overlay.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+      working_visualisations = {
+        {
+          apply_recipe_tint = "primary",
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-tint.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
-      },
-      {
-        apply_recipe_tint = "secondary",
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-tint.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+        {
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-overlay.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
-      },
-      {
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-overlay.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+        {
+          apply_recipe_tint = "secondary",
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-tint.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
+        },
+        {
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-overlay.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
       },
     },
@@ -273,7 +281,9 @@ data:extend({
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -1.4 }, direction = defines.direction.south } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -1.4 }, direction = defines.direction.south },
+        },
       },
       {
         production_type = "input",
@@ -285,7 +295,9 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, 1.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, 1.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
@@ -331,66 +343,68 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "350kW",
     ingredient_count = 4,
     crafting_categories = { "chemistry" },
     module_slots = 3,
     allowed_effects = { "consumption", "speed", "productivity", "pollution" },
-    animation = {
-      filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/chemical-plant.png",
-      width = 160,
-      height = 160,
-      frame_count = 1,
-      line_length = 1,
-      shift = { 0, 0 },
-    },
-    working_visualisations = {
-      {
-        apply_recipe_tint = "primary",
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-tint.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
-        },
+    graphics_set = {
+      animation = {
+        filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/chemical-plant.png",
+        width = 160,
+        height = 160,
+        frame_count = 1,
+        line_length = 1,
+        shift = { 0, 0 },
       },
-      {
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-overlay.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+      working_visualisations = {
+        {
+          apply_recipe_tint = "primary",
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-tint.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
-      },
-      {
-        apply_recipe_tint = "secondary",
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-tint.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+        {
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-overlay.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
-      },
-      {
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-overlay.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+        {
+          apply_recipe_tint = "secondary",
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-tint.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
+        },
+        {
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-overlay.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
       },
     },
@@ -421,7 +435,9 @@ data:extend({
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -1.4 }, direction = defines.direction.south } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -1.4 }, direction = defines.direction.south },
+        },
       },
       {
         production_type = "input",
@@ -433,7 +449,9 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, 1.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, 1.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
@@ -478,66 +496,68 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3.6},
+      emissions_per_minute = { pollution = 3.6 },
     },
     energy_usage = "400kW",
     ingredient_count = 4,
     crafting_categories = { "chemistry" },
     module_slots = 4,
     allowed_effects = { "consumption", "speed", "productivity", "pollution" },
-    animation = {
-      filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/chemical-plant.png",
-      width = 160,
-      height = 160,
-      frame_count = 1,
-      line_length = 1,
-      shift = { 0, 0 },
-    },
-    working_visualisations = {
-      {
-        apply_recipe_tint = "primary",
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-tint.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
-        },
+    graphics_set = {
+      animation = {
+        filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/chemical-plant.png",
+        width = 160,
+        height = 160,
+        frame_count = 1,
+        line_length = 1,
+        shift = { 0, 0 },
       },
-      {
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-overlay.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+      working_visualisations = {
+        {
+          apply_recipe_tint = "primary",
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-tint.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
-      },
-      {
-        apply_recipe_tint = "secondary",
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-tint.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+        {
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/mixer-overlay.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
-      },
-      {
-        animation = {
-          filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-overlay.png",
-          line_length = 6,
-          frame_count = 36,
-          width = 160,
-          height = 160,
-          shift = { 0, 0 },
-          animation_speed = 0.5,
+        {
+          apply_recipe_tint = "secondary",
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-tint.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
+        },
+        {
+          animation = {
+            filename = "__angelspetrochemgraphics__/graphics/entity/chemical-plant/pipe-overlay.png",
+            line_length = 6,
+            frame_count = 36,
+            width = 160,
+            height = 160,
+            shift = { 0, 0 },
+            animation_speed = 0.5,
+          },
         },
       },
     },
@@ -568,7 +588,9 @@ data:extend({
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -1.4 }, direction = defines.direction.south } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -1.4 }, direction = defines.direction.south },
+        },
       },
       {
         production_type = "input",
@@ -580,7 +602,9 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, 1.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, 1.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",

@@ -38,57 +38,35 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "150kW",
     --ingredient_count = 2,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
-          priority = "extra-high",
-          width = 224,
-          height = 230,
-          frame_count = 40,
-          line_length = 10,
-          shift = util.by_pixel(0, -2),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-base.png",
-                priority = "extra-high",
-                width = 449,
-                height = 458,
-                frame_count = 40,
-                line_length = 10,
-                shift = util.by_pixel(0, -2.5),
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
-          priority = "extra-high",
-          width = 265,
-          height = 179,
-          repeat_count = 40,
-          shift = util.by_pixel(21, 25),
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-shadow.png",
-                priority = "extra-high",
-                width = 528,
-                height = 356,
-                repeat_count = 40,
-                shift = util.by_pixel(21.5, 24.5),
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
+            priority = "extra-high",
+            width = 449,
+            height = 458,
+            frame_count = 40,
+            line_length = 10,
+            shift = util.by_pixel(0, -2.5),
+            animation_speed = 0.5,
+            scale = 0.5,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
+            priority = "extra-high",
+            width = 528,
+            height = 356,
+            repeat_count = 40,
+            shift = util.by_pixel(21.5, 24.5),
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -139,57 +117,35 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "200kW",
     --ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
-          priority = "extra-high",
-          width = 224,
-          height = 230,
-          frame_count = 40,
-          line_length = 10,
-          shift = util.by_pixel(0, -2),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-base.png",
-                priority = "extra-high",
-                width = 449,
-                height = 458,
-                frame_count = 40,
-                line_length = 10,
-                shift = util.by_pixel(0, -2.5),
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
-          priority = "extra-high",
-          width = 265,
-          height = 179,
-          repeat_count = 40,
-          shift = util.by_pixel(21, 25),
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-shadow.png",
-                priority = "extra-high",
-                width = 528,
-                height = 356,
-                repeat_count = 40,
-                shift = util.by_pixel(21.5, 24.5),
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
+            priority = "extra-high",
+            width = 449,
+            height = 458,
+            frame_count = 40,
+            line_length = 10,
+            shift = util.by_pixel(0, -2.5),
+            animation_speed = 0.5,
+            scale = 0.5,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
+            priority = "extra-high",
+            width = 528,
+            height = 356,
+            repeat_count = 40,
+            shift = util.by_pixel(21.5, 24.5),
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -240,57 +196,35 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "250kW",
     --ingredient_count = 6,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
-          priority = "extra-high",
-          width = 224,
-          height = 230,
-          frame_count = 40,
-          line_length = 10,
-          shift = util.by_pixel(0, -2),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-base.png",
-                priority = "extra-high",
-                width = 449,
-                height = 458,
-                frame_count = 40,
-                line_length = 10,
-                shift = util.by_pixel(0, -2.5),
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
-          priority = "extra-high",
-          width = 265,
-          height = 179,
-          repeat_count = 40,
-          shift = util.by_pixel(21, 25),
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-shadow.png",
-                priority = "extra-high",
-                width = 528,
-                height = 356,
-                repeat_count = 40,
-                shift = util.by_pixel(21.5, 24.5),
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
+            priority = "extra-high",
+            width = 449,
+            height = 458,
+            frame_count = 40,
+            line_length = 10,
+            shift = util.by_pixel(0, -2.5),
+            animation_speed = 0.5,
+            scale = 0.5,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
+            priority = "extra-high",
+            width = 528,
+            height = 356,
+            repeat_count = 40,
+            shift = util.by_pixel(21.5, 24.5),
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -341,57 +275,35 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3.6},
+      emissions_per_minute = { pollution = 3.6 },
     },
     energy_usage = "300kW",
     --ingredient_count = 6,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
-          priority = "extra-high",
-          width = 224,
-          height = 230,
-          frame_count = 40,
-          line_length = 10,
-          shift = util.by_pixel(0, -2),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-base.png",
-                priority = "extra-high",
-                width = 449,
-                height = 458,
-                frame_count = 40,
-                line_length = 10,
-                shift = util.by_pixel(0, -2.5),
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
-          priority = "extra-high",
-          width = 265,
-          height = 179,
-          repeat_count = 40,
-          shift = util.by_pixel(21, 25),
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-shadow.png",
-                priority = "extra-high",
-                width = 528,
-                height = 356,
-                repeat_count = 40,
-                shift = util.by_pixel(21.5, 24.5),
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
+            priority = "extra-high",
+            width = 449,
+            height = 458,
+            frame_count = 40,
+            line_length = 10,
+            shift = util.by_pixel(0, -2.5),
+            animation_speed = 0.5,
+            scale = 0.5,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
+            priority = "extra-high",
+            width = 528,
+            height = 356,
+            repeat_count = 40,
+            shift = util.by_pixel(21.5, 24.5),
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -441,56 +353,34 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 4.2},
+      emissions_per_minute = { pollution = 4.2 },
     },
     energy_usage = "350kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
-          priority = "extra-high",
-          width = 224,
-          height = 230,
-          frame_count = 40,
-          line_length = 10,
-          shift = util.by_pixel(0, -2),
-          animation_speed = 0.5,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-base.png",
-                priority = "extra-high",
-                width = 449,
-                height = 458,
-                frame_count = 40,
-                line_length = 10,
-                shift = util.by_pixel(0, -2.5),
-                animation_speed = 0.5,
-                scale = 0.5,
-              }
-            or nil,
-        },
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
-          priority = "extra-high",
-          width = 265,
-          height = 179,
-          repeat_count = 40,
-          shift = util.by_pixel(21, 25),
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/hr-ore-sorting-facility-shadow.png",
-                priority = "extra-high",
-                width = 528,
-                height = 356,
-                repeat_count = 40,
-                shift = util.by_pixel(21.5, 24.5),
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                scale = 0.5,
-              }
-            or nil,
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-base.png",
+            priority = "extra-high",
+            width = 449,
+            height = 458,
+            frame_count = 40,
+            line_length = 10,
+            shift = util.by_pixel(0, -2.5),
+            animation_speed = 0.5,
+            scale = 0.5,
+          },
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/ore-sorting-facility/ore-sorting-facility-shadow.png",
+            priority = "extra-high",
+            width = 528,
+            height = 356,
+            repeat_count = 40,
+            shift = util.by_pixel(21.5, 24.5),
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            scale = 0.5,
+          },
         },
       },
     },

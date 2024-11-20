@@ -405,29 +405,33 @@ data:extend({
         },
       },
     },
-    base_picture = {
-      layers = {
-        {
-          filename = "__angelsexplorationgraphics__/graphics/entity/turrets/turret-base.png",
-          priority = "high",
-          width = 160,
-          height = 160,
-          axially_symmetrical = false,
-          direction_count = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
-        },
-        {
-          filename = "__angelsexplorationgraphics__/graphics/entity/turrets/turret-base-mask.png",
-          flags = { "mask" },
-          line_length = 1,
-          width = 160,
-          height = 160,
-          axially_symmetrical = false,
-          direction_count = 1,
-          frame_count = 1,
-          shift = { 0, 0 },
-          apply_runtime_tint = true,
+    graphics_set = {
+      base_visualisation = {
+        animation = {
+          layers = {
+            {
+              filename = "__angelsexplorationgraphics__/graphics/entity/turrets/turret-base.png",
+              priority = "high",
+              width = 160,
+              height = 160,
+              axially_symmetrical = false,
+              direction_count = 1,
+              frame_count = 1,
+              shift = { 0, 0 },
+            },
+            {
+              filename = "__angelsexplorationgraphics__/graphics/entity/turrets/turret-base-mask.png",
+              flags = { "mask" },
+              line_length = 1,
+              width = 160,
+              height = 160,
+              axially_symmetrical = false,
+              direction_count = 1,
+              frame_count = 1,
+              shift = { 0, 0 },
+              apply_runtime_tint = true,
+            },
+          },
         },
       },
     },

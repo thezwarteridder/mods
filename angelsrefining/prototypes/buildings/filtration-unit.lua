@@ -38,17 +38,19 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "100kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/filtration-unit/filtration-unit.png",
-          width = 224,
-          height = 224,
-          frame_count = 1,
-          shift = { 0, -0.2 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/filtration-unit/filtration-unit.png",
+            width = 224,
+            height = 224,
+            frame_count = 1,
+            shift = { 0, -0.2 },
+          },
         },
       },
     },
@@ -78,14 +80,18 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         pipe_picture = angelsmods.refining.filtrationpipepictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         pipe_picture = angelsmods.refining.filtrationpipepictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -128,17 +134,19 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "150kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/filtration-unit/filtration-unit.png",
-          width = 224,
-          height = 224,
-          frame_count = 1,
-          shift = { 0, -0.2 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/filtration-unit/filtration-unit.png",
+            width = 224,
+            height = 224,
+            frame_count = 1,
+            shift = { 0, -0.2 },
+          },
         },
       },
     },
@@ -168,14 +176,18 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         pipe_picture = angelsmods.refining.filtrationpipepictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         pipe_picture = angelsmods.refining.filtrationpipepictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -217,17 +229,19 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "200kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/filtration-unit/filtration-unit.png",
-          width = 224,
-          height = 224,
-          frame_count = 1,
-          shift = { 0, -0.2 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/filtration-unit/filtration-unit.png",
+            width = 224,
+            height = 224,
+            frame_count = 1,
+            shift = { 0, -0.2 },
+          },
         },
       },
     },
@@ -257,14 +271,18 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         pipe_picture = angelsmods.refining.filtrationpipepictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         pipe_picture = angelsmods.refining.filtrationpipepictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },

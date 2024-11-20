@@ -38,21 +38,13 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "100kW",
     ingredient_count = 4,
-    animation = {
-      filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-lr.png",
-      priority = "extra-high",
-      width = 128,
-      height = 128,
-      frame_count = 36,
-      line_length = 6,
-      shift = { 0, 0 },
-      animation_speed = 0.5,
-      hr_version = {
-        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-hr.png",
+    graphics_set = {
+      animation = {
+        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer.png",
         priority = "extra-high",
         width = 256,
         height = 256,
@@ -109,21 +101,13 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "125kW",
     ingredient_count = 4,
-    animation = {
-      filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-lr.png",
-      priority = "extra-high",
-      width = 128,
-      height = 128,
-      frame_count = 36,
-      line_length = 6,
-      shift = { 0, 0 },
-      animation_speed = 0.5,
-      hr_version = {
-        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-hr.png",
+    graphics_set = {
+      animation = {
+        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer.png",
         priority = "extra-high",
         width = 256,
         height = 256,
@@ -179,21 +163,13 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3.6},
+      emissions_per_minute = { pollution = 3.6 },
     },
     energy_usage = "150kW",
     ingredient_count = 4,
-    animation = {
-      filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-lr.png",
-      priority = "extra-high",
-      width = 128,
-      height = 128,
-      frame_count = 36,
-      line_length = 6,
-      shift = { 0, 0 },
-      animation_speed = 0.5,
-      hr_version = {
-        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer-hr.png",
+    graphics_set = {
+      animation = {
+        filename = "__angelsrefininggraphics__/graphics/entity/ore-powderizer/powderizer.png",
         priority = "extra-high",
         width = 256,
         height = 256,

@@ -45,38 +45,40 @@ data:extend({
       emissions_per_minute = { pollution = 0.01 * 60 },
     },
     energy_usage = "150kW",
-    animation = {
-      layers = {
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-hatchery/bio-hatchery-shadow.png",
-          width = 160,
-          height = 160,
-          frame_count = 1,
-          line_length = 1,
-          shift = { 0, 0 },
-          --animation_speed = 0.5
-        },
-        {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-hatchery/bio-hatchery-off.png",
-          width = 160,
-          height = 160,
-          frame_count = 1,
-          line_length = 1,
-          shift = { 0, 0 },
-          --animation_speed = 0.5
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-hatchery/bio-hatchery-shadow.png",
+            width = 160,
+            height = 160,
+            frame_count = 1,
+            line_length = 1,
+            shift = { 0, 0 },
+            --animation_speed = 0.5
+          },
+          {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-hatchery/bio-hatchery-off.png",
+            width = 160,
+            height = 160,
+            frame_count = 1,
+            line_length = 1,
+            shift = { 0, 0 },
+            --animation_speed = 0.5
+          },
         },
       },
-    },
-    working_visualisations = {
-      {
-        animation = {
-          filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-hatchery/bio-hatchery-animation.png",
-          width = 160,
-          height = 160,
-          line_length = 5,
-          frame_count = 25,
-          shift = { 0, 0 },
-          animation_speed = 0.35,
+      working_visualisations = {
+        {
+          animation = {
+            filename = "__angelsbioprocessinggraphics__/graphics/entity/bio-hatchery/bio-hatchery-animation.png",
+            width = 160,
+            height = 160,
+            line_length = 5,
+            frame_count = 25,
+            shift = { 0, 0 },
+            animation_speed = 0.35,
+          },
         },
       },
     },

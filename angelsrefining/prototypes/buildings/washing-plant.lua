@@ -23,7 +23,7 @@ data:extend({
       },
     }, 1, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "washing-plant" },
     fast_replaceable_group = "washing-plant",
     next_upgrade = "washing-plant-2",
@@ -39,28 +39,30 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "100kW",
     ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/washing-plant/washing-plant.png",
-          width = 224,
-          height = 224,
-          line_length = 5,
-          frame_count = 25,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/washing-plant/washing-plant.png",
+            width = 224,
+            height = 224,
+            line_length = 5,
+            frame_count = 25,
+            shift = { 0, 0 },
+          },
+          -- {
+          -- filename = "__angelsrefininggraphics__/graphics/entity/7x7-overlay.png",
+          -- tint = {r=1, g=0, b=0},
+          -- width = 224,
+          -- height = 224,
+          -- frame_count = 1,
+          -- shift = {0, 0},
+          -- },
         },
-        -- {
-        -- filename = "__angelsrefininggraphics__/graphics/entity/7x7-overlay.png",
-        -- tint = {r=1, g=0, b=0},
-        -- width = 224,
-        -- height = 224,
-        -- frame_count = 1,
-        -- shift = {0, 0},
-        -- },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -86,7 +88,9 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -114,7 +118,7 @@ data:extend({
       },
     }, 2, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "washing-plant-2" },
     fast_replaceable_group = "washing-plant",
     max_health = 300,
@@ -129,28 +133,30 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "150kW",
     ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelsrefininggraphics__/graphics/entity/washing-plant/washing-plant.png",
-          width = 224,
-          height = 224,
-          line_length = 5,
-          frame_count = 25,
-          shift = { 0, 0 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelsrefininggraphics__/graphics/entity/washing-plant/washing-plant.png",
+            width = 224,
+            height = 224,
+            line_length = 5,
+            frame_count = 25,
+            shift = { 0, 0 },
+          },
+          -- {
+          -- filename = "__angelsrefininggraphics__/graphics/entity/7x7-overlay.png",
+          -- tint = {r=1, g=0, b=0},
+          -- width = 224,
+          -- height = 224,
+          -- frame_count = 1,
+          -- shift = {0, 0},
+          -- },
         },
-        -- {
-        -- filename = "__angelsrefininggraphics__/graphics/entity/7x7-overlay.png",
-        -- tint = {r=1, g=0, b=0},
-        -- width = 224,
-        -- height = 224,
-        -- frame_count = 1,
-        -- shift = {0, 0},
-        -- },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -176,7 +182,9 @@ data:extend({
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 0, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },

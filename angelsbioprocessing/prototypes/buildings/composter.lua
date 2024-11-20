@@ -53,14 +53,16 @@ data:extend({
       emissions_per_minute = { pollution = 0.01 * 60 },
     },
     energy_usage = "30kW",
-    animation = {
-      filename = "__angelsbioprocessinggraphics__/graphics/entity/composter/composter.png",
-      width = 160,
-      height = 160,
-      frame_count = 1,
-      line_length = 1,
-      shift = { 0, 0 },
-      --animation_speed = 0.5
+    graphics_set = {
+      animation = {
+        filename = "__angelsbioprocessinggraphics__/graphics/entity/composter/composter.png",
+        width = 160,
+        height = 160,
+        frame_count = 1,
+        line_length = 1,
+        shift = { 0, 0 },
+        --animation_speed = 0.5
+      },
     },
     --[[working_visualisations = --looks like a pick 1... this or animation?
     {

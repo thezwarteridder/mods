@@ -40,7 +40,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "150kW",
     --ingredient_count = 2,
@@ -64,134 +64,87 @@ data:extend({
         --pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        always_draw = true,
-        animation = {
-          layers = {
-            {
-              filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
-              priority = "high",
-              width = 167,
-              height = 197,
-              shift = util.by_pixel(0, -16.5),
-              hr_version = angelsmods.trigger.enable_hq_graphics
-                  and {
-                    filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-idle-state.png",
-                    priority = "high",
-                    width = 329,
-                    height = 392,
-                    shift = util.by_pixel(0, -16.5),
-                    scale = 0.5,
-                  }
-                or nil,
-            },
-            {
-              filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
-              priority = "high",
-              width = 223,
-              height = 157,
-              draw_as_shadow = true,
-              shift = util.by_pixel(29.5, 3.5),
-              hr_version = angelsmods.trigger.enable_hq_graphics
-                  and {
-                    filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-shadow.png",
-                    priority = "high",
-                    width = 444,
-                    height = 311,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(29.5, 3.5),
-                    scale = 0.5,
-                  }
-                or nil,
+    graphics_set = {
+      working_visualisations = {
+        {
+          always_draw = true,
+          animation = {
+            layers = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
+                priority = "high",
+                width = 329,
+                height = 392,
+                shift = util.by_pixel(0, -16.5),
+                scale = 0.5,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
+                priority = "high",
+                width = 444,
+                height = 311,
+                draw_as_shadow = true,
+                shift = util.by_pixel(29.5, 3.5),
+                scale = 0.5,
+              },
             },
           },
         },
-      },
-      {
-        apply_recipe_tint = "primary",
-        always_draw = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          shift = util.by_pixel(0, -16.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-recipe-mask.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                shift = util.by_pixel(0, -16.5),
-                scale = 0.5,
-              }
-            or nil,
+        {
+          apply_recipe_tint = "primary",
+          always_draw = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            shift = util.by_pixel(0, -16.5),
+            scale = 0.5,
+          },
         },
-      },
-      {
-        fadeout = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          line_length = 6,
-          frame_count = 24,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -16.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-working-animation.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                line_length = 6,
-                frame_count = 24,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -16.5),
-                scale = 0.5,
-              }
-            or nil,
+        {
+          fadeout = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            line_length = 6,
+            frame_count = 24,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -16.5),
+            scale = 0.5,
+          },
         },
-      },
-      {
-        fadeout = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          line_length = 6,
-          frame_count = 24,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -16.5),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-light.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                line_length = 6,
-                frame_count = 24,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -16.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
+        {
+          fadeout = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            line_length = 6,
+            frame_count = 24,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -16.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -243,7 +196,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "200kW",
     --ingredient_count = 4,
@@ -267,134 +220,87 @@ data:extend({
         --pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        always_draw = true,
-        animation = {
-          layers = {
-            {
-              filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
-              priority = "high",
-              width = 167,
-              height = 197,
-              shift = util.by_pixel(0, -16.5),
-              hr_version = angelsmods.trigger.enable_hq_graphics
-                  and {
-                    filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-idle-state.png",
-                    priority = "high",
-                    width = 329,
-                    height = 392,
-                    shift = util.by_pixel(0, -16.5),
-                    scale = 0.5,
-                  }
-                or nil,
-            },
-            {
-              filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
-              priority = "high",
-              width = 223,
-              height = 157,
-              draw_as_shadow = true,
-              shift = util.by_pixel(29.5, 3.5),
-              hr_version = angelsmods.trigger.enable_hq_graphics
-                  and {
-                    filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-shadow.png",
-                    priority = "high",
-                    width = 444,
-                    height = 311,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(29.5, 3.5),
-                    scale = 0.5,
-                  }
-                or nil,
+    graphics_set = {
+      working_visualisations = {
+        {
+          always_draw = true,
+          animation = {
+            layers = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
+                priority = "high",
+                width = 329,
+                height = 392,
+                shift = util.by_pixel(0, -16.5),
+                scale = 0.5,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
+                priority = "high",
+                width = 444,
+                height = 311,
+                draw_as_shadow = true,
+                shift = util.by_pixel(29.5, 3.5),
+                scale = 0.5,
+              },
             },
           },
         },
-      },
-      {
-        apply_recipe_tint = "primary",
-        always_draw = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          shift = util.by_pixel(0, -16.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-recipe-mask.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                shift = util.by_pixel(0, -16.5),
-                scale = 0.5,
-              }
-            or nil,
+        {
+          apply_recipe_tint = "primary",
+          always_draw = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            shift = util.by_pixel(0, -16.5),
+            scale = 0.5,
+          },
         },
-      },
-      {
-        fadeout = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          line_length = 6,
-          frame_count = 24,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -16.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-working-animation.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                line_length = 6,
-                frame_count = 24,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -16.5),
-                scale = 0.5,
-              }
-            or nil,
+        {
+          fadeout = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            line_length = 6,
+            frame_count = 24,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -16.5),
+            scale = 0.5,
+          },
         },
-      },
-      {
-        fadeout = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          line_length = 6,
-          frame_count = 24,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -16.5),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-light.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                line_length = 6,
-                frame_count = 24,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -16.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
+        {
+          fadeout = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            line_length = 6,
+            frame_count = 24,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -16.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -446,7 +352,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "250kW",
     --ingredient_count = 6,
@@ -470,134 +376,87 @@ data:extend({
         --pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        always_draw = true,
-        animation = {
-          layers = {
-            {
-              filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
-              priority = "high",
-              width = 167,
-              height = 197,
-              shift = util.by_pixel(0, -16.5),
-              hr_version = angelsmods.trigger.enable_hq_graphics
-                  and {
-                    filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-idle-state.png",
-                    priority = "high",
-                    width = 329,
-                    height = 392,
-                    shift = util.by_pixel(0, -16.5),
-                    scale = 0.5,
-                  }
-                or nil,
-            },
-            {
-              filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
-              priority = "high",
-              width = 223,
-              height = 157,
-              draw_as_shadow = true,
-              shift = util.by_pixel(29.5, 3.5),
-              hr_version = angelsmods.trigger.enable_hq_graphics
-                  and {
-                    filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-shadow.png",
-                    priority = "high",
-                    width = 444,
-                    height = 311,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(29.5, 3.5),
-                    scale = 0.5,
-                  }
-                or nil,
+    graphics_set = {
+      working_visualisations = {
+        {
+          always_draw = true,
+          animation = {
+            layers = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
+                priority = "high",
+                width = 329,
+                height = 392,
+                shift = util.by_pixel(0, -16.5),
+                scale = 0.5,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
+                priority = "high",
+                width = 444,
+                height = 311,
+                draw_as_shadow = true,
+                shift = util.by_pixel(29.5, 3.5),
+                scale = 0.5,
+              },
             },
           },
         },
-      },
-      {
-        apply_recipe_tint = "primary",
-        always_draw = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          shift = util.by_pixel(0, -16.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-recipe-mask.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                shift = util.by_pixel(0, -16.5),
-                scale = 0.5,
-              }
-            or nil,
+        {
+          apply_recipe_tint = "primary",
+          always_draw = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            shift = util.by_pixel(0, -16.5),
+            scale = 0.5,
+          },
         },
-      },
-      {
-        fadeout = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          line_length = 6,
-          frame_count = 24,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -16.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-working-animation.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                line_length = 6,
-                frame_count = 24,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -16.5),
-                scale = 0.5,
-              }
-            or nil,
+        {
+          fadeout = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            line_length = 6,
+            frame_count = 24,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -16.5),
+            scale = 0.5,
+          },
         },
-      },
-      {
-        fadeout = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          line_length = 6,
-          frame_count = 24,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -16.5),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-light.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                line_length = 6,
-                frame_count = 24,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -16.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
+        {
+          fadeout = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            line_length = 6,
+            frame_count = 24,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -16.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },
@@ -648,7 +507,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3.6},
+      emissions_per_minute = { pollution = 3.6 },
     },
     energy_usage = "250kW",
     --ingredient_count = 6,
@@ -672,134 +531,87 @@ data:extend({
         --pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "input", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_visualisations = {
-      {
-        always_draw = true,
-        animation = {
-          layers = {
-            {
-              filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
-              priority = "high",
-              width = 167,
-              height = 197,
-              shift = util.by_pixel(0, -16.5),
-              hr_version = angelsmods.trigger.enable_hq_graphics
-                  and {
-                    filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-idle-state.png",
-                    priority = "high",
-                    width = 329,
-                    height = 392,
-                    shift = util.by_pixel(0, -16.5),
-                    scale = 0.5,
-                  }
-                or nil,
-            },
-            {
-              filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
-              priority = "high",
-              width = 223,
-              height = 157,
-              draw_as_shadow = true,
-              shift = util.by_pixel(29.5, 3.5),
-              hr_version = angelsmods.trigger.enable_hq_graphics
-                  and {
-                    filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-shadow.png",
-                    priority = "high",
-                    width = 444,
-                    height = 311,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(29.5, 3.5),
-                    scale = 0.5,
-                  }
-                or nil,
+    graphics_set = {
+      working_visualisations = {
+        {
+          always_draw = true,
+          animation = {
+            layers = {
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-idle-state.png",
+                priority = "high",
+                width = 329,
+                height = 392,
+                shift = util.by_pixel(0, -16.5),
+                scale = 0.5,
+              },
+              {
+                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-shadow.png",
+                priority = "high",
+                width = 444,
+                height = 311,
+                draw_as_shadow = true,
+                shift = util.by_pixel(29.5, 3.5),
+                scale = 0.5,
+              },
             },
           },
         },
-      },
-      {
-        apply_recipe_tint = "primary",
-        always_draw = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          shift = util.by_pixel(0, -16.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-recipe-mask.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                shift = util.by_pixel(0, -16.5),
-                scale = 0.5,
-              }
-            or nil,
+        {
+          apply_recipe_tint = "primary",
+          always_draw = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-recipe-mask.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            shift = util.by_pixel(0, -16.5),
+            scale = 0.5,
+          },
         },
-      },
-      {
-        fadeout = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          line_length = 6,
-          frame_count = 24,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -16.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-working-animation.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                line_length = 6,
-                frame_count = 24,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -16.5),
-                scale = 0.5,
-              }
-            or nil,
+        {
+          fadeout = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-working-animation.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            line_length = 6,
+            frame_count = 24,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -16.5),
+            scale = 0.5,
+          },
         },
-      },
-      {
-        fadeout = true,
-        animation = {
-          filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
-          priority = "high",
-          width = 167,
-          height = 197,
-          line_length = 6,
-          frame_count = 24,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0, -16.5),
-          draw_as_light = true,
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/hr-strand-casting-machine-light.png",
-                priority = "high",
-                width = 329,
-                height = 392,
-                line_length = 6,
-                frame_count = 24,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -16.5),
-                draw_as_light = true,
-                scale = 0.5,
-              }
-            or nil,
+        {
+          fadeout = true,
+          animation = {
+            filename = "__angelssmeltinggraphics__/graphics/entity/strand-casting-machine/strand-casting-machine-light.png",
+            priority = "high",
+            width = 329,
+            height = 392,
+            line_length = 6,
+            frame_count = 24,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -16.5),
+            draw_as_light = true,
+            scale = 0.5,
+          },
         },
       },
     },

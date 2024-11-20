@@ -23,7 +23,7 @@ data:extend({
       },
     }, 1, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "steam-cracker" },
     fast_replaceable_group = "steam-cracker",
     next_upgrade = "steam-cracker-2",
@@ -40,46 +40,38 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.2},
+      emissions_per_minute = { pollution = 1.2 },
     },
     energy_usage = "200kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/steam-cracker.png",
-          priority = "extra-high",
-          width = 512,
-          height = 512,
-          scale = 0.5,
-          frame_count = 1,
-          shift = { 0.5, -0.5 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/steam-cracker.png",
+            priority = "extra-high",
+            width = 512,
+            height = 512,
+            scale = 0.5,
+            frame_count = 1,
+            shift = { 0.5, -0.5 },
+          },
+          -- {
+          -- filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/5x5-overlay.png",
+          -- tint = {r = 0.8, g = 0, b = 0},
+          -- width = 160,
+          -- height = 160,
+          -- frame_count = 1,
+          -- line_length = 4,
+          -- shift = {0, 0},
+          -- animation_speed = 0.5
+          -- },
         },
-        -- {
-        -- filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/5x5-overlay.png",
-        -- tint = {r = 0.8, g = 0, b = 0},
-        -- width = 160,
-        -- height = 160,
-        -- frame_count = 1,
-        -- line_length = 4,
-        -- shift = {0, 0},
-        -- animation_speed = 0.5
-        -- },
       },
-    },
-    working_visualisations = {
-      {
-        animation = {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          scale = 2,
-          shift = { -2, -3.8 },
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+      working_visualisations = {
+        {
+          animation = {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -88,8 +80,8 @@ data:extend({
             scale = 1,
             shift = { -2, -3.8 },
           },
+          light = { intensity = 0.8, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
         },
-        light = { intensity = 0.8, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
       },
     },
     -- working_visualisations =
@@ -135,14 +127,18 @@ data:extend({
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -170,7 +166,7 @@ data:extend({
       },
     }, 2, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "steam-cracker-2" },
     fast_replaceable_group = "steam-cracker",
     next_upgrade = "steam-cracker-3",
@@ -187,46 +183,38 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "225kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/steam-cracker.png",
-          priority = "extra-high",
-          width = 512,
-          height = 512,
-          scale = 0.5,
-          frame_count = 1,
-          shift = { 0.5, -0.5 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/steam-cracker.png",
+            priority = "extra-high",
+            width = 512,
+            height = 512,
+            scale = 0.5,
+            frame_count = 1,
+            shift = { 0.5, -0.5 },
+          },
+          -- {
+          -- filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/5x5-overlay.png",
+          -- tint = {r = 0.8, g = 0, b = 0},
+          -- width = 160,
+          -- height = 160,
+          -- frame_count = 1,
+          -- line_length = 4,
+          -- shift = {0, 0},
+          -- animation_speed = 0.5
+          -- },
         },
-        -- {
-        -- filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/5x5-overlay.png",
-        -- tint = {r = 0.8, g = 0, b = 0},
-        -- width = 160,
-        -- height = 160,
-        -- frame_count = 1,
-        -- line_length = 4,
-        -- shift = {0, 0},
-        -- animation_speed = 0.5
-        -- },
       },
-    },
-    working_visualisations = {
-      {
-        animation = {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          scale = 2,
-          shift = { -2, -3.8 },
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+      working_visualisations = {
+        {
+          animation = {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -235,8 +223,8 @@ data:extend({
             scale = 1,
             shift = { -2, -3.8 },
           },
+          light = { intensity = 0.8, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
         },
-        light = { intensity = 0.8, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -266,14 +254,18 @@ data:extend({
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -301,7 +293,7 @@ data:extend({
       },
     }, 3, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "steam-cracker-3" },
     fast_replaceable_group = "steam-cracker",
     next_upgrade = "steam-cracker-4",
@@ -318,46 +310,38 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "250kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/steam-cracker.png",
-          priority = "extra-high",
-          width = 512,
-          height = 512,
-          scale = 0.5,
-          frame_count = 1,
-          shift = { 0.5, -0.5 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/steam-cracker.png",
+            priority = "extra-high",
+            width = 512,
+            height = 512,
+            scale = 0.5,
+            frame_count = 1,
+            shift = { 0.5, -0.5 },
+          },
+          -- {
+          -- filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/5x5-overlay.png",
+          -- tint = {r = 0.8, g = 0, b = 0},
+          -- width = 160,
+          -- height = 160,
+          -- frame_count = 1,
+          -- line_length = 4,
+          -- shift = {0, 0},
+          -- animation_speed = 0.5
+          -- },
         },
-        -- {
-        -- filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/5x5-overlay.png",
-        -- tint = {r = 0.8, g = 0, b = 0},
-        -- width = 160,
-        -- height = 160,
-        -- frame_count = 1,
-        -- line_length = 4,
-        -- shift = {0, 0},
-        -- animation_speed = 0.5
-        -- },
       },
-    },
-    working_visualisations = {
-      {
-        animation = {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          scale = 2,
-          shift = { -2, -3.8 },
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+      working_visualisations = {
+        {
+          animation = {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -366,8 +350,8 @@ data:extend({
             scale = 1,
             shift = { -2, -3.8 },
           },
+          light = { intensity = 0.8, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
         },
-        light = { intensity = 0.8, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -397,14 +381,18 @@ data:extend({
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },
@@ -432,7 +420,7 @@ data:extend({
       },
     }, 4, angelsmods.petrochem.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    collision_mask = angelsmods.functions.set_building_collision_mask('asm', {'elevated_rail'}),
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
     minable = { mining_time = 1, result = "steam-cracker-4" },
     fast_replaceable_group = "steam-cracker",
     max_health = 300,
@@ -448,46 +436,38 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "275kW",
     ingredient_count = 3,
-    animation = {
-      layers = {
-        {
-          filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/steam-cracker.png",
-          priority = "extra-high",
-          width = 512,
-          height = 512,
-          scale = 0.5,
-          frame_count = 1,
-          shift = { 0.5, -0.5 },
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/steam-cracker.png",
+            priority = "extra-high",
+            width = 512,
+            height = 512,
+            scale = 0.5,
+            frame_count = 1,
+            shift = { 0.5, -0.5 },
+          },
+          -- {
+          -- filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/5x5-overlay.png",
+          -- tint = {r = 0.8, g = 0, b = 0},
+          -- width = 160,
+          -- height = 160,
+          -- frame_count = 1,
+          -- line_length = 4,
+          -- shift = {0, 0},
+          -- animation_speed = 0.5
+          -- },
         },
-        -- {
-        -- filename = "__angelspetrochemgraphics__/graphics/entity/steam-cracker/5x5-overlay.png",
-        -- tint = {r = 0.8, g = 0, b = 0},
-        -- width = 160,
-        -- height = 160,
-        -- frame_count = 1,
-        -- line_length = 4,
-        -- shift = {0, 0},
-        -- animation_speed = 0.5
-        -- },
       },
-    },
-    working_visualisations = {
-      {
-        animation = {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          scale = 2,
-          shift = { -2, -3.8 },
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+      working_visualisations = {
+        {
+          animation = {
+            filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -496,8 +476,8 @@ data:extend({
             scale = 1,
             shift = { -2, -3.8 },
           },
+          light = { intensity = 0.8, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
         },
-        light = { intensity = 0.8, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 } },
       },
     },
     vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -527,14 +507,18 @@ data:extend({
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { 1, -2.4 }, direction = defines.direction.north },
+        },
       },
       {
         production_type = "output",
         --pipe_picture = floatationpipepictures(),
         pipe_covers = pipecoverspictures(),
         volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north } },
+        pipe_connections = {
+          { flow_direction = "output", position = { -1, -2.4 }, direction = defines.direction.north },
+        },
       },
     },
   },

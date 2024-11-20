@@ -47,26 +47,14 @@ data:extend({
         {
           picture = "__base__/graphics/terrain/tutorial-grid/tutorial-grid1.png",
           count = 16,
-          size = 1,
-          hr_version =
-          {
-            picture = "__base__/graphics/terrain/tutorial-grid/hr-tutorial-grid1.png",
-            count = 16,
-            scale = 0.5,
-            size = 1
-          }
+          scale = 0.5,
+          size = 1
         },
         {
           picture = "__base__/graphics/terrain/tutorial-grid/tutorial-grid2.png",
           count = 16,
-          size = 2,
-          hr_version =
-          {
-            picture = "__base__/graphics/terrain/tutorial-grid/hr-tutorial-grid2.png",
-            count = 16,
-            scale = 0.5,
-            size = 2
-          }
+          scale = 0.5,
+          size = 2
         }
       },
       inner_corner =
@@ -74,63 +62,34 @@ data:extend({
         picture = "__base__/graphics/terrain/tutorial-grid/tutorial-grid-inner-corner.png",
         count = 4,
         tall = true,
-        hr_version =
-        {
-          picture = "__base__/graphics/terrain/tutorial-grid/hr-tutorial-grid-inner-corner.png",
-          count = 4,
-          tall = true,
-          scale = 0.5
-        }
+        scale = 0.5
       },
       outer_corner =
       {
         picture = "__base__/graphics/terrain/tutorial-grid/tutorial-grid-outer-corner.png",
         count = 4,
         tall = true,
-        hr_version =
-        {
-          picture = "__base__/graphics/terrain/tutorial-grid/hr-tutorial-grid-outer-corner.png",
-          count = 4,
-          tall = true,
-          scale = 0.5
-        }
+        scale = 0.5
       },
       side =
       {
         picture = "__base__/graphics/terrain/tutorial-grid/tutorial-grid-side.png",
         count = 16,
         tall = true,
-        hr_version =
-        {
-          picture = "__base__/graphics/terrain/tutorial-grid/hr-tutorial-grid-side.png",
-          count = 16,
-          tall = true,
-          scale = 0.5
-        }
+        scale = 0.5
       },
       u_transition =
       {
         picture = "__base__/graphics/terrain/tutorial-grid/tutorial-grid-u.png",
         count = 2,
         tall = true,
-        hr_version =
-        {
-          picture = "__base__/graphics/terrain/tutorial-grid/hr-tutorial-grid-u.png",
-          count = 2,
-          tall = true,
-          scale = 0.5
-        }
+        scale = 0.5
       },
       o_transition =
       {
         picture = "__base__/graphics/terrain/tutorial-grid/tutorial-grid-o.png",
         count = 2,
-        hr_version =
-        {
-          picture = "__base__/graphics/terrain/tutorial-grid/hr-tutorial-grid-o.png",
-          count = 2,
-          scale = 0.5
-        }
+        scale = 0.5
       }
     },
     walking_sound = concrete_sounds,

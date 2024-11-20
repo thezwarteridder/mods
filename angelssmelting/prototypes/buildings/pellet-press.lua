@@ -40,23 +40,15 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 1.8},
+      emissions_per_minute = { pollution = 1.8 },
     },
     energy_usage = "200kW",
     --ingredient_count = 2,
-    animation = {
-      layers = {
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-base.png",
-          priority = "high",
-          width = 102,
-          height = 101,
-          line_length = 10,
-          frame_count = 60,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0.5, 0.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/hr-pellet-press-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-base.png",
             priority = "high",
             width = 200,
             height = 199,
@@ -65,32 +57,19 @@ data:extend({
             animation_speed = 0.5,
             shift = util.by_pixel(0, 0),
             scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-shadow.png",
-          priority = "high",
-          width = 125,
-          height = 68,
-          line_length = 6,
-          frame_count = 60,
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(12, 17),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/hr-pellet-press-shadow.png",
-                priority = "high",
-                width = 246,
-                height = 132,
-                line_length = 6,
-                frame_count = 60,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(12, 17),
-                scale = 0.5,
-              }
-            or nil,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-shadow.png",
+            priority = "high",
+            width = 246,
+            height = 132,
+            line_length = 6,
+            frame_count = 60,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(12, 17),
+            scale = 0.5,
+          },
         },
       },
     },
@@ -143,23 +122,15 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 2.4},
+      emissions_per_minute = { pollution = 2.4 },
     },
     energy_usage = "250kW",
     --ingredient_count = 4,
-    animation = {
-      layers = {
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-base.png",
-          priority = "high",
-          width = 102,
-          height = 101,
-          line_length = 10,
-          frame_count = 60,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0.5, 0.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/hr-pellet-press-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-base.png",
             priority = "high",
             width = 200,
             height = 199,
@@ -168,32 +139,19 @@ data:extend({
             animation_speed = 0.5,
             shift = util.by_pixel(0, 0),
             scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-shadow.png",
-          priority = "high",
-          width = 125,
-          height = 68,
-          line_length = 6,
-          frame_count = 60,
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(12, 17),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/hr-pellet-press-shadow.png",
-                priority = "high",
-                width = 246,
-                height = 132,
-                line_length = 6,
-                frame_count = 60,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(12, 17),
-                scale = 0.5,
-              }
-            or nil,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-shadow.png",
+            priority = "high",
+            width = 246,
+            height = 132,
+            line_length = 6,
+            frame_count = 60,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(12, 17),
+            scale = 0.5,
+          },
         },
       },
     },
@@ -246,23 +204,15 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3},
+      emissions_per_minute = { pollution = 3 },
     },
     energy_usage = "300kW",
     --ingredient_count = 6,
-    animation = {
-      layers = {
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-base.png",
-          priority = "high",
-          width = 102,
-          height = 101,
-          line_length = 10,
-          frame_count = 60,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0.5, 0.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/hr-pellet-press-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-base.png",
             priority = "high",
             width = 200,
             height = 199,
@@ -271,32 +221,19 @@ data:extend({
             animation_speed = 0.5,
             shift = util.by_pixel(0, 0),
             scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-shadow.png",
-          priority = "high",
-          width = 125,
-          height = 68,
-          line_length = 6,
-          frame_count = 60,
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(12, 17),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/hr-pellet-press-shadow.png",
-                priority = "high",
-                width = 246,
-                height = 132,
-                line_length = 6,
-                frame_count = 60,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(12, 17),
-                scale = 0.5,
-              }
-            or nil,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-shadow.png",
+            priority = "high",
+            width = 246,
+            height = 132,
+            line_length = 6,
+            frame_count = 60,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(12, 17),
+            scale = 0.5,
+          },
         },
       },
     },
@@ -348,23 +285,15 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = {pollution = 3.6},
+      emissions_per_minute = { pollution = 3.6 },
     },
     energy_usage = "350kW",
     --ingredient_count = 6,
-    animation = {
-      layers = {
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-base.png",
-          priority = "high",
-          width = 102,
-          height = 101,
-          line_length = 10,
-          frame_count = 60,
-          animation_speed = 0.5,
-          shift = util.by_pixel(0.5, 0.5),
-          hr_version = angelsmods.trigger.enable_hq_graphics and {
-            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/hr-pellet-press-base.png",
+    graphics_set = {
+      animation = {
+        layers = {
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-base.png",
             priority = "high",
             width = 200,
             height = 199,
@@ -373,32 +302,19 @@ data:extend({
             animation_speed = 0.5,
             shift = util.by_pixel(0, 0),
             scale = 0.5,
-          } or nil,
-        },
-        {
-          filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-shadow.png",
-          priority = "high",
-          width = 125,
-          height = 68,
-          line_length = 6,
-          frame_count = 60,
-          animation_speed = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(12, 17),
-          hr_version = angelsmods.trigger.enable_hq_graphics
-              and {
-                filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/hr-pellet-press-shadow.png",
-                priority = "high",
-                width = 246,
-                height = 132,
-                line_length = 6,
-                frame_count = 60,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(12, 17),
-                scale = 0.5,
-              }
-            or nil,
+          },
+          {
+            filename = "__angelssmeltinggraphics__/graphics/entity/pellet-press/pellet-press-shadow.png",
+            priority = "high",
+            width = 246,
+            height = 132,
+            line_length = 6,
+            frame_count = 60,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(12, 17),
+            scale = 0.5,
+          },
         },
       },
     },
