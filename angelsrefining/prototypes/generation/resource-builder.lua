@@ -727,6 +727,10 @@ function angelsmods.functions.make_resource()
       --Create Autopace for the resource
       make_resautoplace(input)
       generate_presets(input.name)
+      for _, planet_name in pairs(input.planets or { "nauvis" }) do
+        data.raw.planet[planet_name].map_gen_settings.autoplace_controls[input.name] = {}
+        data.raw.planet[planet_name].map_gen_settings.autoplace_settings.entity.settings[input.name] = {}
+      end
       --Create Particle if resource yields items
       if input.type == "item" then
         if input.get and data.raw.particle[input.get .. "-particle"] then
@@ -903,6 +907,29 @@ function angelsmods.functions.remove_resource(resource)
       and preset.basic_settings.autoplace_controls[infinite_resource]
     then
       preset.basic_settings.autoplace_controls[infinite_resource] = nil
+    end
+  end
+
+  -- Remove from planets
+  for _, planet in pairs(data.raw.planet) do
+    if
+      planet
+      and planet.map_gen_settings
+      and planet.map_gen_settings.autoplace_controls
+      and planet.map_gen_settings.autoplace_controls[resource]
+    then
+      planet.map_gen_settings.autoplace_controls[resource] = nil
+      planet.map_gen_settings.autoplace_settings.entity.settings[resource] = nil
+    end
+    if
+      infinite_resource
+      and planet
+      and planet.map_gen_settings
+      and planet.map_gen_settings.autoplace_controls
+      and planet.map_gen_settings.autoplace_controls[infinite_resource]
+    then
+      planet.map_gen_settings.autoplace_controls[infinite_resource] = nil
+      planet.map_gen_settings.autoplace_settings.entity.settings[infinite_resource] = nil
     end
   end
 

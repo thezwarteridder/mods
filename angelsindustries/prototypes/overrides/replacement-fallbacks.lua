@@ -70,24 +70,24 @@ angelsmods.industries.general_replace = {
   ["basic-circuit-board"] = { new = "circuit-grey", amt_multi = 1 },
   ["basic-electronic-board"] = { new = "circuit-red-loaded", amt_multi = 1, unlock_by = "electronics" },
   ["electronic-circuit"] = { new = "circuit-red-loaded", amt_multi = 1 },
-  ["advanced-circuit"] = { new = "circuit-green-loaded", amt_multi = 1, unlock_by = "advanced-electronics" },
-  ["processing-unit"] = { new = "circuit-blue-loaded", amt_multi = 1, unlock_by = "advanced-electronics-2" },
+  ["advanced-circuit"] = { new = "circuit-green-loaded", amt_multi = 1, unlock_by = "advanced-circuit" },
+  ["processing-unit"] = { new = "circuit-blue-loaded", amt_multi = 1, unlock_by = "processing-unit" },
   ["advanced-processing-unit"] = { new = "circuit-yellow-loaded", amt_multi = 1, unlock_by = "advanced-electronics-3" },
   --electronic components/boards
   ["wooden-board"] = { new = "circuit-grey-board", amt_multi = 1, alt_rec = "bio-paper-1" },
-  ["phenolic-board"] = { new = "circuit-orange-board", amt_multi = 1, unlock_by = "advanced-electronics" },
+  ["phenolic-board"] = { new = "circuit-orange-board", amt_multi = 1, unlock_by = "advanced-circuit" },
   ["fibreglass-board"] = {
     new = "circuit-blue-board",
     amt_multi = 1,
     unlock_by = "angels-glass-smelting-3",
     alt_rec = "angels-glass-fiber-board",
   },
-  ["circuit-board"] = { new = "circuit-orange", amt_multi = 1, unlock_by = "advanced-electronics" },
-  ["superior-circuit-board"] = { new = "circuit-blue", amt_multi = 1, unlock_by = "advanced-electronics-2" },
+  ["circuit-board"] = { new = "circuit-orange", amt_multi = 1, unlock_by = "advanced-circuit" },
+  ["superior-circuit-board"] = { new = "circuit-blue", amt_multi = 1, unlock_by = "processing-unit" },
   ["multi-layer-circuit-board"] = { new = "circuit-yellow", amt_multi = 1, unlock_by = "advanced-electronics-3" },
   ["basic-electronic-components"] = { new = "circuit-resistor", amt_multi = 1, unlock_by = "electronics" },
-  ["electronic-components"] = { new = "circuit-transistor", amt_multi = 1, unlock_by = "advanced-electronics" },
-  ["intergrated-electronics"] = { new = "circuit-microchip", amt_multi = 1, unlock_by = "advanced-electronics-2" },
+  ["electronic-components"] = { new = "circuit-transistor", amt_multi = 1, unlock_by = "advanced-circuit" },
+  ["intergrated-electronics"] = { new = "circuit-microchip", amt_multi = 1, unlock_by = "processing-unit" },
   ["processing-electronics"] = { new = "circuit-cpu", amt_multi = 1, unlock_by = "advanced-electronics-3" },
   --gears
   ["iron-gear-wheel"] = { new = "mechanical-parts", amt_multi = 1 },
@@ -110,7 +110,7 @@ if mods["bobelectronics"] then
   angelsmods.industries.general_replace["electronic-circuit"] =
     { new = "circuit-red-loaded", amt_multi = 1, unlock_by = "electronics" }
   angelsmods.industries.general_replace["advanced-circuit"] =
-    { new = "circuit-orange-loaded", amt_multi = 1, unlock_by = "advanced-electronics" }
+    { new = "circuit-orange-loaded", amt_multi = 1, unlock_by = "advanced-circuit" }
 end
 if mods["bobplates"] then
   angelsmods.industries.general_replace["lithium-ion-battery"] = { new = "battery-3", amt_multi = 1 }

@@ -94,7 +94,7 @@ if angelsmods.industries.tech then
   -- BASE GAME
   AI.core_replace("effect-transmission", "processing", "enhance")
   OV.set_science_pack("toolbelt", "datacore-enhance-1", 2)
-  OV.set_science_pack("optics", "datacore-enhance-1", 2)
+  OV.set_science_pack("lamp", "datacore-enhance-1", 2)
   AI.core_replace("rocket-fuel", "war", "enhance")
   AI.core_replace("artillery-shell-speed-1", "war", "enhance")
   AI.core_replace("follower-robot-count-7", "war", "enhance")

@@ -161,7 +161,7 @@ local function generate_barrel_icons(fluid, style)
     f_icon = generate_liquid_canister_icons(fluid)
   else
     f_icon = {
-      { icon = "__base__/graphics/icons/fluid/barreling/empty-barrel.png", icon_size = 64 },
+      { icon = "__base__/graphics/icons/fluid/barreling/barrel.png", icon_size = 64 },
       {
         icon = "__base__/graphics/icons/fluid/barreling/barrel-side-mask.png",
         icon_size = 64,
@@ -177,7 +177,7 @@ local function generate_barrel_icons(fluid, style)
   return f_icon
 end
 
--- Generates the icons definition for a empty-barrel recipe with the provided barrel name and fluid definition
+-- Generates the icons definition for a barrel recipe with the provided barrel name and fluid definition
 local function generate_empty_barrel_icons(fluid, style)
   local e_icon
   if style == "gas" then
@@ -602,11 +602,11 @@ ov_functions.barrel_overrides = function(fluid, style) --Bottling override funct
         }
         F_Fill.ingredients = {
           { type = "fluid", name = fluid_s.name, amount = 50 },
-          { type = "item", name = "empty-barrel", amount = 1 },
+          { type = "item", name = "barrel", amount = 1 },
         }
         F_Empty.results = {
           { type = "fluid", name = fluid_s.name, amount = 50 },
-          { type = "item", name = "empty-barrel", amount = 1 },
+          { type = "item", name = "barrel", amount = 1 },
         }
         F_Empty.localised_name = {
           "recipe-name.empty-filled-barrel",

@@ -54,9 +54,9 @@ if mods["bobequipment"] then
     },
   })
   reorder("item", "fission-reactor-equipment", "angels-personal-equipment-power-b", "a")
-  reorder("item", "fusion-reactor-equipment-2", "angels-personal-equipment-power-b", "b")
-  reorder("item", "fusion-reactor-equipment-3", "angels-personal-equipment-power-b", "c")
-  reorder("item", "fusion-reactor-equipment-4", "angels-personal-equipment-power-b", "d")
+  reorder("item", "fission-reactor-equipment-2", "angels-personal-equipment-power-b", "b")
+  reorder("item", "fission-reactor-equipment-3", "angels-personal-equipment-power-b", "c")
+  reorder("item", "fission-reactor-equipment-4", "angels-personal-equipment-power-b", "d")
 end
 
 -- battery equipment

@@ -146,7 +146,7 @@ if alien_technology then
   for _, tech_name in pairs({
     bobmods.warfare and "bob-power-armor-3" or nil,
     -- personal equipment
-    bobmods.equipment and "fusion-reactor-equipment-2" or nil,
+    bobmods.equipment and "fission-reactor-equipment-2" or nil,
     bobmods.equipment and "bob-battery-equipment-4" or nil,
     bobmods.equipment and "bob-energy-shield-equipment-4" or nil,
     -- vehicle equipment
@@ -272,7 +272,7 @@ if alien_technology then
   for _, tech_name in pairs({
     bobmods.warfare and "bob-power-armor-4" or nil,
     -- personal equipment
-    bobmods.equipment and "fusion-reactor-equipment-3" or nil,
+    bobmods.equipment and "fission-reactor-equipment-3" or nil,
     bobmods.equipment and "bob-battery-equipment-5" or nil,
     bobmods.equipment and "bob-energy-shield-equipment-5" or nil,
     -- vehicle equipment
@@ -389,7 +389,7 @@ if alien_technology then
   for _, tech_name in pairs({
     bobmods.warfare and "bob-power-armor-5" or nil,
     -- personal equipment
-    bobmods.equipment and "fusion-reactor-equipment-4" or nil,
+    bobmods.equipment and "fission-reactor-equipment-4" or nil,
     bobmods.equipment and "bob-battery-equipment-6" or nil,
     bobmods.equipment and "bob-energy-shield-equipment-6" or nil,
     bobmods.equipment and "personal-laser-defense-equipment-6" or nil,

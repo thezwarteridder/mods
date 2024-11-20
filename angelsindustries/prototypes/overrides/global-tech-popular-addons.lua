@@ -21,7 +21,7 @@ if angelsmods.industries.tech then
     AI.core_replace("aai-turbo-loader", "basic", "logistic")
     AI.core_replace("aai-ultimate-loader", "basic", "logistic")
 
-    OV.remove_prereq("aai-express-loader", "advanced-electronics-2")
+    OV.remove_prereq("aai-express-loader", "processing-unit")
     OV.remove_prereq("aai-express-loader", "production-science-pack")
     OV.remove_science_pack("aai-express-loader", "production-science-pack")
     OV.remove_science_pack("aai-express-loader", "advanced-logistic-science-pack")

@@ -76,7 +76,7 @@ local unit_test_007 = function()
   if script.active_mods["SpaceMod"] then
     table.insert(items_to_ignore, "drydock-assembly")
     table.insert(items_to_ignore, "drydock-structural")
-    table.insert(items_to_ignore, "fusion-reactor")
+    table.insert(items_to_ignore, "fission-reactor")
     table.insert(items_to_ignore, "hull-component")
     table.insert(items_to_ignore, "protection-field")
     table.insert(items_to_ignore, "space-thruster")

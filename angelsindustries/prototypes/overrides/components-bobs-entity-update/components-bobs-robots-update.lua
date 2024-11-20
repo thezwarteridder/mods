@@ -68,7 +68,7 @@ if angelsmods.industries.components then
     OV.add_prereq("bob-robotics-2", "tech-blue-circuit")
 
     OV.remove_prereq("bob-robotics-3", "titanium-processing")
-    OV.remove_prereq("bob-robotics-3", "advanced-electronics-2")
+    OV.remove_prereq("bob-robotics-3", "processing-unit")
     OV.remove_prereq("bob-robotics-3", "battery-2")
     OV.add_prereq("bob-robotics-3", "angels-components-batteries-4")
     OV.add_prereq("bob-robotics-3", "angels-components-mechanical-4")

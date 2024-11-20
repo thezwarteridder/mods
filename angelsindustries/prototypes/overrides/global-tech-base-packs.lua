@@ -96,7 +96,7 @@ if angelsmods.industries.tech then
   -- ORANGE SCIENCE PACKS -------------------------------------------------------
   -------------------------------------------------------------------------------
   -- BASE GAME
-  AI.pack_replace("stack-inserter", "green", "orange")
+  AI.pack_replace("bulk-inserter", "green", "orange")
   AI.pack_replace("inserter-capacity-bonus-1", "green", "orange")
   AI.pack_replace("inserter-capacity-bonus-2", "green", "orange")
   --AI.pack_replace("battery","green","orange")

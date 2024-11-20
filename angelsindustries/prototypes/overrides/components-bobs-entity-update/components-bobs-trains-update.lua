@@ -105,7 +105,7 @@ if angelsmods.industries.components then
     })
     if angelsmods.industries.tech then
     else
-      OV.remove_prereq("bob-railway-2", "advanced-electronics")
+      OV.remove_prereq("bob-railway-2", "advanced-circuit")
       OV.add_prereq("bob-railway-2", "angels-components-mechanical-2")
       OV.add_prereq("bob-railway-2", "tech-green-circuit")
       OV.add_prereq("bob-railway-3", "angels-components-mechanical-4")
