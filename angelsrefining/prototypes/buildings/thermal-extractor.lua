@@ -60,51 +60,55 @@ data:extend({
       height = 12,
     },
     monitor_visualization_tint = { r = 78, g = 173, b = 255 },
-    base_picture = {
-      sheets = {
-        {
-          filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
-          priority = "extra-high",
-          width = 261,
-          height = 273,
-          shift = util.by_pixel(-2.25, -4.75),
-          scale = 0.5,
-        },
-        {
-          filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
-          width = 220,
-          height = 220,
-          scale = 0.5,
-          draw_as_shadow = true,
-          shift = util.by_pixel(6, 0.5),
-        },
+    graphics_set = {
+        animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
+              priority = "extra-high",
+              width = 261,
+              height = 273,
+              shift = util.by_pixel(-2.25, -4.75),
+              scale = 0.5,
+            },
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
+              width = 220,
+              height = 220,
+              scale = 0.5,
+              draw_as_shadow = true,
+              shift = util.by_pixel(6, 0.5),
+            },
+          },
       },
     },
-    animations = {
-      north = {
-        layers = {
-          {
-            priority = "high",
-            filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
-            animation_speed = 0.5,
-            scale = 0.5,
-            line_length = 8,
-            width = 206,
-            height = 202,
-            frame_count = 40,
-            shift = util.by_pixel(-4, -24),
-          },
-          {
-            priority = "high",
-            filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead-shadow.png",
-            animation_speed = 0.5,
-            draw_as_shadow = true,
-            line_length = 8,
-            width = 309,
-            height = 82,
-            frame_count = 40,
-            scale = 0.5,
-            shift = util.by_pixel(17.75, 14.5),
+    wet_mining_graphics_set = {
+      animations = {
+        north = {
+          layers = {
+            {
+              priority = "high",
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
+              animation_speed = 0.5,
+              scale = 0.5,
+              line_length = 8,
+              width = 206,
+              height = 202,
+              frame_count = 40,
+              shift = util.by_pixel(-4, -24),
+            },
+            {
+              priority = "high",
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead-shadow.png",
+              animation_speed = 0.5,
+              draw_as_shadow = true,
+              line_length = 8,
+              width = 309,
+              height = 82,
+              frame_count = 40,
+              scale = 0.5,
+              shift = util.by_pixel(17.75, 14.5),
+            },
           },
         },
       },
@@ -162,7 +166,7 @@ data:extend({
         {
           flow_direction = "output",
           position = { -3, 4.4 },
-          direction = defines.direction.north,
+          direction = defines.direction.south,
         },
       },
     },
@@ -171,7 +175,6 @@ data:extend({
     --mining_power = 3,
     resource_searching_radius = 0.49,
     vector_to_place_result = { 0, 0 },
-    module_slots = 2,
     radius_visualisation_picture = {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
       width = 12,
