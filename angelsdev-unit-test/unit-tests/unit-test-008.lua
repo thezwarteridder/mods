@@ -33,6 +33,9 @@ end
 local unit_test_008 = function()
   local unit_test_result = unit_test_functions.test_successful
 
+  -- Ignore items that intentionally have no crafting recipe (in Vanilla this only applies to the Pistol)
+  items_to_ignore["pistol"] = true
+
   -- Populate items_to_ignore with script items
   if script.active_mods["angelsindustries"] and (settings.startup["angels-enable-tech"].value == true) then
     items_to_ignore["angels-main-lab-0"] = true
@@ -171,10 +174,12 @@ local unit_test_008 = function()
   table.insert(item_filters, { filter = "type", invert = true, mode = "and", type = "blueprint-book" })
   table.insert(item_filters, { filter = "type", invert = true, mode = "and", type = "deconstruction-item" })
   table.insert(item_filters, { filter = "type", invert = true, mode = "and", type = "upgrade-item" })
+  table.insert(item_filters, { filter = "subgroup", invert = true, mode = "and", subgroup = "parameters" })
+  table.insert(item_filters, { filter = "subgroup", invert = true, mode = "and", subgroup = "spawnables" })
 
   local item_prototypes = prototypes.get_item_filtered(item_filters)
 
-  for item_name, item in pairs(item_prototypes) do
+    for item_name, item in pairs(item_prototypes) do
     -- TODO: Remove this check when "hidden" can be used as and ItemPrototypeFilter
     if not item.hidden and not items_to_ignore[item_name] then
       local recipe_filters = {}
@@ -196,6 +201,8 @@ local unit_test_008 = function()
   -- Check fluids
   local fluid_filters = {}
   table.insert(fluid_filters, { filter = "hidden", invert = true, mode = "and" })
+  table.insert(fluid_filters, { filter = "subgroup", invert = true, mode = "and", subgroup = "parameters" })
+
 
   local fluid_prototypes = prototypes.get_fluid_filtered(fluid_filters)
 
