@@ -63,7 +63,7 @@ local function calculate_science_pack_level()
       ["production-science-pack"] = 700,
       ["utility-science-pack"] = 700,
       ["cryogenic-science-pack"] = 800,
-      ["interstellar-science-pack"] = 900,
+      ["promethium-science-pack"] = 900,
     }) do
       science_pack_level[pack_name] = pack_level
     end

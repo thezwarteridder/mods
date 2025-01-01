@@ -29,6 +29,10 @@ local function process_tech(tech)
       -- Skip unbarelling recipes
       if recipe.subgroup.name == "empty-barrel" then
         skip = true
+      elseif recipe.subgroup.name == "bob-empty-gas-bottle" then
+        skip = true
+      elseif recipe.subgroup.name == "bob-empty-canister" then
+        skip = true
       end
 
       if not skip then
@@ -36,8 +40,14 @@ local function process_tech(tech)
           if product.type == "item" then
             recipes[recipe.name].products.items[product.name] = true
 
+            -- Check for rocket_launch_products
+            local item = prototypes.item[product.name]
+            for _, launch_product in pairs(item.rocket_launch_products) do
+              recipes[recipe.name].products.items[launch_product.name] = true
+            end
+
             -- Check for entity. Add crafting categories
-            local entity = prototypes.item[product.name].place_result
+            local entity = item.place_result
             if entity then
               if entity.crafting_categories then
                 for category_name, _ in pairs(entity.crafting_categories) do
@@ -55,6 +65,10 @@ local function process_tech(tech)
 
       -- Skip barelling recipes
       if recipe.subgroup.name == "fill-barrel" then
+        skip = true
+      elseif recipe.subgroup.name == "bob-gas-bottle" then
+        skip = true
+      elseif recipe.subgroup.name == "bob-canister" then
         skip = true
       end
 
