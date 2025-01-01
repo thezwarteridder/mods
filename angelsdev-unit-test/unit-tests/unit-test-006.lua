@@ -98,7 +98,6 @@ local function calculate_science_pack_level()
   if script.active_mods["bobtech"] then
     -- bobs regular science packs
     for pack_name, pack_level in pairs({
-      ["steam-science-pack"] = 30,
       ["advanced-logistic-science-pack"] = 50
         + (science_pack_level["angels-science-pack-blue"] or science_pack_level["chemical-science-pack"]),
     }) do
@@ -269,6 +268,9 @@ local function calculate_tech_ingredient_level(technology_prototype)
   if technology_prototype.research_trigger then
     for _, prerequisite in pairs(technology_prototype.prerequisites) do
       local prereq_level = calculate_tech_ingredient_level(prerequisite)
+      tech_ingredient_level = math.max(tech_ingredient_level, prereq_level)
+      -- If prereq unlocks a science pack, include that in this tech's level
+      local prereq_level = calculate_tech_unlock_level(prerequisite)
       tech_ingredient_level = math.max(tech_ingredient_level, prereq_level)
     end
   -- If this technology is unlocked using research packs then check their tech levels
