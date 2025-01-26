@@ -47,7 +47,7 @@ if mods["bobplates"] then
   OV.add_prereq("bio-processing-alien-3", "gem-processing-2")
 
   -- CRYSTALS
-  OV.modify_input("crystal-grindstone", { "grinding-wheel", "iron-plate" })
+  OV.modify_input("crystal-grindstone", { "bob-grinding-wheel", "iron-plate" })
   OV.add_prereq("bio-processing-crystal-splinter-1", "grinding")
 end
 
