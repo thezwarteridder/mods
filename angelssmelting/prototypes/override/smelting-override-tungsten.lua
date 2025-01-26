@@ -61,11 +61,11 @@ end
 if angelsmods.trigger.smelting_products["tungsten"].plate then
   -- REPLACE ITEMS (use bob version)
   if mods["bobplates"] then
-    OV.global_replace_item("angels-plate-tungsten", "tungsten-plate")
+    OV.global_replace_item("angels-plate-tungsten", "bob-tungsten-plate")
     angelsmods.functions.hide("angels-plate-tungsten")
-    angelsmods.functions.move_item("tungsten-plate", "angels-tungsten-casting", "j")
-    data.raw["item"]["tungsten-plate"].icon = "__angelssmeltinggraphics__/graphics/icons/plate-tungsten.png"
-    data.raw["item"]["tungsten-plate"].icon_size = 32
+    angelsmods.functions.move_item("bob-tungsten-plate", "angels-tungsten-casting", "j")
+    data.raw["item"]["bob-tungsten-plate"].icon = "__angelssmeltinggraphics__/graphics/icons/plate-tungsten.png"
+    data.raw["item"]["bob-tungsten-plate"].icon_size = 32
     OV.disable_recipe({ "bob-tungsten-plate" })
     OV.add_prereq("tungsten-processing", "angels-tungsten-smelting-1")
   end

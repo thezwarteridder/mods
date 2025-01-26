@@ -65,7 +65,7 @@ if angelsmods.trigger.artifacts["red"] then
 
     if bobmods and bobmods.plates then
       OV.patch_recipes({
-        { name = "alien-pre-artifact-red", ingredients = { { type = "item", name = "ruby-4", amount = 1 } } },
+        { name = "alien-pre-artifact-red", ingredients = { { type = "item", name = "bob-ruby-4", amount = 1 } } },
       })
     end
   end
@@ -217,7 +217,7 @@ if angelsmods.trigger.artifacts["yellow"] then
 
     if bobmods and bobmods.plates then
       OV.patch_recipes({
-        { name = "alien-pre-artifact-yellow", ingredients = { { type = "item", name = "diamond-4", amount = 1 } } },
+        { name = "alien-pre-artifact-yellow", ingredients = { { type = "item", name = "bob-diamond-4", amount = 1 } } },
       })
     end
   end
@@ -369,7 +369,7 @@ if angelsmods.trigger.artifacts["orange"] then
 
     if bobmods and bobmods.plates then
       OV.patch_recipes({
-        { name = "alien-pre-artifact-orange", ingredients = { { type = "item", name = "topaz-4", amount = 1 } } },
+        { name = "alien-pre-artifact-orange", ingredients = { { type = "item", name = "bob-topaz-4", amount = 1 } } },
       })
     end
   end
@@ -521,7 +521,7 @@ if angelsmods.trigger.artifacts["blue"] then
 
     if bobmods and bobmods.plates then
       OV.patch_recipes({
-        { name = "alien-pre-artifact-blue", ingredients = { { type = "item", name = "sapphire-4", amount = 1 } } },
+        { name = "alien-pre-artifact-blue", ingredients = { { type = "item", name = "bob-sapphire-4", amount = 1 } } },
       })
     end
   end
@@ -673,7 +673,7 @@ if angelsmods.trigger.artifacts["purple"] then
 
     if bobmods and bobmods.plates then
       OV.patch_recipes({
-        { name = "alien-pre-artifact-purple", ingredients = { { type = "item", name = "amethyst-4", amount = 1 } } },
+        { name = "alien-pre-artifact-purple", ingredients = { { type = "item", name = "bob-amethyst-4", amount = 1 } } },
       })
     end
   end
@@ -825,7 +825,7 @@ if angelsmods.trigger.artifacts["green"] then
 
     if bobmods and bobmods.plates then
       OV.patch_recipes({
-        { name = "alien-pre-artifact-green", ingredients = { { type = "item", name = "emerald-4", amount = 1 } } },
+        { name = "alien-pre-artifact-green", ingredients = { { type = "item", name = "bob-emerald-4", amount = 1 } } },
       })
     end
   end

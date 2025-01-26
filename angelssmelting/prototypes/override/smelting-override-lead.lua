@@ -78,11 +78,11 @@ if angelsmods.trigger.smelting_products["lead"].plate then
   end
 
   if mods["bobplates"] then
-    OV.global_replace_item("angels-plate-lead", "lead-plate")
+    OV.global_replace_item("angels-plate-lead", "bob-lead-plate")
     angelsmods.functions.hide("angels-plate-lead")
-    angelsmods.functions.move_item("lead-plate", "angels-lead-casting", "k")
-    data.raw["item"]["lead-plate"].icon = "__angelssmeltinggraphics__/graphics/icons/plate-lead.png"
-    data.raw["item"]["lead-plate"].icon_size = 32
+    angelsmods.functions.move_item("bob-lead-plate", "angels-lead-casting", "k")
+    data.raw["item"]["bob-lead-plate"].icon = "__angelssmeltinggraphics__/graphics/icons/plate-lead.png"
+    data.raw["item"]["bob-lead-plate"].icon_size = 32
 
     OV.patch_recipes({
       {
@@ -94,7 +94,7 @@ if angelsmods.trigger.smelting_products["lead"].plate then
           { name = "lead-ore", type = "item", amount = "+3" },
         },
         results = {
-          { name = "lead-plate", type = "item", amount = "+2" },
+          { name = "bob-lead-plate", type = "item", amount = "+2" },
         },
         icons = {
           {
