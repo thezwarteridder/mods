@@ -104,7 +104,7 @@ if mods["bobplates"] then
     end
   end
   --fuel oil balancing
-  data.raw.recipe["enriched-fuel-from-liquid-fuel"].ingredients =
+  data.raw.recipe["enriched-fuel"].ingredients =
     { { type = "fluid", name = "liquid-fuel", amount = 100 } } --up from 20
 end
 
