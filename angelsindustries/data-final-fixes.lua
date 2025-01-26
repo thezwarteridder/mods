@@ -118,10 +118,12 @@ end
 
 --TODO: actully fix techs with triggers
 for t, tech in pairs(data.raw.technology) do
-  if tech.unit.time == nil then
-    tech.unit.time = 666
-  end
-  if tech.unit.count == nil and tech.unit.count_formula == nil then
-    tech.unit.count = 666
+  if tech.research_trigger == nil then --exclude triggered techs from giving a time
+    if tech.unit.time == nil then
+      tech.unit.time = 666
+    end
+    if tech.unit.count == nil and tech.unit.count_formula == nil then
+      tech.unit.count = 666
+    end
   end
 end
