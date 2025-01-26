@@ -9,12 +9,12 @@ local function get_icons(object_name)
         return object.icons
       end
       if object.icon then
-        -- local scale = 32 / (object.icon_size or 32)
+        -- local scale = 64 / (object.icon_size or 64)
         return {
           {
             icon = object.icon,
-            icon_size = object.icon_size or 32,
-            scale = 32 / (object.icon_size or 32),
+            icon_size = object.icon_size or 64,
+            scale = 64 / (object.icon_size or 64),
           },
         }
       end
@@ -1563,18 +1563,18 @@ function angelsmods.functions.modify_barreling_icon()
       for kx, fluid in pairs(data.raw.fluid) do
         if fluid.name == icon_name then
           if item.icons then
-            local icon_size = fluid.icon_size or 32
+            local icon_size = fluid.icon_size or 64
             if fluid.icon then
               table.insert(item.icons, {
                 icon = fluid.icon,
                 icon_size = icon_size,
-                shift = { 0, 5 },
-                scale = 16 / icon_size,
+                shift = { 0, 10 },
+                scale = 64 / icon_size,
               })
             end
-            if fluid.icons then
+            if fluid.icons then -- for some reason, this is scaling the fluid icon down by a factor of 100 more than expected.
               item.icons =
-                util.combine_icons(item.icons, fluid.icons, { scale = 16 / icon_size, shift = { 0, 5 } }, icon_size)
+                util.combine_icons(item.icons, fluid.icons, { scale = 64 / icon_size, shift = { 0, 10 } }, icon_size)
             end
           end
         end
