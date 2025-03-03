@@ -40,6 +40,6 @@ if mods["bobrevamp"] and mods["bobplates"] then
         },
       })
     end
-    OV.add_prereq("rtg", "angels-coal-processing-3")
+    OV.add_prereq("bob-rtg", "angels-coal-processing-3")
   end
 end

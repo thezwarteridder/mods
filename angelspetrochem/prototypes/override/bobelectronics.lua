@@ -51,7 +51,7 @@ if mods["bobelectronics"] then
   })
 
   OV.remove_unlock("bob-wood-processing", "bob-rubber")
-  OV.remove_unlock("electronics", "bob-insulated-cable")
+  OV.remove_unlock("bob-electronics", "bob-insulated-cable")
   if mods["angelsbioprocessing"] then
     OV.add_unlock("bio-wood-processing-2", "bob-rubber")
     OV.add_prereq("circuit-network", "bio-wood-processing-2")

@@ -7,45 +7,45 @@ local move_item = angelsmods.functions.move_item
 if mods["bobplates"] then
   -- water
   if settings.startup["bobmods-plates-purewater"].value == true then
-    OV.converter_fluid("pure-water", "water-purified")
-    angelsmods.functions.disable_barreling_recipes("pure-water")
+    OV.converter_fluid("bob-pure-water", "water-purified")
+    angelsmods.functions.disable_barreling_recipes("bob-pure-water")
   end
 
   OV.converter_fluid("bob-oxygen", "gas-oxygen")
-  angelsmods.functions.disable_barreling_recipes("oxygen")
+  angelsmods.functions.disable_barreling_recipes("bob-oxygen")
 
   OV.converter_fluid("bob-hydrogen", "gas-hydrogen")
-  angelsmods.functions.disable_barreling_recipes("hydrogen")
+  angelsmods.functions.disable_barreling_recipes("bob-hydrogen")
 
   -- nitrogen (air)
   OV.converter_fluid("bob-liquid-air", "gas-oxygen")
-  angelsmods.functions.disable_barreling_recipes("liquid-air")
+  angelsmods.functions.disable_barreling_recipes("bob-liquid-air")
 
   OV.converter_fluid("bob-nitrogen", "gas-nitrogen")
-  angelsmods.functions.disable_barreling_recipes("nitrogen")
+  angelsmods.functions.disable_barreling_recipes("bob-nitrogen")
 
   OV.converter_fluid("bob-nitrogen-dioxide", "gas-nitrogen-dioxide")
-  angelsmods.functions.disable_barreling_recipes("nitrogen-dioxide")
+  angelsmods.functions.disable_barreling_recipes("bob-nitrogen-dioxide")
 
   OV.converter_fluid("bob-nitric-acid", "liquid-nitric-acid")
-  angelsmods.functions.disable_barreling_recipes("nitric-acid")
+  angelsmods.functions.disable_barreling_recipes("bob-nitric-acid")
 
   -- sulfur
   OV.converter_fluid("bob-hydrogen-sulfide", "gas-hydrogen-sulfide")
-  angelsmods.functions.disable_barreling_recipes("hydrogen-sulfide")
+  angelsmods.functions.disable_barreling_recipes("bob-hydrogen-sulfide")
 
   OV.converter_fluid("bob-sulfur-dioxide", "gas-sulfur-dioxide")
-  angelsmods.functions.disable_barreling_recipes("sulfur-dioxide")
+  angelsmods.functions.disable_barreling_recipes("bob-sulfur-dioxide")
 
   -- chlorine
   OV.converter_fluid("bob-chlorine", "gas-chlorine")
-  angelsmods.functions.disable_barreling_recipes("chlorine")
+  angelsmods.functions.disable_barreling_recipes("bob-chlorine")
 
   OV.converter_fluid("bob-hydrogen-chloride", "gas-hydrogen-chloride")
-  angelsmods.functions.disable_barreling_recipes("hydrogen-chloride")
+  angelsmods.functions.disable_barreling_recipes("bob-hydrogen-chloride")
 
   OV.converter_fluid("bob-ferric-chloride-solution", "liquid-ferric-chloride-solution")
-  angelsmods.functions.disable_barreling_recipes("ferric-chloride-solution")
+  angelsmods.functions.disable_barreling_recipes("bob-ferric-chloride-solution")
 end
 
 -------------------------------------------------------------------------------
@@ -109,16 +109,6 @@ if mods["bobplates"] then
 end
 
 -------------------------------------------------------------------------------
--- TECH TREE CLEANUP ----------------------------------------------------------
--------------------------------------------------------------------------------
-if mods["bobplates"] then
-  -- electronics tech patch ---------------------------------------------------
-  if mods["bobelectronics"] then
-    OV.add_prereq("bob-electronics", "angels-coal-processing")
-  end
-end
-
--------------------------------------------------------------------------------
 -- ICON ADJUSTMENTS -----------------------------------------------------------
 -------------------------------------------------------------------------------
 if mods["bobplates"] then
@@ -158,7 +148,7 @@ if mods["bobplates"] then
       order = "h",
     },
     {
-      name = "tungstic-acid",
+      name = "bob-tungstic-acid",
       icons = angelsmods.functions.create_liquid_recipe_icon(
         nil,
         { { 135, 090, 023 }, { 170, 170, 180 }, { 170, 170, 180 } },
@@ -167,7 +157,7 @@ if mods["bobplates"] then
     },
   })
   OV.add_unlock("flammables", "bob-liquid-fuel")
-  --OV.add_unlock("flammables", "bob-enriched-fuel-from-liquid-fuel")
+  OV.add_unlock("flammables", "bob-enriched-fuel")
   OV.remove_prereq("flammables", "gas-processing")
   OV.add_prereq("flammables", "steam-cracking-1")
 end
@@ -219,9 +209,9 @@ if mods["bobplates"] or mods["bobelectronics"] then
       OV.disable_recipe({ "bob-resin-wood" })
       OV.disable_technology({ "bob-wood-processing" })
       OV.remove_prereq({
-        "bodies",
-        "electronics",
-        "walking-vehicle",
+        "bob-bodies",
+        "bob-electronics",
+        "bob-walking-vehicle",
       }, "bob-wood-processing")
       OV.add_prereq("bob-electronics", "automation")
     else
@@ -294,9 +284,9 @@ end
 -- WATER ENRICHMENT -----------------------------------------------------------
 -------------------------------------------------------------------------------
 if mods["bobplates"] then
-  if data.raw.recipe["pure-water-pump"] then
-    data.raw.recipe["pure-water-pump"].icon = nil
-    data.raw.recipe["pure-water-pump"].icon_size = 32
-    data.raw.recipe["pure-water-pump"].icons = { { icon = "__angelsrefininggraphics__/graphics/icons/water-purified.png" } }
+  if data.raw.recipe["bob-pure-water-pump"] then
+    data.raw.recipe["bob-pure-water-pump"].icon = nil
+    data.raw.recipe["bob-pure-water-pump"].icon_size = 32
+    data.raw.recipe["bob-pure-water-pump"].icons = { { icon = "__angelsrefininggraphics__/graphics/icons/water-purified.png" } }
   end
 end
