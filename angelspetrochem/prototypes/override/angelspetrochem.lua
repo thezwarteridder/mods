@@ -6,12 +6,12 @@ local move_item = angelsmods.functions.move_item
 -------------------------------------------------------------------------------
 if mods["bobplates"] and data.raw["fluid"]["bob-deuterium"] then
   angelsmods.trigger.water_green_waste = true
-  OV.converter_fluid("heavy-water", "liquid-water-heavy")
-  angelsmods.functions.disable_barreling_recipes("heavy-water")
+  OV.converter_fluid("bob-heavy-water", "liquid-water-heavy")
+  angelsmods.functions.disable_barreling_recipes("bob-heavy-water")
   OV.converter_fluid("bob-deuterium", "gas-deuterium")
   angelsmods.functions.disable_barreling_recipes("bob-deuterium")
 
-  OV.disable_recipe({ "bob-heavy-water", "heavy-water-electrolysis" })
+  OV.disable_recipe({ "bob-heavy-water", "bob-heavy-water-electrolysis" })
 
   OV.global_replace_technology("bob-heavy-water-processing", "water-chemistry-1")
   OV.disable_technology("bob-heavy-water-processing")
@@ -22,10 +22,26 @@ if mods["bobplates"] and data.raw["fluid"]["bob-deuterium"] then
   if mods["bobrevamp"] and mods["bobpower"] and settings.startup["bobmods-revamp-nuclear"].value == true then
     -- deuterium-fuel-cell will be unlocked by bob-nuclear-power-3
   else
-    OV.add_unlock("water-chemistry-2", "deuterium-fuel-cell")
+    OV.add_unlock("water-chemistry-2", "bob-deuterium-fuel-cell")
   end
-  OV.set_science_pack("deuterium-fuel-reprocessing", "utility-science-pack", 1)
-  OV.set_science_pack("deuterium-fuel-cell-2", "utility-science-pack", 1)
+
+  if mods["bobvehicleequipment"] then
+    -- TOOD(sectoid): deal with:
+    --      * fission-reactor-equipment
+    --      * bob-vehicle-fission-cell-equipment-2
+    --      * and bob-vehicle-fission-reactor-equipment-2
+    -- Their recipes require heavy-water, but they are available before utility-science.
+    -- Related output of unit-test:
+    --    Recipe "bob-vehicle-fission-cell-equipment-2" uses Fluid "liquid-water-heavy" and is unlocked by Tech
+    --    "bob-vehicle-fission-cell-equipment-2". None of the tech's prerequisites unlock this fluid
+    --    Recipe "bob-vehicle-fission-reactor-equipment-2" uses Fluid "liquid-water-heavy" and is unlocked by Tech
+    --    "bob-vehicle-fission-reactor-equipment-2". None of the tech's prerequisites unlock this fluid
+    --    Recipe "fission-reactor-equipment" uses Fluid "liquid-water-heavy" and is unlocked by Tech
+    --    "fission-reactor-equipment". None of the tech's prerequisites unlock this fluid
+  end
+
+  OV.set_science_pack("bob-deuterium-fuel-reprocessing", "utility-science-pack", 1)
+  OV.set_science_pack("bob-deuterium-fuel-cell-2", "utility-science-pack", 1)
 elseif angelsmods.industries and angelsmods.industries.overhaul then
   angelsmods.trigger.water_green_waste = true
   -- everything is good, nothing to change
@@ -83,22 +99,22 @@ if angelsmods.trigger.ores["platinum"] then
     {
       name = "catalyst-metal-green",
       ingredients = {
-        { type = "item", name = "bauxite-ore", amount = 1 },
-        { type = "item", name = "silver-ore", amount = 1 },
+        { type = "item", name = "bob-bauxite-ore", amount = 1 },
+        { type = "item", name = "bob-silver-ore", amount = 1 },
       },
     },
     {
       name = "catalyst-metal-blue",
       ingredients = {
-        { type = "item", name = "rutile-ore", amount = 1 },
-        { type = "item", name = "gold-ore", amount = 1 },
+        { type = "item", name = "bob-rutile-ore", amount = 1 },
+        { type = "item", name = "bob-gold-ore", amount = 1 },
       },
     },
     {
       name = "catalyst-metal-yellow",
       ingredients = {
-        { type = "item", name = "tungsten-ore", amount = 1 },
-        { type = "item", name = "platinum-ore", amount = 1 },
+        { type = "item", name = "bob-tungsten-ore", amount = 1 },
+        { type = "item", name = "bob-platinum-ore", amount = 1 },
       },
     },
   })
