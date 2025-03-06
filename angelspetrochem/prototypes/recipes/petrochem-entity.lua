@@ -251,50 +251,6 @@ data:extend({
   --VALVES
   {
     type = "recipe",
-    name = "valve-inspector",
-    localised_name = { "item-name.valve-inspector" },
-    energy_required = 2,
-    enabled = false,
-    ingredients = {
-      { type = "item", name = "steel-plate", amount = 1 },
-    },
-    results = { { type = "item", name = "valve-inspector", amount = 1 } },
-  },
-  {
-    type = "recipe",
-    name = "valve-overflow",
-    localised_name = { "item-name.valve-overflow" },
-    energy_required = 2,
-    enabled = false,
-    ingredients = {
-      { type = "item", name = "steel-plate", amount = 1 },
-    },
-    results = { { type = "item", name = "valve-overflow", amount = 1 } },
-  },
-  {
-    type = "recipe",
-    name = "valve-return",
-    localised_name = { "item-name.valve-return" },
-    energy_required = 2,
-    enabled = false,
-    ingredients = {
-      { type = "item", name = "steel-plate", amount = 1 },
-    },
-    results = { { type = "item", name = "valve-return", amount = 1 } },
-  },
-  {
-    type = "recipe",
-    name = "valve-underflow",
-    localised_name = { "item-name.valve-underflow" },
-    energy_required = 2,
-    enabled = false,
-    ingredients = {
-      { type = "item", name = "steel-plate", amount = 1 },
-    },
-    results = { { type = "item", name = "valve-underflow", amount = 1 } },
-  },
-  {
-    type = "recipe",
     name = "valve-converter",
     localised_name = { "item-name.valve-converter" },
     energy_required = 2,
