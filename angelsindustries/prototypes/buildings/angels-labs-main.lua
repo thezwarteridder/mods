@@ -81,7 +81,7 @@ if angelsmods.industries.tech then
       },
       apparent_volume = 1,
     },
-    vehicle_impact_sound = sounds.generic_impact,
+    impact_category = "default",
     open_sound = sounds.machine_open,
     close_sound = sounds.machine_close,
 
@@ -365,7 +365,7 @@ if angelsmods.industries.tech then
         fade_out_ticks = 20,
       },
 
-      vehicle_impact_sound = sounds.generic_impact,
+      impact_category = "default",
       open_sound = sounds.machine_open,
       close_sound = sounds.machine_close,
 

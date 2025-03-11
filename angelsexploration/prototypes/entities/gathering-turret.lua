@@ -57,7 +57,7 @@ data:extend({
 
     open_sound = sounds.machine_open,
     close_sound = sounds.machine_close,
-    vehicle_impact_sound = sounds.generic_impact,
+    impact_category = "default",
 
     inventory_size = 1,
     enable_inventory_bar = false,
@@ -149,7 +149,7 @@ data:extend({
       },
     },
 
-    vehicle_impact_sound = sounds.generic_impact,
+    impact_category = "default",
 
     alert_when_attacking = false,
     --turret_base_has_direction = true,

@@ -146,7 +146,7 @@ if angelsmods.industries.overhaul then
         }),
       },
 
-      vehicle_impact_sound = sounds.generic_impact,
+      impact_category = "default",
       open_sound = sounds.machine_open,
       close_sound = sounds.machine_close,
       working_sound = {

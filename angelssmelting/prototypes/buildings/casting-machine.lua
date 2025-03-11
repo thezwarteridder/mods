@@ -116,7 +116,7 @@ data:extend({
         pipe_connections = { { flow_direction = "output", position = { 1.4, -1 }, direction = defines.direction.east } },
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/casting-machine.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -241,7 +241,7 @@ data:extend({
         pipe_connections = { { flow_direction = "output", position = { 1.4, -1 }, direction = defines.direction.east } },
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/casting-machine.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -366,7 +366,7 @@ data:extend({
         pipe_connections = { { flow_direction = "output", position = { 1.4, -1 }, direction = defines.direction.east } },
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/casting-machine.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -490,7 +490,7 @@ data:extend({
         pipe_connections = { { flow_direction = "output", position = { 1.4, -1 }, direction = defines.direction.east } },
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       sound = { filename = "__angelssmeltinggraphics__/sound/casting-machine.ogg", volume = 0.45 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },

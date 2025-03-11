@@ -56,7 +56,7 @@ data:extend({
     pumping_speed = 5,
     tile_width = 3,
     tile_height = 3,
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     graphics_set = {
       base_pictures = {
         north = {

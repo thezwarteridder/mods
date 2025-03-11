@@ -54,7 +54,7 @@ data:extend({
         animation_speed = 0.5,
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -133,7 +133,7 @@ data:extend({
         animation_speed = 0.5,
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -211,7 +211,7 @@ data:extend({
         animation_speed = 0.5,
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },

@@ -156,7 +156,7 @@ data:extend({
     --},
     sound_minimum_speed = 1 / 60,
     sound_scaling_ratio = 0.005,
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       --activate_sound = {
       --  filename = "__base__/sound/car-engine-start.ogg",
@@ -702,7 +702,7 @@ data:extend({
       },
     },
     sound_minimum_speed = 0.15,
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
       sound = {
         filename = "__angelsexplorationgraphics__/sound/heavy-tank-run.ogg",
