@@ -97,7 +97,7 @@ data:extend({
     impact_category = "metal",
     working_sound = {
       sound = { filename = "__base__/sound/roboport-working.ogg", volume = 0.6 },
-      max_sounds_per_type = 3,
+      max_sounds_per_prototype = 3,
       probability = 1 / (5 * 60), -- average pause between the sound is 5 seconds
     },
     recharging_light = { intensity = 0.4, size = 10 },
@@ -221,7 +221,7 @@ data:extend({
     impact_category = "metal",
     working_sound = {
       sound = { filename = "__base__/sound/roboport-working.ogg", volume = 0.6 },
-      max_sounds_per_type = 3,
+      max_sounds_per_prototype = 3,
       probability = 1 / (5 * 60), -- average pause between the sound is 5 seconds
     },
     recharging_light = { intensity = 0.4, size = 10 },
@@ -343,7 +343,7 @@ data:extend({
     impact_category = "metal",
     working_sound = {
       sound = { filename = "__base__/sound/roboport-working.ogg", volume = 0.6 },
-      max_sounds_per_type = 3,
+      max_sounds_per_prototype = 3,
       probability = 1 / (5 * 60), -- average pause between the sound is 5 seconds
     },
     recharging_light = { intensity = 0.4, size = 10 },

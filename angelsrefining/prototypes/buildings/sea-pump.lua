@@ -306,7 +306,7 @@ data:extend({
     --    --  volume = 0.43
     --    --}
     --  },
-    --  max_sounds_per_type = 3,
+    --  max_sounds_per_prototype = 3,
     --  fade_in_ticks = 4,
     --  fade_out_ticks = 10
     --},

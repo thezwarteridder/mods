@@ -221,7 +221,7 @@ data:extend({
         filename = "__base__/sound/fight/electric-beam.ogg",
         volume = 0.7,
       },
-      max_sounds_per_type = 4,
+      max_sounds_per_prototype = 4,
     },
     graphics_set = {
       beam = {
