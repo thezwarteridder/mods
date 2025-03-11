@@ -98,7 +98,6 @@ if angelsmods.industries.tech then
           },
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-        apparent_volume = 1.5,
       },
       fluid_boxes = {
         {
@@ -218,7 +217,6 @@ if angelsmods.industries.tech then
           },
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-        apparent_volume = 1.5,
       },
       fluid_boxes = {
         {
@@ -332,7 +330,6 @@ if angelsmods.industries.tech then
           },
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-        apparent_volume = 1.5,
       },
       fluid_boxes = {
         {
@@ -446,7 +443,6 @@ if angelsmods.industries.tech then
           },
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-        apparent_volume = 1.5,
       },
       fluid_boxes = {
         {
@@ -560,7 +556,6 @@ if angelsmods.industries.tech then
           },
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-        apparent_volume = 1.5,
       },
       fluid_boxes = {
         {
@@ -680,7 +675,6 @@ if angelsmods.industries.tech then
           },
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-        apparent_volume = 1.5,
       },
       fluid_boxes = {
         {
@@ -788,7 +782,6 @@ if angelsmods.industries.tech then
           },
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-        apparent_volume = 1.5,
       },
       fluid_boxes = {
         {

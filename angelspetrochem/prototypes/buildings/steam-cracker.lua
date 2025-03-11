@@ -105,7 +105,6 @@ data:extend({
       sound = { filename = "__angelspetrochemgraphics__/sound/steam-cracker.ogg", volume = 0.65 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       audible_distance_modifier = 0.5,
-      apparent_volume = 2.5,
     },
     fluid_boxes = {
       {
@@ -232,7 +231,6 @@ data:extend({
       sound = { filename = "__angelspetrochemgraphics__/sound/steam-cracker.ogg", volume = 0.65 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       audible_distance_modifier = 0.5,
-      apparent_volume = 2.5,
     },
     fluid_boxes = {
       {
@@ -359,7 +357,6 @@ data:extend({
       sound = { filename = "__angelspetrochemgraphics__/sound/steam-cracker.ogg", volume = 0.65 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       audible_distance_modifier = 0.5,
-      apparent_volume = 2.5,
     },
     fluid_boxes = {
       {
@@ -485,7 +482,6 @@ data:extend({
       sound = { filename = "__angelspetrochemgraphics__/sound/steam-cracker.ogg", volume = 0.65 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       audible_distance_modifier = 0.5,
-      apparent_volume = 2.5,
     },
     fluid_boxes = {
       {

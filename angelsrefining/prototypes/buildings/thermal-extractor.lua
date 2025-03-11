@@ -116,7 +116,6 @@ data:extend({
     impact_category = "metal",
     working_sound = {
       sound = { filename = "__angelsrefininggraphics__/sound/thermal-extractor.ogg" },
-      apparent_volume = 1.5,
     },
     fast_replaceable_group = "thermal-extractor",
   },
@@ -205,7 +204,6 @@ data:extend({
     impact_category = "metal",
     working_sound = {
       sound = { filename = "__angelsrefininggraphics__/sound/thermal-extractor.ogg" },
-      apparent_volume = 1.5,
     },
     fast_replaceable_group = "thermal-extractor",
   },

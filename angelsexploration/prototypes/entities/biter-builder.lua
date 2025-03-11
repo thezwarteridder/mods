@@ -1523,7 +1523,6 @@ function angelsmods.functions.make_alien_spawner(spawn_data)
             volume = 1.0,
           },
         },
-        apparent_volume = 2,
       },
       dying_sound = {
         {

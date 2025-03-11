@@ -59,7 +59,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__angelsrefininggraphics__/sound/ore-leaching-plant.ogg" },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 2.5,
     },
     fluid_boxes = {
       {
@@ -155,7 +154,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__angelsrefininggraphics__/sound/ore-leaching-plant.ogg" },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 2.5,
     },
     fluid_boxes = {
       {
