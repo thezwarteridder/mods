@@ -307,7 +307,6 @@ data:extend({
     --    --}
     --  },
     --  max_sounds_per_type = 3,
-    --  audible_distance_modifier = 0.6,
     --  fade_in_ticks = 4,
     --  fade_out_ticks = 10
     --},

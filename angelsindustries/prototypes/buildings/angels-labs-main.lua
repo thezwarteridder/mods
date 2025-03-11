@@ -359,7 +359,6 @@ if angelsmods.industries.tech then
           filename = "__base__/sound/lab.ogg",
           volume = 0.7,
         },
-        audible_distance_modifier = 0.7,
         fade_in_ticks = 4,
         fade_out_ticks = 20,
       },

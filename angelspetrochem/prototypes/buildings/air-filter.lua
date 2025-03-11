@@ -58,7 +58,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      audible_distance_modifier = 0.5,
     },
     fluid_boxes = {
       {
@@ -136,7 +135,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      audible_distance_modifier = 0.5,
     },
     fluid_boxes = {
       {
@@ -213,7 +211,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      audible_distance_modifier = 0.5,
     },
     fluid_boxes = {
       {

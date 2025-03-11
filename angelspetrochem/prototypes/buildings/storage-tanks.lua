@@ -100,7 +100,6 @@ data:extend({
         volume = 0.6,
       },
       match_volume_to_activity = true,
-      audible_distance_modifier = 0.5,
       max_sounds_per_type = 3,
     },
     circuit_wire_connection_points = circuit_connector_definitions["storage-tank"].points,

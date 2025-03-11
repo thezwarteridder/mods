@@ -324,7 +324,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__angelspetrochemgraphics__/sound/gas-refinery.ogg", volume = 0.5 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      audible_distance_modifier = 0.5,
     },
   },
   {
@@ -651,7 +650,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__angelspetrochemgraphics__/sound/gas-refinery.ogg", volume = 0.5 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      audible_distance_modifier = 0.5,
     },
   },
   {
@@ -978,7 +976,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__angelspetrochemgraphics__/sound/gas-refinery.ogg", volume = 0.5 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      audible_distance_modifier = 0.5,
     },
   },
   {
@@ -1304,7 +1301,6 @@ data:extend({
     working_sound = {
       sound = { filename = "__angelspetrochemgraphics__/sound/gas-refinery.ogg", volume = 0.5 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      audible_distance_modifier = 0.5,
     },
   },
 })

@@ -89,7 +89,6 @@ data:extend({
         },
       },
       match_volume_to_activity = true,
-      audible_distance_modifier = 0.7,
       max_sounds_per_type = 3,
       fade_in_ticks = 4,
       fade_out_ticks = 20,
