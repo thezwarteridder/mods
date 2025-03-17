@@ -26,18 +26,58 @@ if mods["bobplates"] and data.raw["fluid"]["bob-deuterium"] then
   end
 
   if mods["bobvehicleequipment"] then
-    -- TOOD(sectoid): deal with:
-    --      * fission-reactor-equipment
-    --      * bob-vehicle-fission-cell-equipment-2
-    --      * and bob-vehicle-fission-reactor-equipment-2
-    -- Their recipes require heavy-water, but they are available before utility-science.
-    -- Related output of unit-test:
-    --    Recipe "bob-vehicle-fission-cell-equipment-2" uses Fluid "liquid-water-heavy" and is unlocked by Tech
-    --    "bob-vehicle-fission-cell-equipment-2". None of the tech's prerequisites unlock this fluid
-    --    Recipe "bob-vehicle-fission-reactor-equipment-2" uses Fluid "liquid-water-heavy" and is unlocked by Tech
-    --    "bob-vehicle-fission-reactor-equipment-2". None of the tech's prerequisites unlock this fluid
-    --    Recipe "fission-reactor-equipment" uses Fluid "liquid-water-heavy" and is unlocked by Tech
-    --    "fission-reactor-equipment". None of the tech's prerequisites unlock this fluid
+    -- In Angel's mods Heavy water becomes available way later then in Bob's
+
+    OV.remove_prereq("bob-vehicle-fission-reactor-equipment-2", "water-chemistry-1")
+    OV.remove_prereq("bob-vehicle-fission-cell-equipment-2", "water-chemistry-1")
+
+    OV.add_prereq("bob-vehicle-fission-reactor-equipment-4", "water-chemistry-2")
+    OV.add_prereq("bob-vehicle-fission-cell-equipment-4", "water-chemistry-2")
+    OV.add_prereq("bob-fission-reactor-equipment-3", "water-chemistry-2")
+    OV.patch_recipes({
+        {
+          name = "bob-vehicle-fission-reactor-equipment-2",
+          category = "crafting",
+          ingredients = {
+            { type = "fluid", name = "liquid-water-heavy", amount = 0 },
+          },
+        },
+        {
+          name = "bob-vehicle-fission-cell-equipment-2",
+          category = "crafting",
+          ingredients = {
+            { type = "fluid", name = "liquid-water-heavy", amount = 0 },
+          },
+        },
+        {
+          name = "fission-reactor-equipment",
+          category = "crafting",
+          ingredients = {
+            { type = "fluid", name = "liquid-water-heavy", amount = 0 },
+          },
+        },
+        {
+          name = "bob-vehicle-fission-reactor-equipment-4",
+          category = "crafting-with-fluid",
+          ingredients = {
+            { type = "fluid", name = "liquid-water-heavy", amount = 50 },
+          },
+        },
+        {
+          name = "bob-vehicle-fission-cell-equipment-4",
+          category = "crafting-with-fluid",
+          ingredients = {
+            { type = "fluid", name = "liquid-water-heavy", amount = 25 },
+          },
+        },
+        {
+          name = "fission-reactor-equipment-3",
+          category = "crafting-with-fluid",
+          ingredients = {
+            { type = "fluid", name = "liquid-water-heavy", amount = 50 },
+          },
+        },
+    })
   end
 
   OV.set_science_pack("bob-deuterium-fuel-reprocessing", "utility-science-pack", 1)
