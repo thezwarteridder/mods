@@ -1,3 +1,22 @@
+local function angels_air_filter_fluid_boxes()
+  return {
+    {
+      production_type = "input",
+      pipe_picture = angelsmods.petrochem.electrolyserpictures(),
+      pipe_covers = pipecoverspictures(),
+      volume = 1000,
+      pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -2.4 }, } },
+    },
+    {
+      production_type = "output",
+      pipe_picture = angelsmods.petrochem.electrolyserpictures(),
+      pipe_covers = pipecoverspictures(),
+      volume = 100,
+      pipe_connections = { { flow_direction = "output", position = { 0, 2.4 }, direction = defines.direction.south } },
+    },
+  }
+end
+
 data:extend({
   {
     type = "item",
@@ -31,8 +50,8 @@ data:extend({
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     collision_box = { { -2.4, -2.4 }, { 2.4, 2.4 } },
-    drawing_box = { { -2.5, -2.8 }, { 2.5, 2.5 } },
     selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
+    drawing_box_verical_extension = 0.6,
     module_slots = 0,
     allowed_effects = { "consumption", "speed", "productivity", "pollution" },
     crafting_categories = { "petrochem-air-filtering" },
@@ -59,22 +78,7 @@ data:extend({
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
     },
-    fluid_boxes = {
-      {
-        production_type = "input",
-        pipe_picture = angelsmods.petrochem.electrolyserpictures(),
-        pipe_covers = pipecoverspictures(),
-        volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { 0, -2.4 }, direction = defines.direction.south } },
-      },
-      {
-        production_type = "output",
-        pipe_picture = angelsmods.petrochem.electrolyserpictures(),
-        pipe_covers = pipecoverspictures(),
-        volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, 2.4 }, direction = defines.direction.north } },
-      },
-    },
+    fluid_boxes = angels_air_filter_fluid_boxes(),
   },
   {
     type = "item",
@@ -108,8 +112,8 @@ data:extend({
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     collision_box = { { -2.4, -2.4 }, { 2.4, 2.4 } },
-    drawing_box = { { -2.5, -2.8 }, { 2.5, 2.5 } },
     selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
+    drawing_box_verical_extension = 0.6,
     module_slots = 1,
     allowed_effects = { "consumption", "speed", "productivity", "pollution" },
     crafting_categories = { "petrochem-air-filtering" },
@@ -136,22 +140,7 @@ data:extend({
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
     },
-    fluid_boxes = {
-      {
-        production_type = "input",
-        pipe_picture = angelsmods.petrochem.electrolyserpictures(),
-        pipe_covers = pipecoverspictures(),
-        volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { 0, -2.4 }, direction = defines.direction.south } },
-      },
-      {
-        production_type = "output",
-        pipe_picture = angelsmods.petrochem.electrolyserpictures(),
-        pipe_covers = pipecoverspictures(),
-        volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, 2.4 }, direction = defines.direction.north } },
-      },
-    },
+    fluid_boxes = angels_air_filter_fluid_boxes(),
   },
   {
     type = "item",
@@ -184,8 +173,8 @@ data:extend({
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     collision_box = { { -2.4, -2.4 }, { 2.4, 2.4 } },
-    drawing_box = { { -2.5, -2.8 }, { 2.5, 2.5 } },
     selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
+    drawing_box_verical_extension = 0.6,
     module_slots = 2,
     allowed_effects = { "consumption", "speed", "productivity", "pollution" },
     crafting_categories = { "petrochem-air-filtering" },
@@ -212,21 +201,6 @@ data:extend({
       sound = { filename = "__base__/sound/idle1.ogg", volume = 1 },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
     },
-    fluid_boxes = {
-      {
-        production_type = "input",
-        pipe_picture = angelsmods.petrochem.electrolyserpictures(),
-        pipe_covers = pipecoverspictures(),
-        volume = 1000,
-        pipe_connections = { { flow_direction = "input", position = { 0, -2.4 }, direction = defines.direction.south } },
-      },
-      {
-        production_type = "output",
-        pipe_picture = angelsmods.petrochem.electrolyserpictures(),
-        pipe_covers = pipecoverspictures(),
-        volume = 100,
-        pipe_connections = { { flow_direction = "output", position = { 0, 2.4 }, direction = defines.direction.north } },
-      },
-    },
+    fluid_boxes = angels_air_filter_fluid_boxes(),
   },
 })
