@@ -223,7 +223,7 @@ if mods["bobplates"] or mods["bobelectronics"] then
         "electronics",
         "walking-vehicle",
       }, "bob-wood-processing")
-      OV.add_prereq("electronics", "automation")
+      OV.add_prereq("bob-electronics", "automation")
     else
       OV.add_prereq("resins", "bob-wood-processing")
     end

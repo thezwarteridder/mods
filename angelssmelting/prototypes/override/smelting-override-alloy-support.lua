@@ -7,7 +7,7 @@ if mods["bobplates"] then
   for k, v in pairs(data.raw.recipe) do
     if v.category == "mixing-furnace" then --alien-blue-alloy, alien-orange-alloy
       data.raw.recipe[v.name].category = "blast-smelting"
-    elseif v.category == "chemical-furnace" then -- silicon-nitride, silicon-carbide, lithium-cobalt-oxide
+    elseif v.category == "bob-chemical-furnace" then -- silicon-nitride, silicon-carbide, lithium-cobalt-oxide
       data.raw.recipe[v.name].category = "chemical-smelting"
     end
   end
@@ -36,7 +36,7 @@ if mods["bobplates"] then
   OV.global_replace_item("bob-electric-chemical-furnace", "electric-furnace")
   angelsmods.functions.hide("bob-electric-chemical-furnace")
   angelsmods.functions.set_next_upgrade("assembling-machine", "bob-electric-chemical-furnace", nil)
-  data.raw["assembling-machine"]["bob-electric-chemical-furnace"].crafting_categories = { "chemical-furnace" }
+  data.raw["assembling-machine"]["bob-electric-chemical-furnace"].crafting_categories = { "bob-chemical-furnace" }
   OV.disable_recipe("bob-electric-chemical-furnace")
   OV.disable_technology("bob-electric-chemical-furnace")
   OV.remove_prereq("bob-multi-purpose-furnace-1", "electric-chemical-furnace")
@@ -99,9 +99,9 @@ if mods["bobplates"] then
   end
 
   -- Remove Chemical Processing techs
-  OV.global_replace_technology("bob-chemical-processing-1", "bob-basic-chemistry")
-  OV.global_replace_technology("bob-chemical-processing-2", "bob-basic-chemistry-3")
-  OV.disable_technology({ "bob-chemical-processing-1", "bob-chemical-processing-2" })
+  OV.global_replace_technology("bob-chemical-processing-1", "basic-chemistry")
+  OV.global_replace_technology("bob-chemical-processing-2", "basic-chemistry-3")
+  OV.disable_technology({ "bob-chemical-processing-1", "chemical-processing-2" })
 
   -- Clean up prerequisites
   OV.remove_prereq("steel-processing", "chemical-processing-1")

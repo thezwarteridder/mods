@@ -60,7 +60,7 @@ if mods["boblogistics"] then
       name = "repair-pack-3",
       ingredients = {
         { name = "brass-gear-wheel", amount = "cobalt-steel-gear-wheel" },
-        { name = "invar-alloy", amount = "cobalt-steel-alloy" },
+        { name = "bob-invar-alloy", amount = "bob-cobalt-steel-alloy" },
       },
     },
   })

@@ -90,7 +90,7 @@ if mods["bobplates"] then
   OV.remove_prereq("gold-processing-2", "electrolysis-2")
   OV.add_prereq("gold-processing", "chlorine-processing-1")
   OV.remove_prereq("battery-3", "electrolysis-2")
-  OV.add_prereq("grinding", "steel-processing")
+  OV.add_prereq("bob-grinding", "steel-processing")
 end
 
 -------------------------------------------------------------------------------

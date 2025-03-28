@@ -33,13 +33,13 @@ if mods["bobmining"] then
       {
         name = "bob-area-mining-drill-2",
         ingredients = {
-          { name = "invar-alloy", amount = "cobalt-steel-alloy" },
+          { name = "bob-invar-alloy", amount = "bob-cobalt-steel-alloy" },
         },
       },
       {
         name = "bob-mining-drill-2",
         ingredients = {
-          { name = "invar-alloy", amount = "cobalt-steel-alloy" },
+          { name = "bob-invar-alloy", amount = "bob-cobalt-steel-alloy" },
         },
       },
     })

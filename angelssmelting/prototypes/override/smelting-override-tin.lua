@@ -83,6 +83,7 @@ if angelsmods.trigger.smelting_products["tin"].plate then
         icons = {
           {
             icon = "__angelssmeltinggraphics__/graphics/icons/plate-tin.png",
+            icon_size = 32
           },
           {
             icon = "__angelssmeltinggraphics__/graphics/icons/ore-tin.png",
@@ -143,11 +144,11 @@ if angelsmods.trigger.smelting_products["tin"].wire then
     OV.patch_recipes({
       {
         name = "basic-tinned-copper-wire",
-        category = "electronics",
+        category = "bob-electronics",
       },
       {
         name = "angels-wire-coil-tin-converting",
-        category = "electronics-machine",
+        category = "bob-electronics-machine",
       },
     })
   end

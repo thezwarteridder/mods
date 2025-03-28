@@ -118,11 +118,11 @@ if angelsmods.trigger.smelting_products["gold"].wire then
     OV.patch_recipes({
       {
         name = "angels-wire-gold",
-        category = "electronics",
+        category = "bob-electronics",
       },
       {
         name = "angels-wire-coil-gold-converting",
-        category = "electronics-machine",
+        category = "bob-electronics-machine",
       },
     })
   end

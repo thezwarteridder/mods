@@ -3,7 +3,7 @@
 angelsmods.functions.RB.set_fallback(
   "item",
   "t0-circuit",
-  { { "block-electronics-0" }, { "basic-circuit-board" }, { "electronic-circuit" } }
+  { { "block-electronics-0" }, { "bob-basic-circuit-board" }, { "electronic-circuit" } }
 )
 angelsmods.functions.RB.set_fallback(
   "item",
@@ -42,7 +42,7 @@ angelsmods.functions.RB.set_fallback("item", "t1-plate", { { "block-construction
 angelsmods.functions.RB.set_fallback("item", "t2-plate", {
   { "block-construction-2" },
   {
-    "bronze-alloy",
+    "bob-bronze-alloy",
     3,
     function(t, n)
       return mods["angelssmelting"] and angelsmods.trigger.smelting_products["bronze"].plate or false

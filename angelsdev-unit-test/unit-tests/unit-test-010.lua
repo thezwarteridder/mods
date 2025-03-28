@@ -585,7 +585,7 @@ local function add_ignores()
     ignore_building_recipes = false
     ignored_unlocks["starting"] = {
       items = {
-        ["basic-circuit-board"] = true,
+        ["bob-basic-circuit-board"] = true,
         ["copper-pipe"] = true,
         ["iron-gear-wheel"] = true,
         ["iron-plate"] = true,
