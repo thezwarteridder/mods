@@ -74,6 +74,8 @@ local function process_tech(tech)
         skip = true
       elseif recipe.subgroup.name == "fill-barrel" then
         skip = true
+      elseif string.sub(recipe.name, -7, -1) == "-barrel" then
+        skip = true
       elseif recipe.subgroup.name == "bob-gas-bottle" then
         skip = true
       elseif recipe.subgroup.name == "bob-canister" then

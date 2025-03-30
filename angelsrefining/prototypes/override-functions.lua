@@ -177,7 +177,7 @@ local function generate_barrel_icons(fluid, style)
   return f_icon
 end
 
--- Generates the icons definition for a barrel recipe with the provided barrel name and fluid definition
+-- Generates the icons definition for a empty-barrel recipe with the provided barrel name and fluid definition
 local function generate_empty_barrel_icons(fluid, style)
   local e_icon
   if style == "gas" then
