@@ -23,7 +23,7 @@ if mods["bobassembly"] then
   if angelsmods.trigger.disable_bobs_chemical_plants then
     angelsmods.functions.hide("bob-chemical-plant-2")
     angelsmods.functions.set_next_upgrade("assembling-machine", "bob-chemical-plant-2", nil)
-    OV.global_replace_item("chemical-plant-2", "angels-chemical-plant-2")
+    OV.global_replace_item("bob-chemical-plant-2", "angels-chemical-plant-2")
     OV.disable_recipe("bob-chemical-plant-2")
     OV.disable_technology("bob-chemical-plant-2")
     angelsmods.functions.remove_crafting_category("assembling-machine", "bob-chemical-plant-2", {
