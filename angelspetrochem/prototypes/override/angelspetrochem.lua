@@ -25,61 +25,6 @@ if mods["bobplates"] and data.raw["fluid"]["bob-deuterium"] then
     OV.add_unlock("water-chemistry-2", "bob-deuterium-fuel-cell")
   end
 
-  if mods["bobvehicleequipment"] then
-    -- In Angel's mods Heavy water becomes available way later then in Bob's
-
-    OV.remove_prereq("bob-vehicle-fission-reactor-equipment-2", "water-chemistry-1")
-    OV.remove_prereq("bob-vehicle-fission-cell-equipment-2", "water-chemistry-1")
-
-    OV.add_prereq("bob-vehicle-fission-reactor-equipment-4", "water-chemistry-2")
-    OV.add_prereq("bob-vehicle-fission-cell-equipment-4", "water-chemistry-2")
-    OV.add_prereq("bob-fission-reactor-equipment-3", "water-chemistry-2")
-    OV.patch_recipes({
-        {
-          name = "bob-vehicle-fission-reactor-equipment-2",
-          category = "crafting",
-          ingredients = {
-            { type = "fluid", name = "liquid-water-heavy", amount = 0 },
-          },
-        },
-        {
-          name = "bob-vehicle-fission-cell-equipment-2",
-          category = "crafting",
-          ingredients = {
-            { type = "fluid", name = "liquid-water-heavy", amount = 0 },
-          },
-        },
-        {
-          name = "fission-reactor-equipment",
-          category = "crafting",
-          ingredients = {
-            { type = "fluid", name = "liquid-water-heavy", amount = 0 },
-          },
-        },
-        {
-          name = "bob-vehicle-fission-reactor-equipment-4",
-          category = "crafting-with-fluid",
-          ingredients = {
-            { type = "fluid", name = "liquid-water-heavy", amount = 50 },
-          },
-        },
-        {
-          name = "bob-vehicle-fission-cell-equipment-4",
-          category = "crafting-with-fluid",
-          ingredients = {
-            { type = "fluid", name = "liquid-water-heavy", amount = 25 },
-          },
-        },
-        {
-          name = "fission-reactor-equipment-3",
-          category = "crafting-with-fluid",
-          ingredients = {
-            { type = "fluid", name = "liquid-water-heavy", amount = 50 },
-          },
-        },
-    })
-  end
-
   OV.set_science_pack("bob-deuterium-fuel-reprocessing", "utility-science-pack", 1)
   OV.set_science_pack("bob-deuterium-fuel-cell-2", "utility-science-pack", 1)
 elseif angelsmods.industries and angelsmods.industries.overhaul then
@@ -139,22 +84,22 @@ if angelsmods.trigger.ores["platinum"] then
     {
       name = "catalyst-metal-green",
       ingredients = {
-        { type = "item", name = "bob-bauxite-ore", amount = 1 },
-        { type = "item", name = "bob-silver-ore", amount = 1 },
+        { type = "item", name = "bauxite-ore", amount = 1 },
+        { type = "item", name = "silver-ore", amount = 1 },
       },
     },
     {
       name = "catalyst-metal-blue",
       ingredients = {
-        { type = "item", name = "bob-rutile-ore", amount = 1 },
-        { type = "item", name = "bob-gold-ore", amount = 1 },
+        { type = "item", name = "rutile-ore", amount = 1 },
+        { type = "item", name = "gold-ore", amount = 1 },
       },
     },
     {
       name = "catalyst-metal-yellow",
       ingredients = {
-        { type = "item", name = "bob-tungsten-ore", amount = 1 },
-        { type = "item", name = "bob-platinum-ore", amount = 1 },
+        { type = "item", name = "tungsten-ore", amount = 1 },
+        { type = "item", name = "platinum-ore", amount = 1 },
       },
     },
   })
@@ -171,22 +116,22 @@ elseif mods["bobplates"] or angelsmods.industries and angelsmods.industries.over
     {
       name = "catalyst-metal-green",
       ingredients = {
-        { type = "item", name = "bob-bauxite-ore", amount = 1 },
-        { type = "item", name = "bob-silver-ore", amount = 1 },
+        { type = "item", name = "bauxite-ore", amount = 1 },
+        { type = "item", name = "silver-ore", amount = 1 },
       },
     },
     {
       name = "catalyst-metal-blue",
       ingredients = {
-        { type = "item", name = "bob-rutile-ore", amount = 1 },
-        { type = "item", name = "bob-cobalt-ore", amount = 1 },
+        { type = "item", name = "rutile-ore", amount = 1 },
+        { type = "item", name = "cobalt-ore", amount = 1 },
       },
     },
     {
       name = "catalyst-metal-yellow",
       ingredients = {
-        { type = "item", name = "bob-tungsten-ore", amount = 1 },
-        { type = "item", name = "bob-nickel-ore", amount = 1 },
+        { type = "item", name = "tungsten-ore", amount = 1 },
+        { type = "item", name = "nickel-ore", amount = 1 },
       },
     },
   })
