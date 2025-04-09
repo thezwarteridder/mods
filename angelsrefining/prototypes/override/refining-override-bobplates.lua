@@ -209,7 +209,7 @@ if mods["bobplates"] then
       enabled = false,
     },
     {
-      name = "lead-plate",
+      name = "bob-lead-plate",
       enabled = false,
     },
     {
