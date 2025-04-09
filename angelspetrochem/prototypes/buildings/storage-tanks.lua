@@ -23,7 +23,7 @@ data:extend({
     corpse = "medium-remnants",
     collision_box = { { -2.3, -2.3 }, { 2.3, 2.3 } },
     selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
-    drawing_box = { { -2.5, -3.25 }, { 2.5, 2.5 } },
+    drawing_box_vertical_extension = 0.6,
     two_direction_only = false,
     fluid_box = {
       volume = 125000,
@@ -130,6 +130,7 @@ data:extend({
     corpse = "medium-remnants",
     collision_box = { { -1.9, -1.9 }, { 1.9, 1.9 } },
     selection_box = { { -2, -2 }, { 2, 2 } },
+    drawing_box_vertical_extension = 0.6,
     two_direction_only = true,
     fluid_box = {
       volume = 80000,
@@ -235,7 +236,6 @@ data:extend({
     corpse = "medium-remnants",
     collision_box = { { -0.9, -0.9 }, { 0.9, 0.9 } },
     selection_box = { { -1, -1 }, { 1, 1 } },
-    drawing_box = { { -1, -1.9 }, { 1, 1 } },
     two_direction_only = false,
     fluid_box = {
       volume = 20000,

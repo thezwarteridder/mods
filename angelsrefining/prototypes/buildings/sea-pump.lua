@@ -20,6 +20,7 @@ data:extend({
     icon = "__angelsrefininggraphics__/graphics/icons/sea-pump-ico.png",
     icon_size = 32,
     flags = { "placeable-neutral", "player-creation", "filter-directions" },
+    hidden_in_factoriopedia = true,
     collision_mask = { layers = { is_object = true, train = true } }, -- collide just with object-layer and train-layer which don't collide with water, this allows us to build on 1 tile wide ground
     center_collision_mask = { "water-tile", "object-layer", "player-layer" }, -- to test that tile directly under the pump is ground
     fluid_box_tile_collision_test = { "ground-tile" },
@@ -120,6 +121,7 @@ data:extend({
     icon = "__base__/graphics/icons/fluid/water.png",
     icon_size = 64,
     flags = { "placeable-neutral", "not-on-map" },
+    hidden_in_factoriopedia = true,
     selectable_in_game = false,
     category = "sea-pump",
     subgroup = "raw-resource",
@@ -192,7 +194,6 @@ data:extend({
     dying_explosion = "pumpjack-explosion",
     collision_box = { { -1.4, -2.45 }, { 1.4, 0.3 } },
     selection_box = { { -1.6, -2.49 }, { 1.6, 0.49 } },
-    drawing_box = { { -1.6, -2.5 }, { 1.5, 1.6 } },
     damaged_trigger_effect = hit_effects.entity(),
     energy_source = {
       type = "electric",
