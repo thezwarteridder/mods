@@ -6,7 +6,6 @@ local OV = angelsmods.functions.OV
 if mods["bobtech"] and settings.startup["bobmods-burnerphase"].value then
   OV.add_prereq("ore-crushing", "automation-science-pack")
   OV.add_prereq("ore-crushing", "bob-electricity")
-  --OV.add_prereq("water-treatment", "steam-power") --now triggered by making iron plate
   OV.add_prereq("water-treatment", "bob-electricity")
 
   -- Glass becomes available much later in Angel's.
