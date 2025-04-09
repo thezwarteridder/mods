@@ -72,7 +72,7 @@ if mods["bobplates"] then
     OV.disable_recipe("bob-electrolyser")
   else
     angelsmods.functions.add_crafting_category("assembling-machine", "bob-electrolyser", "petrochem-electrolyser")
-    OV.add_unlock("basic-chemistry", "electrolyser") --give the item a new home if still active
+    OV.add_unlock("basic-chemistry", "bob-electrolyser") --give the item a new home if still active
   end
 
   -- Electrolyser 2
@@ -125,8 +125,6 @@ if mods["bobplates"] then
   end
 
   -- Electrolyser 5
-  -- TODO(sectoid):should this be here as well?
-  -- angelsmods.functions.add_crafting_category("assembling-machine", "angels-electrolyser-4", "bob-electrolysis")
   if mods["bobassembly"] then
     move_item("bob-electrolyser-5", "petrochem-buildings-electrolyser", "aa[bobs-electrolyser]-e")
     if angelsmods.trigger.disable_bobs_electrolysers then
