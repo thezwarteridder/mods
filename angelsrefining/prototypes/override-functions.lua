@@ -728,7 +728,11 @@ local function adjust_recipe(recipe, k) -- check a recipe for basic adjustments 
             replace[item.name].amount = item.amount
           end
         else
-          replace[item.name] = item
+          if item.name then
+            replace[item.name] = item
+          else
+            log(serpent.block(st))
+          end
         end
       end
       parent[subtable] = {}
