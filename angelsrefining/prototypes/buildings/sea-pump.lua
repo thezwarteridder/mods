@@ -249,6 +249,7 @@ data:extend({
       fade_out_ticks = 20,
     },
     mining_speed = 1, -- how fast it 'ticks'
+    uses_force_mining_productivity_bonus = false,
     resource_searching_radius = 0.49,
     vector_to_place_result = { 0, 0 },
     module_slots = 2,

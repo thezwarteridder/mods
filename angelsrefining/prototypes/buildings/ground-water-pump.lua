@@ -83,7 +83,6 @@ data:extend({
       fade_in_ticks = 4,
       fade_out_ticks = 20,
     },
-    min_perceived_performance = 0.5,
     graphics_set = {
       animation = {
         north = {
