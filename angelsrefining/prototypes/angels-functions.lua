@@ -549,8 +549,6 @@ function angelsmods.functions.create_liquid_fluid_icon(molecule_icon, tints)
       molecule_icon.icon = molecule_icon.icon or molecule_icon[1] or nil
       if molecule_icon.icon then
         molecule_icon.icon_size = molecule_icon.icon_size or molecule_icon[2] or 32
-        log(molecule_icon.icon)
-        log(molecule_icon.scale)
       else
         --something is wrong here but we need to return something
         molecule_icon.icon = "__angelsrefininggraphics__/graphics/icons/void.png"
