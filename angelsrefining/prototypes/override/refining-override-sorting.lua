@@ -4,64 +4,64 @@ local OV = angelsmods.functions.OV
 local special_vanilla = angelsmods.functions.is_special_vanilla()
 local get_trigger_name = angelsmods.functions.get_trigger_names()
 
-local icon_lookup_table_fallback = { icon = "__angelsrefininggraphics__/graphics/icons/void.png", icon_size = 32 }
+local icon_lookup_table_fallback = { icon = "__angelsrefininggraphics__/graphics/icons/void.png", icon_size = 32, scale = 2 }
 local icon_lookup_table = {
   ["bauxite-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-bauxite.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/bauxite-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-bauxite.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/bauxite-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["cobalt-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-cobalt.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/cobalt-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-cobalt.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/cobalt-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
-  ["copper-nugget"] = { icon = "__angelsrefininggraphics__/graphics/icons/copper-nugget.png", icon_size = 32 },
+  ["copper-nugget"] = { icon = "__angelsrefininggraphics__/graphics/icons/copper-nugget.png", icon_size = 32, scale = 2 },
 
   ["copper-ore"] = { icon = "__base__/graphics/icons/copper-ore.png", icon_size = 64 },
 
-  ["copper-slag"] = { icon = "__angelsrefininggraphics__/graphics/icons/copper-slag.png", icon_size = 32 },
+  ["copper-slag"] = { icon = "__angelsrefininggraphics__/graphics/icons/copper-slag.png", icon_size = 32, scale = 2 },
 
-  ["fluorite-ore"] = { icon = "__angelsrefininggraphics__/graphics/icons/ore-fluorite.png", icon_size = 32 },
+  ["fluorite-ore"] = { icon = "__angelsrefininggraphics__/graphics/icons/ore-fluorite.png", icon_size = 32, scale = 2 },
 
   ["gold-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-gold.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/gold-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-gold.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/gold-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
-  ["iron-nugget"] = { icon = "__angelsrefininggraphics__/graphics/icons/iron-nugget.png", icon_size = 32 },
+  ["iron-nugget"] = { icon = "__angelsrefininggraphics__/graphics/icons/iron-nugget.png", icon_size = 32, scale = 2 },
 
   ["iron-ore"] = { icon = "__base__/graphics/icons/iron-ore.png", icon_size = 64 },
 
-  ["iron-slag"] = { icon = "__angelsrefininggraphics__/graphics/icons/iron-slag.png", icon_size = 32 },
+  ["iron-slag"] = { icon = "__angelsrefininggraphics__/graphics/icons/iron-slag.png", icon_size = 32, scale = 2 },
 
   ["lead-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-lead.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/lead-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-lead.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/lead-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["nickel-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-nickel.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/nickel-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-nickel.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/nickel-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["platinum-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-platinum.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-platinum.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["rutile-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-rutile.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/rutile-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-rutile.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/rutile-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["silica-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silica.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/quartz.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silica.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/quartz.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["silver-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silver.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/silver-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silver.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/silver-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["thorium-ore"] = mods["angelsindustries"] and angelsmods.industries.overhaul and {
@@ -71,23 +71,24 @@ local icon_lookup_table = {
     icon = "__boblibrary__/graphics/icons/ore-5.png",
     icon_size = 32,
     tint = { b = 0.25, g = 1, r = 1 },
+    scale = 2,
   } or icon_lookup_table_fallback,
 
   ["tin-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-tin.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/tin-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-tin.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/tin-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["tungsten-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-tungsten.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/tungsten-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-tungsten.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/tungsten-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 
   ["uranium-ore"] = { icon = "__base__/graphics/icons/uranium-ore.png", icon_size = 64 },
 
   ["zinc-ore"] = mods["angelssmelting"]
-      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-zinc.png", icon_size = 32 }
-    or mods["bobores"] and { icon = "__bobores__/graphics/icons/zinc-ore.png", icon_size = 32 }
+      and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-zinc.png", icon_size = 32, scale = 2 }
+    or mods["bobores"] and { icon = "__bobores__/graphics/icons/zinc-ore.png", icon_size = 32, scale = 2 }
     or icon_lookup_table_fallback,
 }
 local tweaked_icon_lookup = function(icon_name, scale, shift)
@@ -101,7 +102,7 @@ local tweaked_icon_lookup = function(icon_name, scale, shift)
   return {
     icon = icon_lookup_table[icon_name].icon,
     icon_size = icon_lookup_table[icon_name].icon_size,
-    scale = 32 / (icon_lookup_table[icon_name].icon_size or 32) * (scale or 1),
+    scale = 64 / (icon_lookup_table[icon_name].icon_size or 64) * (scale or 1),
     shift = (shift[1] or shift["x"] or shift[2] or shift["y"]) and {
       shift[1] or shift["x"] or 0,
       shift[2] or shift["y"] or 0,
@@ -639,34 +640,34 @@ OV.patch_recipes(merge_table_of_tables({
     --[[1]]
     special_vanilla
         and {
-          { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-          tweaked_icon_lookup("iron-nugget", 0.5, { -10, -10 }),
-          tweaked_icon_lookup("iron-ore", 0.5, { 10, 10 }),
+          { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2, },
+          tweaked_icon_lookup("iron-nugget", 0.5, { -20, -20 }),
+          tweaked_icon_lookup("iron-ore", 0.5, { 20, 20 }),
         }
       or {
-        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-        tweaked_icon_lookup("iron-ore", 0.5, { 10, 10 }),
+        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+        tweaked_icon_lookup("iron-ore", 0.5, { 20, 20 }),
       },
     --[[2]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("copper-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("copper-ore", 0.5, { 20, 20 }),
     },
     --[[3]]
     special_vanilla
         and {
-          { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-          tweaked_icon_lookup("copper-nugget", 0.5, { -10, -10 }),
-          tweaked_icon_lookup("copper-ore", 0.5, { 10, 10 }),
+          { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+          tweaked_icon_lookup("copper-nugget", 0.5, { -20, -20 }),
+          tweaked_icon_lookup("copper-ore", 0.5, { 20, 20 }),
         }
       or {
-        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-        tweaked_icon_lookup("lead-ore", 0.5, { 10, 10 }),
+        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+        tweaked_icon_lookup("lead-ore", 0.5, { 20, 20 }),
       },
     --[[4]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("tin-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("tin-ore", 0.5, { 20, 20 }),
     },
   }, {
     special_vanilla and {
@@ -695,44 +696,44 @@ OV.patch_recipes(merge_table_of_tables({
     --[[1]]
     special_vanilla
         and {
-          { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-          tweaked_icon_lookup("iron-slag", 0.5, { -10, -10 }),
-          tweaked_icon_lookup("iron-ore", 0.5, { 10, 10 }),
+          { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+          tweaked_icon_lookup("iron-slag", 0.5, { -20, -20 }),
+          tweaked_icon_lookup("iron-ore", 0.5, { 20, 20 }),
         }
       or {
-        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-        tweaked_icon_lookup("quartz", 0.5, { 10, 10 }),
+        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+        tweaked_icon_lookup("quartz", 0.5, { 20, 20 }),
       },
     --[[2]]
     special_vanilla
         and {
-          { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-          tweaked_icon_lookup("copper-slag", 0.5, { -10, -10 }),
-          tweaked_icon_lookup("copper-ore", 0.5, { 10, 10 }),
+          { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+          tweaked_icon_lookup("copper-slag", 0.5, { -20, -20 }),
+          tweaked_icon_lookup("copper-ore", 0.5, { 20, 20 }),
         }
       or {
-        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-        tweaked_icon_lookup("nickel-ore", 0.5, { 10, 10 }),
+        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+        tweaked_icon_lookup("nickel-ore", 0.5, { 20, 20 }),
       },
     --[[3]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("bauxite-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("bauxite-ore", 0.5, { 20, 20 }),
     },
     --[[4]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("zinc-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("zinc-ore", 0.5, { 20, 20 }),
     },
     --[[5]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("silver-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("silver-ore", 0.5, { 20, 20 }),
     },
     --[[6]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("fluorite-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("fluorite-ore", 0.5, { 20, 20 }),
     },
     --[[7]]
     nil,
@@ -768,35 +769,36 @@ OV.patch_recipes(merge_table_of_tables({
             {
               icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png",
               icon_size = 32,
+              scale = 2,
             },
           }, 1, angelsmods.refining.number_tint),
-          tweaked_icon_lookup("uranium-ore", 0.5, { 10, 10 })
+          tweaked_icon_lookup("uranium-ore", 0.5, { 20, 20 })
         )
       or {
-        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-        tweaked_icon_lookup("rutile-ore", 0.5, { 10, 10 }),
+        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+        tweaked_icon_lookup("rutile-ore", 0.5, { 20, 20 }),
       },
     --[[2]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("gold-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("gold-ore", 0.5, { 20, 20 }),
     },
     --[[3]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("cobalt-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("cobalt-ore", 0.5, { 20, 20 }),
     },
     --[[4]]
     nil,
     --[[5]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("uranium-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("uranium-ore", 0.5, { 20, 20 }),
     },
     --[[6]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      tweaked_icon_lookup("thorium-ore", 0.5, { 10, 10 }),
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      tweaked_icon_lookup("thorium-ore", 0.5, { 20, 20 }),
     },
   }),
   -- PURE
@@ -813,18 +815,19 @@ OV.patch_recipes(merge_table_of_tables({
             {
               icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png",
               icon_size = 32,
+              scale = 2,
             },
           }, 2, angelsmods.refining.number_tint),
-          tweaked_icon_lookup("uranium-ore", 0.5, { 10, 10 })
+          tweaked_icon_lookup("uranium-ore", 0.5, { 20, 20 })
         )
       or {
-        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-        tweaked_icon_lookup("tungsten-ore", 0.5, { 10, 10 }),
+        { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+        tweaked_icon_lookup("tungsten-ore", 0.5, { 20, 20 }),
       },
     --[[2]]
     {
-      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
-      ore_enabled("platinum") and tweaked_icon_lookup("platinum-ore", 0.5, { 10, 10 }) or nil,
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32, scale = 2 },
+      ore_enabled("platinum") and tweaked_icon_lookup("platinum-ore", 0.5, { 20, 20 }) or nil,
     },
     --[[3]]
     nil,
