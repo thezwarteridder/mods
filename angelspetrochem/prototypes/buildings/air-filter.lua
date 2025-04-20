@@ -5,14 +5,14 @@ local function angels_air_filter_fluid_boxes()
       pipe_picture = angelsmods.petrochem.electrolyserpictures(),
       pipe_covers = pipecoverspictures(),
       volume = 1000,
-      pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -2.4 }, } },
+      pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -2 }, } },
     },
     {
       production_type = "output",
       pipe_picture = angelsmods.petrochem.electrolyserpictures(),
       pipe_covers = pipecoverspictures(),
       volume = 100,
-      pipe_connections = { { flow_direction = "output", position = { 0, 2.4 }, direction = defines.direction.south } },
+      pipe_connections = { { flow_direction = "output", position = { 0, 2 }, direction = defines.direction.south } },
     },
   }
 end
