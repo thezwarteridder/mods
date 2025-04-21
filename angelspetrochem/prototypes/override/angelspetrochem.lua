@@ -253,7 +253,7 @@ else
   })
   OV.disable_technology({
     "rubbers",
-    "bob-rubber",
+    "rubber",
   })
 end
 
