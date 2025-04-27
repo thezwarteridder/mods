@@ -147,6 +147,6 @@ if angelsmods.trigger.smelting_products["silicon"].powder then
     })
   end
 else
-  angelsmods.functions.hide("bob-powder-silicon")
-  OV.disable_recipe({ "bob-powder-silicon" })
+  angelsmods.functions.hide("powder-silicon")
+  OV.disable_recipe({ "powder-silicon" })
 end
