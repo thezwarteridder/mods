@@ -3,7 +3,6 @@ data:extend({
   {
     type = "recipe",
     name = "angelsore1-pure-processing",
-    localised_name = { "item-name.angels-void" },
     category = "ore-sorting-4",
     subgroup = "ore-sorting-t4",
     energy_required = 2,
@@ -28,7 +27,6 @@ data:extend({
   {
     type = "recipe",
     name = "angelsore2-pure-processing",
-    localised_name = { "item-name.angels-void" },
     category = "ore-sorting-4",
     subgroup = "ore-sorting-t4",
     energy_required = 2,
@@ -53,7 +51,6 @@ data:extend({
   {
     type = "recipe",
     name = "angelsore3-pure-processing",
-    localised_name = { "item-name.angels-void" },
     category = "ore-sorting-4",
     subgroup = "ore-sorting-t4",
     energy_required = 2,
@@ -81,7 +78,6 @@ data:extend({
   {
     type = "recipe",
     name = "angelsore4-pure-processing",
-    localised_name = { "item-name.angels-void" },
     category = "ore-sorting-4",
     subgroup = "ore-sorting-t4",
     energy_required = 2,
@@ -106,7 +102,6 @@ data:extend({
   {
     type = "recipe",
     name = "angelsore5-pure-processing",
-    localised_name = { "item-name.angels-void" },
     category = "ore-sorting-4",
     subgroup = "ore-sorting-t4",
     energy_required = 2,
@@ -131,7 +126,6 @@ data:extend({
   {
     type = "recipe",
     name = "angelsore6-pure-processing",
-    localised_name = { "item-name.angels-void" },
     category = "ore-sorting-4",
     subgroup = "ore-sorting-t4",
     energy_required = 2,
