@@ -58,7 +58,6 @@ data:extend({
             width = 192,
             height = 192,
             line_length = 1,
-            frame_count = 1,
             shift = def_shift,
           },
           {
@@ -66,7 +65,6 @@ data:extend({
             width = 192,
             height = 192,
             line_length = 1,
-            frame_count = 1,
             shift = def_shift,
           },
         },
@@ -78,7 +76,6 @@ data:extend({
             width = 192,
             height = 192,
             line_length = 1,
-            frame_count = 1,
             shift = def_shift,
           },
           {
@@ -86,7 +83,6 @@ data:extend({
             width = 192,
             height = 192,
             line_length = 1,
-            frame_count = 1,
             shift = def_shift,
           },
         },
