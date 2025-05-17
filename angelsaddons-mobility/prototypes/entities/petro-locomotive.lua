@@ -40,7 +40,6 @@ funcs.generate_train_entities({
   dying_explosion = "medium-explosion",
   collision_box = { { -0.6, -2.6 }, { 0.6, 2.6 } },
   selection_box = { { -1, -3 }, { 1, 3 } },
-  drawing_box = { { -1, -4 }, { 1, 3 } },
   color = tintable_tint,
   allow_manual_color = true,
   weight = 3000,

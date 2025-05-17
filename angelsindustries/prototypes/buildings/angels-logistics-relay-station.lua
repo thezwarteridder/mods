@@ -32,7 +32,7 @@ data:extend({
     --collision_mask = {"ghost-layer"},
     collision_box = { { -0.15, -0.15 }, { 0.15, 0.15 } },
     selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
-    drawing_box = { { -0.5, -2.0 }, { 0.5, 0.5 } },
+    drawing_box_vertical_extension = 1.5,
     dying_explosion = "medium-explosion",
     energy_source = {
       type = "electric",
@@ -130,7 +130,7 @@ data:extend({
     --collision_mask = {"ghost-layer"},
     collision_box = { { -0.65, -0.65 }, { 0.65, 0.65 } },
     selection_box = { { -1, -1 }, { 1, 1 } },
-    drawing_box = { { -1, -3.2 }, { 1, 1 } },
+    drawing_box_vertical_extension = 2.2,
     dying_explosion = "medium-explosion",
     energy_source = {
       type = "electric",
@@ -229,7 +229,7 @@ data:extend({
     --collision_mask = {"ghost-layer"},
     collision_box = { { -1.25, -1.25 }, { 1.25, 1.25 } },
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-    drawing_box = { { -1.5, -6.5 }, { 1.5, 1.5 } },
+    drawing_box_vertical_extension = 5,
     dying_explosion = "medium-explosion",
     energy_source = {
       type = "electric",

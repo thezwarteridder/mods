@@ -26,7 +26,7 @@ data:extend({
     corpse = "small-remnants",
     collision_box = { { -1.4, -1.4 }, { 1.4, 1.4 } },
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-    drawing_box = { { -1.5, -2 }, { 1.5, 1.5 } },
+    drawing_box_vertical_extension = 0.5,
     dying_explosion = "medium-explosion",
     energy_source = {
       type = "electric",
