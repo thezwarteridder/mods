@@ -73,7 +73,6 @@ data:extend({
       filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
-      frame_count = 1,
     },
     door_animation_up = {
       filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
@@ -170,7 +169,6 @@ data:extend({
       filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
-      frame_count = 1,
     },
     door_animation_up = {
       filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
@@ -265,7 +263,6 @@ data:extend({
       filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
-      frame_count = 1,
     },
     door_animation_up = {
       filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",

@@ -58,7 +58,6 @@ data:extend({
       priority = "medium",
       width = 96,
       height = 96,
-      frame_count = 1,
       shift = { 46 / 32, -13 / 32 },
     },
     base_animation = {
@@ -182,7 +181,6 @@ data:extend({
       priority = "medium",
       width = 96,
       height = 96,
-      frame_count = 1,
       shift = { 0, -0.25 },
     },
     base_animation = {
@@ -302,7 +300,6 @@ data:extend({
       priority = "medium",
       width = 96,
       height = 96,
-      frame_count = 1,
       shift = { 0, -0.75 },
     },
     base_animation = {
@@ -363,8 +360,7 @@ data:extend({
         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 },
       },
     },
-    circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
-    circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
+    circuit_connector = circuit_connector_definitions["roboport"],
     circuit_wire_max_distance = default_circuit_wire_max_distance,
     default_available_logistic_output_signal = { type = "virtual", name = "signal-X" },
     default_total_logistic_output_signal = { type = "virtual", name = "signal-Y" },

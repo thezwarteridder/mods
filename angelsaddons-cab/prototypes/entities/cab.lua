@@ -393,7 +393,6 @@ data:extend({
         },
       },
     },
-    sound_minimum_speed = 0.1,
     impact_category = "metal",
     working_sound = {
       sound = {

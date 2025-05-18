@@ -153,7 +153,6 @@ data:extend({
     --    },
     --  }
     --},
-    sound_minimum_speed = 1 / 60,
     sound_scaling_ratio = 0.005,
     impact_category = "metal",
     working_sound = {
@@ -704,7 +703,6 @@ data:extend({
         },
       },
     },
-    sound_minimum_speed = 0.15,
     impact_category = "metal",
     working_sound = {
       sound = {

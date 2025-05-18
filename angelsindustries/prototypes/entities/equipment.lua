@@ -257,7 +257,6 @@ data:extend({
         },
       },
       ammo_type = {
-        category = "rocket",
         action = {
           type = "direct",
           action_delivery = {
