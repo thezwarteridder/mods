@@ -171,6 +171,7 @@ if mods["bobplates"] then
   move_item("bob-enriched-fuel", "petrochem-fuel", "a[solid-fuel]-b")
   OV.patch_recipes({ { name = "bob-enriched-fuel", subgroup = "petrochem-fuel", order = "g" } })
   OV.disable_technology({ "oil-processing-2", "oil-processing-3", "oil-processing-4" })
+  OV.remove_unlock("bob-chemical-processing-1", "bob-carbon")
   --hide disabled
   OV.hide_recipe({
     "bob-oil-processing",
