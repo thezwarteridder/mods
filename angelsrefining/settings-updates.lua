@@ -6,7 +6,7 @@ end
 if mods["bobplates"] then
   angelsmods.settings.hide_setting("bool-setting", "bobmods-plates-groundwater")
   angelsmods.settings.hide_setting("bool-setting", "bobmods-plates-vanillabarrelling")
-  angelsmods.settings.hide_setting("bool-setting", "bobmods-plates-purewater")
+  angelsmods.settings.hide_setting("bool-setting", "bobmods-plates-purewater", true)
 
   if mods["angelsindustries"] then
     angelsmods.settings.hide_setting("bool-setting", "bobmods-plates-bluedeuterium")
