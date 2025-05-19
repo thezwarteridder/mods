@@ -3,6 +3,7 @@ local OV = angelsmods.functions.OV
 -- lookup table to convert ore name to trigger name
 local special_vanilla = angelsmods.functions.is_special_vanilla()
 local get_trigger_name = angelsmods.functions.get_trigger_names()
+local get_ore_name = angelsmods.functions.get_ore_name
 
 local icon_lookup_table_fallback = { icon = "__angelsrefininggraphics__/graphics/icons/void.png", icon_size = 32 }
 local icon_lookup_table = {
@@ -90,30 +91,6 @@ local icon_lookup_table = {
       and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-zinc.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/zinc-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
-}
-local ore_lookup_table = {
-  ["angels-copper-nugget"] = "angels-copper-nugget",
-  ["angels-copper-pebbles"] = "angels-copper-pebbles",
-  ["angels-copper-slag"] = "angels-copper-slag",
-  ["angels-iron-nugget"] = "angels-iron-nugget",
-  ["angels-iron-pebbles"] = "angels-iron-pebbles",
-  ["angels-iron-slag"] = "angels-iron-slag",
-  ["bauxite-ore"] = mods["bobores"] and "bob-bauxite-ore" or "bauxite-ore",
-  ["cobalt-ore"] = mods["bobores"] and "bob-cobalt-ore" or "cobalt-ore",
-  ["copper-ore"] = "copper-ore",
-  ["fluorite-ore"] = mods["bobores"] and "bob-fluorite-ore" or "fluorite-ore",
-  ["gold-ore"] = mods["bobores"] and "bob-gold-ore" or "gold-ore",
-  ["iron-ore"] = "iron-ore",
-  ["lead-ore"] = mods["bobores"] and "bob-lead-ore" or "lead-ore",
-  ["nickel-ore"] = mods["bobores"] and "bob-nickel-ore" or "nickel-ore",
-  ["quartz"] = mods["bobores"] and "bob-quartz" or "quartz",
-  ["rutile-ore"] = mods["bobores"] and "bob-rutile-ore" or "rutile-ore",
-  ["silver-ore"] = mods["bobores"] and "bob-silver-ore" or "silver-ore",
-  ["thorium-ore"] = mods["bobores"] and "bob-thorium-ore" or "thorium-ore",
-  ["tin-ore"] = mods["bobores"] and "bob-tin-ore" or "tin-ore",
-  ["tungsten-ore"] = mods["bobores"] and "bob-tungsten-ore" or "tungsten-ore",
-  ["uranium-ore"] = "uranium-ore",
-  ["zinc-ore"] = mods["bobores"] and "bob-zinc-ore" or "zinc-ore",
 }
 
 local function tweaked_icon_lookup(icon_name, scale, shift)
@@ -307,7 +284,7 @@ local function create_sorting_recipes(refinery_product, recipe_base_name, sorted
     local recipe = { name = string.format(recipe_base_name, "-" .. tier_name .. "-processing"), results = {} }
     if angelsmods.trigger.refinery_products[refinery_product] then
       for result_name, ore_amounts in pairs(sorted_ore_results or {}) do
-        local ore_name = ore_lookup_table[result_name]
+        local ore_name = get_ore_name(result_name)
         local ore_amount = (ore_amounts or {})[tier]
         if result_name == "!!" then
           if ore_amount then
@@ -359,7 +336,7 @@ end
 -- function to create the mixed sorted results for an ore, disables it if it is unused
 local function create_sorting_mix_recipe(recipe_data)
   if recipe_data.result then
-    local ore_name = ore_lookup_table[recipe_data.result.name]
+    local ore_name = get_ore_name(recipe_data.result.name)
     local ore_amount = recipe_data.result.amount
     local type_name = recipe_data.result.type
     if angelsmods.trigger.ores[get_trigger_name[recipe_data.result.name]] and ore_amount > 0 then
@@ -412,7 +389,7 @@ local function create_slag_recipes(recipe_base_name, ore_result_products, recipe
     local recipe_used = false
     local locale_index = {}
     for result_name, ore_amounts in pairs(ore_result_products or {}) do
-      local ore_name = ore_lookup_table[result_name]
+      local ore_name = get_ore_name(result_name)
       local ore_amount = ore_amounts[recipe_index]
       local ore_probability = nil
       if angelsmods.trigger.ores[get_trigger_name[result_name]] and ore_amount > 0 then
@@ -944,52 +921,52 @@ OV.patch_recipes(merge_table_of_tables({
   }, {
     --[[1]]
     angelsmods.functions.create_liquid_recipe_icon({
-      ore_lookup_table["iron-ore"],
-      not special_vanilla and ore_lookup_table["copper-ore"] or nil,
+      get_ore_name("iron-ore"),
+      not special_vanilla and get_ore_name("copper-ore") or nil,
     }, slag_color),
     --[[2]]
     angelsmods.functions.create_liquid_recipe_icon({
-      special_vanilla and ore_lookup_table["copper-ore"] or ore_lookup_table["lead-ore"],
-      not special_vanilla and ore_lookup_table["tin-ore"] or nil,
+      special_vanilla and get_ore_name("copper-ore") or get_ore_name("lead-ore"),
+      not special_vanilla and get_ore_name("tin-ore") or nil,
     }, slag_color),
     --[[3]]
     angelsmods.functions.create_liquid_recipe_icon({
-      ore_lookup_table["silver-ore"],
-      ore_lookup_table["quartz"],
+      get_ore_name("silver-ore"),
+      get_ore_name("quartz"),
     }, slag_color),
     --[[4]]
     angelsmods.functions.create_liquid_recipe_icon({
-      special_vanilla and ore_lookup_table["angels-iron-pebbles"] or ore_lookup_table["gold-ore"],
-      not special_vanilla and ore_lookup_table["nickel-ore"] or nil,
+      special_vanilla and get_ore_name("angels-iron-pebbles") or get_ore_name("gold-ore"),
+      not special_vanilla and get_ore_name("nickel-ore") or nil,
     }, slag_color),
     --[[5]]
     angelsmods.functions.create_liquid_recipe_icon({
-      special_vanilla and ore_lookup_table["angels-copper-pebbles"] or ore_lookup_table["zinc-ore"],
-      not special_vanilla and ore_lookup_table["rutile-ore"] or nil,
+      special_vanilla and get_ore_name("angels-copper-pebbles") or get_ore_name("zinc-ore"),
+      not special_vanilla and get_ore_name("rutile-ore") or nil,
     }, slag_color),
     --[[6]]
     angelsmods.functions.create_liquid_recipe_icon({
-      ore_lookup_table["bauxite-ore"],
-      ore_enabled("manganese-ore") and ore_lookup_table["manganese-ore"] or nil,
-      (not ore_enabled("platinum-ore")) and ore_enabled("chrome-ore") and ore_lookup_table["chrome-ore"] or nil,
+      get_ore_name("bauxite-ore"),
+      ore_enabled("manganese-ore") and get_ore_name("manganese-ore") or nil,
+      (not ore_enabled("platinum-ore")) and ore_enabled("chrome-ore") and get_ore_name("chrome-ore") or nil,
     }, slag_color),
     --[[7]]
     ore_enabled("platinum-ore")
         and angelsmods.functions.create_liquid_recipe_icon({
-          ore_lookup_table["platinum-ore"],
-          ore_lookup_table["chrome-ore"],
+          get_ore_name("platinum-ore"),
+          get_ore_name("chrome-ore"),
         }, slag_color)
       or nil,
     --[[8]]
     angelsmods.functions.create_liquid_recipe_icon({
-      ore_lookup_table["cobalt-ore"],
-      ore_lookup_table["tungsten-ore"],
+      get_ore_name("cobalt-ore"),
+      get_ore_name("tungsten-ore"),
     }, slag_color),
     --[[9]]
     angelsmods.functions.create_liquid_recipe_icon({
-      ore_lookup_table["uranium-ore"],
-      ore_enabled("fluorite-ore") and ore_lookup_table["fluorite-ore"] or nil,
-      ore_enabled("thorium-ore") and ore_lookup_table["thorium-ore"] or nil,
+      get_ore_name("uranium-ore"),
+      ore_enabled("fluorite-ore") and get_ore_name("fluorite-ore") or nil,
+      ore_enabled("thorium-ore") and get_ore_name("thorium-ore") or nil,
     }, slag_color),
   }),
 }))

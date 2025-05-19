@@ -1,5 +1,6 @@
 local OV = angelsmods.functions.OV
 local move_item = angelsmods.functions.move_item
+local get_ore_name = angelsmods.functions.get_ore_name
 
 -------------------------------------------------------------------------------
 -- WATER ENRICHMENT -----------------------------------------------------------
@@ -77,29 +78,29 @@ if angelsmods.trigger.ores["platinum"] then
     {
       name = "catalyst-metal-red",
       ingredients = {
-        { type = "item", name = "iron-ore", amount = 1 },
-        { type = "item", name = "copper-ore", amount = 1 },
+        { type = "item", name = get_ore_name("iron-ore"), amount = 1 },
+        { type = "item", name = get_ore_name("copper-ore"), amount = 1 },
       },
     },
     {
       name = "catalyst-metal-green",
       ingredients = {
-        { type = "item", name = "bauxite-ore", amount = 1 },
-        { type = "item", name = "silver-ore", amount = 1 },
+        { type = "item", name = get_ore_name("bauxite-ore"), amount = 1 },
+        { type = "item", name = get_ore_name("silver-ore"), amount = 1 },
       },
     },
     {
       name = "catalyst-metal-blue",
       ingredients = {
-        { type = "item", name = "rutile-ore", amount = 1 },
-        { type = "item", name = "gold-ore", amount = 1 },
+        { type = "item", name = get_ore_name("rutile-ore"), amount = 1 },
+        { type = "item", name = get_ore_name("gold-ore"), amount = 1 },
       },
     },
     {
       name = "catalyst-metal-yellow",
       ingredients = {
-        { type = "item", name = "tungsten-ore", amount = 1 },
-        { type = "item", name = "platinum-ore", amount = 1 },
+        { type = "item", name = get_ore_name("tungsten-ore"), amount = 1 },
+        { type = "item", name = get_ore_name("platinum-ore"), amount = 1 },
       },
     },
   })
@@ -109,29 +110,29 @@ elseif mods["bobplates"] or angelsmods.industries and angelsmods.industries.over
     {
       name = "catalyst-metal-red",
       ingredients = {
-        { type = "item", name = "iron-ore", amount = 1 },
-        { type = "item", name = "copper-ore", amount = 1 },
+        { type = "item", name = get_ore_name("iron-ore"), amount = 1 },
+        { type = "item", name = get_ore_name("copper-ore"), amount = 1 },
       },
     },
     {
       name = "catalyst-metal-green",
       ingredients = {
-        { type = "item", name = "bauxite-ore", amount = 1 },
-        { type = "item", name = "silver-ore", amount = 1 },
+        { type = "item", name = get_ore_name("bauxite-ore"), amount = 1 },
+        { type = "item", name = get_ore_name("silver-ore"), amount = 1 },
       },
     },
     {
       name = "catalyst-metal-blue",
       ingredients = {
-        { type = "item", name = "rutile-ore", amount = 1 },
-        { type = "item", name = "cobalt-ore", amount = 1 },
+        { type = "item", name = get_ore_name("rutile-ore"), amount = 1 },
+        { type = "item", name = get_ore_name("cobalt-ore"), amount = 1 },
       },
     },
     {
       name = "catalyst-metal-yellow",
       ingredients = {
-        { type = "item", name = "tungsten-ore", amount = 1 },
-        { type = "item", name = "nickel-ore", amount = 1 },
+        { type = "item", name = get_ore_name("tungsten-ore"), amount = 1 },
+        { type = "item", name = get_ore_name("nickel-ore"), amount = 1 },
       },
     },
   })
