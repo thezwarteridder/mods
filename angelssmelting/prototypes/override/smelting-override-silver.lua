@@ -26,7 +26,7 @@ if angelsmods.trigger.smelting_products["silver"].ingot then
     angelsmods.functions.move_item("bob-silver-nitrate", "angels-silver", "d")
     data.raw["item"]["bob-silver-nitrate"].icon = "__angelssmeltinggraphics__/graphics/icons/solid-silver-nitrate.png"
     data.raw["item"]["bob-silver-nitrate"].icon_size = 32
-    OV.disable_recipe({ "bob-silver-nitrate", "silver-from-lead" })
+    OV.disable_recipe({ "bob-silver-nitrate", "bob-silver-from-lead" })
     OV.remove_prereq("battery-3", "nitrogen-processing")
     OV.add_prereq("battery-3", "angels-silver-smelting-2")
     OV.add_prereq("battery-3", "powder-metallurgy-4")
