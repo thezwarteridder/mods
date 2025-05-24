@@ -50,15 +50,13 @@ end
 -- PLATE ----------------------------------------------------------------------
 -------------------------------------------------------------------------------
 if angelsmods.trigger.smelting_products["tin"].plate then
-  if angelsmods.refining then
-    OV.patch_recipes({
-      {
-        name = "angelsore6-crushed-smelting",
-        subgroup = "angels-tin-casting",
-        order = "i[angels-plate-tin]-a",
-      },
-    })
-  end
+  OV.patch_recipes({
+    {
+      name = "angelsore6-crushed-smelting",
+      subgroup = "angels-tin-casting",
+      order = "i[angels-plate-tin]-a",
+    },
+  })
 
   -- REPLACE ITEMS (use bob version)
   if mods["bobplates"] then
@@ -70,6 +68,15 @@ if angelsmods.trigger.smelting_products["tin"].plate then
 
     OV.patch_recipes({
       {
+        name = "angelsore6-crushed-smelting",
+        icons = angelsmods.functions.add_icon_layer(
+          angelsmods.functions.get_object_icons("bob-tin-plate"),
+          angelsmods.functions.get_object_icons("angels-ore6-crushed"),
+          { -10, -10 },
+          0.4375
+        ),
+      },
+      {
         name = "bob-tin-plate",
         energy_required = 10.5,
         enabled = false,
@@ -80,18 +87,12 @@ if angelsmods.trigger.smelting_products["tin"].plate then
         results = {
           { name = "bob-tin-plate", type = "item", amount = "+2" },
         },
-        icons = {
-          {
-            icon = "__angelssmeltinggraphics__/graphics/icons/plate-tin.png",
-            icon_size = 32
-          },
-          {
-            icon = "__angelssmeltinggraphics__/graphics/icons/ore-tin.png",
-            scale = 0.4375,
-            shift = { -10, -10 },
-          },
-        },
-        icon_size = 32,
+        icons = angelsmods.functions.add_icon_layer(
+          angelsmods.functions.get_object_icons("bob-tin-plate"),
+          angelsmods.functions.get_object_icons("bob-tin-ore"),
+          { -10, -10 },
+          0.4375
+        ),
         subgroup = "angels-tin-casting",
         order = "i[angels-plate-tin]-b",
       },

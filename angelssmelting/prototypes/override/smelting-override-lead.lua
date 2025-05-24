@@ -27,6 +27,17 @@ if angelsmods.trigger.smelting_products["lead"].ingot then
     angelsmods.functions.move_item("bob-lead-oxide", "angels-lead", "d")
     data.raw["item"]["bob-lead-oxide"].icon = "__angelssmeltinggraphics__/graphics/icons/solid-lead-oxide.png"
     data.raw["item"]["bob-lead-oxide"].icon_size = 32
+    OV.patch_recipes({
+      {
+        name = "angelsore5-crushed-smelting",
+        icons = angelsmods.functions.add_icon_layer(
+          angelsmods.functions.get_object_icons("bob-lead-plate"),
+          angelsmods.functions.get_object_icons("angels-ore5-crushed"),
+          { -10, -10 },
+          0.4375
+        ),
+      },
+    })
     OV.hide_recipe({ "bob-lead-plate", "bob-lead-oxide", "lead-oxide-2" })
     OV.global_replace_technology("bob-lead-processing", "angels-lead-smelting-1")
   end
