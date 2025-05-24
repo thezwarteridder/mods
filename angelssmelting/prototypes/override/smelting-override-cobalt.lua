@@ -25,9 +25,9 @@ if angelsmods.trigger.smelting_products["cobalt"].ingot then
     angelsmods.functions.move_item("bob-cobalt-oxide", "angels-cobalt", "e")
     data.raw["item"]["bob-cobalt-oxide"].icon = "__angelssmeltinggraphics__/graphics/icons/solid-cobalt-oxide.png"
     data.raw["item"]["bob-cobalt-oxide"].icon_size = 32
-    OV.disable_recipe({ "bob-cobalt-oxide", "cobalt-oxide-from-copper", "cobalt-plate", "bob-cobalt-steel-alloy" })
-    OV.remove_prereq({ "battery-2", "rtg" }, "cobalt-processing") --based on the oxide not the plate
-    OV.add_prereq({ "battery-2", "rtg" }, "angels-cobalt-smelting-1") --based on the oxide not the plate
+    OV.disable_recipe({ "bob-cobalt-oxide", "cobalt-oxide-from-copper", "bob-cobalt-plate", "bob-cobalt-steel-alloy" })
+    OV.remove_prereq({ "bob-battery-2", "bob-rtg" }, "bob-cobalt-processing") --based on the oxide not the plate
+    OV.add_prereq({ "bob-battery-2", "bob-rtg" }, "angels-cobalt-smelting-1") --based on the oxide not the plate
   end
 
   if angelsmods.trigger.smelting_products["cobalt"].plate then
@@ -90,7 +90,7 @@ end
 if angelsmods.trigger.smelting_products["cobalt"].plate then
   -- REPLACE ITEMS (use bob version)
   if mods["bobplates"] then
-    OV.global_replace_item("angels-plate-cobalt", "cobalt-plate")
+    OV.global_replace_item("angels-plate-cobalt", "bob-cobalt-plate")
     angelsmods.functions.hide("angels-plate-cobalt")
     angelsmods.functions.move_item("bob-cobalt-plate", "angels-cobalt-casting", "j")
     data.raw["item"]["bob-cobalt-plate"].icon = "__angelssmeltinggraphics__/graphics/icons/plate-cobalt.png"
