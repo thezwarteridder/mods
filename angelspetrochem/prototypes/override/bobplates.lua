@@ -6,10 +6,8 @@ local move_item = angelsmods.functions.move_item
 -------------------------------------------------------------------------------
 if mods["bobplates"] then
   -- water
-  if settings.startup["bobmods-plates-purewater"].value == true then
-    OV.converter_fluid("bob-pure-water", "water-purified")
-    angelsmods.functions.disable_barreling_recipes("bob-pure-water")
-  end
+  OV.converter_fluid("bob-pure-water", "water-purified")
+  angelsmods.functions.disable_barreling_recipes("bob-pure-water")
 
   OV.converter_fluid("bob-oxygen", "gas-oxygen")
   angelsmods.functions.disable_barreling_recipes("bob-oxygen")
