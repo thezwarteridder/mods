@@ -11,8 +11,14 @@ end
 -------------------------------------------------------------------------------
 if angelsmods.trigger.ores["lead"] then
   if mods["bobores"] then
-    OV.global_replace_item("lead-ore", "bob-lead-ore")
-    data.raw.item["bob-lead-ore"].localised_name = { "item-name.lead-ore" }
+    local angel_ore = data.raw.item["lead-ore"]
+    local bob_ore = data.raw.item["bob-lead-ore"]
+    OV.global_replace_item(angel_ore.name, bob_ore.name)
+    bob_ore.localised_name = { "item-name."..angel_ore.name }
+    bob_ore.icon = angel_ore.icon
+    bob_ore.icon_size = angel_ore.icon_size
+    bob_ore.subgroup = angel_ore.subgroup
+    bob_ore.order = angel_ore.order
     angelsmods.functions.hide("lead-ore")
   end
 else
