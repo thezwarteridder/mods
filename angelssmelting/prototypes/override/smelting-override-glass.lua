@@ -37,9 +37,7 @@ if angelsmods.trigger.smelting_products["glass"].plate then
   if mods["bobplates"] then
     OV.global_replace_item("angels-plate-glass", "bob-glass")
     angelsmods.functions.hide("angels-plate-glass")
-    angelsmods.functions.move_item("bob-glass", "angels-glass-casting", "d")
-    data.raw["item"]["bob-glass"].icon = "__angelssmeltinggraphics__/graphics/icons/plate-glass.png"
-    data.raw["item"]["bob-glass"].icon_size = 32
+    OV.copy_item_properties("angels-plate-glass", "bob-glass")
 
     data.raw["recipe"]["angels-plate-glass-2"].main_product = "bob-glass"
     data.raw["recipe"]["angels-plate-glass-3"].main_product = "bob-glass"
@@ -49,7 +47,7 @@ if angelsmods.trigger.smelting_products["glass"].plate then
         name = "bob-glass",
         energy_required = 10.5,
         ingredients = {
-          { name = "quartz", type = "item", amount = "+3" },
+          { name = "bob-quartz", type = "item", amount = "+3" },
         },
         results = {
           { name = "bob-glass", type = "item", amount = "+2" },
