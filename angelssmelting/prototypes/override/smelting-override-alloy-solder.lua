@@ -13,19 +13,17 @@ if angelsmods.trigger.smelting_products["solder"].wire then
   if mods["bobelectronics"] and data.raw.item["bob-solder"] then
     OV.global_replace_item("angels-solder", "bob-solder")
     angelsmods.functions.hide("angels-solder")
-    angelsmods.functions.move_item("bob-solder", "angels-solder-casting", "d")
-    data.raw["item"]["bob-solder"].icon = "__angelssmeltinggraphics__/graphics/icons/solder.png"
-    data.raw["item"]["bob-solder"].icon_size = 32
+    OV.copy_item_properties("angels-solder", "bob-solder")
     OV.global_replace_icon(
       "__bobelectronics__/graphics/icons/solder.png",
       "__angelssmeltinggraphics__/graphics/icons/solder.png"
     )
     OV.remove_unlock("bob-electronics", "bob-solder")
 
-    OV.disable_recipe({ "solder-alloy", "solder-alloy-lead", "bob-solder" })
-    angelsmods.functions.hide("solder-alloy")
-    OV.remove_unlock("bob-electronics", "solder-alloy-lead")
-    OV.remove_prereq("bob-electronics", "alloy-processing")
+    OV.disable_recipe({ "bob-solder-alloy", "bob-solder-alloy-lead", "bob-solder" })
+    angelsmods.functions.hide("bob-solder-alloy")
+    OV.remove_unlock("bob-electronics", "bob-solder-alloy-lead")
+    OV.remove_prereq("bob-electronics", "bob-alloy-processing")
 
     if angelsmods.trigger.smelting_products["solder"].mixture then
       OV.add_prereq("bob-electronics", "angels-solder-smelting-basic")
