@@ -102,7 +102,8 @@ if angelsmods.trigger.smelting_products["silicon"].wafer then
         order = "l[angels-silicon-wafer]",
       },
     })
-    OV.add_prereq("silicon-processing", "angels-silicon-smelting-1")
+    OV.global_replace_technology("bob-silicon-processing", "angels-silicon-smelting-1")
+    OV.add_unlock("angels-silicon-smelting-1", "bob-silicon-wafer")
   end
 else
   angelsmods.functions.hide("angels-silicon-wafer")
@@ -142,6 +143,7 @@ if angelsmods.trigger.smelting_products["silicon"].powder then
     })
     angelsmods.functions.remove_productivity("bob-silicon-powder")
     OV.global_replace_technology("bob-silicon-processing", "angels-silicon-smelting-1")
+    OV.add_unlock("angels-silicon-smelting-1", "bob-silicon-powder")
 
     -- silicon powder derivatives
     angelsmods.functions.move_item("bob-silicon-nitride", "angels-silicon-casting", "m[bobs-silicon]-a")
