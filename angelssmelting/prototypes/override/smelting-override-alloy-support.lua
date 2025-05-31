@@ -23,7 +23,7 @@ if mods["bobplates"] then
 
   -- Remove (fluid) Steel chemical furnaces
   OV.global_replace_item("bob-steel-chemical-furnace", "steel-furnace")
-  angelsmods.functions.hide({ "bob-steel-chemical-furnace", "fluid-chemical-furnace" })
+  angelsmods.functions.hide({ "bob-steel-chemical-furnace", "bob-fluid-chemical-furnace" })
   OV.disable_recipe({ "bob-fluid-chemical-furnace", "bob-steel-chemical-furnace" })
   OV.disable_technology({ "bob-fluid-chemical-furnace", "bob-steel-chemical-furnace" })
 
