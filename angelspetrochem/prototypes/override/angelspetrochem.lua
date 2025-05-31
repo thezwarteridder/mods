@@ -20,6 +20,33 @@ if mods["bobplates"] and data.raw["fluid"]["bob-deuterium"] then
   OV.disable_technology("bob-deuterium-processing")
   OV.add_prereq("water-chemistry-2", "nuclear-fuel-reprocessing")
 
+  if mods["bobequipment"] then
+    OV.patch_recipes({
+      {
+        name = "fission-reactor-equipment",
+        ingredients = {
+          { type = "fluid", name = "liquid-water-semiheavy-3", amount = "liquid-water-heavy", maximum_temperature = 30 },
+        },
+      },
+    })
+  end
+  if mods["bobvehicleequipment"] then
+    OV.patch_recipes({
+      {
+        name = "bob-vehicle-fission-cell-equipment-2",
+        ingredients = {
+          { type = "fluid", name = "liquid-water-semiheavy-3", amount = "liquid-water-heavy", maximum_temperature = 30 },
+        },
+      },
+      {
+        name = "bob-vehicle-fission-reactor-equipment-2",
+        ingredients = {
+          { type = "fluid", name = "liquid-water-semiheavy-3", amount = "liquid-water-heavy", maximum_temperature = 30 },
+        },
+      },
+    })
+  end
+  
   if mods["bobrevamp"] and mods["bobpower"] and settings.startup["bobmods-revamp-nuclear"].value == true then
     -- deuterium-fuel-cell will be unlocked by bob-nuclear-power-3
   else
