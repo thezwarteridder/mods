@@ -99,6 +99,7 @@ if mods["bobplates"] then
   OV.disable_technology({ "bob-chemical-processing-1", "bob-chemical-processing-2" })
 
   -- Clean up prerequisites
+  OV.remove_prereq("angels-coal-processing", "bob-chemical-processing-1")
   OV.remove_prereq("steel-processing", "bob-chemical-processing-1")
   OV.remove_prereq("electronics", "bob-chemical-processing-1")
   OV.remove_prereq("bob-silicon-processing", "bob-chemical-processing-2")

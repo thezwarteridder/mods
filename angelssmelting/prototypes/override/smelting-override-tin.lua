@@ -38,9 +38,6 @@ if angelsmods.trigger.smelting_products["tin"].ingot then
         util.table.deepcopy(data.raw.technology["angels-tin-smelting-2"][property])
     end
   end
-  if mods["bobelectronics"] and mods["bobplates"] then --this is the minimum combo to make insulated wire to use tinned wire
-    OV.add_prereq("electronics", "angels-tin-smelting-1")
-  end
 else
   angelsmods.functions.hide("processed-tin")
   angelsmods.functions.hide("pellet-tin")
@@ -114,24 +111,6 @@ end
 -- WIRE -----------------------------------------------------------------------
 -------------------------------------------------------------------------------
 if angelsmods.trigger.smelting_products["tin"].wire then
-  -- move tinned wire to electronics for circuit wires
-  OV.patch_recipes({
-    {
-      name = "green-wire",
-      ingredients = {
-        { type = "item", name = "angels-wire-tin", amount = "copper-cable" },
-      },
-    },
-    {
-      name = "red-wire",
-      ingredients = {
-        { type = "item", name = "angels-wire-tin", amount = "copper-cable" },
-      },
-    },
-  })
-  OV.add_unlock("electronics", "basic-tinned-copper-wire")
-  OV.remove_prereq("electronics", "angels-tin-smelting-1")
-
   if data.raw.item["bob-tinned-copper-cable"] then -- bob electronics
     OV.global_replace_item("angels-wire-tin", "bob-tinned-copper-cable")
     angelsmods.functions.hide("angels-wire-tin")

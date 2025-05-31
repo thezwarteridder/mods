@@ -83,3 +83,14 @@ else
     "angels-solder-smelting-3",
   })
 end
+
+if mods["bobelectronics"] or mods["bobplates"] then
+  -- Disable Bob's Resin from recipe. No longer needed for solder
+  OV.disable_recipe({ "bob-resin-wood" })
+  OV.disable_technology({ "bob-wood-processing" })
+  OV.remove_prereq({
+    "bob-bodies",
+    "bob-electronics",
+    "bob-walking-vehicle",
+  }, "bob-wood-processing")
+end
