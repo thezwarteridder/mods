@@ -68,15 +68,15 @@ end
 if mods["bobelectronics"] then
   OV.patch_recipes({
     {
-      name = "wooden-board",
-      results = {{ type = "item", name = "wooden-board", amount = 1 }},
+      name = "bob-wooden-board",
+      results = {{ type = "item", name = "bob-wooden-board", amount = 1 }},
     },
   })
-  angelsmods.functions.remove_productivity("wooden-board")
+  angelsmods.functions.remove_productivity("bob-wooden-board")
 
   OV.patch_recipes({
     {
-      name = "phenolic-board",
+      name = "bob-phenolic-board",
       energy_required = 2,
       ingredients = {
         { "!!" },
@@ -88,5 +88,5 @@ if mods["bobelectronics"] then
   })
   OV.add_prereq("advanced-circuit", "bio-paper-1")
   OV.add_prereq("advanced-circuit", "resins")
-  angelsmods.functions.remove_productivity("phenolic-board")
+  angelsmods.functions.remove_productivity("bob-phenolic-board")
 end
