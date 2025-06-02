@@ -155,7 +155,6 @@ if mods["bobplates"] then
   OV.set_science_pack("bob-tungsten-processing", "production-science-pack", 1)
   OV.add_prereq("bob-chemical-processing-2", "ore-crushing")
   if mods["bobwarfare"] then
-    OV.set_science_pack("bob-rocket", "production-science-pack", 1)
     if
       not settings.startup["bobmods-enemies-enableartifacts"]
       or settings.startup["bobmods-enemies-enableartifacts"].value == false
