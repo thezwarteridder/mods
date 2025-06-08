@@ -102,7 +102,7 @@ if angelsmods.trigger.smelting_products["nitinol"].plate then
     data.raw["item"]["bob-nitinol-alloy"].icon_size = 32
     OV.add_prereq("bob-nitinol-processing", "angels-nitinol-smelting-1")
     OV.add_prereq("bob-nitinol-processing", "lubricant")
-    OV.remove_prereq("bob-nitinol-processing", "titanium-processing")
+    OV.remove_prereq("bob-nitinol-processing", "bob-titanium-processing")
     OV.disable_recipe({ "bob-nitinol-alloy" })
     angelsmods.functions.allow_productivity("angels-plate-nitinol")
   end
