@@ -55,7 +55,7 @@ local icon_lookup_table = {
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/rutile-ore.png", icon_size = 32 }
     or icon_lookup_table_fallback,
 
-  ["silica-ore"] = mods["angelssmelting"]
+  ["quartz"] = mods["angelssmelting"]
       and { icon = "__angelssmeltinggraphics__/graphics/icons/ore-silica.png", icon_size = 32 }
     or mods["bobores"] and { icon = "__bobores__/graphics/icons/quartz.png", icon_size = 32 }
     or icon_lookup_table_fallback,

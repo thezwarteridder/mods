@@ -52,17 +52,12 @@ if angelsmods.trigger.smelting_products["glass"].plate then
         results = {
           { name = "bob-glass", type = "item", amount = "+2" },
         },
-        icons = {
-          {
-            icon = "__angelssmeltinggraphics__/graphics/icons/plate-glass.png",
-            icon_size = 32,
-          },
-          {
-            icon = "__angelssmeltinggraphics__/graphics/icons/ore-silica.png",
-            scale = 0.4375,
-            shift = { -10, -10 },
-          },
-        },
+        icons = angelsmods.functions.add_icon_layer(
+          angelsmods.functions.get_object_icons("bob-glass"),
+          angelsmods.functions.get_object_icons("bob-quartz"),
+          { -10, -10 },
+          0.4375
+        ),
         icon_size = 32,
         subgroup = "angels-glass-casting",
         order = "d[angels-plate-glass]-a",
