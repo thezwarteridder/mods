@@ -1381,13 +1381,13 @@ end
 function angelsmods.functions.remove_flag(entity, flag_to_remove) -- Removes a flag to an item/fluid (may be a table containing a list of items/fluids)
   if type(entity) == "table" then
     for _, ent in pairs(entity) do
-      angelsmods.functions.remove_flag(ent, flag)
+      angelsmods.functions.remove_flag(ent, flag_to_remove)
     end
     return
   end
-  if type(flag) == "table" then
-    for _, f in pairs(flag) do
-      angelsmods.functions.add_flag(entity, f)
+  if type(flag_to_remove) == "table" then
+    for _, f in pairs(flag_to_remove) do
+      angelsmods.functions.remove_flag(entity, f)
     end
     return
   end
