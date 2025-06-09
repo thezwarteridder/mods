@@ -74,8 +74,8 @@ if angelsmods.trigger.smelting_products["zinc"].plate then
     angelsmods.functions.hide("angels-plate-zinc")
     OV.copy_item_properties("angels-plate-zinc", "bob-zinc-plate")
     OV.disable_recipe({ "bob-zinc-plate" })
-    OV.remove_prereq("battery-3", "bob-zinc-processing")
-    OV.add_prereq("battery-3", "angels-zinc-smelting-1")
+    OV.remove_prereq("bob-battery-3", "bob-zinc-processing")
+    OV.add_prereq("bob-battery-3", "angels-zinc-smelting-1")
   end
 else
   angelsmods.functions.hide("angels-plate-zinc")
