@@ -204,7 +204,6 @@ data:extend({
       { type = "fluid", name = "liquid-molten-gold", amount = 120 },
     },
     main_product = "liquid-molten-gold",
-    --icon = "__angelssmeltinggraphics__/graphics/icons/molten-gold.png",
     order = "i[liquid-molten-gold]",
     crafting_machine_tint = angelsmods.functions.get_fluid_recipe_tint("liquid-molten-gold"),
   },
