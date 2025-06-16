@@ -145,7 +145,6 @@ if mods["bobmodules"] then
         "modules",
         "advanced-circuit",
         "bio-processing-crystal-splinter-1",
-        "bob-gem-processing-3",
         "chemical-science-pack",
       },
       effects = {
@@ -167,6 +166,9 @@ if mods["bobmodules"] then
   })
   OV.remove_unlock("advanced-circuit", "bob-module-processor-board")
   OV.remove_prereq("advanced-circuit", "modules")
+  if mods["bobplates"] then
+    OV.add_prereq("modules-2", "bob-gem-processing-3")
+  end
   OV.add_prereq("speed-module-2", "modules-2")
   OV.add_prereq("productivity-module-2", "modules-2")
   OV.add_prereq("efficiency-module-2", "modules-2")
