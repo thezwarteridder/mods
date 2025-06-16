@@ -249,7 +249,7 @@ end
 ---Generates a tiered train recipe from the given `ref_recipe`.
 ---@param ref_recipe data.RecipePrototype The recipe prototype that defines the common base recipe for all tiers.
 ---@param tiered_ingredients Angels.Addons.Mobility.TieredIngredient[]
----@param base_technology_name data.TechnologyID The name of the base technology that will unlock the created recipe.
+---@param base_technology_name data.TechnologyID The name of the base technology that will unlock the created recipe tiers.
 local function generate_train_recipe(ref_recipe, tiered_ingredients, base_technology_name)
   local recipes = {}
 
