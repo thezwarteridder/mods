@@ -790,6 +790,10 @@ OV.patch_recipes(merge_table_of_tables({
   create_sorting_mix_recipe({
     name = "angelsore-crystal-mix5-processing",
     result = (not special_vanilla) and { type = "item", name = "uranium-ore", amount = 3 } or nil,
+    icons = {
+      { icon = "__angelsrefininggraphics__/graphics/icons/sort-icon.png", icon_size = 32 },
+      tweaked_icon_lookup("uranium-ore", 0.5, { 10, 10 }),
+    },
   }),
   create_sorting_mix_recipe({
     name = "angelsore-crystal-mix6-processing",
