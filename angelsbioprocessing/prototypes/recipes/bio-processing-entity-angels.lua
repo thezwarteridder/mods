@@ -305,20 +305,6 @@ angelsmods.functions.RB.build({
   },
   {
     type = "recipe",
-    name = "angels-bio-refugium-hogger",
-    energy_required = 5,
-    enabled = false,
-    ingredients = {
-      { type = "item", name = "t1-bio", amount = 1 },
-      { type = "item", name = "t1-plate", amount = 4 },
-      { type = "item", name = "t1-circuit", amount = 4 },
-      { type = "item", name = "t1-brick", amount = 3 },
-      { type = "item", name = "t1-pipe", amount = 11 },
-    },
-    results = { { type = "item", name = "angels-bio-refugium-hogger", amount = 1 } },
-  },
-  {
-    type = "recipe",
     name = "angels-bio-refugium-fish",
     energy_required = 5,
     enabled = false,

@@ -53,7 +53,6 @@ if angelsmods.refining then
   angelsmods.functions.make_void("angels-gas-hydrogen", "chemical")
   --angelsmods.functions.make_void("angels-gas-deuterium", "chemical")
   angelsmods.functions.make_void("angels-gas-oxygen", "chemical")
-  angelsmods.functions.make_void("angels-gas-hydrogen-peroxide", "chemical")
   angelsmods.functions.make_void("angels-gas-carbon-monoxide", "chemical")
   angelsmods.functions.make_void("angels-gas-carbon-dioxide", "chemical")
   angelsmods.functions.make_void("angels-gas-hydrogen-fluoride", "chemical")
@@ -68,7 +67,6 @@ if angelsmods.refining then
   angelsmods.functions.make_void("angels-gas-epichlorhydrin", "chemical")
   angelsmods.functions.make_void("angels-gas-chlor-methane", "chemical")
   angelsmods.functions.make_void("angels-liquid-perchloric-acid", "chemical")
-  angelsmods.functions.make_void("angels-gas-phosgene", "chemical")
   if data.raw.fluid["ferric-chloride-solution"] then
     angelsmods.functions.make_void("ferric-chloride-solution", "chemical")
   end

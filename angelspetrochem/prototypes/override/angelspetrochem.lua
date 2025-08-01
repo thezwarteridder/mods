@@ -324,17 +324,6 @@ else
   OV.remove_prereq("angels-nitrogen-processing-3", "angels-chlorine-processing-2")
 end
 
------------------------------------------------------------------------------
--- DEAD ENDS ----------------------------------------------------------------
------------------------------------------------------------------------------
---Hydrogen peroxide may be used at a later date, but for now, it is a dead-end
-angelsmods.functions.hide({
-  "angels-gas-hydrogen-peroxide",
-  "angels-gas-phosgene",
-})
-OV.disable_recipe({
-  "angels-gas-phosgene",
-})
 
 -----------------------------------------------------------------------------
 -- SULFURIC ACID ------------------------------------------------------------

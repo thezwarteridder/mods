@@ -216,28 +216,6 @@ data:extend({
     crafting_machine_tint = AF.get_recipe_tints({ "angels-liquid-rubber", "angels-liquid-styrene", "angels-gas-butadiene" }),
     order = "b[rubber]-a[liquid]",
   },
-  --GLASS
-  -- {
-  -- type = "recipe",
-  -- name = "angels-solid-glass",
-  -- category = "chemistry",
-  -- subgroup = "angels-petrochem-solids",
-  -- enabled = false,
-  -- energy_required = 2,
-  -- ingredients =
-  -- {
-  --   {type="fluid", name="angels-liquid-bisphenol-a", amount=20},
-  --   {type="fluid", name="angels-gas-phosgene", amount=20},
-  --   {type="item", name="angels-solid-sodium-hydroxide", amount=1},
-  -- },
-  -- results=
-  -- {
-  --   {type="item", name="angels-solid-glas", amount=4},
-  -- },
-  -- icon = "__angelspetrochemgraphics__/graphics/icons/solid-glas.png",
-  -- icon_size = 32,
-  -- order = "i",
-  -- },
   --FUEL
   {
     type = "recipe",

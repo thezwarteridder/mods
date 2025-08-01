@@ -191,16 +191,6 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "angels-bio-refugium-hogger",
-    energy_required = 5,
-    enabled = false,
-    ingredients = {
-      { type = "item", name = "iron-plate", amount = 1 },
-    },
-    results = { { type = "item", name = "angels-bio-refugium-hogger", amount = 1 } },
-  },
-  {
-    type = "recipe",
     name = "angels-bio-refugium-fish",
     energy_required = 5,
     enabled = false,
