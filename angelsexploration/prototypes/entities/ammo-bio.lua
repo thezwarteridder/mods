@@ -2,31 +2,20 @@ data:extend({
   --BIO GUN AMMO
   {
     type = "sticker",
-    name = "bio-slowdown-sticker",
+    name = "angels-bio-slowdown-sticker",
     --icon = "__base__/graphics/icons/slowdown-sticker.png",
     icon_size = 32,
     flags = {},
     animation = {
       filename = "__base__/graphics/entity/slowdown-sticker/slowdown-sticker.png",
-      priority = "extra-high",
       line_length = 5,
-      width = 22,
-      height = 24,
+      width = 42,
+      height = 48,
       frame_count = 50,
       animation_speed = 0.5,
       tint = { r = 0.250, g = 0.663, b = 0.000, a = 0.694 },
-      shift = util.by_pixel(2, -1),
-      hr_version = {
-        filename = "__base__/graphics/entity/slowdown-sticker/hr-slowdown-sticker.png",
-        line_length = 5,
-        width = 42,
-        height = 48,
-        frame_count = 50,
-        animation_speed = 0.5,
-        tint = { r = 0.250, g = 0.663, b = 0.000, a = 0.694 },
-        shift = util.by_pixel(2, -0.5),
-        scale = 0.5,
-      },
+      shift = util.by_pixel(2, -0.5),
+      scale = 0.5,
     },
     duration_in_ticks = 30 * 60,
     target_movement_modifier = 0.4,
@@ -34,7 +23,7 @@ data:extend({
   },
   {
     type = "fire",
-    name = "bio-splash",
+    name = "angels-bio-splash",
     flags = { "placeable-off-grid", "not-on-map" },
     damage_per_tick = { amount = 0 / 60, type = "bio" },
     on_damage_tick_effect = {
@@ -48,7 +37,7 @@ data:extend({
         target_effects = {
           {
             type = "create-sticker",
-            sticker = "bio-slowdown-sticker",
+            sticker = "angels-bio-slowdown-sticker",
             show_in_tooltip = true,
           },
           {
@@ -80,7 +69,7 @@ data:extend({
     --flame_alpha = 0.35,
     --flame_alpha_deviation = 0.05,
 
-    emissions_per_second = 0,
+    emissions_per_second = {pollution= -0.0001},
     add_fuel_cooldown = 10,
     fade_in_duration = 1,
     fade_out_duration = 30,
@@ -93,7 +82,7 @@ data:extend({
     burnt_patch_lifetime = 0,
     pictures = {
       {
-        filename = "__angelsexploration__/graphics/entity/bio-projectile/splash-1.png",
+        filename = "__angelsexplorationgraphics__/graphics/entity/bio-projectile/splash-1.png",
         line_length = 5,
         width = 199,
         height = 159,
@@ -101,7 +90,7 @@ data:extend({
         shift = { 0.484375, -0.171875 },
       },
       {
-        filename = "__angelsexploration__/graphics/entity/bio-projectile/splash-2.png",
+        filename = "__angelsexplorationgraphics__/graphics/entity/bio-projectile/splash-2.png",
         line_length = 5,
         width = 238,
         height = 157,
@@ -109,7 +98,7 @@ data:extend({
         shift = { 0.8125, -0.15625 },
       },
       {
-        filename = "__angelsexploration__/graphics/entity/bio-projectile/splash-3.png",
+        filename = "__angelsexplorationgraphics__/graphics/entity/bio-projectile/splash-3.png",
         line_length = 5,
         width = 240,
         height = 162,
@@ -117,7 +106,7 @@ data:extend({
         shift = { 0.71875, -0.09375 },
       },
       {
-        filename = "__angelsexploration__/graphics/entity/bio-projectile/splash-4.png",
+        filename = "__angelsexplorationgraphics__/graphics/entity/bio-projectile/splash-4.png",
         line_length = 5,
         width = 241,
         height = 146,
@@ -128,7 +117,7 @@ data:extend({
   },
   {
     type = "stream",
-    name = "bio-stream",
+    name = "angels-bio-stream",
     flags = { "not-on-map" },
     stream_light = { intensity = 1, size = 4 },
     ground_light = { intensity = 0.8, size = 4 },
@@ -164,7 +153,7 @@ data:extend({
           target_effects = {
             {
               type = "create-sticker",
-              sticker = "bio-slowdown-sticker",
+              sticker = "angels-bio-slowdown-sticker",
               show_in_tooltip = false,
             },
             {
@@ -204,7 +193,7 @@ data:extend({
             },
             --{
             --  type = "create-entity",
-            --  entity_name = "bio-splash"
+            --  entity_name = "angels-bio-splash"
             --},
             --{
             --  type = "damage",
@@ -212,14 +201,18 @@ data:extend({
             --}
             {
               type = "create-fire",
-              entity_name = "bio-splash",
-              tile_collision_mask = { "water-tile" },
+              entity_name = "angels-bio-splash",
+              tile_collision_mask = { layers = {
+                  water_tile = true,
+              } },
               show_in_tooltip = true,
             },
             {
               type = "create-entity",
               entity_name = "water-splash",
-              tile_collision_mask = { "ground-tile" },
+              tile_collision_mask = { layers = {
+                ground_tile = true,
+              } },
               show_in_tooltip = false,
             },
           },
@@ -227,7 +220,7 @@ data:extend({
       },
     },
     spine_animation = {
-      filename = "__angelsexploration__/graphics/entity/bio-projectile/bio-projectile.png",
+      filename = "__angelsexplorationgraphics__/graphics/entity/bio-projectile/bio-projectile.png",
       line_length = 5,
       width = 16,
       height = 18,
@@ -249,7 +242,7 @@ data:extend({
       shift = { -0.09, 0.395 },
     },
     particle = {
-      filename = "__angelsexploration__/graphics/entity/blank.png",
+      filename = "__angelsexplorationgraphics__/graphics/entity/blank.png",
       priority = "extra-high",
       width = 1,
       height = 1,
@@ -259,11 +252,11 @@ data:extend({
   },
   {
     type = "ammo",
-    name = "bio-ammo",
-    icon = "__angelsexploration__/graphics/icons/bio-ammo.png",
+    name = "angels-bio-ammo",
+    icon = "__angelsexplorationgraphics__/graphics/icons/bio-ammo.png",
     icon_size = 64,
-    icon_mipmaps = 4,
     flags = {},
+    ammo_category = "biological",
     ammo_type = {
       {
         source_type = "default",
@@ -274,7 +267,7 @@ data:extend({
           type = "direct",
           action_delivery = {
             type = "stream",
-            stream = "bio-stream",
+            stream = "angels-bio-stream",
           },
         },
       },

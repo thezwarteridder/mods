@@ -49,7 +49,7 @@ function welcome_dialog:create_welcome_dialog(player_index)
   welcomeFrameHeader.add({
     type = "sprite-button",
     name = "welcome_close_button",
-    sprite = "utility/close_white",
+    sprite = "utility/close",
     hovered_sprite = "utility/close_black",
     clicked_sprite = "utility/close_black",
     style = "frame_action_button",
@@ -88,9 +88,9 @@ function welcome_dialog:create_welcome_dialog(player_index)
     tooltip = { "angels-welcome-message-settings-tooltip.pollution-setting" },
   })
 
-  local enemySizeSetting = ((player.surface.map_gen_settings["autoplace_controls"] or {})["angels-biter-slider"] or {
-    ["size"] = 0,
-  })["size"] > 1 and "enabled" or "disabled"
+  local enemySizeSetting = (((player.surface.map_gen_settings["autoplace_controls"] or {})["angels-biter-slider"] or {["size"] = 0})["size"] >= 6) and
+    (((player.surface.map_gen_settings["autoplace_controls"] or {})["enemy-base"] or {["size"] = 0})["size"] > 0)
+    and "enabled" or "disabled"
   welcomeFrameContent.add({
     type = "label",
     name = "enemy_size_message",
@@ -150,15 +150,18 @@ function welcome_dialog:create_welcome_dialog(player_index)
   })
   welcomeFrameFooter.style.horizontally_stretchable = true
 
-  local footerSpace = welcomeFrameFooter.add({
-    type = "empty-widget",
-    name = "bottom_space",
-    --style = 'draggable_space'
-    style = "draggable_space_with_no_left_margin",
-    ignored_by_interaction = true,
-  })
-  footerSpace.style.horizontally_stretchable = true
-  footerSpace.style.height = 32
+-- TODO
+-- 'draggable_space_with_no_left_margin' no longer exists
+
+--   local footerSpace = welcomeFrameFooter.add({
+--     type = "empty-widget",
+--     name = "bottom_space",
+--     --style = 'draggable_space'
+--     style = "draggable_space_with_no_left_margin",
+--     ignored_by_interaction = true,
+--   })
+--   footerSpace.style.horizontally_stretchable = true
+--   footerSpace.style.height = 32
 
   welcomeFrameFooter.add({
     type = "button",
@@ -180,7 +183,7 @@ end
 -- Event handlers
 -------------------------------------------------------------------------------
 function welcome_dialog:on_cutscene_cancelled(player_index)
-  if game.active_mods["angelsexploration"] then
+  if script.active_mods["angelsexploration"] then
     return
   end
   self:create_welcome_dialog(player_index)

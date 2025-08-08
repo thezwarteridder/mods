@@ -23,7 +23,7 @@ end
 --OVERRIDE FOR ANGELS
 --REFINING
 if angelsmods.addons.storage.oresilos and angelsmods.refining then
-  angelsmods.functions.OV.add_prereq("ore-silos", "ore-crushing")
+  angelsmods.functions.OV.add_prereq("ore-silos", "angels-ore-crushing")
   for refinery_product_name, ore_name in pairs({
     ["saphirite"] = "ore1",
     ["jivolite"] = "ore2",
@@ -42,7 +42,7 @@ if angelsmods.addons.storage.oresilos and angelsmods.refining then
         },
       })
     else
-      angelsmods.functions.add_flag("silo-" .. ore_name, "hidden")
+      angelsmods.functions.hide("silo-" .. ore_name)
       angelsmods.functions.OV.disable_recipe("silo-" .. ore_name)
     end
   end
@@ -50,7 +50,7 @@ if angelsmods.addons.storage.oresilos and angelsmods.refining then
     {
       name = "silo-coal",
       ingredients = {
-        { type = "item", name = angelsmods.petrochem and "coal-crushed" or "coal", amount = 10 },
+        { type = "item", name = angelsmods.petrochem and "angels-coal-crushed" or "coal", amount = 10 },
       },
     },
   })
@@ -73,17 +73,14 @@ if angelsmods.addons.storage.silos then
   --LOGISTICS
   if mods["boblogistics"] then
   else
-    table.insert(
-      data.raw.technology["logistic-silos"].unit.ingredients,
-      { type = "item", name = "utility-science-pack", amount = 1 }
-    )
+    table.insert(data.raw.technology["logistic-silos"].unit.ingredients, { "utility-science-pack", 1 })
   end
 
   --TECHNOLOGY
   if mods["bobtech"] and bobmods.tech.advanced_logistic_science then
     table.insert(
       data.raw.technology["logistic-silos"].unit.ingredients,
-      { type = "item", name = "advanced-logistic-science-pack", amount = 1 }
+      { "bob-advanced-logistic-science-pack", 1 }
     )
   end
 end

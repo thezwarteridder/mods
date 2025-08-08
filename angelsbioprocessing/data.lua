@@ -5,14 +5,12 @@ angelsmods.bioprocessing.number_tint = { r = 0.2, g = 1, b = 0.2, a = 1 }
 
 --TRIGGER CHECKS
 angelsmods.trigger = angelsmods.trigger or {}
-angelsmods.triggers = angelsmods.trigger
 --BIO TOKEN
 angelsmods.trigger.lab_ignore_token = angelsmods.trigger.lab_ignore_token or {}
-angelsmods.trigger.lab_ignore_token["lab-alien"] = true
-angelsmods.trigger.lab_ignore_token["lab-module"] = true
+angelsmods.trigger.lab_ignore_token["bob-lab-alien"] = true
 --ARTIFACTS
 angelsmods.trigger.artifacts = angelsmods.trigger.artifacts or {}
-if bobmods and bobmods.enemies and data.raw.item["small-alien-artifact-blue"] then
+if bobmods and bobmods.enemies and data.raw.item["bob-small-alien-artifact-blue"] then
   angelsmods.trigger.artifacts["red"] = true
   angelsmods.trigger.artifacts["yellow"] = true
   angelsmods.trigger.artifacts["orange"] = true
@@ -104,7 +102,6 @@ require("prototypes.items.bio-refugium")
 require("prototypes.items.bio-refugium-fish")
 require("prototypes.items.bio-refugium-puffer")
 require("prototypes.items.bio-refugium-biter")
-require("prototypes.items.bio-refugium-hogger")
 require("prototypes.items.bio-module")
 
 require("prototypes.recipes.bio-processing-algae")
@@ -123,13 +120,12 @@ require("prototypes.recipes.crop-farming-processing-fermentation")
 require("prototypes.recipes.bio-refugium-fish")
 require("prototypes.recipes.bio-refugium-puffer")
 require("prototypes.recipes.bio-refugium-biter")
-require("prototypes.recipes.bio-refugium-hogger")
 require("prototypes.recipes.bio-module")
 
 require("prototypes.technology.bio-processing-algae")
-require("prototypes.technology.bio-processing-artifacts")
 require("prototypes.technology.bio-processing-wood-paper")
 require("prototypes.technology.bio-processing-alien")
+require("prototypes.technology.bio-processing-artifacts")
 require("prototypes.technology.crop-farming")
 require("prototypes.technology.bio-refugium")
 require("prototypes.technology.bio-module")

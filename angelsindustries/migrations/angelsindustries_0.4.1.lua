@@ -12,10 +12,10 @@ end
 if settings.startup["angels-enable-industries"].value then -- overhaul enabled
   for _, force in pairs(game.forces) do
     for newTech, oldTechs in pairs({
-      ["water-chemistry-1"] = {
+      ["angels-water-chemistry-1"] = {
         "heavy-water-processing",
       },
-      ["water-chemistry-2"] = {
+      ["angels-water-chemistry-2"] = {
         "deuterium-processing",
       },
       ["angels-plutonium-power"] = {
@@ -43,9 +43,9 @@ if settings.startup["angels-enable-industries"].value then -- overhaul enabled
     for techname, enabled in pairs({
       -- deuterium
       ["heavy-water-processing"] = false,
-      ["water-chemistry-1"] = true,
+      ["angels-water-chemistry-1"] = true,
       ["deuterium-processing"] = false,
-      ["water-chemistry-2"] = true,
+      ["angels-water-chemistry-2"] = true,
 
       -- bob recipes to disable
       ["thorium-processing"] = false,
@@ -73,8 +73,8 @@ if settings.startup["angels-enable-industries"].value then -- overhaul enabled
       surface.find_entities_filtered({
         name = {
           "centrifuge",
-          game.active_mods["bobassembly"] and "centrifuge-2",
-          game.active_mods["bobassembly"] and "centrifuge-3",
+          script.active_mods["bobassembly"] and "centrifuge-2",
+          script.active_mods["bobassembly"] and "centrifuge-3",
         },
         type = "assembling-machine",
       }),
@@ -84,7 +84,7 @@ if settings.startup["angels-enable-industries"].value then -- overhaul enabled
         { "thorium-fuel-reprocessing", "angels-thorium-fuel-cell-reprocessing" },
         { "deuterium-fuel-reprocessing", "angels-deuterium-fuel-cell-reprocessing" },
         not (
-              game.active_mods["bobrevamp"]
+              script.active_mods["bobrevamp"]
               and settings.startup["bobmods-revamp-rtg"]
               and settings.startup["bobmods-revamp-rtg"].value
             )
@@ -99,9 +99,9 @@ if settings.startup["angels-enable-industries"].value then -- overhaul enabled
           "assembling-machine-1",
           "assembling-machine-2",
           "assembling-machine-3",
-          game.active_mods["bobassembly"] and "assembling-machine-4",
-          game.active_mods["bobassembly"] and "assembling-machine-5",
-          game.active_mods["bobassembly"] and "assembling-machine-6",
+          script.active_mods["bobassembly"] and "assembling-machine-4",
+          script.active_mods["bobassembly"] and "assembling-machine-5",
+          script.active_mods["bobassembly"] and "assembling-machine-6",
         },
         type = "assembling-machine",
       }),
@@ -121,12 +121,12 @@ if settings.startup["angels-enable-industries"].value then -- overhaul enabled
     for chunk in surface.get_chunks() do
       --local entities = surface.find_entities(chunk.area)
       angelsmods.migration.replace_item(surface.find_entities(chunk.area), {
-        ["plutonium-fuel-cell"] = "AMOX-cell",
+        ["plutonium-fuel-cell"] = "angels-mixed-oxide-cell",
         ["thorium-fuel-cell"] = "angels-thorium-fuel-cell",
         ["thorium-plutonium-fuel-cell"] = "angels-thorium-fuel-cell",
         ["deuterium-fuel-cell"] = "angels-deuterium-fuel-cell",
-        ["used-up-thorium-fuel-cell"] = "used-up-angels-thorium-fuel-cell",
-        ["used-up-deuterium-fuel-cell"] = "used-up-angels-deuterium-fuel-cell",
+        ["used-up-thorium-fuel-cell"] = "angels-depleted-thorium-fuel-cell",
+        ["used-up-deuterium-fuel-cell"] = "angels-depleted-deuterium-fuel-cell",
         ["fusion-catalyst"] = "angels-muon-fusion-catalyst",
       })
     end

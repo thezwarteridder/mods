@@ -2,7 +2,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-plutonium-power",
-    icon = "__angelsindustries__/graphics/technology/plutonium-processing.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/plutonium-processing.png",
     icon_size = 128,
     prerequisites = {
       "nuclear-fuel-reprocessing",
@@ -32,10 +32,10 @@ data:extend({
     unit = {
       count = 600,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
-        { type = "item", name = "production-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
+        { "production-science-pack", 1 },
       },
       time = 60,
     },
@@ -44,11 +44,11 @@ data:extend({
   {
     type = "technology",
     name = "angels-thorium-power",
-    icon = "__angelsindustries__/graphics/technology/thorium-processing.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/thorium-processing.png",
     icon_size = 128,
     prerequisites = {
       "angels-plutonium-power",
-      "ore-electro-whinning-cell",
+      "angels-ore-electro-whinning-cell",
       "utility-science-pack",
       "angels-zinc-smelting-1",
     },
@@ -77,11 +77,11 @@ data:extend({
     unit = {
       count = 1200,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
-        { type = "item", name = "production-science-pack", amount = 1 },
-        { type = "item", name = "utility-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
+        { "production-science-pack", 1 },
+        { "utility-science-pack", 1 },
       },
       time = 70,
     },
@@ -93,7 +93,7 @@ data:extend({
     icons = angelsmods.functions.add_icon_layer(
       { -- bottom placeholder layer
         {
-          icon = "__angelsindustries__/graphics/technology/deuterium-fuel-processing-arrow.png",
+          icon = "__angelsindustriesgraphics__/graphics/technology/deuterium-fuel-processing-arrow.png",
         },
       },
       angelsmods.functions.add_icon_layer(
@@ -104,10 +104,10 @@ data:extend({
         ),
         {
           {
-            icon = "__angelsindustries__/graphics/technology/deuterium-fuel-processing-cell.png",
+            icon = "__angelsindustriesgraphics__/graphics/technology/deuterium-fuel-processing-cell.png",
           },
           {
-            icon = "__angelsindustries__/graphics/technology/deuterium-fuel-processing-arrow.png",
+            icon = "__angelsindustriesgraphics__/graphics/technology/deuterium-fuel-processing-arrow.png",
           },
         }
       )
@@ -115,7 +115,7 @@ data:extend({
     icon_size = 128,
     prerequisites = {
       "angels-thorium-power",
-      "water-chemistry-2",
+      "angels-water-chemistry-2",
     },
     effects = {
       {
@@ -134,16 +134,16 @@ data:extend({
     unit = {
       count = 3000,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
-        { type = "item", name = "production-science-pack", amount = 1 },
-        { type = "item", name = "utility-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
+        { "production-science-pack", 1 },
+        { "utility-science-pack", 1 },
       },
       time = 120,
     },
     order = "e-p-b-ca",
-    upgrade = "true",
+    upgrade = true,
   },
   {
     type = "technology",
@@ -151,7 +151,7 @@ data:extend({
     icons = angelsmods.functions.add_icon_layer(
       { -- bottom placeholder layer
         {
-          icon = "__angelsindustries__/graphics/technology/deuterium-fuel-processing-arrow.png",
+          icon = "__angelsindustriesgraphics__/graphics/technology/deuterium-fuel-processing-arrow.png",
         },
       },
       angelsmods.functions.add_icon_layer(
@@ -162,10 +162,10 @@ data:extend({
         ),
         {
           {
-            icon = "__angelsindustries__/graphics/technology/deuterium-fuel-processing-cell.png",
+            icon = "__angelsindustriesgraphics__/graphics/technology/deuterium-fuel-processing-cell.png",
           },
           {
-            icon = "__angelsindustries__/graphics/technology/deuterium-fuel-processing-arrow.png",
+            icon = "__angelsindustriesgraphics__/graphics/technology/deuterium-fuel-processing-arrow.png",
           },
         }
       )
@@ -184,16 +184,16 @@ data:extend({
     unit = {
       count = 3000,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
-        { type = "item", name = "production-science-pack", amount = 1 },
-        { type = "item", name = "utility-science-pack", amount = 1 },
-        { type = "item", name = "space-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
+        { "production-science-pack", 1 },
+        { "utility-science-pack", 1 },
+        { "space-science-pack", 1 },
       },
       time = 120,
     },
     order = "e-p-b-ca",
-    upgrade = "true",
+    upgrade = true,
   },
 })

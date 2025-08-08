@@ -3,7 +3,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-turbo-bike",
-    icon = "__angelsexploration__/graphics/technology/turbo-bike-tech.png",
+    icon = "__angelsexplorationgraphics__/graphics/technology/turbo-bike-tech.png",
     icon_size = 128,
     prerequisites = {
       "steel-processing",
@@ -25,7 +25,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-heavy-tank",
-    icon = "__angelsexploration__/graphics/technology/heavy-tank-tech.png",
+    icon = "__angelsexplorationgraphics__/graphics/technology/heavy-tank-tech.png",
     icon_size = 128,
     prerequisites = {
       "tank",
@@ -52,9 +52,9 @@ data:extend({
     unit = {
       count = 60,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
       },
       time = 15,
     },
@@ -64,7 +64,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-cannon-turret",
-    icon = "__angelsexploration__/graphics/technology/cannon-turret-tech.png",
+    icon = "__angelsexplorationgraphics__/graphics/technology/cannon-turret-tech.png",
     icon_size = 128,
     prerequisites = {
       "military-2",
@@ -86,8 +86,8 @@ data:extend({
     unit = {
       count = 60,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
       },
       time = 15,
     },
@@ -96,7 +96,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-rocket-turret",
-    icon = "__angelsexploration__/graphics/technology/rocket-turret-tech.png",
+    icon = "__angelsexplorationgraphics__/graphics/technology/rocket-turret-tech.png",
     icon_size = 128,
     prerequisites = {
       "rocketry",
@@ -110,9 +110,9 @@ data:extend({
     unit = {
       count = 60,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "military-science-pack", amount = 2 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "military-science-pack", 2 },
       },
       time = 15,
     },
@@ -121,12 +121,11 @@ data:extend({
   {
     type = "technology",
     name = "angels-gathering-turret",
-    icon = "__angelsexploration__/graphics/technology/gathering-turret.png",
+    icon = "__angelsexplorationgraphics__/graphics/technology/gathering-turret.png",
     icon_size = 256,
-    icon_mipmaps = 4,
     prerequisites = {
       "military-science-pack",
-      "angels-alien-artifact",
+      "angels-alien-artifact", --TODO where is this defined? [angelsbioprocessing\prototypes\technology\bio-processing-artifacts.lua]
     },
     effects = {
       {
@@ -137,9 +136,9 @@ data:extend({
     unit = {
       count = 80,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 2 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "military-science-pack", amount = 2 },
+        { "automation-science-pack",  2 },
+        { "logistic-science-pack", 1 },
+        { "military-science-pack", 2 },
       },
       time = 30,
     },
@@ -156,7 +155,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-bio-gun",
-    icon = "__angelsexploration__/graphics/technology/bio-tech.png",
+    icon = "__angelsexplorationgraphics__/graphics/technology/bio-tech.png",
     icon_size = 128,
     prerequisites = {
       "flammables",
@@ -166,11 +165,11 @@ data:extend({
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "bio-gun",
+        recipe = "angels-bio-gun",
       },
       {
         type = "unlock-recipe",
-        recipe = "bio-ammo",
+        recipe = "angels-bio-ammo",
       },
       {
         type = "unlock-recipe",
@@ -180,9 +179,9 @@ data:extend({
     unit = {
       count = 80,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "military-science-pack", amount = 2 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "military-science-pack", 2 },
       },
       time = 15,
     },
@@ -215,11 +214,11 @@ data:extend({
     unit = {
       count = 1500,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
-        { type = "item", name = "military-science-pack", amount = 1 },
-        { type = "item", name = "utility-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
+        { "military-science-pack", 1 },
+        { "utility-science-pack", 1 },
       },
       time = 45,
     },

@@ -1,5 +1,5 @@
 circuit_connector_definitions["angels-charging-station"] =
-  circuit_connector_definitions.create(universal_connector_template, {
+  circuit_connector_definitions.create_vector(universal_connector_template, {
     { variation = 26, main_offset = util.by_pixel(28, 36), shadow_offset = util.by_pixel(30, 48), show_shadow = false },
   })
 
@@ -7,7 +7,7 @@ data:extend({
   {
     type = "item",
     name = "angels-charging-station",
-    icon = "__angelsindustries__/graphics/icons/charging-station-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/charging-station-icon.png",
     icon_size = 32,
     subgroup = "angels-cargo-ports",
     order = "a[roboport]-d",
@@ -17,7 +17,7 @@ data:extend({
   {
     type = "roboport",
     name = "angels-charging-station",
-    icon = "__angelsindustries__/graphics/icons/charging-station-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/charging-station-icon.png",
     icon_size = 32,
     flags = { "placeable-player", "player-creation" },
     minable = { mining_time = 0.5, result = "angels-charging-station" },
@@ -26,7 +26,7 @@ data:extend({
     corpse = "small-remnants",
     collision_box = { { -1.4, -1.4 }, { 1.4, 1.4 } },
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-    drawing_box = { { -1.5, -2 }, { 1.5, 1.5 } },
+    drawing_box_vertical_extension = 0.5,
     dying_explosion = "medium-explosion",
     energy_source = {
       type = "electric",
@@ -47,13 +47,13 @@ data:extend({
     stationing_offset = { 2, -3.5 },
     charging_offsets = { { -0.75, -1.15 }, { -0.75, -0 }, { 0.75, -1.15 }, { 0.75, -0 } },
     base = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       shift = { 0, 0 },
     },
     base_animation = {
-      filename = "__angelsindustries__/graphics/entity/zone-expander/charging-station.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/zone-expander/charging-station.png",
       priority = "medium",
       width = 160,
       height = 160,
@@ -63,32 +63,24 @@ data:extend({
       animation_speed = 0.25,
     },
     base_patch = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
-      frame_count = 1,
     },
-    --[[door_animation =
-      {
-        filename = "__angelsindustries__/graphics/entity/empty.png",
-        width = 1,
-        height = 1,
-        frame_count = 1
-      },]]
     door_animation_up = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     door_animation_down = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     recharging_animation = {
-      filename = "__angelsindustries__/graphics/entity/cargo-roboport/cargoroboport-recharging.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/cargo-roboport/cargoroboport-recharging.png",
       priority = "high",
       width = 74,
       height = 70,

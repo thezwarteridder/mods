@@ -17,7 +17,7 @@ if mods["boblogistics"] then
       icon_size = 64,
     },
     {
-      icon = "__angelsrefining__/graphics/icons/bobs-logo.png",
+      icon = "__angelsrefininggraphics__/graphics/icons/bobs-logo.png",
       icon_size = 1080,
       scale = 64 / 1080 * 0.35,
       shift = { 20, -20 },
@@ -38,11 +38,11 @@ move_item("iron-chest", "angels-chests-small-a", "a[chest]-b[iron]")
 move_item("steel-chest", "angels-chests-small-b", "a")
 move_item("repair-pack", "angels-chests-small-a", "b[repair-pack]-a", "repair-tool")
 -- steel chests
-move_item("logistic-chest-active-provider", "angels-chests-small-b", "b")
-move_item("logistic-chest-passive-provider", "angels-chests-small-b", "c")
-move_item("logistic-chest-storage", "angels-chests-small-b", "d")
-move_item("logistic-chest-buffer", "angels-chests-small-b", "e")
-move_item("logistic-chest-requester", "angels-chests-small-b", "f")
+move_item("active-provider-chest", "angels-chests-small-b", "b")
+move_item("passive-provider-chest", "angels-chests-small-b", "c")
+move_item("storage-chest", "angels-chests-small-b", "d")
+move_item("buffer-chest", "angels-chests-small-b", "e")
+move_item("requester-chest", "angels-chests-small-b", "f")
 
 if mods["boblogistics"] then
   data:extend({
@@ -166,22 +166,14 @@ if mods["boblogistics"] then
   end
   -- robot brains
   if settings.startup["bobmods-logistics-robotparts"].value == true then
-    move_item("robot-brain-construction", "angels-robot-a", "b[construction]-a[brain]")
-    move_item("robot-brain-construction-2", "angels-robot-b", "b[construction]-a[brain]")
-    move_item("robot-brain-construction-3", "angels-robot-c", "b[construction]-a[brain]")
-    move_item("robot-brain-construction-4", "angels-robot-d", "b[construction]-a[brain]")
-    move_item("robot-tool-construction", "angels-robot-a", "b[construction]-b[tool]")
-    move_item("robot-tool-construction-2", "angels-robot-b", "b[construction]-b[tool]")
-    move_item("robot-tool-construction-3", "angels-robot-c", "b[construction]-b[tool]")
-    move_item("robot-tool-construction-4", "angels-robot-d", "b[construction]-b[tool]")
-    move_item("robot-brain-logistic", "angels-robot-a", "c[logistic]-a[brain]")
-    move_item("robot-brain-logistic-2", "angels-robot-b", "c[logistic]-a[brain]")
-    move_item("robot-brain-logistic-3", "angels-robot-c", "c[logistic]-a[brain]")
-    move_item("robot-brain-logistic-4", "angels-robot-d", "c[logistic]-a[brain]")
-    move_item("robot-tool-logistic", "angels-robot-a", "c[logistic]-b[tool]")
-    move_item("robot-tool-logistic-2", "angels-robot-b", "c[logistic]-b[tool]")
-    move_item("robot-tool-logistic-3", "angels-robot-c", "c[logistic]-b[tool]")
-    move_item("robot-tool-logistic-4", "angels-robot-d", "c[logistic]-b[tool]")
+    move_item("bob-robot-brain", "angels-robot-a", "b[robot]-a[brain]")
+    move_item("bob-robot-brain-2", "angels-robot-b", "b[robot]-a[brain]")
+    move_item("rbob-obot-brain-3", "angels-robot-c", "b[robot]-a[brain]")
+    move_item("bob-robot-brain-4", "angels-robot-d", "b[robot]-a[brain]")
+    move_item("bob-robot-tool", "angels-robot-a", "b[robot]-b[tool]")
+    move_item("bob-robot-tool-2", "angels-robot-b", "b[robot]-b[tool]")
+    move_item("bob-robot-tool-3", "angels-robot-c", "b[robot]-b[tool]")
+    move_item("bob-robot-tool-4", "angels-robot-d", "b[robot]-b[tool]")
     if mods["bobwarfare"] and settings.startup["bobmods-warfare-robotupdate"].value then
       move_item("robot-brain-combat", "angels-robot-a", "d[combat]-a[brain]")
       move_item("robot-brain-combat-2", "angels-robot-b", "d[combat]-a[brain]")

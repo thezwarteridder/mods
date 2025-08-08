@@ -2,10 +2,10 @@ data:extend({
   {
     type = "technology",
     name = "angels-vequipment-1",
-    icon = "__angelsindustries__/graphics/technology/vequip.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/vequip.png",
     icon_size = 128,
     prerequisites = {
-      "advanced-electronics",
+      "advanced-circuit",
     },
     effects = {
       {
@@ -20,8 +20,8 @@ data:extend({
     unit = {
       count = 60,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
       },
       time = 15,
     },
@@ -30,7 +30,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-vequipment-2",
-    icon = "__angelsindustries__/graphics/technology/vequip.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/vequip.png",
     icon_size = 128,
     prerequisites = {
       "angels-vequipment-1",
@@ -49,9 +49,9 @@ data:extend({
     unit = {
       count = 60,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
       },
       time = 15,
     },

@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "cannon-turret-shell-1",
+    localised_name = { "item-name.cannon-turret-shell-1" },
     energy_required = 2,
     enabled = false,
     ingredients = {
@@ -16,6 +17,7 @@ data:extend({
   {
     type = "recipe",
     name = "cannon-turret-shell-2",
+    localised_name = { "item-name.cannon-turret-shell-2" },
     energy_required = 2,
     enabled = false,
     ingredients = {
@@ -29,6 +31,7 @@ data:extend({
   {
     type = "recipe",
     name = "cannon-turret-shell-3",
+    localised_name = { "item-name.cannon-turret-shell-3" },
     energy_required = 2,
     enabled = false,
     ingredients = {
@@ -44,6 +47,7 @@ data:extend({
   {
     type = "recipe",
     name = "heavy-cannon-shell",
+    localised_name = { "item-name.heavy-cannon-shell" },
     energy_required = 10,
     enabled = false,
     ingredients = {
@@ -57,6 +61,7 @@ data:extend({
   {
     type = "recipe",
     name = "heavy-explosive-cannon-shell",
+    localised_name = { "item-name.heavy-explosive-cannon-shell" },
     energy_required = 10,
     enabled = false,
     ingredients = {
@@ -70,6 +75,7 @@ data:extend({
   {
     type = "recipe",
     name = "heavy-uranium-cannon-shell",
+    localised_name = { "item-name.heavy-uranium-cannon-shell" },
     energy_required = 10,
     enabled = false,
     ingredients = {
@@ -83,6 +89,7 @@ data:extend({
   {
     type = "recipe",
     name = "heavy-explosive-uranium-cannon-shell",
+    localised_name = { "item-name.heavy-explosive-uranium-cannon-shell" },
     energy_required = 10,
     enabled = false,
     ingredients = {

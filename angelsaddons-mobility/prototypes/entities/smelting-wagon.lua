@@ -1,7 +1,7 @@
 local cargo_minimap_representation = data.raw["cargo-wagon"]["cargo-wagon"].minimap_representation
 local cargo_selected_minimap_representation = data.raw["cargo-wagon"]["cargo-wagon"].selected_minimap_representation
 
-local funcs = require("prototypes/train-functions")
+local funcs = require("prototypes.train-functions")
 
 local fixed_tint = { r = 119 / 255, g = 127 / 255, b = 113 / 255, a = 0.8 }
 local tintable_tint = { r = 1, g = 0.38, b = 0.0, a = 0.5 } -- alpha must be 0.5 due to base game...
@@ -84,66 +84,101 @@ funcs.generate_train_entities({
       percent = 20,
     },
   },
-  back_light = rolling_stock_back_light(),
-  stand_by_light = rolling_stock_stand_by_light(),
+  back_light = {
+    {
+      minimum_darkness = 0.3,
+      color = { 1, 0.1, 0.05, 0 },
+      shift = { -0.6, 3.5 },
+      size = 2,
+      intensity = 0.6,
+      add_perspective = true,
+    },
+    {
+      minimum_darkness = 0.3,
+      color = { 1, 0.1, 0.05, 0 },
+      shift = { 0.6, 3.5 },
+      size = 2,
+      intensity = 0.6,
+      add_perspective = true,
+    },
+  },
+  stand_by_light = {
+    {
+      minimum_darkness = 0.3,
+      color = { 0.05, 0.2, 1, 0 },
+      shift = { -0.6, -3.5 },
+      size = 2,
+      intensity = 0.5,
+      add_perspective = true,
+    },
+    {
+      minimum_darkness = 0.3,
+      color = { 0.05, 0.2, 1, 0 },
+      shift = { 0.6, -3.5 },
+      size = 2,
+      intensity = 0.5,
+      add_perspective = true,
+    },
+  },
   pictures = {
-    layers = {
-      {
-        priority = "very-low",
-        width = 256,
-        height = 256,
-        direction_count = 64,
-        filenames = {
-          "__angelsaddons-mobility__/graphics/entity/smelting-wagon1/smelting-wagon1-1-base.png",
+    rotated = {
+      layers = {
+        {
+          priority = "very-low",
+          width = 256,
+          height = 256,
+          direction_count = 64,
+          filenames = {
+            "__angelsaddons-mobility__/graphics/entity/smelting-wagon1/smelting-wagon1-1-base.png",
+          },
+          line_length = 8,
+          lines_per_file = 8,
+          shift = { 0.0, -0.75 },
+          back_equals_front = true,
         },
-        line_length = 8,
-        lines_per_file = 8,
-        shift = { 0.0, -0.75 },
-        back_equals_front = true,
-      },
-      {
-        priority = "very-low",
-        width = 256,
-        height = 256,
-        direction_count = 64,
-        filenames = {
-          "__angelsaddons-mobility__/graphics/entity/smelting-wagon1/smelting-wagon1-1-tint.png",
+        {
+          priority = "very-low",
+          width = 256,
+          height = 256,
+          direction_count = 64,
+          filenames = {
+            "__angelsaddons-mobility__/graphics/entity/smelting-wagon1/smelting-wagon1-1-tint.png",
+          },
+          line_length = 8,
+          lines_per_file = 8,
+          apply_runtime_tint = false,
+          tint = fixed_tint,
+          shift = { 0.0, -0.75 },
+          back_equals_front = true,
         },
-        line_length = 8,
-        lines_per_file = 8,
-        apply_runtime_tint = false,
-        tint = fixed_tint,
-        shift = { 0.0, -0.75 },
-        back_equals_front = true,
-      },
-      {
-        priority = "very-low",
-        flags = { "mask" },
-        width = 256,
-        height = 256,
-        direction_count = 64,
-        filenames = {
-          "__angelsaddons-mobility__/graphics/entity/smelting-wagon1/smelting-wagon1-1-tint.png",
+        {
+          priority = "very-low",
+          flags = { "mask" },
+          width = 256,
+          height = 256,
+          direction_count = 64,
+          filenames = {
+            "__angelsaddons-mobility__/graphics/entity/smelting-wagon1/smelting-wagon1-1-tint.png",
+          },
+          line_length = 8,
+          lines_per_file = 8,
+          apply_runtime_tint = true,
+          shift = { 0.0, -0.75 },
+          back_equals_front = true,
         },
-        line_length = 8,
-        lines_per_file = 8,
-        apply_runtime_tint = true,
-        shift = { 0.0, -0.75 },
-        back_equals_front = true,
-      },
-      {
-        priority = "very-low",
-        flags = { "compressed" },
-        width = 256,
-        height = 256,
-        direction_count = 64,
-        draw_as_shadow = true,
-        filenames = {
-          "__angelsaddons-mobility__/graphics/entity/smelting-wagon1/smelting-wagon1-shadow-1.png",
+        {
+          priority = "very-low",
+          width = 256,
+          height = 256,
+          direction_count = 64,
+          draw_as_shadow = true,
+          filenames = {
+            "__angelsaddons-mobility__/graphics/entity/smelting-wagon1/smelting-wagon1-shadow-1.png",
+          },
+          line_length = 8,
+          lines_per_file = 8,
+          shift = { 0.5, -0.5 },
         },
-        line_length = 8,
-        lines_per_file = 8,
-        shift = { 0.5, -0.5 },
       },
     },
   },
@@ -211,8 +246,11 @@ funcs.generate_train_entities({
       },
     },
   },
-  wheels = standard_train_wheels,
-  drive_over_tie_trigger = drive_over_tie(),
+  wheels = funcs.standard_train_wheels,
+  drive_over_tie_trigger = {
+    type = "play-sound",
+    sound = sound_variations("__base__/sound/train-tie", 6, 0.4, { volume_multiplier("main-menu", 2.4), volume_multiplier("driving", 1.3) }),
+  },
   tie_distance = 50,
   working_sound = {
     sound = {
@@ -224,6 +262,5 @@ funcs.generate_train_entities({
   crash_trigger = crash_trigger(),
   open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
   close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-  sound_minimum_speed = 0.5,
-  vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+  impact_category = "metal",
 })

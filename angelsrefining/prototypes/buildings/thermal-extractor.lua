@@ -1,65 +1,62 @@
+local hit_effects = require ("__base__.prototypes.entity.hit-effects")
+
 data:extend({
   {
     type = "item",
-    name = "thermal-bore",
+    name = "angels-thermal-bore",
     icons = angelsmods.functions.add_number_icon_layer({
       {
-        icon = "__angelsrefining__/graphics/icons/thermal-extractor.png",
+        icon = "__angelsrefininggraphics__/graphics/icons/thermal-extractor.png",
         icon_size = 32,
-        icon_mipmaps = 1,
       },
     }, 1, angelsmods.refining.number_tint),
-    subgroup = "refining-buildings",
+    subgroup = "angels-refining-buildings",
     order = "a[thermal-extractor]-a[bore]",
-    place_result = "thermal-bore",
+    place_result = "angels-thermal-bore",
     stack_size = 10,
   },
   {
     type = "mining-drill",
-    name = "thermal-bore",
+    name = "angels-thermal-bore",
     icons = angelsmods.functions.add_number_icon_layer({
       {
-        icon = "__angelsrefining__/graphics/icons/thermal-extractor.png",
+        icon = "__angelsrefininggraphics__/graphics/icons/thermal-extractor.png",
         icon_size = 32,
-        icon_mipmaps = 1,
       },
     }, 1, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    minable = { mining_time = 1, result = "thermal-bore" },
+    minable = { mining_time = 0.5, result = "angels-thermal-bore" },
     resource_categories = { "angels-fissure" },
     max_health = 100,
-    corpse = "big-remnants",
-    dying_explosion = "medium-explosion",
+    corpse = "pumpjack-remnants",
+    dying_explosion = "pumpjack-explosion",
     collision_box = { { -1.4, -1.4 }, { 1.4, 1.4 } },
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-    module_specification = {
-      module_slots = 2,
-    },
+    module_slots = 2,
     allowed_effects = { "consumption", "speed", "pollution", "productivity" },
+    damaged_trigger_effect = hit_effects.entity(),
+    drawing_box_vertical_extension = 1,
     energy_source = {
       type = "electric",
-      emissions_per_minute = 0.01 * 60 * 2,
+      emissions_per_minute = { pollution = 1.2 },
       usage_priority = "secondary-input",
     },
     output_fluid_box = {
-      base_area = 5,
-      base_level = 1,
+      volume = 500,
       pipe_covers = pipecoverspictures(),
       pipe_connections = {
         {
-          type = "output",
-          positions = { { 1, -2 }, { 2, -1 }, { -1, 2 }, { -2, 1 } },
+          flow_direction = "output",
+          positions = { { 1, -1 }, { 1, -1 }, { -1, 1 }, { -1, 1 } },
+          direction = defines.direction.north,
         },
       },
     },
     energy_usage = "90kW",
     mining_speed = 0.75,
-    --mining_power = 3,
     resource_searching_radius = 0.49,
     vector_to_place_result = { 0, 0 },
-    module_specification = {
-      module_slots = 2,
-    },
+    module_slots = 2,
     radius_visualisation_picture = {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
       width = 12,
@@ -71,51 +68,28 @@ data:extend({
         {
           filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
           priority = "extra-high",
-          width = 131,
-          height = 137,
-          shift = util.by_pixel(-2.5, -4.5),
-          hr_version = {
-            filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-base.png",
-            priority = "extra-high",
-            width = 261,
-            height = 273,
-            shift = util.by_pixel(-2.25, -4.75),
-            scale = 0.5,
-          },
+          width = 261,
+          height = 273,
+          shift = util.by_pixel(-2.25, -4.75),
+          scale = 0.5,
         },
         {
           filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
-          priority = "extra-high",
-          width = 110,
-          height = 111,
+          width = 220,
+          height = 220,
+          scale = 0.5,
           draw_as_shadow = true,
           shift = util.by_pixel(6, 0.5),
-          hr_version = {
-            filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-base-shadow.png",
-            width = 220,
-            height = 220,
-            scale = 0.5,
-            draw_as_shadow = true,
-            shift = util.by_pixel(6, 0.5),
-          },
         },
       },
     },
-    animations = {
-      north = {
-        layers = {
-          {
-            priority = "high",
-            filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
-            line_length = 8,
-            width = 104,
-            height = 102,
-            frame_count = 40,
-            shift = util.by_pixel(-4, -24),
-            animation_speed = 0.5,
-            hr_version = {
+    graphics_set = {
+      animation = {
+        north = {
+          layers = {
+            {
               priority = "high",
-              filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-horsehead.png",
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
               animation_speed = 0.5,
               scale = 0.5,
               line_length = 8,
@@ -124,20 +98,9 @@ data:extend({
               frame_count = 40,
               shift = util.by_pixel(-4, -24),
             },
-          },
-          {
-            priority = "high",
-            filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead-shadow.png",
-            animation_speed = 0.5,
-            draw_as_shadow = true,
-            line_length = 8,
-            width = 155,
-            height = 41,
-            frame_count = 40,
-            shift = util.by_pixel(17.5, 14.5),
-            hr_version = {
+            {
               priority = "high",
-              filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-horsehead-shadow.png",
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead-shadow.png",
               animation_speed = 0.5,
               draw_as_shadow = true,
               line_length = 8,
@@ -151,63 +114,66 @@ data:extend({
         },
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    open_sound = {filename = "__base__/sound/open-close/pumpjack-open.ogg", volume = 0.5},
+    close_sound = {filename = "__base__/sound/open-close/pumpjack-close.ogg", volume = 0.5},
+    impact_category = "metal",
     working_sound = {
-      sound = { filename = "__angelsrefining__/sound/thermal-extractor.ogg" },
-      apparent_volume = 1.5,
+      sound = { filename = "__angelsrefininggraphics__/sound/thermal-extractor.ogg" },
+      max_sounds_per_prototype = 3,
+      fade_in_ticks = 4,
+      fade_out_ticks = 10
     },
-    fast_replaceable_group = "thermal-extractor",
+    fast_replaceable_group = "angels-thermal-extractor",
+    circuit_connector = circuit_connector_definitions["pumpjack"],
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
   },
   {
     type = "item",
-    name = "thermal-extractor",
+    name = "angels-thermal-extractor",
     icons = angelsmods.functions.add_number_icon_layer({
       {
-        icon = "__angelsrefining__/graphics/icons/thermal-extractor.png",
+        icon = "__angelsrefininggraphics__/graphics/icons/thermal-extractor.png",
         icon_size = 32,
-        icon_mipmaps = 1,
       },
     }, 2, angelsmods.refining.number_tint),
-    subgroup = "refining-buildings",
+    subgroup = "angels-refining-buildings",
     order = "a[thermal-extractor]-b[extractor]",
-    place_result = "thermal-extractor",
+    place_result = "angels-thermal-extractor",
     stack_size = 10,
   },
   {
     type = "mining-drill",
-    name = "thermal-extractor",
+    name = "angels-thermal-extractor",
     icons = angelsmods.functions.add_number_icon_layer({
       {
-        icon = "__angelsrefining__/graphics/icons/thermal-extractor.png",
+        icon = "__angelsrefininggraphics__/graphics/icons/thermal-extractor.png",
         icon_size = 32,
-        icon_mipmaps = 1,
       },
     }, 2, angelsmods.refining.number_tint),
     flags = { "placeable-neutral", "player-creation" },
-    minable = { mining_time = 1, result = "thermal-extractor" },
+    collision_mask = angelsmods.functions.set_building_collision_mask("asm", { "elevated_rail" }),
+    minable = { mining_time = 1, result = "angels-thermal-extractor" },
     resource_categories = { "angels-fissure" },
     max_health = 100,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     collision_box = { { -4.4, -4.4 }, { 4.4, 4.4 } },
     selection_box = { { -4.5, -4.5 }, { 4.5, 4.5 } },
-    module_specification = {
-      module_slots = 2,
-    },
+    module_slots = 2,
     allowed_effects = { "consumption", "speed", "pollution", "productivity" },
     energy_source = {
       type = "electric",
-      emissions_per_minute = 0.01 * 60,
+      emissions_per_minute = { pollution = 0.6 },
       usage_priority = "secondary-input",
     },
     output_fluid_box = {
-      base_area = 10,
-      base_level = 1,
+      volume = 1000,
       pipe_covers = pipecoverspictures(),
       pipe_connections = {
         {
-          type = "output",
-          position = { -3, 5 },
+          flow_direction = "output",
+          position = { -3, 4 },
+          direction = defines.direction.south,
         },
       },
     },
@@ -216,9 +182,6 @@ data:extend({
     --mining_power = 3,
     resource_searching_radius = 0.49,
     vector_to_place_result = { 0, 0 },
-    module_specification = {
-      module_slots = 2,
-    },
     radius_visualisation_picture = {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
       width = 12,
@@ -227,30 +190,31 @@ data:extend({
     monitor_visualization_tint = { r = 78, g = 173, b = 255 },
     base_picture = {
       sheet = {
-        filename = "__angelsrefining__/graphics/entity/thermal-extractor/thermal-extractor-base.png",
+        filename = "__angelsrefininggraphics__/graphics/entity/thermal-extractor/thermal-extractor-base.png",
         priority = "extra-high",
         width = 288,
         height = 288,
         shift = { 0, 0 },
       },
     },
-    animations = {
-      north = {
-        priority = "extra-high",
-        width = 288,
-        height = 288,
-        line_length = 4,
-        shift = { 0, 0 },
-        filename = "__angelsrefining__/graphics/entity/thermal-extractor/thermal-extractor-animation.png",
-        frame_count = 16,
-        animation_speed = 0.5,
+    graphics_set = {
+      animation = {
+        north = {
+          priority = "extra-high",
+          width = 288,
+          height = 288,
+          line_length = 4,
+          shift = { 0, 0 },
+          filename = "__angelsrefininggraphics__/graphics/entity/thermal-extractor/thermal-extractor-animation.png",
+          frame_count = 16,
+          animation_speed = 0.5,
+        },
       },
     },
-    vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound = {
-      sound = { filename = "__angelsrefining__/sound/thermal-extractor.ogg" },
-      apparent_volume = 1.5,
+      sound = { filename = "__angelsrefininggraphics__/sound/thermal-extractor.ogg" },
     },
-    fast_replaceable_group = "thermal-extractor",
+    fast_replaceable_group = "angels-thermal-extractor",
   },
 })

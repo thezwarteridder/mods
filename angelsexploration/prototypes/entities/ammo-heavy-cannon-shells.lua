@@ -69,8 +69,8 @@ data:extend({
       },
     },
     icon_size = 64,
-    icon_mipmaps = 4,
     flags = {},
+    ammo_category = "cannon-shell",
     ammo_type = {
       category = "heavy-cannon-shell",
       target_type = "direction",
@@ -179,8 +179,8 @@ data:extend({
       },
     },
     icon_size = 64,
-    icon_mipmaps = 4,
     flags = {},
+    ammo_category = "cannon-shell",
     ammo_type = {
       category = "heavy-cannon-shell",
       target_type = "direction",
@@ -274,8 +274,8 @@ data:extend({
       },
     },
     icon_size = 64,
-    icon_mipmaps = 4,
     flags = {},
+    ammo_category = "cannon-shell",
     ammo_type = {
       category = "heavy-cannon-shell",
       target_type = "direction",
@@ -384,8 +384,8 @@ data:extend({
       },
     },
     icon_size = 64,
-    icon_mipmaps = 4,
     flags = {},
+    ammo_category = "cannon-shell",
     ammo_type = {
       category = "heavy-cannon-shell",
       target_type = "direction",

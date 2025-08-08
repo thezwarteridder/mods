@@ -2,7 +2,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-construction-robots",
-    icon = "__angelsindustries__/graphics/technology/construction-robot-tech.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/construction-robot-tech.png",
     icon_size = 128,
     prerequisites = {
       "engine",
@@ -36,8 +36,8 @@ data:extend({
     unit = {
       count = 50,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
       },
       time = 30,
     },
@@ -46,7 +46,7 @@ data:extend({
   {
     type = "technology",
     name = "cargo-robots",
-    icon = "__angelsindustries__/graphics/technology/cargo-robot-tech.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/cargo-robot-tech.png",
     icon_size = 128,
     prerequisites = {
       "angels-construction-robots",
@@ -72,8 +72,8 @@ data:extend({
     unit = {
       count = 100,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
       },
       time = 30,
     },
@@ -82,7 +82,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-construction-robots-2",
-    icon = "__angelsindustries__/graphics/technology/construction-robot-tech.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/construction-robot-tech.png",
     icon_size = 128,
     prerequisites = {
       "angels-construction-robots",
@@ -105,8 +105,8 @@ data:extend({
     unit = {
       count = 100,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
       },
       time = 30,
     },
@@ -115,11 +115,11 @@ data:extend({
   {
     type = "technology",
     name = "cargo-robots-2",
-    icon = "__angelsindustries__/graphics/technology/cargo-robot-tech.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/cargo-robot-tech.png",
     icon_size = 128,
     prerequisites = {
       "cargo-robots",
-      "advanced-electronics",
+      "advanced-circuit",
     },
     effects = {
       {
@@ -138,8 +138,8 @@ data:extend({
     unit = {
       count = 100,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
       },
       time = 30,
     },
@@ -148,11 +148,11 @@ data:extend({
   {
     type = "technology",
     name = "angels-construction-robots-3",
-    icon = "__angelsindustries__/graphics/technology/construction-robot-tech.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/construction-robot-tech.png",
     icon_size = 128,
     prerequisites = {
       "angels-construction-robots-2",
-      "advanced-electronics-2",
+      "processing-unit",
       "low-density-structure",
     },
     effects = {
@@ -168,9 +168,9 @@ data:extend({
     unit = {
       count = 100,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
       },
       time = 30,
     },
@@ -179,12 +179,12 @@ data:extend({
   {
     type = "technology",
     name = "cargo-robots-3",
-    icon = "__angelsindustries__/graphics/technology/cargo-robot-tech.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/cargo-robot-tech.png",
     icon_size = 128,
     prerequisites = {
       "cargo-robots-2",
       "electric-engine",
-      "advanced-electronics-2",
+      "processing-unit",
       "low-density-structure",
     },
     effects = {
@@ -208,9 +208,9 @@ data:extend({
     unit = {
       count = 200,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
-        { type = "item", name = "chemical-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
+        { "chemical-science-pack", 1 },
       },
       time = 30,
     },
@@ -220,7 +220,7 @@ data:extend({
   {
     type = "technology",
     name = "angels-crawler",
-    icon = "__angelsindustries__/graphics/technology/crawler-tech.png",
+    icon = "__angelsindustriesgraphics__/graphics/technology/crawler-tech.png",
     icon_size = 128,
     prerequisites = {
       "angels-vequipment-1",
@@ -238,8 +238,8 @@ data:extend({
     unit = {
       count = 60,
       ingredients = {
-        { type = "item", name = "automation-science-pack", amount = 1 },
-        { type = "item", name = "logistic-science-pack", amount = 1 },
+        { "automation-science-pack", 1 },
+        { "logistic-science-pack", 1 },
       },
       time = 15,
     },
@@ -249,7 +249,7 @@ data:extend({
   -- {
   -- type = "technology",
   -- name = "angels-yellow-loader",
-  -- icon = "__angelsindustries__/graphics/technology/yellow-loader-tech.png",
+  -- icon = "__angelsindustriesgraphics__/graphics/technology/yellow-loader-tech.png",
   -- icon_size = 128,
   -- prerequisites =
   -- {
@@ -274,7 +274,7 @@ data:extend({
   -- {
   -- type = "technology",
   -- name = "angels-red-loader",
-  -- icon = "__angelsindustries__/graphics/technology/red-loader-tech.png",
+  -- icon = "__angelsindustriesgraphics__/graphics/technology/red-loader-tech.png",
   -- icon_size = 128,
   -- prerequisites =
   -- {
@@ -300,7 +300,7 @@ data:extend({
   -- {
   -- type = "technology",
   -- name = "angels-blue-loader",
-  -- icon = "__angelsindustries__/graphics/technology/blue-loader-tech.png",
+  -- icon = "__angelsindustriesgraphics__/graphics/technology/blue-loader-tech.png",
   -- icon_size = 128,
   -- prerequisites =
   -- {

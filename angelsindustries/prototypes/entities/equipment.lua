@@ -3,19 +3,18 @@ data:extend({
   {
     type = "item",
     name = "angels-burner-generator-vequip",
-    icon = "__angelsindustries__/graphics/icons/burner-generator-ico.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/burner-generator-ico.png",
     icon_size = 32,
-    placed_as_equipment_result = "angels-burner-generator-vequip",
+    place_as_equipment_result = "angels-burner-generator-vequip",
     subgroup = "angels-vehicle-equipment",
     order = "a[angels-burner-generator-vequip]",
     stack_size = 50,
-    default_request_amount = 10,
   },
   {
     type = "generator-equipment",
     name = "angels-burner-generator-vequip",
     sprite = {
-      filename = "__angelsindustries__/graphics/equipment/burner-generator-vequip.png",
+      filename = "__angelsindustriesgraphics__/graphics/equipment/burner-generator-vequip.png",
       width = 64,
       height = 96,
       priority = "medium",
@@ -26,11 +25,12 @@ data:extend({
       type = "full",
     },
     energy_source = {
-      type = "burner",
+      type = "electric",
       usage_priority = "primary-output",
     },
     burner = {
-      fuel_category = "chemical",
+      type = "burner",
+      fuel_categories = { "chemical" },
       effectivity = 0.5,
       fuel_inventory_size = 3,
       burnt_inventory_size = 1,
@@ -41,21 +41,20 @@ data:extend({
   {
     type = "item",
     name = "angels-fusion-reactor-vequip",
-    icon = "__base__/graphics/icons/fusion-reactor-equipment.png",
-    icon_size = 64,
-    placed_as_equipment_result = "angels-fusion-reactor-vequip",
+    icon = "__angelsindustriesgraphics__/graphics/equipment/fusion-reactor-vequip.png",
+    icon_size = 256,
+    place_as_equipment_result = "angels-fusion-reactor-vequip",
     subgroup = "angels-vehicle-equipment",
     order = "b[angels-fusion-reactor-vequip]",
     stack_size = 50,
-    default_request_amount = 10,
   },
   {
     type = "generator-equipment",
     name = "angels-fusion-reactor-vequip",
     sprite = {
-      filename = "__base__/graphics/equipment/fusion-reactor-equipment.png",
-      width = 128,
-      height = 128,
+      filename = "__angelsindustriesgraphics__/graphics/equipment/fusion-reactor-vequip.png",
+      width = 256,
+      height = 256,
       priority = "medium",
     },
     shape = {
@@ -75,19 +74,18 @@ data:extend({
   {
     type = "item",
     name = "angels-repair-roboport-vequip",
-    icon = "__base__/graphics/icons/rocket-part.png",
-    placed_as_equipment_result = "angels-repair-roboport-vequip",
+    icon = "__angelsindustriesgraphics__/graphics/equipment/repair-roboport-vequip.png",
+    place_as_equipment_result = "angels-repair-roboport-vequip",
     icon_size = 64,
     subgroup = "angels-vehicle-equipment",
     order = "d[angels-repair-roboport-vequip]",
     stack_size = 50,
-    default_request_amount = 10,
   },
   {
     type = "roboport-equipment",
     name = "angels-repair-roboport-vequip",
     sprite = {
-      filename = "__base__/graphics/icons/rocket-part.png",
+      filename = "__angelsindustriesgraphics__/graphics/equipment/repair-roboport-vequip.png",
       width = 64,
       height = 64,
       priority = "medium",
@@ -100,7 +98,7 @@ data:extend({
     energy_source = {
       type = "electric",
       buffer_capacity = "35MJ",
-      input_flow_limit = "3500KW",
+      input_flow_limit = "3500kW",
       usage_priority = "secondary-input",
     },
     charging_energy = "1000kW",
@@ -128,19 +126,18 @@ data:extend({
   {
     type = "item",
     name = "angels-construction-roboport-vequip",
-    icon = "__angelsindustries__/graphics/icons/construction-roboport-ico.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/construction-roboport-ico.png",
     icon_size = 32,
-    placed_as_equipment_result = "angels-construction-roboport-vequip",
+    place_as_equipment_result = "angels-construction-roboport-vequip",
     subgroup = "angels-vehicle-equipment",
     order = "c[angels-construction-roboport-vequip]",
     stack_size = 50,
-    default_request_amount = 10,
   },
   {
     type = "roboport-equipment",
     name = "angels-construction-roboport-vequip",
     sprite = {
-      filename = "__angelsindustries__/graphics/equipment/construction-roboport-vequip.png",
+      filename = "__angelsindustriesgraphics__/graphics/equipment/construction-roboport-vequip.png",
       width = 96,
       height = 96,
       priority = "medium",
@@ -153,7 +150,7 @@ data:extend({
     energy_source = {
       type = "electric",
       buffer_capacity = "70MJ",
-      input_flow_limit = "7000KW",
+      input_flow_limit = "7000kW",
       usage_priority = "secondary-input",
     },
     charging_energy = "2000kW",
@@ -185,7 +182,7 @@ data:extend({
     name = "angels-heavy-energy-shield-vequip",
     icon = "__base__/graphics/icons/energy-shield-equipment.png",
     icon_size = 64,
-    placed_as_equipment_result = "angels-heavy-energy-shield-vequip",
+    place_as_equipment_result = "angels-heavy-energy-shield-vequip",
     subgroup = "angels-vehicle-equipment",
     order = "e[angels-energy-heavy-shield-vequip]",
     stack_size = 20,
@@ -195,8 +192,8 @@ data:extend({
     name = "angels-heavy-energy-shield-vequip",
     sprite = {
       filename = "__base__/graphics/equipment/energy-shield-equipment.png",
-      width = 64,
-      height = 64,
+      width = 128,
+      height = 128,
       priority = "medium",
     },
     shape = {
@@ -219,9 +216,9 @@ data:extend({
   {
     type = "item",
     name = "angels-rocket-defense-equipment-vequip",
-    icon = "__angelsindustries__/graphics/icons/heavy-tank-rocket-launcher-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/heavy-tank-rocket-launcher-icon.png",
     icon_size = 32,
-    placed_as_equipment_result = "angels-rocket-defense-equipment-vequip",
+    place_as_equipment_result = "angels-rocket-defense-equipment-vequip",
     subgroup = "angels-vehicle-equipment",
     order = "f[rocket-defense-equipment]",
     stack_size = 20,
@@ -230,7 +227,7 @@ data:extend({
     type = "active-defense-equipment",
     name = "angels-rocket-defense-equipment-vequip",
     sprite = {
-      filename = "__angelsindustries__/graphics/equipment/rocket-launcher-equip.png",
+      filename = "__angelsindustriesgraphics__/graphics/equipment/rocket-launcher-equip.png",
       width = 96,
       height = 96,
       priority = "medium",
@@ -260,7 +257,6 @@ data:extend({
         },
       },
       ammo_type = {
-        category = "rocket",
         action = {
           type = "direct",
           action_delivery = {

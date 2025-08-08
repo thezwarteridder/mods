@@ -3,9 +3,8 @@ if angelsmods.industries.overhaul then
     {
       type = "item",
       name = "angels-burner-reactor",
-      icon = "__angelsindustries__/graphics/icons/fast-reactor-icon.png",
+      icon = "__angelsindustriesgraphics__/graphics/icons/fast-reactor-icon.png",
       icon_size = 64,
-      icon_mipmaps = 4,
       subgroup = "angels-power-nuclear",
       order = "a[reactor]-b",
       place_result = "angels-burner-reactor",

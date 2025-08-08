@@ -6,10 +6,10 @@ end
 -- CHARACTERS -----------------------------------------------------------------
 -------------------------------------------------------------------------------
 if mods["bobclasses"] then
-  data.raw["item-subgroup"]["bodies"].group = "angels-logistics"
-  data.raw["item-subgroup"]["bodies"].order = "d-a[armor]-aa"
-  data.raw["item-subgroup"]["body-parts"].group = "angels-logistics"
-  data.raw["item-subgroup"]["body-parts"].order = "d-a[armor]-ab"
+  data.raw["item-subgroup"]["bob-bodies"].group = "angels-logistics"
+  data.raw["item-subgroup"]["bob-bodies"].order = "d-a[armor]-aa"
+  data.raw["item-subgroup"]["bob-body-parts"].group = "angels-logistics"
+  data.raw["item-subgroup"]["bob-body-parts"].order = "d-a[armor]-ab"
 end
 
 -------------------------------------------------------------------------------
@@ -43,7 +43,7 @@ if mods["bobequipment"] then
 end
 
 -- fusion reactor
-reorder("item", "fusion-reactor-equipment", "angels-personal-equipment-power-a", "b")
+reorder("item", "fission-reactor-equipment", "angels-personal-equipment-power-a", "b")
 if mods["bobequipment"] then
   data:extend({
     {
@@ -53,10 +53,10 @@ if mods["bobequipment"] then
       order = "d-b[equipment]-b",
     },
   })
-  reorder("item", "fusion-reactor-equipment", "angels-personal-equipment-power-b", "a")
-  reorder("item", "fusion-reactor-equipment-2", "angels-personal-equipment-power-b", "b")
-  reorder("item", "fusion-reactor-equipment-3", "angels-personal-equipment-power-b", "c")
-  reorder("item", "fusion-reactor-equipment-4", "angels-personal-equipment-power-b", "d")
+  reorder("item", "fission-reactor-equipment", "angels-personal-equipment-power-b", "a")
+  reorder("item", "fission-reactor-equipment-2", "angels-personal-equipment-power-b", "b")
+  reorder("item", "fission-reactor-equipment-3", "angels-personal-equipment-power-b", "c")
+  reorder("item", "fission-reactor-equipment-4", "angels-personal-equipment-power-b", "d")
 end
 
 -- battery equipment
@@ -206,9 +206,7 @@ if mods["bobequipment"] then
 end
 
 -- other defensive stuffs
-reorder("capsule", "discharge-defense-remote", "angels-personal-equipment-combat-a", "e")
 reorder("item", "discharge-defense-equipment", "angels-personal-equipment-combat-a", "f")
 if mods["bobequipment"] then
-  reorder("capsule", "discharge-defense-remote", "angels-personal-equipment-combat-c", "d")
   reorder("item", "discharge-defense-equipment", "angels-personal-equipment-combat-c", "e")
 end

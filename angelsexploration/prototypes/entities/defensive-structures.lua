@@ -17,9 +17,10 @@ data:extend({
   {
     type = "recipe",
     name = "wall-0",
+    localised_name = { "entity-name.wall-0" },
     enabled = true,
     ingredients = { { type = "item", name = "stone", amount = 5 }, { type = "item", name = "wood", amount = 1 } },
-    result = "wall-0",
+    results = { { type = "item", name = "wall-0", amount = 1 } },
   },
 })
 -- STONE WALL TIER 1 -----------------------------------------------------------
@@ -37,9 +38,6 @@ local function addTintToSprite(sprite, tintToAdd)
     if not sprite.draw_as_shadow then
       -- it has no effect, adding a tint to a shadow
       sprite.tint = util.table.deepcopy(tintToAdd)
-    end
-    if sprite.hr_version and not sprite.hr_version.draw_as_shadow then
-      sprite.hr_version.tint = util.table.deepcopy(tintToAdd)
     end
   end
 

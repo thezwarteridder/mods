@@ -1,10 +1,10 @@
 circuit_connector_definitions["angels-zone-expander-1"] =
-  circuit_connector_definitions.create(universal_connector_template, {
+  circuit_connector_definitions.create_vector(universal_connector_template, {
     { variation = 26, main_offset = util.by_pixel(0, 0), shadow_offset = util.by_pixel(2, 12), show_shadow = false },
   })
 
 circuit_connector_definitions["angels-zone-expander-2"] =
-  circuit_connector_definitions.create(universal_connector_template, {
+  circuit_connector_definitions.create_vector(universal_connector_template, {
     { variation = 26, main_offset = util.by_pixel(8, 0), shadow_offset = util.by_pixel(10, 12), show_shadow = false },
   })
 
@@ -12,7 +12,7 @@ data:extend({
   {
     type = "item",
     name = "angels-zone-expander",
-    icon = "__angelsindustries__/graphics/icons/small-logistic-zone-expander-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/small-logistic-zone-expander-icon.png",
     icon_size = 32,
     subgroup = "angels-cargo-expander",
     order = "b[expander]-b[logistic]-a",
@@ -22,7 +22,7 @@ data:extend({
   {
     type = "roboport",
     name = "angels-zone-expander",
-    icon = "__angelsindustries__/graphics/icons/small-logistic-zone-expander-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/small-logistic-zone-expander-icon.png",
     icon_size = 32,
     flags = { "placeable-player", "player-creation" },
     minable = { mining_time = 0.5, result = "angels-zone-expander" },
@@ -31,7 +31,7 @@ data:extend({
     corpse = "small-remnants",
     collision_box = { { -0.15, -0.15 }, { 0.15, 0.15 } },
     selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
-    drawing_box = { { -0.5, -2.3 }, { 0.5, 0.5 } },
+    drawing_box_vertical_extension = 1.8,
     dying_explosion = "medium-explosion",
     energy_source = {
       type = "void",
@@ -50,13 +50,13 @@ data:extend({
     -- stationing_offset = {0, 0},
     -- charging_offsets = {{0, 0}},
     base = {
-      filename = "__angelsindustries__/graphics/entity/zone-expander/small-base-lr.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/zone-expander/small-base-lr.png",
       width = 64,
       height = 112,
       shift = { 0.25, -1 },
     },
     base_animation = {
-      filename = "__angelsindustries__/graphics/entity/zone-expander/small-logistic-zone-expander-lr.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/zone-expander/small-logistic-zone-expander-lr.png",
       priority = "medium",
       width = 64,
       height = 112,
@@ -66,25 +66,24 @@ data:extend({
       animation_speed = 0.25,
     },
     base_patch = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
-      frame_count = 1,
     },
     door_animation_up = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     door_animation_down = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     recharging_animation = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
@@ -105,7 +104,7 @@ data:extend({
   {
     type = "item",
     name = "angels-zone-expander-2",
-    icon = "__angelsindustries__/graphics/icons/medium-logistic-zone-expander-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/medium-logistic-zone-expander-icon.png",
     icon_size = 32,
     subgroup = "angels-cargo-expander",
     order = "b[expander]-b[logistic]-b",
@@ -115,7 +114,7 @@ data:extend({
   {
     type = "roboport",
     name = "angels-zone-expander-2",
-    icon = "__angelsindustries__/graphics/icons/medium-logistic-zone-expander-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/medium-logistic-zone-expander-icon.png",
     icon_size = 32,
     flags = { "placeable-player", "player-creation" },
     minable = { mining_time = 0.5, result = "angels-zone-expander-2" },
@@ -124,7 +123,7 @@ data:extend({
     corpse = "small-remnants",
     collision_box = { { -0.65, -0.65 }, { 0.65, 0.65 } },
     selection_box = { { -1, -1 }, { 1, 1 } },
-    drawing_box = { { -1, -4.5 }, { 1, 1 } },
+    drawing_box_vertical_extension = 3.5,
     dying_explosion = "medium-explosion",
     energy_source = {
       type = "void",
@@ -146,13 +145,13 @@ data:extend({
     -- stationing_offset = {0, 0},
     -- charging_offsets = {{0, 0}},
     base = {
-      filename = "__angelsindustries__/graphics/entity/zone-expander/medium-base-lr.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/zone-expander/medium-base-lr.png",
       width = 128,
       height = 224,
       shift = { 0.5, -1.75 },
     },
     base_animation = {
-      filename = "__angelsindustries__/graphics/entity/zone-expander/medium-logistic-zone-expander-lr.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/zone-expander/medium-logistic-zone-expander-lr.png",
       priority = "medium",
       width = 128,
       height = 224,
@@ -162,25 +161,24 @@ data:extend({
       animation_speed = 0.25 * 2 / 3,
     },
     base_patch = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
-      frame_count = 1,
     },
     door_animation_up = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     door_animation_down = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     recharging_animation = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
@@ -201,7 +199,7 @@ data:extend({
   {
     type = "item",
     name = "angels-zone-expander-3",
-    icon = "__angelsindustries__/graphics/icons/large-logistic-zone-expander-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/large-logistic-zone-expander-icon.png",
     icon_size = 64,
     subgroup = "angels-cargo-expander",
     order = "b[expander]-b[logistic]-c",
@@ -211,7 +209,7 @@ data:extend({
   {
     type = "roboport",
     name = "angels-zone-expander-3",
-    icon = "__angelsindustries__/graphics/icons/large-logistic-zone-expander-icon.png",
+    icon = "__angelsindustriesgraphics__/graphics/icons/large-logistic-zone-expander-icon.png",
     icon_size = 64,
     flags = { "placeable-player", "player-creation" },
     minable = { mining_time = 0.5, result = "angels-zone-expander-3" },
@@ -220,7 +218,7 @@ data:extend({
     corpse = "small-remnants",
     collision_box = { { -1.25, -1.25 }, { 1.25, 1.25 } },
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-    drawing_box = { { -1.5, -7.5 }, { 1.5, 1.5 } },
+    drawing_box_vertical_extension = 6,
     dying_explosion = "medium-explosion",
     energy_source = {
       type = "void",
@@ -242,12 +240,12 @@ data:extend({
     -- stationing_offset = {0, 0},
     -- charging_offsets = {{0, 0}},
     base = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
     },
     base_animation = {
-      filename = "__angelsindustries__/graphics/entity/zone-expander/large-logistic-zone-expander-lr.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/zone-expander/large-logistic-zone-expander-lr.png",
       priority = "medium",
       width = 234,
       height = 308,
@@ -257,25 +255,24 @@ data:extend({
       animation_speed = 0.25 * 2 / 3,
     },
     base_patch = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
-      frame_count = 1,
     },
     door_animation_up = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     door_animation_down = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     recharging_animation = {
-      filename = "__angelsindustries__/graphics/entity/empty.png",
+      filename = "__angelsindustriesgraphics__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,

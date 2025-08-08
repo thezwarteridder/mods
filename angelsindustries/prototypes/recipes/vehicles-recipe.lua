@@ -3,6 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "angels-crawler",
+    localised_name = { "entity-name.angels-crawler" },
     energy_required = 10,
     enabled = false,
     ingredients = {
@@ -11,7 +12,7 @@ data:extend({
       { type = "item", name = "electronic-circuit", amount = 20 },
       { type = "item", name = "iron-gear-wheel", amount = 25 },
     },
-    result = "angels-crawler",
+    results = { { type = "item", name = "angels-crawler", amount = 1 } },
     icon_size = 32,
   },
 })

@@ -11,20 +11,20 @@ if angelsmods.industries.tech then
     OV.remove_prereq("battery-2", "tech-blue-packs")
     OV.remove_prereq("battery-3", "production-science-pack")
 
-    AI.pack_replace("grinding", "green", "orange")
+    AI.pack_replace("bob-grinding", "green", "orange")
     AI.pack_replace("polishing", "green", "orange")
     AI.pack_replace("gem-processing-1", "green", "orange")
-    AI.pack_replace("gem-processing-2", "green", "orange")
+    AI.pack_replace("bob-gem-processing-2", "green", "orange")
     AI.pack_replace("gem-processing-3", "green", "orange")
     AI.pack_replace("electric-mixing-furnace", "blue", "orange")
 
     if not mods["bobtech"] then --alien resources
-      AI.pack_replace("alien-blue-research", "yellow", "blue")
-      AI.pack_replace("alien-orange-research", "yellow", "blue")
-      AI.pack_replace("alien-purple-research", "yellow", "blue")
-      AI.pack_replace("alien-yellow-research", "yellow", "blue")
-      AI.pack_replace("alien-green-research", "yellow", "blue")
-      AI.pack_replace("alien-red-research", "yellow", "blue")
+      AI.pack_replace("bob-alien-blue-research", "yellow", "blue")
+      AI.pack_replace("bob-alien-orange-research", "yellow", "blue")
+      AI.pack_replace("bob-alien-purple-research", "yellow", "blue")
+      AI.pack_replace("bob-alien-yellow-research", "yellow", "blue")
+      AI.pack_replace("bob-alien-green-research", "yellow", "blue")
+      AI.pack_replace("bob-alien-red-research", "yellow", "blue")
     end
 
     OV.remove_prereq("nitinol-processing", "production-science-pack")
@@ -48,11 +48,11 @@ if angelsmods.industries.tech then
       AI.pack_replace("automation", "grey", "red")
     end
     -- assemblers tier 2+
-    AI.pack_replace("automation-4", "blue", "orange")
-    OV.remove_prereq("automation-4", "tech-blue-packs")
+    AI.pack_replace("automation-2", "red", "green")
+    AI.pack_replace("automation-3", "blue", "orange")
+    OV.remove_prereq("automation-4", "production-science-pack")
     if settings.startup["bobmods-assembly-electronicmachines"].value == true then
-      AI.pack_replace("electronics-machine-3", "yellow", "blue")
-      OV.remove_prereq("electronics-machine-3", "production-science-pack")
+      AI.pack_replace("bob-electronics-machine-2", "blue", "orange")
     end
     --chemplants
     if settings.startup["bobmods-assembly-chemicalplants"].value == true then
@@ -86,6 +86,7 @@ if angelsmods.industries.tech then
   -------------------------------------------------------------------------------
   if mods["bobgreenhouse"] then
     --adds bob greenhouse stuffs
+    AI.pack_replace("bob-greenhouse", "green", "red")
   end
 
   -------------------------------------------------------------------------------
@@ -128,70 +129,67 @@ if angelsmods.industries.tech then
   -- BOBS MODULES ---------------------------------------------------------------
   -------------------------------------------------------------------------------
   if mods["bobmodules"] then
-    if bobmods.modules.ModulesLab then
-      OV.remove_science_pack("angels-bio-yield-module", "angels-science-pack-orange")
-    else
-      AI.pack_replace("angels-bio-yield-module-2", "green", "orange")
-      AI.pack_replace("angels-bio-yield-module-3", "yellow", "blue")
-      AI.pack_replace("angels-bio-yield-module-6", "blue", "yellow")
-      AI.pack_replace("angels-bio-yield-module-7", "blue", "yellow")
-      AI.pack_replace("angels-bio-yield-module-8", "blue", "yellow")
+    AI.pack_replace("angels-bio-yield-module-2", "green", "orange")
+    AI.pack_replace("angels-bio-yield-module-3", "yellow", "blue")
+    AI.pack_replace("angels-bio-yield-module-6", "blue", "yellow")
+    AI.pack_replace("angels-bio-yield-module-7", "blue", "yellow")
+    AI.pack_replace("angels-bio-yield-module-8", "blue", "yellow")
 
-      AI.pack_replace("speed-module-2", "green", "orange")
-      AI.pack_replace("speed-module-3", "yellow", "blue")
-      AI.pack_replace("speed-module-6", "blue", "yellow")
-      AI.pack_replace("speed-module-7", "blue", "yellow")
-      AI.pack_replace("speed-module-8", "blue", "yellow")
+    AI.pack_replace("speed-module-2", "green", "orange")
+    AI.pack_replace("speed-module-3", "yellow", "blue")
+    AI.pack_replace("speed-module-6", "blue", "yellow")
+    AI.pack_replace("speed-module-7", "blue", "yellow")
+    AI.pack_replace("speed-module-8", "blue", "yellow")
 
-      AI.pack_replace("effectivity-module-2", "green", "orange")
-      AI.pack_replace("effectivity-module-3", "yellow", "blue")
-      AI.pack_replace("effectivity-module-6", "blue", "yellow")
-      AI.pack_replace("effectivity-module-7", "blue", "yellow")
-      AI.pack_replace("effectivity-module-8", "blue", "yellow")
+    AI.pack_replace("efficiency-module-2", "green", "orange")
+    AI.pack_replace("efficiency-module-3", "yellow", "blue")
+    AI.pack_replace("efficiency-module-6", "blue", "yellow")
+    AI.pack_replace("efficiency-module-7", "blue", "yellow")
+    AI.pack_replace("efficiency-module-8", "blue", "yellow")
 
-      AI.pack_replace("productivity-module-2", "green", "orange")
-      AI.pack_replace("productivity-module-3", "yellow", "blue")
-      AI.pack_replace("productivity-module-6", "blue", "yellow")
-      AI.pack_replace("productivity-module-7", "blue", "yellow")
-      AI.pack_replace("productivity-module-8", "blue", "yellow")
+    AI.pack_replace("productivity-module-2", "green", "orange")
+    AI.pack_replace("productivity-module-3", "yellow", "blue")
+    AI.pack_replace("productivity-module-6", "blue", "yellow")
+    AI.pack_replace("productivity-module-7", "blue", "yellow")
+    AI.pack_replace("productivity-module-8", "blue", "yellow")
 
-      AI.pack_replace("pollution-clean-module-1", "green", "orange")
-      AI.pack_replace("pollution-clean-module-2", "green", "orange")
-      AI.pack_replace("pollution-clean-module-6", "blue", "yellow")
-      AI.pack_replace("pollution-clean-module-7", "blue", "yellow")
-      AI.pack_replace("pollution-clean-module-8", "blue", "yellow")
+    AI.pack_replace("pollution-clean-module-1", "green", "orange")
+    AI.pack_replace("pollution-clean-module-2", "green", "orange")
+    AI.pack_replace("pollution-clean-module-6", "blue", "yellow")
+    AI.pack_replace("pollution-clean-module-7", "blue", "yellow")
+    AI.pack_replace("pollution-clean-module-8", "blue", "yellow")
 
-      AI.pack_replace("pollution-create-module-1", "green", "orange")
-      AI.pack_replace("pollution-create-module-2", "green", "orange")
-      AI.pack_replace("pollution-create-module-6", "blue", "yellow")
-      AI.pack_replace("pollution-create-module-7", "blue", "yellow")
-      AI.pack_replace("pollution-create-module-8", "blue", "yellow")
+    AI.pack_replace("pollution-create-module-1", "green", "orange")
+    AI.pack_replace("pollution-create-module-2", "green", "orange")
+    AI.pack_replace("pollution-create-module-6", "blue", "yellow")
+    AI.pack_replace("pollution-create-module-7", "blue", "yellow")
+    AI.pack_replace("pollution-create-module-8", "blue", "yellow")
 
-      AI.pack_replace("module-merging", "green", "orange")
+    AI.pack_replace("module-merging", "green", "orange")
 
-      AI.pack_replace("raw-speed-module-1", "green", "orange")
-      AI.pack_replace("raw-speed-module-2", "green", "orange")
-      AI.pack_replace("raw-speed-module-6", "blue", "yellow")
-      AI.pack_replace("raw-speed-module-7", "blue", "yellow")
-      AI.pack_replace("raw-speed-module-8", "blue", "yellow")
+    AI.pack_replace("raw-speed-module-1", "green", "orange")
+    AI.pack_replace("raw-speed-module-2", "green", "orange")
+    AI.pack_replace("raw-speed-module-6", "blue", "yellow")
+    AI.pack_replace("raw-speed-module-7", "blue", "yellow")
+    AI.pack_replace("raw-speed-module-8", "blue", "yellow")
 
-      AI.pack_replace("green-module-1", "green", "orange")
-      AI.pack_replace("green-module-2", "green", "orange")
-      AI.pack_replace("green-module-6", "blue", "yellow")
-      AI.pack_replace("green-module-7", "blue", "yellow")
-      AI.pack_replace("green-module-8", "blue", "yellow")
+    AI.pack_replace("green-module-1", "green", "orange")
+    AI.pack_replace("green-module-2", "green", "orange")
+    AI.pack_replace("green-module-6", "blue", "yellow")
+    AI.pack_replace("green-module-7", "blue", "yellow")
+    AI.pack_replace("green-module-8", "blue", "yellow")
 
-      AI.pack_replace("raw-productivity-module-1", "green", "orange")
-      AI.pack_replace("raw-productivity-module-2", "green", "orange")
-      AI.pack_replace("raw-productivity-module-6", "blue", "yellow")
-      AI.pack_replace("raw-productivity-module-7", "blue", "yellow")
-      AI.pack_replace("raw-productivity-module-8", "blue", "yellow")
+    AI.pack_replace("raw-productivity-module-1", "green", "orange")
+    AI.pack_replace("raw-productivity-module-2", "green", "orange")
+    AI.pack_replace("raw-productivity-module-6", "blue", "yellow")
+    AI.pack_replace("raw-productivity-module-7", "blue", "yellow")
+    AI.pack_replace("raw-productivity-module-8", "blue", "yellow")
 
-      AI.pack_replace("god-module-1", "green", "orange")
-      AI.pack_replace("god-module-3", "blue", "yellow")
-      AI.pack_replace("god-module-4", "blue", "yellow")
-      AI.pack_replace("god-module-5", "blue", "yellow")
-    end
+    AI.pack_replace("god-module-1", "green", "orange")
+    AI.pack_replace("god-module-3", "blue", "yellow")
+    AI.pack_replace("god-module-4", "blue", "yellow")
+    AI.pack_replace("god-module-5", "blue", "yellow")
+
     AI.pack_replace("modules-3", "blue", "yellow")
     AI.pack_replace("effect-transmission", "yellow", "orange")
     OV.remove_prereq("effect-transmission-2", "production-science-pack")
@@ -233,13 +231,13 @@ if angelsmods.industries.tech then
     AI.pack_replace("inserter-capacity-bonus-3", "blue", "orange")
     AI.pack_replace("inserter-stack-size-bonus-2", "blue", "orange")
     if settings.startup["bobmods-logistics-inserteroverhaul"].value == true then
-      OV.remove_prereq("stack-inserter", "tech-orange-circuit")
-      AI.pack_replace("stack-inserter", "orange", "green")
+      OV.remove_prereq("bulk-inserter", "tech-orange-circuit")
+      AI.pack_replace("bulk-inserter", "orange", "green")
       AI.pack_replace("express-inserters", "blue", "orange")
-      AI.pack_replace("stack-inserter-2", "blue", "orange")
+      AI.pack_replace("bulk-inserter-2", "blue", "orange")
     else
       AI.pack_replace("express-inserters", "green", "blue")
-      AI.pack_replace("stack-inserter-2", "blue", "yellow")
+      AI.pack_replace("bulk-inserter-2", "blue", "yellow")
     end
     -- belt techs
     AI.pack_replace("logistics-3", "blue", "orange")
@@ -324,6 +322,10 @@ if angelsmods.industries.tech then
     AI.pack_replace("follower-robot-count-1", "green", "orange")
     AI.pack_replace("follower-robot-count-2", "green", "orange")
     OV.remove_prereq("walking-vehicle", "production-science-pack")
+    --Modular/Power Armor
+    AI.pack_replace("modular-armor", "orange", "green")
+    AI.pack_replace("power-armor-mk2", "blue", "orange")
+    OV.remove_prereq("power-armor-mk2", "military-3")
   end
 
   -------------------------------------------------------------------------------
@@ -356,13 +358,18 @@ if angelsmods.industries.tech then
     --adds bob personal equipment stuffs
     AI.pack_replace("personal-roboport-equipment", "green", "orange")
     AI.pack_replace("personal-roboport-modular-equipment-1", "green", "orange")
-    AI.pack_replace("exoskeleton-equipment", "green", "orange")
-    AI.pack_replace("solar-panel-equipment-2", "green", "orange")
+    AI.pack_replace("exoskeleton-equipment", "blue", "green")
+    AI.pack_replace("exoskeleton-equipment-2", "blue", "orange")
+    OV.remove_prereq("exoskeleton-equipment-2", "processing-unit")
+    OV.remove_prereq("exoskeleton-equipment-3", "production-science-pack")
+    AI.pack_replace("solar-panel-equipment", "orange", "green")
+    AI.pack_replace("solar-panel-equipment-2", "blue", "orange")
     AI.pack_replace("solar-panel-equipment-4", "blue", "yellow")
     OV.remove_prereq("bob-energy-shield-equipment-3", "production-science-pack")
     OV.remove_prereq("bob-battery-equipment-4", "production-science-pack")
     OV.remove_prereq("bob-battery-equipment-6", "tech-yellow-packs")
     OV.remove_prereq("personal-laser-defense-equipment-3", "production-science-pack")
+    OV.remove_prereq("night-vision-3", "production-science-pack")
   end
 
   -------------------------------------------------------------------------------
@@ -454,29 +461,31 @@ if angelsmods.industries.tech then
 
       OV.set_science_pack("steam-power", "angels-science-pack-grey", 1)
       OV.set_science_pack("steam-automation", "angels-science-pack-grey", 1)
-      OV.set_science_pack("electricity", "angels-science-pack-grey", 1)
+      OV.set_science_pack("bob-electricity", "angels-science-pack-grey", 1)
       OV.set_science_pack("bob-steam-engine-1", "angels-science-pack-grey", 1)
       OV.set_science_pack("bob-steam-engine-1", "datacore-basic", 2)
 
       OV.disable_technology({ "automation-science-pack" })
       OV.add_prereq("automation", "steam-automation")
 
-      local burner_lab = data.raw["lab"]["angels-basic-lab"]
-      if burner_lab then
-        burner_lab.energy_source = {
-          type = "burner",
-          fuel_category = "chemical",
-          effectivity = 0.65,
-          fuel_inventory_size = 1,
-          emissions_per_minute = 6,
-          smoke = {
-            {
-              name = "smoke",
-              deviation = { 0.1, 0.1 },
-              frequency = 3,
+      for _, lab_name in pairs({ "angels-main-lab-1", "angels-basic-lab" }) do
+        local burner_lab = data.raw["lab"][lab_name]
+        if burner_lab then
+          burner_lab.energy_source = {
+            type = "burner",
+            fuel_categories = { "chemical" },
+            effectivity = 0.65,
+            fuel_inventory_size = 1,
+            emissions_per_minute = {pollution = 6},
+            smoke = {
+              {
+                name = "smoke",
+                deviation = { 0.1, 0.1 },
+                frequency = 3,
+              },
             },
-          },
-        }
+          }
+        end
       end
     end
   end

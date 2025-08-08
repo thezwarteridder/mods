@@ -12,7 +12,7 @@ else
       name = "iron-plate",
       icons = {
         mods["angelssmelting"] and {
-          icon = "__angelssmelting__/graphics/icons/plate-iron.png",
+          icon = "__angelssmeltinggraphics__/graphics/icons/plate-iron.png",
         } or {
           icon = "__base__/graphics/icons/iron-plate.png",
           icon_size = 64,
@@ -32,7 +32,7 @@ else
       name = "copper-plate",
       icons = {
         mods["angelssmelting"] and {
-          icon = "__angelssmelting__/graphics/icons/plate-copper.png",
+          icon = "__angelssmeltinggraphics__/graphics/icons/plate-copper.png",
         } or {
           icon = "__base__/graphics/icons/copper-plate.png",
           icon_size = 64,
@@ -55,44 +55,24 @@ end
 -- CRUSHED SMELTING -----------------------------------------------------------
 -------------------------------------------------------------------------------
 if ore_exists("lead") then
-  OV.patch_recipes({
-    {
-      name = "angelsore5-crushed-smelting",
-      results = {
-        { "!!" },
-        { name = mods["angelssmelting"] and "angels-plate-lead" or "lead-plate", amount = 1 },
-      },
-      icon = "__angelsrefining__/graphics/icons/lead-plate-crushed.png",
-    },
-  })
 else
-  OV.disable_recipe("angelsore5-crushed-smelting")
+  OV.disable_recipe("angels-ore5-crushed-smelting")
 end
 
 if ore_exists("tin") then
-  OV.patch_recipes({
-    {
-      name = "angelsore6-crushed-smelting",
-      results = {
-        { "!!" },
-        { name = mods["angelssmelting"] and "angels-plate-tin" or "tin-plate", amount = 1 },
-      },
-      icon = "__angelsrefining__/graphics/icons/tin-plate-crushed.png",
-    },
-  })
 else
-  OV.disable_recipe("angelsore6-crushed-smelting")
+  OV.disable_recipe("angels-ore6-crushed-smelting")
 end
 
 -------------------------------------------------------------------------------
 -- SPECIAL VANILLA ------------------------------------------------------------
 -------------------------------------------------------------------------------
 if angelsmods.functions.is_special_vanilla() then
-  OV.add_unlock("ore-crushing", "angels-copper-pebbles")
-  OV.add_unlock("ore-crushing", "angels-copper-pebbles-smelting")
-  OV.add_unlock("ore-crushing", "angels-copper-nugget-smelting")
+  OV.add_unlock("angels-ore-crushing", "angels-copper-pebbles")
+  OV.add_unlock("angels-ore-crushing", "angels-copper-pebbles-smelting")
+  OV.add_unlock("angels-ore-crushing", "angels-copper-nugget-smelting")
 
-  OV.add_unlock("ore-crushing", "angels-iron-pebbles")
-  OV.add_unlock("ore-crushing", "angels-iron-pebbles-smelting")
-  OV.add_unlock("ore-crushing", "angels-iron-nugget-smelting")
+  OV.add_unlock("angels-ore-crushing", "angels-iron-pebbles")
+  OV.add_unlock("angels-ore-crushing", "angels-iron-pebbles-smelting")
+  OV.add_unlock("angels-ore-crushing", "angels-iron-nugget-smelting")
 end

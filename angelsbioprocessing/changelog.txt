@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: ???
+  Changes:
+    - Removed references to normal / expensive recipes (945)
+    - Removed angelsmods.triggers table. Use angelsmods.trigger instead (970)
+    - Limited animation speed of fish, puffer, and biter refugiums (987)
+    - Tech tree changes: (991)
+      - Moved Garden Processing and Farming 1 techs from Red Science to Green Science
+      - Reduced the tier of Algae farm 2's ingredients
+      - Made Biters require Purple Science
+    - Updated for Factorio 2.0 (994)
+---------------------------------------------------------------------------------------------------
 Version: 0.7.27
 Date: 21.02.2024
   Changes:
