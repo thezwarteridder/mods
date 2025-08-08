@@ -187,11 +187,11 @@ data:extend({
     enabled = false,
     ingredients = {
       { type = "item", name = "angels-ore8-crushed", amount = 3 },
-      { type = "item", name = "milling-drum", amount = 1 },
+      { type = "item", name = "lubricated-milling-drum", amount = 1 },
     },
     results = {
       { type = "item", name = "angels-ore8-powder", amount = 3 },
-      { type = "item", name = "milling-drum-used", amount = 1 },
+      { type = "item", name = "milling-drum", amount = 1 },
     },
     main_product = "angels-ore8-powder",
     --icon = "__angelsrefining__/graphics/icons/angels-ore6-crushed.png",
@@ -230,11 +230,11 @@ data:extend({
     enabled = false,
     ingredients = {
       { type = "item", name = "angels-ore9-crushed", amount = 3 },
-      { type = "item", name = "milling-drum", amount = 1 },
+      { type = "item", name = "lubricated-milling-drum", amount = 1 },
     },
     results = {
       { type = "item", name = "angels-ore9-powder", amount = 3 },
-      { type = "item", name = "milling-drum-used", amount = 1 },
+      { type = "item", name = "milling-drum", amount = 1 },
     },
     main_product = "angels-ore9-powder",
     --icon = "__angelsrefining__/graphics/icons/angels-ore6-crushed.png",
@@ -1058,13 +1058,12 @@ data:extend({
   {
     type = "recipe",
     name = "milling-drum",
-    category = "crafting-with-fluid",
+    category = "angels-manual-crafting",
     subgroup = "ore-powderizer",
     energy_required = 1,
     enabled = false,
     ingredients = {
       { type = "item", name = "steel-plate", amount = 1 },
-      { type = "fluid", name = "lubricant", amount = 10 },
     },
     results = {
       { type = "item", name = "milling-drum", amount = 1 },
@@ -1075,17 +1074,17 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "milling-drum-used",
+    name = "lubricated-milling-drum",
     category = "crafting-with-fluid",
     subgroup = "ore-powderizer",
     energy_required = 1,
     enabled = false,
     ingredients = {
-      { type = "item", name = "milling-drum-used", amount = 1 },
+      { type = "item", name = "milling-drum", amount = 1 },
       { type = "fluid", name = "lubricant", amount = 10 },
     },
     results = {
-      { type = "item", name = "milling-drum", amount = 1 },
+      { type = "item", name = "lubricated-milling-drum", amount = 1 },
     },
     icon = "__angelsrefining__/graphics/icons/milling-drum-used.png",
     icon_size = 32,

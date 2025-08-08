@@ -1003,7 +1003,7 @@ data:extend({
       },
       {
         type = "unlock-recipe",
-        recipe = "milling-drum-used",
+        recipe = "lubricated-milling-drum",
       },
     },
     unit = {

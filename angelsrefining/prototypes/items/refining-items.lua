@@ -923,7 +923,7 @@ data:extend({
   },
   {
     type = "item",
-    name = "milling-drum-used",
+    name = "lubricated-milling-drum",
     icon = "__angelsrefining__/graphics/icons/milling-drum-used.png",
     icon_size = 32,
     subgroup = "ore-powderizer",

@@ -593,13 +593,13 @@ else
       "ore-powderizer-2",
       "ore-powderizer-3",
       "milling-drum",
-      "milling-drum-used",
+      "lubricated-milling-drum",
     })
     angelsmods.functions.add_flag("ore-powderizer", "hidden")
     angelsmods.functions.add_flag("ore-powderizer-2", "hidden")
     angelsmods.functions.add_flag("ore-powderizer-3", "hidden")
     angelsmods.functions.add_flag("milling-drum", "hidden")
-    angelsmods.functions.add_flag("milling-drum-used", "hidden")
+    angelsmods.functions.add_flag("lubricated-milling-drum", "hidden")
     OV.remove_unlock("advanced-ore-refining-3", "ore-powderizer-3")
   end
 end
