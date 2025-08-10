@@ -23,12 +23,6 @@ if angelsmods.refining then
       OV.converter_fluid("bob-ferric-chloride-solution", "angels-liquid-ferric-chloride-solution")
       OV.converter_fluid("bob-hydrogen-sulfide", "angels-gas-hydrogen-sulfide")
     end
-    if data.raw["fluid"]["dinitrogen-tetroxide"] then
-      OV.converter_fluid("bob-ammonia", "angels-gas-ammonia")
-      OV.converter_fluid("bob-nitric-oxide", "angels-gas-nitrogen-monoxide")
-      OV.converter_fluid("bob-dinitrogen-tetroxide", "angels-gas-dinitrogen-tetroxide")
-      OV.converter_fluid("bob-hydrazine", "angels-gas-hydrazine")
-    end
   end
 
   --CREATE BARRELS
@@ -50,9 +44,6 @@ if angelsmods.refining then
   angelsmods.functions.make_void("angels-gas-epichlorhydrin", "chemical")
   angelsmods.functions.make_void("angels-gas-chlor-methane", "chemical")
   angelsmods.functions.make_void("angels-liquid-perchloric-acid", "chemical")
-  if data.raw.fluid["ferric-chloride-solution"] then
-    angelsmods.functions.make_void("ferric-chloride-solution", "chemical")
-  end
   angelsmods.functions.make_void("angels-liquid-ferric-chloride-solution", "chemical")
   angelsmods.functions.make_void("angels-liquid-cupric-chloride-solution", "chemical")
 
