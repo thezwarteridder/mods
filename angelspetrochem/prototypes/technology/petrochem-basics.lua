@@ -10,10 +10,6 @@ data:extend({
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "valve-converter",
-      },
-      {
-        type = "unlock-recipe",
         recipe = "angels-storage-tank-3",
       },
     },
